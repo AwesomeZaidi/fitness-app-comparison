@@ -202,6 +202,10 @@ Every Monday, an automated job re-reads the App Store and opens a pull request l
 
 [splyt.fit/apps](https://splyt.fit/apps) lists every iOS workout tracker we can find, refreshed daily from Apple's public data. It ranks them by chart position, ratings gained and total ratings. **[RANKINGS.md](RANKINGS.md)** is the full method: sources, search terms, the exact labelling instructions, and the rule behind every list. Each week the published lists are exported to `data/rankings/`, so any past ranking can be checked.
 
+## The recommender
+
+The "Describe what you want" box on splyt.fit can only use this repo's feature map and Apple's store facts, and the server checks every claim before an answer is shown. **[RECOMMENDER.md](RECOMMENDER.md)** lists the rules.
+
 ## What's in here
 
 ```
