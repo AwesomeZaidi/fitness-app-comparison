@@ -13,6 +13,7 @@
     "fetch:releases": "node scripts/fetch-releases.mjs",
     "fetch:listings": "node scripts/fetch-listings.mjs",
     "pace": "node scripts/compute-pace.mjs",
+    "rankings": "node scripts/export-rankings.mjs",
     "validate": "node scripts/validate.mjs",
     "build:matrix": "python3 tooling/merge/build.py",
     "report": "node scripts/diff-report.mjs",

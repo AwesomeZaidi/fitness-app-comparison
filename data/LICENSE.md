@@ -7,7 +7,7 @@ https://creativecommons.org/licenses/by/4.0/legalcode).
 
 You may share and adapt it for any purpose, including commercially, if you give
 appropriate credit, link to the license and say whether you made changes.
-Suggested credit: *"fitness-app-comparison by SPLYT — https://github.com/AwesomeZaidi/fitness-app-comparison"*.
+Suggested credit: *"fitness-app-comparison by SPLYT — https://github.com/AwesomeZaidi/fitness-app-comparison"*, or a link to https://splyt.fit/compare or https://splyt.fit/apps for the page you used.
 
 **Third-party text.** Release notes, App Store descriptions, website and
 help-centre text quoted in `claims/`, `releases/`, `snapshots/`, `matrix.json`,
