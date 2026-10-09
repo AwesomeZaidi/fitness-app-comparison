@@ -1,0 +1,2300 @@
+{
+ "app": "splyt",
+ "collectedAt": "2026-10-09",
+ "sourcesRead": [
+  {
+   "url": "https://itunes.apple.com/lookup?id=6755893717&country=us",
+   "type": "app_store",
+   "what": "Current App Store description (fetched 2026-10-09)"
+  },
+  {
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "type": "release_notes",
+   "what": "App Store version history 1.0.1–1.0.26 (fac-repo data/releases/splyt.json)"
+  },
+  {
+   "url": "https://splyt.fit (in-app What’s New)",
+   "type": "release_notes",
+   "what": "Full public in-app What's New changelog, builds 136–463 (2026-04-23 → 2026-10-08), read from src/data/changelog.ts on origin/main (entries restricted via visibleTo excluded); 'new' sections read in full, 'improved'/'fixed' scanned for capabilities and removals"
+  },
+  {
+   "url": "https://splyt.fit/",
+   "type": "website",
+   "what": "Home page (rendered with Playwright/Chrome)"
+  },
+  {
+   "url": "https://splyt.fit/logging",
+   "type": "website",
+   "what": "Logging feature page"
+  },
+  {
+   "url": "https://splyt.fit/plan",
+   "type": "website",
+   "what": "Plan / splits page"
+  },
+  {
+   "url": "https://splyt.fit/habits",
+   "type": "website",
+   "what": "Habits page"
+  },
+  {
+   "url": "https://splyt.fit/compete",
+   "type": "website",
+   "what": "Competitions page"
+  },
+  {
+   "url": "https://splyt.fit/stats",
+   "type": "website",
+   "what": "Stats page"
+  },
+  {
+   "url": "https://splyt.fit/roadmap",
+   "type": "website",
+   "what": "Roadmap — SHIPPED section and 'Under the hood' used; 'Coming next' and the competitor matrix ignored"
+  },
+  {
+   "url": "https://splyt.fit/classic",
+   "type": "website",
+   "what": "Older landing page (still live)"
+  }
+ ],
+ "claims": [
+  {
+   "feature": "Strength set logging",
+   "detail": "Log sets, reps and weight for lifts.",
+   "quote": "Log lifts, cardio, sleep, food, weight, and habits in seconds.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/logging"
+   ]
+  },
+  {
+   "feature": "Large-number set entry",
+   "detail": "Weight and reps shown large with one tap per set to check it off.",
+   "quote": "Big numbers. One tap a set.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Custom lifting keypad",
+   "detail": "In-workout keyboard built for entering weight and reps instead of the system keyboard.",
+   "quote": "A new in-workout keyboard built for lifting: type your weight and reps without the system keyboard getting in the way, jump straight from weight to reps, and tap to complete a set.",
+   "url": "https://splyt.fit (in-app What’s New, build 278)",
+   "sourceType": "release_notes",
+   "date": "2026-06-12"
+  },
+  {
+   "feature": "One movement open at a time",
+   "detail": "Live workout focuses on the current movement; others collapse to one line.",
+   "quote": "The movement you're on gets the screen. Everything else folds to a line with its rest and its progress. Open one, the others close.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 392)"
+   ]
+  },
+  {
+   "feature": "Previous weights prefilled",
+   "detail": "Weight fields start filled with what was lifted last time, configurable per movement.",
+   "quote": "Your weight fields can start already filled in with what you lifted last time. Templates do it by default; a quick start stays empty unless you turn it on",
+   "url": "https://splyt.fit (in-app What’s New, build 387)",
+   "sourceType": "release_notes",
+   "date": "2026-08-19",
+   "alsoAt": [
+    "https://splyt.fit/logging"
+   ]
+  },
+  {
+   "feature": "Supersets",
+   "detail": "Group movements to be logged back-to-back, round by round.",
+   "quote": "Supersets and giant sets: group exercises so they’re logged back-to-back.",
+   "url": "https://splyt.fit (in-app What’s New, build 274)",
+   "sourceType": "release_notes",
+   "date": "2026-06-09",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Giant sets",
+   "detail": "Group three or more movements together.",
+   "quote": "Supersets and giant sets: group exercises so they’re logged back-to-back.",
+   "url": "https://splyt.fit (in-app What’s New, build 274)",
+   "sourceType": "release_notes",
+   "date": "2026-06-09"
+  },
+  {
+   "feature": "Circuits",
+   "detail": "Build circuits of segments with auto-advancing timers.",
+   "quote": "Same circuit editor covers HIIT, Tabata, and boot-camp-style sequences — reach it from the round-config sheet via \"Or build a circuit\"",
+   "url": "https://splyt.fit (in-app What’s New, build 145)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24",
+   "alsoAt": [
+    "https://splyt.fit/logging"
+   ]
+  },
+  {
+   "feature": "Drop sets",
+   "detail": "Turn a set into a drop set with lighter efforts logged beneath it.",
+   "quote": "Drop sets: turn any set into a drop set — strip the weight and keep going, with the lighter efforts logged right beneath it.",
+   "url": "https://splyt.fit (in-app What’s New, build 275)",
+   "sourceType": "release_notes",
+   "date": "2026-06-09"
+  },
+  {
+   "feature": "Default drop-set reduction",
+   "detail": "Set the default percentage a drop set reduces weight by.",
+   "quote": "Drop set reduction, from 5% to 60%.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 277)"
+   ]
+  },
+  {
+   "feature": "Warm-up sets",
+   "detail": "Tag sets as warm-ups, kept out of records.",
+   "quote": "Warm-ups stop polluting your records, failure sets explain themselves, and drops and partials get lines of their own under the set they belong to.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 275)"
+   ]
+  },
+  {
+   "feature": "Failure sets",
+   "detail": "Tag sets as taken to failure.",
+   "quote": "Warm-up and failure sets: tag any set as a warm-up or a to-failure set from the set menu. They’re color-coded everywhere you see them.",
+   "url": "https://splyt.fit (in-app What’s New, build 275)",
+   "sourceType": "release_notes",
+   "date": "2026-06-09"
+  },
+  {
+   "feature": "Top sets",
+   "detail": "Tag a set as a top set.",
+   "quote": "Tap a set's number: warm-up, regular, top set, failure, a drop set — or partials.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 292)"
+   ]
+  },
+  {
+   "feature": "Partial reps logging",
+   "detail": "Log half-range reps after a set; counted toward volume at half a rep each.",
+   "quote": "Partials. Finished a set with half reps to failure? Add partials from the set’s menu, or just say it",
+   "url": "https://splyt.fit (in-app What’s New, build 462)",
+   "sourceType": "release_notes",
+   "date": "2026-10-05",
+   "alsoAt": [
+    "https://splyt.fit/logging"
+   ]
+  },
+  {
+   "feature": "Per-set rep targets",
+   "detail": "Set different reps per set (pyramids, dropsets) in templates and plans.",
+   "quote": "Set per-set reps on templates and planned workouts — dropsets like 10/8/6 or pyramids like 5/5/3 are now first-class",
+   "url": "https://splyt.fit (in-app What’s New, build 226)",
+   "sourceType": "release_notes",
+   "date": "2026-05-17"
+  },
+  {
+   "feature": "Reps in reserve logging",
+   "detail": "Log reps left in the tank per set via an effort slider.",
+   "quote": "Log how many reps you had left in the tank (reps in reserve) with the Effort slider",
+   "url": "https://splyt.fit (in-app What’s New, build 278)",
+   "sourceType": "release_notes",
+   "date": "2026-06-12"
+  },
+  {
+   "feature": "Workout effort rating",
+   "detail": "Rate the effort of a session on phone or watch.",
+   "quote": "Rate your effort on the watch using the same four-band chart as the phone, and drag across it to pick instead of tapping.",
+   "url": "https://splyt.fit (in-app What’s New, build 374)",
+   "sourceType": "release_notes",
+   "date": "2026-08-15",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 342)"
+   ]
+  },
+  {
+   "feature": "Plate calculator",
+   "detail": "Shows which plates to load for a weight, or computes weight from tapped plates.",
+   "quote": "Tap the bar to see which plates to load, or tap plates to get the weight.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 461)",
+    "https://splyt.fit (in-app What’s New, build 278)"
+   ]
+  },
+  {
+   "feature": "Grip and handle selection",
+   "detail": "Choose grip, width and handle attachment per movement or per set.",
+   "quote": "Handles: wide lat bar, straight bar, EZ bar, V-handle, wide neutral handle, rope, single handle.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 461)"
+   ]
+  },
+  {
+   "feature": "Per-grip history and weights",
+   "detail": "History, records and last-time weights tracked separately per grip.",
+   "quote": "Last time’s weights follow the grip you picked — and one set can have a different grip from the rest.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 462)"
+   ]
+  },
+  {
+   "feature": "Exercise swap with ranked alternatives",
+   "detail": "Swap a movement and closest alternatives (same pattern, different equipment) are listed first.",
+   "quote": "Switch it, and SPLYT lists the closest alternatives first — same movement pattern, same muscles, and deliberately a different piece of equipment",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Exercise notes",
+   "detail": "Leave a note on a movement that shows next time.",
+   "quote": "Leave yourself a note, and it's on the card next time.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Copy sets from a past session",
+   "detail": "Paste a past session's sets onto the current movement.",
+   "quote": "Use these sets — paste the sets from a past session straight onto the movement you are working on.",
+   "url": "https://splyt.fit (in-app What’s New, build 442)",
+   "sourceType": "release_notes",
+   "date": "2026-09-18"
+  },
+  {
+   "feature": "Copy numbers between movements",
+   "detail": "Fill one movement's weights from another by voice.",
+   "quote": "Ask for your numbers from another movement — \"put my leg curl weights on the leg extension\" — and Splyt fills them in.",
+   "url": "https://splyt.fit (in-app What’s New, build 457)",
+   "sourceType": "release_notes",
+   "date": "2026-09-29"
+  },
+  {
+   "feature": "Reorder exercises",
+   "detail": "Drag exercises to reorder during a workout; supersets move as a block.",
+   "quote": "Workouts — reorder mid-workout with supersets moving as one block",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-09-02",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 215)"
+   ]
+  },
+  {
+   "feature": "Collapsible exercise cards",
+   "detail": "Collapse an exercise card to a single line.",
+   "quote": "Collapse exercise cards — tap the chevron next to any exercise to shrink it down to a single line showing just the name and set count.",
+   "url": "https://splyt.fit (in-app What’s New, build 177)",
+   "sourceType": "release_notes",
+   "date": "2026-04-30"
+  },
+  {
+   "feature": "Rename workout mid-session",
+   "detail": "Rename an active workout.",
+   "quote": "Rename your workout on the fly — tap ⋮ during any active workout and choose \"Rename Workout\" to give it a custom name.",
+   "url": "https://splyt.fit (in-app What’s New, build 177)",
+   "sourceType": "release_notes",
+   "date": "2026-04-30"
+  },
+  {
+   "feature": "Default sets and reps",
+   "detail": "Set how many sets and reps a new exercise starts with.",
+   "quote": "Workout Defaults in settings — set how many sets and reps a new exercise starts with (defaults to 3 × 10).",
+   "url": "https://splyt.fit (in-app What’s New, build 171)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "Follow-along mode",
+   "detail": "Let a plan record as planned instead of logging every set.",
+   "quote": "Log every set, or switch a plan to follow-along and let it record as planned.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 368)"
+   ]
+  },
+  {
+   "feature": "Simple mode strength session",
+   "detail": "Track a lift with only a label, time, heart rate and calories, no sets.",
+   "quote": "Simple Mode for Traditional Strength Training — tap \"Simple Mode\" at the bottom of the workout sheet, pick what you're hitting today",
+   "url": "https://splyt.fit (in-app What’s New, build 171)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29",
+   "alsoAt": [
+    "https://splyt.fit/roadmap"
+   ]
+  },
+  {
+   "feature": "Bodyweight exercise volume",
+   "detail": "Bodyweight movements count toward volume using your body weight.",
+   "quote": "Pull-ups, dips and push-ups finally count toward your volume. A bodyweight movement is scored with your own weight plus anything you added",
+   "url": "https://splyt.fit (in-app What’s New, build 404)",
+   "sourceType": "release_notes",
+   "date": "2026-08-29"
+  },
+  {
+   "feature": "Auto-named strength workouts",
+   "detail": "Unnamed strength sessions are labeled by muscles trained.",
+   "quote": "Finish a strength workout without naming it and Splyt now labels it by what you trained",
+   "url": "https://splyt.fit (in-app What’s New, build 338)",
+   "sourceType": "release_notes",
+   "date": "2026-07-14"
+  },
+  {
+   "feature": "Edit past workouts",
+   "detail": "Edit or delete any past workout.",
+   "quote": "You can now edit or delete any of your own past workouts, not just your most recent ones.",
+   "url": "https://splyt.fit (in-app What’s New, build 332)",
+   "sourceType": "release_notes",
+   "date": "2026-07-10"
+  },
+  {
+   "feature": "Manual activity logging",
+   "detail": "Log an activity after the fact with a chosen duration.",
+   "quote": "When you log an activity by hand, you can now set exactly how long it lasted.",
+   "url": "https://splyt.fit (in-app What’s New, build 327)",
+   "sourceType": "release_notes",
+   "date": "2026-07-07"
+  },
+  {
+   "feature": "Offline workout saving",
+   "detail": "Finish a workout without signal; it syncs when back online.",
+   "quote": "No signal, no problem — if you finish a workout with no connection, it’s saved on your device and syncs automatically the moment you’re back online.",
+   "url": "https://splyt.fit (in-app What’s New, build 328)",
+   "sourceType": "release_notes",
+   "date": "2026-07-08",
+   "alsoAt": [
+    "https://splyt.fit/roadmap",
+    "https://splyt.fit/classic"
+   ]
+  },
+  {
+   "feature": "Personal record celebrations",
+   "detail": "New PRs are celebrated mid-workout and marked on the set.",
+   "quote": "A personal record is a moment now. The rest bar opens into a card showing\nhow far you beat your best, and the set keeps the trophy.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-02",
+   "alsoAt": [
+    "https://splyt.fit/roadmap"
+   ]
+  },
+  {
+   "feature": "Kilograms and pounds",
+   "detail": "Log in kg or lb, applied everywhere including past workouts.",
+   "quote": "Log in kilograms. Pick it once — in Workout Defaults, or from any movement’s ⋯ menu — and everything follows",
+   "url": "https://splyt.fit (in-app What’s New, build 462)",
+   "sourceType": "release_notes",
+   "date": "2026-10-05",
+   "alsoAt": [
+    "https://splyt.fit/logging"
+   ]
+  },
+  {
+   "feature": "Live activity comparison gauge",
+   "detail": "Swipe mid-workout to see volume/time filling against last, typical and best sessions plus HR and calories vs usual.",
+   "quote": "A glass fills with the weight you've moved, past your last, your typical and your best — with your heart rate and calories against your usual.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 441)"
+   ]
+  },
+  {
+   "feature": "Live heart-rate graph vs last time",
+   "detail": "Graph of heart rate during session with last session as a ghost line.",
+   "quote": "Flip it to Graph for your heart rate over time with last time’s as a ghost.",
+   "url": "https://splyt.fit (in-app What’s New, build 441)",
+   "sourceType": "release_notes",
+   "date": "2026-09-17"
+  },
+  {
+   "feature": "Recent sessions mid-workout",
+   "detail": "Swipe during a workout to see recent sessions of that activity.",
+   "quote": "During a live workout, swipe right past your rings to see your recent sessions of that activity — and how long each one was.",
+   "url": "https://splyt.fit (in-app What’s New, build 268)",
+   "sourceType": "release_notes",
+   "date": "2026-06-05"
+  },
+  {
+   "feature": "Search workout picker",
+   "detail": "Search to start a workout, including saved templates.",
+   "quote": "Searching to start a workout now finds your saved workouts too.",
+   "url": "https://splyt.fit (in-app What’s New, build 463)",
+   "sourceType": "release_notes",
+   "date": "2026-10-08"
+  },
+  {
+   "feature": "Live workout resume banner",
+   "detail": "Banner to jump back into an in-progress session.",
+   "quote": "A live-workout banner now sits atop the workout picker so you can jump straight back into a session already in progress.",
+   "url": "https://splyt.fit (in-app What’s New, build 281)",
+   "sourceType": "release_notes",
+   "date": "2026-06-12"
+  },
+  {
+   "feature": "Get-ready countdown",
+   "detail": "3-2-1 countdown when starting a workout, mirrored on watch.",
+   "quote": "Starting a workout now plays a get-ready sequence — the ring fills up, then counts you in 3, 2, 1.",
+   "url": "https://splyt.fit (in-app What’s New, build 235)",
+   "sourceType": "release_notes",
+   "date": "2026-05-21",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 252)"
+   ]
+  },
+  {
+   "feature": "Inactivity workout check",
+   "detail": "Prompts \"Still working out?\" when a session seems abandoned.",
+   "quote": "“Still working out?” is smarter. With your Apple Watch on, your heart rate decides",
+   "url": "https://splyt.fit (in-app What’s New, build 459)",
+   "sourceType": "release_notes",
+   "date": "2026-10-02"
+  },
+  {
+   "feature": "Rest timer",
+   "detail": "Rest timer between sets with built-in timers.",
+   "quote": "Log sets, reps and weight in seconds, with rest timers built right in.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Per-movement rest times",
+   "detail": "Each movement remembers its own rest duration.",
+   "quote": "Every movement remembers its own rest — change it right on the card and it sticks, session after session.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Per-set custom rest times",
+   "detail": "Give each set its own rest duration.",
+   "quote": "Turn on custom rest times and give each set its own — short on warm-ups, long on the heavy compounds.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Adjustable rest by drag",
+   "detail": "Drag the rest pill to add or remove 15 seconds.",
+   "quote": "Drag it right for more time, left for less, fifteen seconds a step.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Rest end chime and vibration",
+   "detail": "Phone chimes and vibrates when rest ends; configurable when wearing a watch.",
+   "quote": "Your phone now chimes and vibrates when a rest timer ends, so you know your set is up without a watch.",
+   "url": "https://splyt.fit (in-app What’s New, build 390)",
+   "sourceType": "release_notes",
+   "date": "2026-08-20",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 423)"
+   ]
+  },
+  {
+   "feature": "Rest shown between sets",
+   "detail": "Display rest as a line between set rows; tap to edit a single gap.",
+   "quote": "A new option draws each rest as a line between your set rows, so you can see the whole set-rest-set rhythm at a glance.",
+   "url": "https://splyt.fit (in-app What’s New, build 390)",
+   "sourceType": "release_notes",
+   "date": "2026-08-20"
+  },
+  {
+   "feature": "Manual rest start",
+   "detail": "Start a rest from the workout dock for any activity.",
+   "quote": "Live workout dock can start a manual rest from the expanded menu — works for any activity (not just lifting).",
+   "url": "https://splyt.fit (in-app What’s New, build 254)",
+   "sourceType": "release_notes",
+   "date": "2026-05-31"
+  },
+  {
+   "feature": "Rest after warm-up option",
+   "detail": "Choose whether warm-up sets trigger a rest.",
+   "quote": "A rest after warm-up sets, or straight on.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "90+ activity types",
+   "detail": "Supports over ninety activity types from strength to swimming to recovery.",
+   "quote": "activity types, from strength to swimming to recovery.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/classic"
+   ]
+  },
+  {
+   "feature": "Multi-activity sessions",
+   "detail": "Chain several activities into one session saved as one workout.",
+   "quote": "Chain a lift, a game and a sauna into one session, saved as one workout.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 186)"
+   ]
+  },
+  {
+   "feature": "Sports activity tracking",
+   "detail": "Timer-driven views for sports like basketball, pickleball, yoga, pilates.",
+   "quote": "Workouts beyond lifting — tap activities like Basketball, Pickleball, Yoga, or Pilates and you get a clean timer-driven view instead of empty sets and reps",
+   "url": "https://splyt.fit (in-app What’s New, build 144)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24"
+  },
+  {
+   "feature": "Boxing round timer",
+   "detail": "Work/rest rounds with haptics at each transition.",
+   "quote": "Boxing & martial arts — pre-set work / rest / total rounds and the live view auto-flips between work and rest with a haptic at every transition",
+   "url": "https://splyt.fit (in-app What’s New, build 144)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24"
+  },
+  {
+   "feature": "HIIT and Tabata timers",
+   "detail": "Interval circuits for HIIT, Tabata and boot camp.",
+   "quote": "Same circuit editor covers HIIT, Tabata, and boot-camp-style sequences",
+   "url": "https://splyt.fit (in-app What’s New, build 145)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24"
+  },
+  {
+   "feature": "Core training workout type",
+   "detail": "Core Training as a template workout type.",
+   "quote": "Core Training is now one of the workout types when you create a template.",
+   "url": "https://splyt.fit (in-app What’s New, build 368)",
+   "sourceType": "release_notes",
+   "date": "2026-08-11"
+  },
+  {
+   "feature": "Phone-only GPS outdoor tracking",
+   "detail": "Outdoor runs, walks, rides and hikes tracked by phone GPS with live pace and route map.",
+   "quote": "Track outdoor workouts with just your phone — no Apple Watch needed. Start an outdoor walk, run, ride, or hike and watch your distance, pace, and route map update live",
+   "url": "https://splyt.fit (in-app What’s New, build 291)",
+   "sourceType": "release_notes",
+   "date": "2026-06-15",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Route maps",
+   "detail": "Outdoor workouts save a route map with heatmap coloring.",
+   "quote": "Outdoor walks, runs, and rides now save their route map, so when you share a workout your friends see the same map you do — with new heatmap coloring",
+   "url": "https://splyt.fit (in-app What’s New, build 267)",
+   "sourceType": "release_notes",
+   "date": "2026-06-04"
+  },
+  {
+   "feature": "Elevation gain",
+   "detail": "Workout summary shows elevation gain.",
+   "quote": "Your workout summary now shows elevation gain, and friends can see it on yours too.",
+   "url": "https://splyt.fit (in-app What’s New, build 358)",
+   "sourceType": "release_notes",
+   "date": "2026-07-31"
+  },
+  {
+   "feature": "Pool swim lap counting",
+   "detail": "Pick pool length; watch counts laps.",
+   "quote": "Pool swim — pick your pool length (25 yd, 50 yd, 25 m, 50 m, or custom) and your watch auto-counts laps as you swim",
+   "url": "https://splyt.fit (in-app What’s New, build 144)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24"
+  },
+  {
+   "feature": "Open water swim stroke count",
+   "detail": "Live total strokes during open water swims.",
+   "quote": "Total strokes now shows live during open water swims on both your phone and Apple Watch.",
+   "url": "https://splyt.fit (in-app What’s New, build 354)",
+   "sourceType": "release_notes",
+   "date": "2026-07-28"
+  },
+  {
+   "feature": "Recovery activity logging",
+   "detail": "Sauna, steam room, jacuzzi, cold plunge, ice bath and massage logged as recovery.",
+   "quote": "Recovery activities — Sauna, Steam Room, Jacuzzi, Cold Plunge, Ice Bath, Leg Massage, and Back Massage are now in the activity picker on iPhone and Apple Watch",
+   "url": "https://splyt.fit (in-app What’s New, build 224)",
+   "sourceType": "release_notes",
+   "date": "2026-05-16",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Machine console photo scan",
+   "detail": "Photograph a cardio machine screen to import distance, calories, time, pace.",
+   "quote": "Point your camera at a cardio machine’s console and Splyt reads your stats off it — distance, calories, time and pace — then folds them into your workout details.",
+   "url": "https://splyt.fit (in-app What’s New, build 374)",
+   "sourceType": "release_notes",
+   "date": "2026-08-15",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Rest day logging",
+   "detail": "Mark a day as a rest day, optionally with a session.",
+   "quote": "A rest day can still carry a session — a swim on your rest day — and it is still a rest day.",
+   "url": "https://splyt.fit (in-app What’s New, build 433)",
+   "sourceType": "release_notes",
+   "date": "2026-09-14"
+  },
+  {
+   "feature": "Voice day logging",
+   "detail": "Describe a whole day of activities and they become separate workouts.",
+   "quote": "Tell the voice logger your whole day, not one workout.",
+   "url": "https://splyt.fit (in-app What’s New, build 463)",
+   "sourceType": "release_notes",
+   "date": "2026-10-08",
+   "alsoAt": [
+    "https://splyt.fit/roadmap"
+   ]
+  },
+  {
+   "feature": "Exercise library size",
+   "detail": "Library of 1,513 exercises each with demo, muscles and grips.",
+   "quote": "1,513\nexercises\nEach with a demo, the muscles it works, and the grips and handles it takes.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Animated exercise demos",
+   "detail": "Every exercise has an animated demo and step-by-step instructions.",
+   "quote": "Every exercise now has an animated demo and step-by-step instructions on its detail screen",
+   "url": "https://splyt.fit (in-app What’s New, build 222)",
+   "sourceType": "release_notes",
+   "date": "2026-05-15",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Exercise muscle map",
+   "detail": "Body diagram highlights primary and supporting muscles of each exercise.",
+   "quote": "tap an exercise in the picker and a body diagram lights up the primary and supporting muscles.",
+   "url": "https://splyt.fit (in-app What’s New, build 222)",
+   "sourceType": "release_notes",
+   "date": "2026-05-15"
+  },
+  {
+   "feature": "Custom exercises",
+   "detail": "Create custom exercises with description and instructions.",
+   "quote": "Custom exercises now have their own how-to — add a description and step-by-step instructions when you create one",
+   "url": "https://splyt.fit (in-app What’s New, build 286)",
+   "sourceType": "release_notes",
+   "date": "2026-06-13"
+  },
+  {
+   "feature": "AI-filled custom exercise details",
+   "detail": "AI writes description, how-to, body part and equipment for a custom exercise.",
+   "quote": "Auto-fill a custom exercise with AI — tap the sparkle when you create or edit one",
+   "url": "https://splyt.fit (in-app What’s New, build 300)",
+   "sourceType": "release_notes",
+   "date": "2026-06-19"
+  },
+  {
+   "feature": "Share custom exercises",
+   "detail": "Send a custom exercise to a friend as their own copy.",
+   "quote": "Share a custom exercise with a friend in Splyt — they get their own copy, instructions included",
+   "url": "https://splyt.fit (in-app What’s New, build 286)",
+   "sourceType": "release_notes",
+   "date": "2026-06-13"
+  },
+  {
+   "feature": "Browse exercise library outside workout",
+   "detail": "Search/filter exercise library from Stats.",
+   "quote": "Browse the whole exercise library from Stats without starting a workout.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-02"
+  },
+  {
+   "feature": "Exercise history and 1RM",
+   "detail": "Per-movement history with estimated 1RM, volume, weight over time and PRs.",
+   "quote": "Tap any movement for its full record: your one-rep max, volume and weight over time, the personal records that matter up front, and every session you've done with it.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 418)"
+   ]
+  },
+  {
+   "feature": "Saved workout templates",
+   "detail": "Save go-to sessions and start in a tap.",
+   "quote": "Save your go-to sessions, sort them into folders, and start any one in a tap.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Template folders",
+   "detail": "Organize saved workouts into folders; one workout in multiple folders.",
+   "quote": "Organize your saved workouts into folders — create folders, move workouts in, rename or delete, and search within a folder.",
+   "url": "https://splyt.fit (in-app What’s New, build 319)",
+   "sourceType": "release_notes",
+   "date": "2026-06-30",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 321)"
+   ]
+  },
+  {
+   "feature": "Share template folders",
+   "detail": "Share a saved-workout folder read-only with friends.",
+   "quote": "Share a saved-workout folder with friends — they’ll see it (read-only) in their Saved tab",
+   "url": "https://splyt.fit (in-app What’s New, build 320)",
+   "sourceType": "release_notes",
+   "date": "2026-07-01"
+  },
+  {
+   "feature": "Set types in templates",
+   "detail": "Supersets, drop sets, warm-up/failure sets built into templates.",
+   "quote": "Build supersets, drop sets, and warm-up/failure sets right into your templates",
+   "url": "https://splyt.fit (in-app What’s New, build 277)",
+   "sourceType": "release_notes",
+   "date": "2026-06-11"
+  },
+  {
+   "feature": "Proven split library",
+   "detail": "Sixteen weekly splits and five rotating cycles sorted by days per week.",
+   "quote": "sixteen weekly splits and five rotating cycles, sorted by how many days a week you can actually train, each with a body map of what it hits.",
+   "url": "https://splyt.fit/plan",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Auto-fill split with exercises",
+   "detail": "One tap fills each training day with exercises, sets and reps.",
+   "quote": "Picked a proven split like Push / Pull / Legs? One tap fills every day with starter exercises — sets and reps included",
+   "url": "https://splyt.fit (in-app What’s New, build 462)",
+   "sourceType": "release_notes",
+   "date": "2026-10-05",
+   "alsoAt": [
+    "https://splyt.fit/plan"
+   ]
+  },
+  {
+   "feature": "Rotating splits",
+   "detail": "Splits that cycle (e.g. 4 on, 1 off) independent of weekdays.",
+   "quote": "Splits can roll instead of repeating on weekdays. Four days on, one off keeps going round whatever day it lands on",
+   "url": "https://splyt.fit (in-app What’s New, build 428)",
+   "sourceType": "release_notes",
+   "date": "2026-09-12"
+  },
+  {
+   "feature": "Manual split builder",
+   "detail": "Build a weekly split by hand.",
+   "quote": "tap the grid to pick a proven split, sorted by how many days a week you can train, or build one by hand.",
+   "url": "https://splyt.fit (in-app What’s New, build 428)",
+   "sourceType": "release_notes",
+   "date": "2026-09-12"
+  },
+  {
+   "feature": "Training calendar",
+   "detail": "Calendar of planned, completed, missed and rest days.",
+   "quote": "Plan days ahead and see every completed, missed and rest day, week by week.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/plan"
+   ]
+  },
+  {
+   "feature": "Monthly ring calendar",
+   "detail": "Month view with a ring per day.",
+   "quote": "Zoom out to the month and every day wears its ring",
+   "url": "https://splyt.fit/plan",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Drag to reschedule",
+   "detail": "Press and hold a planned workout and move it to another day.",
+   "quote": "Press and hold a planned workout in the training calendar and carry it to another day.",
+   "url": "https://splyt.fit (in-app What’s New, build 433)",
+   "sourceType": "release_notes",
+   "date": "2026-09-14"
+  },
+  {
+   "feature": "Copy a planned day",
+   "detail": "Copy a planned or trained day onto another day.",
+   "quote": "Copy a day on your training calendar.",
+   "url": "https://splyt.fit (in-app What’s New, build 455)",
+   "sourceType": "release_notes",
+   "date": "2026-09-28"
+  },
+  {
+   "feature": "Scheduled workout times",
+   "detail": "Pin clock times to planned workouts and splits.",
+   "quote": "Optionally pin a clock time to planned workouts and to a split",
+   "url": "https://splyt.fit (in-app What’s New, build 212)",
+   "sourceType": "release_notes",
+   "date": "2026-05-09"
+  },
+  {
+   "feature": "Usual training time hint",
+   "detail": "Shows the hour you usually train and warns about sleep collisions.",
+   "quote": "When you pick a time to train, Splyt now tells you the hour you usually train",
+   "url": "https://splyt.fit (in-app What’s New, build 429)",
+   "sourceType": "release_notes",
+   "date": "2026-09-12"
+  },
+  {
+   "feature": "Missed workout tracking",
+   "detail": "Unstarted planned workouts show as missed and can be logged late or moved.",
+   "quote": "Missed a planned workout? It now shows as “Missed” and stays on your record",
+   "url": "https://splyt.fit (in-app What’s New, build 327)",
+   "sourceType": "release_notes",
+   "date": "2026-07-07",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 374)"
+   ]
+  },
+  {
+   "feature": "Recurring planned sessions",
+   "detail": "Edit or cancel recurrences of repeating plans.",
+   "quote": "for a repeating plan, choose whether it’s just this day or every one from here on.",
+   "url": "https://splyt.fit (in-app What’s New, build 404)",
+   "sourceType": "release_notes",
+   "date": "2026-08-29"
+  },
+  {
+   "feature": "Apple Calendar sync",
+   "detail": "Planned workouts appear in Apple Calendar.",
+   "quote": "Your planned workouts appear in Apple Calendar automatically.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/plan"
+   ]
+  },
+  {
+   "feature": "Import plan from screenshots",
+   "detail": "Import multiple screenshots as one split.",
+   "quote": "Your trainer sent screenshots? Pick them all at once and they come in as one split, in order.",
+   "url": "https://splyt.fit/plan",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 432)"
+   ]
+  },
+  {
+   "feature": "View friend's training week",
+   "detail": "See a friend's planned and completed days read-only.",
+   "quote": "See a friend’s week — their planned and completed days, read-only, from the calendar header.",
+   "url": "https://splyt.fit/plan",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 426)"
+   ]
+  },
+  {
+   "feature": "Share splits with friends",
+   "detail": "Send a split to a friend.",
+   "quote": "Share a split straight from the split itself. Pick a friend and it lands under their From friends.",
+   "url": "https://splyt.fit (in-app What’s New, build 436)",
+   "sourceType": "release_notes",
+   "date": "2026-09-15"
+  },
+  {
+   "feature": "Template trend graph",
+   "detail": "Template page shows recent runs as a trend.",
+   "quote": "A template’s graph page shows your last few times doing it",
+   "url": "https://splyt.fit (in-app What’s New, build 453)",
+   "sourceType": "release_notes",
+   "date": "2026-09-27"
+  },
+  {
+   "feature": "AI coach chat",
+   "detail": "Chat coach that answers from your training history.",
+   "quote": "Ask why your bench stalled. It answers from your own training — your sessions, your records, your recovery — not the internet.",
+   "url": "https://splyt.fit/stats",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "AI long-term memory",
+   "detail": "Coach remembers goals, injuries and routines across conversations.",
+   "quote": "Splyt AI remembers your goals, injuries, and routines across every conversation.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 140)"
+   ]
+  },
+  {
+   "feature": "AI charts in chat",
+   "detail": "Coach draws charts from your data.",
+   "quote": "Splyt AI can draw charts inline now",
+   "url": "https://splyt.fit (in-app What’s New, build 141)",
+   "sourceType": "release_notes",
+   "date": "2026-04-24"
+  },
+  {
+   "feature": "AI web search",
+   "detail": "Coach searches the web for current info and shows sources.",
+   "quote": "Splyt AI can now search the web live when you ask about something current, and shows you its sources.",
+   "url": "https://splyt.fit (in-app What’s New, build 304)",
+   "sourceType": "release_notes",
+   "date": "2026-06-21"
+  },
+  {
+   "feature": "AI photo understanding",
+   "detail": "Attach a photo to the AI coach; it remembers it later.",
+   "quote": "You can attach a photo to Splyt AI — a machine you do not recognise, a page from a program, a meal",
+   "url": "https://splyt.fit (in-app What’s New, build 394)",
+   "sourceType": "release_notes",
+   "date": "2026-08-22",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 441)"
+   ]
+  },
+  {
+   "feature": "Searchable AI chat history",
+   "detail": "Continuous searchable conversation.",
+   "quote": "Splyt AI is now one continuous conversation you can scroll back through — and search across everything you’ve asked.",
+   "url": "https://splyt.fit (in-app What’s New, build 325)",
+   "sourceType": "release_notes",
+   "date": "2026-07-05"
+  },
+  {
+   "feature": "AI-generated workout templates",
+   "detail": "AI drafts a template you can save or discard.",
+   "quote": "Splyt AI can draft a single workout template too",
+   "url": "https://splyt.fit (in-app What’s New, build 164)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 141)"
+   ]
+  },
+  {
+   "feature": "AI-generated splits",
+   "detail": "AI drafts a full weekly split from goal, days and equipment.",
+   "quote": "Splyt AI can build entire workout splits for you — answer three quick questions (goal, days per week, equipment)",
+   "url": "https://splyt.fit (in-app What’s New, build 164)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "AI programs with set types",
+   "detail": "AI-built workouts include warm-up, top, failure, drop sets and supersets.",
+   "quote": "Splyt AI now builds real programs — workouts come with warm-up, top, failure, and drop sets and supersets, not just a flat list.",
+   "url": "https://splyt.fit (in-app What’s New, build 293)",
+   "sourceType": "release_notes",
+   "date": "2026-06-16"
+  },
+  {
+   "feature": "AI split editing",
+   "detail": "Ask the AI to edit your existing split.",
+   "quote": "Splyt AI can now edit your existing split — just ask.",
+   "url": "https://splyt.fit (in-app What’s New, build 295)",
+   "sourceType": "release_notes",
+   "date": "2026-06-17"
+  },
+  {
+   "feature": "AI injury-aware planning",
+   "detail": "Split generation asks about injuries and swaps movements.",
+   "quote": "Injuries get the movement swapped rather than the day skipped.",
+   "url": "https://splyt.fit (in-app What’s New, build 428)",
+   "sourceType": "release_notes",
+   "date": "2026-09-12"
+  },
+  {
+   "feature": "AI fills live workout",
+   "detail": "AI generates today's session live during a workout.",
+   "quote": "Splyt AI inside an active workout",
+   "url": "https://splyt.fit (in-app What’s New, build 164)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "AI goal setting and coaching",
+   "detail": "Set goals from a sentence; coach tracks and flags unrealistic ones.",
+   "quote": "Set a goal for any activity just by telling Splyt AI",
+   "url": "https://splyt.fit (in-app What’s New, build 298)",
+   "sourceType": "release_notes",
+   "date": "2026-06-18",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 298)"
+   ]
+  },
+  {
+   "feature": "AI confirm before changes",
+   "detail": "AI-proposed plans require a Confirm tap before landing on calendar.",
+   "quote": "Every plan shows you a Confirm card first — nothing lands on your calendar until you tap it.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-08-24"
+  },
+  {
+   "feature": "Weekly AI insights",
+   "detail": "Weekly AI read on the last 7 days with one-tap actions.",
+   "quote": "A fresh read on your last week, with one-tap next steps, before the new one starts.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 193)"
+   ]
+  },
+  {
+   "feature": "Weekly plain-language recap",
+   "detail": "Short plain-language story of the training week, shareable.",
+   "quote": "Weekly Story: a short, plain-language recap of your training week at the top of your Splyt Coach insights — and you can share it as a card.",
+   "url": "https://splyt.fit (in-app What’s New, build 276)",
+   "sourceType": "release_notes",
+   "date": "2026-06-10"
+  },
+  {
+   "feature": "Insight history",
+   "detail": "Scroll through past weekly insights.",
+   "quote": "Insight History — tap the clock icon on the Stats Coach widget to scroll through every week's past insights.",
+   "url": "https://splyt.fit (in-app What’s New, build 229)",
+   "sourceType": "release_notes",
+   "date": "2026-05-19"
+  },
+  {
+   "feature": "AI exercise cards in chat",
+   "detail": "Coach shows a movement's card with history and how-to.",
+   "quote": "Ask the coach about a movement and it shows the movement’s card, with a tap into your history and how to do it.",
+   "url": "https://splyt.fit (in-app What’s New, build 441)",
+   "sourceType": "release_notes",
+   "date": "2026-09-17"
+  },
+  {
+   "feature": "AI progress photo analysis",
+   "detail": "AI read on physique with annotated callouts.",
+   "quote": "Progress photo AI analysis (Pro): upload your front, side, and back photos together and get an AI read on your physique, with annotated callouts and a card you can share.",
+   "url": "https://splyt.fit (in-app What’s New, build 316)",
+   "sourceType": "release_notes",
+   "date": "2026-06-26"
+  },
+  {
+   "feature": "AI support chat",
+   "detail": "In-app support chat with AI assistant and human team.",
+   "quote": "Pro members can now chat directly with support from their profile.",
+   "url": "https://splyt.fit (in-app What’s New, build 168)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "Voice set logging",
+   "detail": "Say what you did and sets, weights, set types land on the card.",
+   "quote": "Plates, quarters, \"the bar\", \"three by three\", \"to failure\" — SPLYT gets the weights, the reps and the set types right, for one movement or five, in a loud gym.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Voice correction of logged sets",
+   "detail": "Fix already-logged sets by voice.",
+   "quote": "Correct sets you have already logged by voice.",
+   "url": "https://splyt.fit (in-app What’s New, build 453)",
+   "sourceType": "release_notes",
+   "date": "2026-09-27"
+  },
+  {
+   "feature": "Voice superset grouping",
+   "detail": "Say \"superset\" to group the current round.",
+   "quote": "Say \"superset\" during a workout and Splyt will group the round you are on",
+   "url": "https://splyt.fit (in-app What’s New, build 394)",
+   "sourceType": "release_notes",
+   "date": "2026-08-22"
+  },
+  {
+   "feature": "Voice workout commands",
+   "detail": "Log sets, skip rest, move to next exercise, ask for recommendations by voice.",
+   "quote": "AI Voice Agent in workouts — log sets, skip rest, move to the next exercise, and ask for exercise recommendations, all by voice.",
+   "url": "https://splyt.fit (in-app What’s New, build 195)",
+   "sourceType": "release_notes",
+   "date": "2026-05-06"
+  },
+  {
+   "feature": "Voice template builder",
+   "detail": "Build a template by talking, then keep talking to edit it.",
+   "quote": "Build a workout by talking. Tap the mic while making a template and say what you want",
+   "url": "https://splyt.fit (in-app What’s New, build 382)",
+   "sourceType": "release_notes",
+   "date": "2026-08-18",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 382)"
+   ]
+  },
+  {
+   "feature": "Voice split builder",
+   "detail": "Describe your week out loud and it becomes a split with days and times.",
+   "quote": "Say your split. Tap the mic in the split builder and describe your week",
+   "url": "https://splyt.fit (in-app What’s New, build 433)",
+   "sourceType": "release_notes",
+   "date": "2026-09-14",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Voice quick-log after the fact",
+   "detail": "Tell the app a finished workout and it lands in history.",
+   "quote": "Voice quick-log a workout you already finished — just tell Splyt what you did and it lands in your history.",
+   "url": "https://splyt.fit (in-app What’s New, build 326)",
+   "sourceType": "release_notes",
+   "date": "2026-07-06"
+  },
+  {
+   "feature": "Voice grip setting",
+   "detail": "Set grips by voice.",
+   "quote": "Tell the voice logger how you held it",
+   "url": "https://splyt.fit (in-app What’s New, build 463)",
+   "sourceType": "release_notes",
+   "date": "2026-10-08"
+  },
+  {
+   "feature": "Siri workout control",
+   "detail": "Start, pause, resume or end any activity with Siri on iPhone or Watch.",
+   "quote": "Start any activity, pause, resume or finish with Siri on iPhone or Apple Watch.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717",
+    "https://splyt.fit (in-app What’s New, build 242)"
+   ]
+  },
+  {
+   "feature": "Siri on locked phone",
+   "detail": "Siri commands work on a locked phone.",
+   "quote": "Siri on a locked phone",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-09-18"
+  },
+  {
+   "feature": "Apple Watch app",
+   "detail": "Log full workouts from the wrist with HR and calories.",
+   "quote": "Log full workouts from your wrist, with heart rate and calories synced to your phone.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Automatic rep counting",
+   "detail": "Watch counts reps on presses, curls, squats, pulldowns, triceps, flyes.",
+   "quote": "Your watch counts reps on presses, curls, squats, pulldowns and more — hands-free.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717",
+    "https://splyt.fit (in-app What’s New, build 283)"
+   ]
+  },
+  {
+   "feature": "On-device offline rep counting",
+   "detail": "Rep detection runs on-watch without signal.",
+   "quote": "Runs entirely on-device, so it works with no signal.",
+   "url": "https://splyt.fit/classic",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Full-screen phone rep count",
+   "detail": "Phone shows a giant live rep count while watch counts.",
+   "quote": "your phone now takes over the whole screen with a giant live count you can read from across the room",
+   "url": "https://splyt.fit (in-app What’s New, build 308)",
+   "sourceType": "release_notes",
+   "date": "2026-06-23"
+  },
+  {
+   "feature": "Watch set editing",
+   "detail": "Add, delete, adjust sets, swap movements, set grips, start rests from wrist.",
+   "quote": "Add, delete and adjust sets, swap moves, set grips and start rests from your wrist.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Watch exercise swap",
+   "detail": "Swap an exercise for a similar one from the watch.",
+   "quote": "Switch an exercise from your watch.",
+   "url": "https://splyt.fit (in-app What’s New, build 463)",
+   "sourceType": "release_notes",
+   "date": "2026-10-08"
+  },
+  {
+   "feature": "Watch Digital Crown entry",
+   "detail": "Wheel pickers with Digital Crown for weight/reps.",
+   "quote": "use the Digital Crown to dial it in",
+   "url": "https://splyt.fit (in-app What’s New, build 190)",
+   "sourceType": "release_notes",
+   "date": "2026-05-03"
+  },
+  {
+   "feature": "Watch voice start",
+   "detail": "Watch opens on a mic; speak an activity to start it.",
+   "quote": "Your Apple Watch opens on a microphone. Tap it, say what you’re doing",
+   "url": "https://splyt.fit (in-app What’s New, build 449)",
+   "sourceType": "release_notes",
+   "date": "2026-09-24"
+  },
+  {
+   "feature": "Watch voice logging",
+   "detail": "Log sets by voice on the watch.",
+   "quote": "Log sets by voice mid-workout.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Watch auto-start from phone",
+   "detail": "Starting on phone starts watch workout automatically even if app closed.",
+   "quote": "Start a workout on your phone and your Apple Watch now starts the same workout automatically — even if the watch app was closed",
+   "url": "https://splyt.fit (in-app What’s New, build 314)",
+   "sourceType": "release_notes",
+   "date": "2026-06-25"
+  },
+  {
+   "feature": "Watch rest screen with heart rate",
+   "detail": "Rest ring countdown with HR and ±30s.",
+   "quote": "The watch rest screen is redesigned: a ring counting down, your heart rate,\n−30s / +30s in the corners.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-02"
+  },
+  {
+   "feature": "Watch next-set preview",
+   "detail": "Swipe on watch rest timer to see next set.",
+   "quote": "On the watch, swipe right on the rest timer to see what’s coming",
+   "url": "https://splyt.fit (in-app What’s New, build 456)",
+   "sourceType": "release_notes",
+   "date": "2026-09-29"
+  },
+  {
+   "feature": "Watch music controls",
+   "detail": "Control music during rest on watch.",
+   "quote": "During a rest on the watch, swipe across to control your music.",
+   "url": "https://splyt.fit (in-app What’s New, build 449)",
+   "sourceType": "release_notes",
+   "date": "2026-09-24"
+  },
+  {
+   "feature": "Watch supersets",
+   "detail": "Supersets alternate round by round on watch.",
+   "quote": "Supersets now alternate on your watch the way they do on your phone.",
+   "url": "https://splyt.fit (in-app What’s New, build 387)",
+   "sourceType": "release_notes",
+   "date": "2026-08-19"
+  },
+  {
+   "feature": "Watch set type tagging",
+   "detail": "Mark warmup/failure/drop by voice on watch.",
+   "quote": "Voice on the watch can mark a set as warmup, failure, or drop",
+   "url": "https://splyt.fit (in-app What’s New, build 254)",
+   "sourceType": "release_notes",
+   "date": "2026-05-31"
+  },
+  {
+   "feature": "Watch rest timer button",
+   "detail": "Start rest any time on watch.",
+   "quote": "Start a rest timer any time from the Apple Watch",
+   "url": "https://splyt.fit (in-app What’s New, build 221)",
+   "sourceType": "release_notes",
+   "date": "2026-05-14"
+  },
+  {
+   "feature": "Watch workout summary HR chart",
+   "detail": "Watch post-workout summary with HR line chart.",
+   "quote": "Apple Watch post-workout summary now shows a heart-rate line chart through your workout, matching the phone.",
+   "url": "https://splyt.fit (in-app What’s New, build 254)",
+   "sourceType": "release_notes",
+   "date": "2026-05-31"
+  },
+  {
+   "feature": "Watch notifications",
+   "detail": "Friend workouts and competition invites delivered on the watch.",
+   "quote": "Friend workouts and competition invites land on your watch, ready to answer.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 305)"
+   ]
+  },
+  {
+   "feature": "Watch complications",
+   "detail": "Splyt ring and streak complications on watch face.",
+   "quote": "Put your daily SPLYT ring right on your Apple Watch face.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 189)"
+   ]
+  },
+  {
+   "feature": "Ring watch face via Photos",
+   "detail": "Daily ring auto-updates as a watch face through a Photos album.",
+   "quote": "Splyt Ring watch face — your daily ring auto-updates as an Apple Watch face through a Photos album.",
+   "url": "https://splyt.fit (in-app What’s New, build 235)",
+   "sourceType": "release_notes",
+   "date": "2026-05-21"
+  },
+  {
+   "feature": "Watch pool length setting",
+   "detail": "Watch asks for pool length in yards/meters.",
+   "quote": "Pool Swim on Apple Watch now asks for your pool length before starting",
+   "url": "https://splyt.fit (in-app What’s New, build 148)",
+   "sourceType": "release_notes",
+   "date": "2026-04-25"
+  },
+  {
+   "feature": "Watch accent color sync",
+   "detail": "Watch follows phone accent color.",
+   "quote": "Watch app accent color now follows the phone",
+   "url": "https://splyt.fit (in-app What’s New, build 163)",
+   "sourceType": "release_notes",
+   "date": "2026-04-28"
+  },
+  {
+   "feature": "Watch centisecond clock",
+   "detail": "Elapsed clock shows centiseconds when wrist raised.",
+   "quote": "Apple Watch elapsed clock now ticks centiseconds (M:SS.CC) when your wrist is raised",
+   "url": "https://splyt.fit (in-app What’s New, build 227)",
+   "sourceType": "release_notes",
+   "date": "2026-05-17"
+  },
+  {
+   "feature": "Watch-only gym use",
+   "detail": "Use the watch without a phone on the gym floor.",
+   "quote": "phones needed on the gym floor. The Watch does the lot.",
+   "url": "https://splyt.fit/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/classic"
+   ]
+  },
+  {
+   "feature": "Apple Health two-way sync",
+   "detail": "Two-way sync for workouts, sleep, steps, weight.",
+   "quote": "Two-way sync for workouts, sleep, steps and weight. Your rings match your Watch.",
+   "url": "https://splyt.fit/classic",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Auto-import external workouts",
+   "detail": "Apple Fitness, Strava, Nike Run Club and GymKit workouts sync into history.",
+   "quote": "Workouts from Apple Fitness, Strava and gym treadmills land in your history automatically.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 208)",
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Sleep tracking with stages",
+   "detail": "Sleep stages and nightly sleep score from Apple Health.",
+   "quote": "See your sleep stages and a nightly sleep score straight from Apple Health.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Manual sleep logging",
+   "detail": "Add a night of sleep by hand, saved to Apple Health.",
+   "quote": "Add a night of sleep by hand — tap the “+” in your Sleep view to log when you went to bed and woke up.",
+   "url": "https://splyt.fit (in-app What’s New, build 306)",
+   "sourceType": "release_notes",
+   "date": "2026-06-22"
+  },
+  {
+   "feature": "Body weight and measurements",
+   "detail": "Log weight and measurements synced with Apple Health.",
+   "quote": "Log body weight and measurements, kept in sync with Apple Health both ways.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Steps tracking",
+   "detail": "Steps history chart with week/month/6-month/year.",
+   "quote": "A new Steps history chart in Stats, with Week, Month, 6-Month, and Year views.",
+   "url": "https://splyt.fit (in-app What’s New, build 328)",
+   "sourceType": "release_notes",
+   "date": "2026-07-08"
+  },
+  {
+   "feature": "Activity rings in app",
+   "detail": "Move/Exercise/Stand rings with custom goals, no Apple Fitness needed.",
+   "quote": "Your Move, Exercise and Stand rings in SPLYT, with goals you can set yourself.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 202)"
+   ]
+  },
+  {
+   "feature": "Activity rings detail view",
+   "detail": "Hourly Move/Exercise/Stand charts plus steps, distance, flights.",
+   "quote": "hourly Move/Exercise/Stand bar charts, plus Steps, Distance, and Flights Climbed.",
+   "url": "https://splyt.fit (in-app What’s New, build 197)",
+   "sourceType": "release_notes",
+   "date": "2026-05-06"
+  },
+  {
+   "feature": "Progress photos",
+   "detail": "Private progress photos with weekly reminders.",
+   "quote": "Progress Photos (Pro): keep private progress photos to see how you’re changing over time — and let Splyt remind you weekly",
+   "url": "https://splyt.fit (in-app What’s New, build 310)",
+   "sourceType": "release_notes",
+   "date": "2026-06-24"
+  },
+  {
+   "feature": "Heart rate zones",
+   "detail": "HR chart on summary with time in each zone.",
+   "quote": "Heart rate chart on the summary — a workout-window bar chart with a tap-through detail view that breaks down your time in each heart-rate zone.",
+   "url": "https://splyt.fit (in-app What’s New, build 190)",
+   "sourceType": "release_notes",
+   "date": "2026-05-03"
+  },
+  {
+   "feature": "Habit tracking",
+   "detail": "Track daily habits with streaks and reminders.",
+   "quote": "Track any daily habit with streaks, reminders and weekly targets that fit real life.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Auto-completing habits",
+   "detail": "Habits tick off from Apple Health (steps, sleep, bedtime, rings, activity).",
+   "quote": "A step goal, enough sleep, an earlier bedtime, waking up earlier, closing your rings, a specific activity — SPLYT already knows, so these tick themselves off.",
+   "url": "https://splyt.fit/habits",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Weekly habit targets",
+   "detail": "Habits with N-per-week target or fixed number of weeks.",
+   "quote": "Habits can now have a weekly target (like 4× a week) or run for a set number of weeks",
+   "url": "https://splyt.fit (in-app What’s New, build 276)",
+   "sourceType": "release_notes",
+   "date": "2026-06-10"
+  },
+  {
+   "feature": "Habit reminders and privacy",
+   "detail": "Reminders and private habits.",
+   "quote": "Pick the days or a number per week, add a reminder, or keep it private.",
+   "url": "https://splyt.fit/habits",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Habit streak calendar",
+   "detail": "Each habit has its calendar, count, best streak.",
+   "quote": "Every habit keeps its own calendar, its count and its best streak.",
+   "url": "https://splyt.fit/habits",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Daily combined ring",
+   "detail": "One ring blending workout, habits and sleep/steps.",
+   "quote": "Three equal parts: your workout, your habits, and your sleep or steps.",
+   "url": "https://splyt.fit/habits",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Customizable ring pillars",
+   "detail": "Turn pillars off or set your own activity rule.",
+   "quote": "Your ring is actually yours — turn pillars off or set your own activity rule",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-09-02",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 299)"
+   ]
+  },
+  {
+   "feature": "Ring closed notification",
+   "detail": "Notification when all ring pillars complete.",
+   "quote": "You now get a “Splyt ring closed!” notification the moment you complete all three of your Splyt pillars for the day.",
+   "url": "https://splyt.fit (in-app What’s New, build 348)",
+   "sourceType": "release_notes",
+   "date": "2026-07-23"
+  },
+  {
+   "feature": "Perfect-day nudge",
+   "detail": "Nudge when one item away from a perfect day.",
+   "quote": "A new nudge gives you a heads-up when you're just one thing away from a perfect day",
+   "url": "https://splyt.fit (in-app What’s New, build 316)",
+   "sourceType": "release_notes",
+   "date": "2026-06-26"
+  },
+  {
+   "feature": "Volume by body part",
+   "detail": "Volume breakdown by body part.",
+   "quote": "A new volume breakdown by body part on your Stats page shows where your training is going.",
+   "url": "https://splyt.fit (in-app What’s New, build 325)",
+   "sourceType": "release_notes",
+   "date": "2026-07-05"
+  },
+  {
+   "feature": "Daily strain score",
+   "detail": "0-21 daily exertion score with per-body-part breakdown.",
+   "quote": "A daily 0–21 effort score that shows which muscles drove your day.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 193)"
+   ]
+  },
+  {
+   "feature": "Training time charts",
+   "detail": "Workout times chart with planned vs actual.",
+   "quote": "The same press-and-hold works on the Workout Times chart too",
+   "url": "https://splyt.fit (in-app What’s New, build 313)",
+   "sourceType": "release_notes",
+   "date": "2026-06-25"
+  },
+  {
+   "feature": "Workout frequency chart",
+   "detail": "Workouts-per-week bar chart.",
+   "quote": "Workouts-per-week bar chart in the Stats tab shows your training consistency at a glance.",
+   "url": "https://splyt.fit (in-app What’s New, build 195)",
+   "sourceType": "release_notes",
+   "date": "2026-05-06"
+  },
+  {
+   "feature": "Volume and cardio trends",
+   "detail": "Lifted volume and cardio minutes over time.",
+   "quote": "watch your lifted volume and cardio minutes trend over time",
+   "url": "https://splyt.fit (in-app What’s New, build 307)",
+   "sourceType": "release_notes",
+   "date": "2026-06-22"
+  },
+  {
+   "feature": "Weight trend",
+   "detail": "Weight over ninety days.",
+   "quote": "Weight over ninety days, volume by week, and your personal records as they fall.",
+   "url": "https://splyt.fit/stats",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Recovery stats chart",
+   "detail": "Workouts vs recovery chart with sleep stacking.",
+   "quote": "New activity chart on Stats with a Workouts ↔ Recovery toggle.",
+   "url": "https://splyt.fit (in-app What’s New, build 225)",
+   "sourceType": "release_notes",
+   "date": "2026-05-16"
+  },
+  {
+   "feature": "Compare progress with friends",
+   "detail": "Overlay friends' lines on an exercise chart.",
+   "quote": "Compare your progress with friends right on an exercise's chart",
+   "url": "https://splyt.fit (in-app What’s New, build 299)",
+   "sourceType": "release_notes",
+   "date": "2026-06-19"
+  },
+  {
+   "feature": "Session vs history card",
+   "detail": "Latest session against last, usual and best.",
+   "quote": "Stats has a new “Against your history” card",
+   "url": "https://splyt.fit (in-app What’s New, build 462)",
+   "sourceType": "release_notes",
+   "date": "2026-10-05"
+  },
+  {
+   "feature": "Weekly and monthly recaps",
+   "detail": "Week/month recap with score, PRs, weight, photos, steps, sleep, habits.",
+   "quote": "Your week and month in one story — PRs, sleep, steps, habits and more.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 459)"
+   ]
+  },
+  {
+   "feature": "Trainer report export",
+   "detail": "Export recap as PDF or private browser link.",
+   "quote": "A PDF, or a private link that opens in any browser and keeps itself up to date.",
+   "url": "https://splyt.fit/stats",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 453)"
+   ]
+  },
+  {
+   "feature": "Rich workout summary",
+   "detail": "Summary with HR zones, muscle heatmap, route maps, per-activity breakdown.",
+   "quote": "Heart-rate zones, a muscle heatmap, route maps and per-activity breakdowns after every session.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Workout history search",
+   "detail": "Search history and filter by type.",
+   "quote": "Search your workout history, and narrow it to lifting, core, cardio, sports or recovery.",
+   "url": "https://splyt.fit (in-app What’s New, build 381)",
+   "sourceType": "release_notes",
+   "date": "2026-08-17"
+  },
+  {
+   "feature": "Interactive charts",
+   "detail": "Press-and-hold chart bars for exact values.",
+   "quote": "Your charts are interactive now.",
+   "url": "https://splyt.fit (in-app What’s New, build 313)",
+   "sourceType": "release_notes",
+   "date": "2026-06-25"
+  },
+  {
+   "feature": "Weekly score",
+   "detail": "Recap opens with a score.",
+   "quote": "Your weekly and monthly recap opens with your Splyt Score and the shape of the week",
+   "url": "https://splyt.fit (in-app What’s New, build 375)",
+   "sourceType": "release_notes",
+   "date": "2026-08-16"
+  },
+  {
+   "feature": "Friends",
+   "detail": "Add friends to see sessions, rings and habits.",
+   "quote": "Add your friends, your training partner or your trainer. See each other's sessions, rings and habits, and like or comment on a workout.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Private friends activity feed",
+   "detail": "Feed of friends' workouts, habits and check-ins; no public posts.",
+   "quote": "Friends see each other's workouts, habits, and check-ins in a private activity feed.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Reactions and comments",
+   "detail": "React to and comment on friends' workouts.",
+   "quote": "React, comment and reply to friends’ workouts and closed rings.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 267)"
+   ]
+  },
+  {
+   "feature": "Follow a friend live",
+   "detail": "Watch a friend's sets land in real time.",
+   "quote": "Watch a friend’s sets land in real time while they train.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Groups",
+   "detail": "Private groups for friends.",
+   "quote": "Build a group for the gym crew or the family, and run competitions inside it.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Group chat",
+   "detail": "Race chat with photos.",
+   "quote": "Race chat, with photos.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 432)"
+   ]
+  },
+  {
+   "feature": "Contact friend finder",
+   "detail": "See which contacts use the app.",
+   "quote": "See which contacts are on SPLYT and add them as friends with one tap.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Friends of friends",
+   "detail": "See a friend's friends and add them.",
+   "quote": "Your friends’ friends.",
+   "url": "https://splyt.fit (in-app What’s New, build 442)",
+   "sourceType": "release_notes",
+   "date": "2026-09-18"
+  },
+  {
+   "feature": "Friend history viewing",
+   "detail": "Read a friend's workout history.",
+   "quote": "Read a friend’s workout history",
+   "url": "https://splyt.fit (in-app What’s New, build 399)",
+   "sourceType": "release_notes",
+   "date": "2026-08-26"
+  },
+  {
+   "feature": "Community space",
+   "detail": "App-wide community with weekly challenge and shared feed.",
+   "quote": "A weekly community challenge and a shared feed with everyone training on SPLYT.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "PR spotlight",
+   "detail": "Community's top lift of the week highlighted.",
+   "quote": "PR Spotlight — the community's top lift of the week is celebrated at the top of the feed.",
+   "url": "https://splyt.fit (in-app What’s New, build 187)",
+   "sourceType": "release_notes",
+   "date": "2026-05-02"
+  },
+  {
+   "feature": "Group check-in challenges",
+   "detail": "Shared check-in challenges inside a group.",
+   "quote": "Group Challenges — start a shared check-in challenge in your private group.",
+   "url": "https://splyt.fit (in-app What’s New, build 188)",
+   "sourceType": "release_notes",
+   "date": "2026-05-03"
+  },
+  {
+   "feature": "Nudge friends",
+   "detail": "Push a nudge to a teammate.",
+   "quote": "Nudge teammates — tap the megaphone on any member who's falling behind to send them a push notification.",
+   "url": "https://splyt.fit (in-app What’s New, build 188)",
+   "sourceType": "release_notes",
+   "date": "2026-05-03"
+  },
+  {
+   "feature": "Group leaderboard stats",
+   "detail": "Group compare of workouts, time, volume.",
+   "quote": "Group Stats — tap Compare in your private group to see a full leaderboard",
+   "url": "https://splyt.fit (in-app What’s New, build 188)",
+   "sourceType": "release_notes",
+   "date": "2026-05-03"
+  },
+  {
+   "feature": "Report and block",
+   "detail": "Report or block people and content.",
+   "quote": "You can now report or block posts and people, and stronger language is filtered out of the community.",
+   "url": "https://splyt.fit (in-app What’s New, build 366)",
+   "sourceType": "release_notes",
+   "date": "2026-08-07"
+  },
+  {
+   "feature": "Founders direct chat",
+   "detail": "Chat with the founders in-app.",
+   "quote": "The founders can now start a conversation with you.",
+   "url": "https://splyt.fit (in-app What’s New, build 421)",
+   "sourceType": "release_notes",
+   "date": "2026-09-07"
+  },
+  {
+   "feature": "Friend competitions",
+   "detail": "1-on-1 and group competitions tracked automatically.",
+   "quote": "Competitions — 1-on-1 and group, tracked automatically from your data",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit/compete"
+   ]
+  },
+  {
+   "feature": "Twelve competition metrics",
+   "detail": "Steps, workouts, volume, calories, sleep, active days, time, bedtime, wake, recovery, specific activity, custom.",
+   "quote": "Most Steps\nMost Workouts\nTop Volume\nMost Calories Burned\nBest Sleep",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Distance-based competitions",
+   "detail": "Run/ride/swim competitions on distance.",
+   "quote": "A run, ride or swim competition is won on distance, not on how many sessions you logged.",
+   "url": "https://splyt.fit (in-app What’s New, build 412)",
+   "sourceType": "release_notes",
+   "date": "2026-09-04"
+  },
+  {
+   "feature": "3D race visualization",
+   "detail": "Competitions shown as a race on a 3D road/gym/pool.",
+   "quote": "Everyone runs the same 3D road. Pinch to zoom, twist to turn, tilt to look.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 412)"
+   ]
+  },
+  {
+   "feature": "Custom race characters",
+   "detail": "Create a character from a description or photo.",
+   "quote": "A strawberry in sneakers, a duck in a helmet, your dog — describe it or use a photo, see it drawn in about a minute",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 430)"
+   ]
+  },
+  {
+   "feature": "Character library",
+   "detail": "Shared library of user-made characters.",
+   "quote": "The character library. Everything anyone has made and shared, free for everyone to use.",
+   "url": "https://splyt.fit (in-app What’s New, build 430)",
+   "sourceType": "release_notes",
+   "date": "2026-09-13"
+  },
+  {
+   "feature": "Competition stakes",
+   "detail": "Track winner-takes-pot or loser-buys stakes between friends.",
+   "quote": "Winner takes the pot, loser buys, or just bragging rights.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Competition invites",
+   "detail": "Accept/decline invites, including from notification or watch.",
+   "quote": "Accept or decline a competition invite straight from the notification, on your phone or your watch, without opening the app.",
+   "url": "https://splyt.fit (in-app What’s New, build 417)",
+   "sourceType": "release_notes",
+   "date": "2026-09-05"
+  },
+  {
+   "feature": "Competition history",
+   "detail": "Past competitions with winners.",
+   "quote": "Past competitions live on their own screen, with each contest’s winner front-and-center.",
+   "url": "https://splyt.fit (in-app What’s New, build 241)",
+   "sourceType": "release_notes",
+   "date": "2026-05-24"
+  },
+  {
+   "feature": "End-of-race awards",
+   "detail": "Map of how far steps went and per-person awards.",
+   "quote": "When a race ends, see how far your steps would have taken you on a real map",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-09-17"
+  },
+  {
+   "feature": "Live training on competition map",
+   "detail": "See who's training right now.",
+   "quote": "The competition map shows who is training right now.",
+   "url": "https://splyt.fit (in-app What’s New, build 416)",
+   "sourceType": "release_notes",
+   "date": "2026-09-05"
+  },
+  {
+   "feature": "Workout share cards",
+   "detail": "Share cards with HR, stats, routes, bests.",
+   "quote": "Turn any workout into a beautiful card — heart rate, stats, routes and new bests.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Instagram Story sharing",
+   "detail": "Share outdoor workout card to Instagram Story.",
+   "quote": "Share an outdoor run, walk, or ride straight to your Instagram Story",
+   "url": "https://splyt.fit (in-app What’s New, build 290)",
+   "sourceType": "release_notes",
+   "date": "2026-06-14"
+  },
+  {
+   "feature": "Route share card",
+   "detail": "Transparent route card for overlay.",
+   "quote": "Share the shape of your run.",
+   "url": "https://splyt.fit (in-app What’s New, build 404)",
+   "sourceType": "release_notes",
+   "date": "2026-08-29"
+  },
+  {
+   "feature": "Web workout links",
+   "detail": "Share a workout as a web page viewable without the app.",
+   "quote": "Share a link that opens your full workout on the web, no app needed.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 442)"
+   ]
+  },
+  {
+   "feature": "Share templates by link",
+   "detail": "Any saved workout sent as a link; recipients can save it.",
+   "quote": "Share any saved workout as a link. Whoever opens it sees every set, weight and rep, and can save it to their own library.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-09-10"
+  },
+  {
+   "feature": "Share day",
+   "detail": "Share cards for the whole day.",
+   "quote": "Share your whole day, not just one workout.",
+   "url": "https://splyt.fit (in-app What’s New, build 402)",
+   "sourceType": "release_notes",
+   "date": "2026-08-28"
+  },
+  {
+   "feature": "Share workout to a friend",
+   "detail": "Send a workout directly to a friend in-app.",
+   "quote": "Share your workouts with friends. Open a friend’s profile and send one of your workouts straight to them",
+   "url": "https://splyt.fit (in-app What’s New, build 267)",
+   "sourceType": "release_notes",
+   "date": "2026-06-04"
+  },
+  {
+   "feature": "Volume receipt share",
+   "detail": "Receipt with total weight moved and a real-world comparison.",
+   "quote": "Workout share receipts: share a clean receipt of your session — total weight moved with a fun real-world comparison",
+   "url": "https://splyt.fit (in-app What’s New, build 276)",
+   "sourceType": "release_notes",
+   "date": "2026-06-10"
+  },
+  {
+   "feature": "Import from Strong and Hevy",
+   "detail": "Import history from Strong or Hevy exports on real dates.",
+   "quote": "Bring your whole training history across in a few taps, on its real dates.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 407)",
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Undo an import",
+   "detail": "List and undo individual imports.",
+   "quote": "Changed your mind? Profile → Import Data → Last import lists everything you’ve brought in",
+   "url": "https://splyt.fit (in-app What’s New, build 407)",
+   "sourceType": "release_notes",
+   "date": "2026-08-31"
+  },
+  {
+   "feature": "Import from notes, photos, CSV, Sheets",
+   "detail": "Turn pasted notes, screenshots, CSV/Excel or Google Sheet links into templates.",
+   "quote": "Paste your notes, add a photo or screenshot, upload a CSV/Excel file, or paste a public Google Sheet link, and Splyt turns it into ready-to-use templates.",
+   "url": "https://splyt.fit (in-app What’s New, build 271)",
+   "sourceType": "release_notes",
+   "date": "2026-06-07"
+  },
+  {
+   "feature": "Import from social video links",
+   "detail": "Read a workout from a TikTok, Instagram or YouTube link.",
+   "quote": "paste a TikTok, Instagram, or YouTube video on the Import screen and Splyt reads the workout out of it.",
+   "url": "https://splyt.fit (in-app What’s New, build 308)",
+   "sourceType": "release_notes",
+   "date": "2026-06-23"
+  },
+  {
+   "feature": "Data export",
+   "detail": "Export workouts, exercises, daily logs.",
+   "quote": "Export workouts, exercises, daily logs",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-01-06",
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Home and lock screen widgets",
+   "detail": "Habits, calendar, rings and races widgets.",
+   "quote": "Habits, your calendar, rings and races on your Home and Lock Screen.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id6755893717"
+   ]
+  },
+  {
+   "feature": "Training calendar widget",
+   "detail": "Week's planned workouts, check off, mark rest day.",
+   "quote": "A new Training Calendar widget for your Home Screen — see this week's planned workouts at a glance, check off what you've done, and mark today a rest day with a single tap.",
+   "url": "https://splyt.fit (in-app What’s New, build 292)",
+   "sourceType": "release_notes",
+   "date": "2026-06-16"
+  },
+  {
+   "feature": "Interactive habit widget",
+   "detail": "Mark a habit done from the widget.",
+   "quote": "Tap today's circle on the widget to mark the habit done (or undo) without opening the app.",
+   "url": "https://splyt.fit (in-app What’s New, build 210)",
+   "sourceType": "release_notes",
+   "date": "2026-05-09"
+  },
+  {
+   "feature": "Competition widget",
+   "detail": "Race widget on home screen.",
+   "quote": "The Competition widget puts the road, the field, your number and your place on your Home Screen — free for everyone.",
+   "url": "https://splyt.fit/compete",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Start workout lock screen widget",
+   "detail": "Lock screen widget to start a workout.",
+   "quote": "Lock-screen widget — drop the Splyt circle on your iPhone's lock screen for a one-tap jump straight into starting a workout.",
+   "url": "https://splyt.fit (in-app What’s New, build 172)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "Widget color tint",
+   "detail": "Recolor home screen widgets.",
+   "quote": "Recolor your home-screen widgets — pick a tint under Edit Widget → Color.",
+   "url": "https://splyt.fit (in-app What’s New, build 370)",
+   "sourceType": "release_notes",
+   "date": "2026-08-12"
+  },
+  {
+   "feature": "Live Activity and Dynamic Island",
+   "detail": "Live workout and rest timer on Lock Screen and Dynamic Island.",
+   "quote": "Your live workout and rest timer on the Lock Screen and Dynamic Island.",
+   "url": "https://splyt.fit/roadmap",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Log sets from lock screen",
+   "detail": "Check off a set from the Live Activity.",
+   "quote": "Your rest counting down with a Skip, the set you're on with its weight and reps, and a checkmark that logs it — all without unlocking your phone.",
+   "url": "https://splyt.fit/logging",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Dark and light mode",
+   "detail": "Dark or light appearance.",
+   "quote": "Black and white by default, in dark or light.",
+   "url": "https://splyt.fit/classic",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 296)"
+   ]
+  },
+  {
+   "feature": "Custom accent color",
+   "detail": "Pick accent color including hue wheel.",
+   "quote": "Custom accent color — pick any color from a hue wheel",
+   "url": "https://splyt.fit (in-app What’s New, build 164)",
+   "sourceType": "release_notes",
+   "date": "2026-04-29"
+  },
+  {
+   "feature": "Ring color themes",
+   "detail": "Dozens of ring colorways incl. Apple Fitness match.",
+   "quote": "pick from dozens of ring colorways",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 371)"
+   ]
+  },
+  {
+   "feature": "Home view customization",
+   "detail": "Choose activity layout and which cards/metrics show on Home.",
+   "quote": "Pick how your home Activity section reads.",
+   "url": "https://splyt.fit (in-app What’s New, build 403)",
+   "sourceType": "release_notes",
+   "date": "2026-08-28",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 269)"
+   ]
+  },
+  {
+   "feature": "Tab bar glass intensity",
+   "detail": "Choose frosting level of tab bar.",
+   "quote": "Tune your tab bar glass",
+   "url": "https://splyt.fit (in-app What’s New, build 272)",
+   "sourceType": "release_notes",
+   "date": "2026-06-08"
+  },
+  {
+   "feature": "Custom display name",
+   "detail": "Display name separate from sign-in name.",
+   "quote": "You can now set a custom display name in Account Settings",
+   "url": "https://splyt.fit (in-app What’s New, build 209)",
+   "sourceType": "release_notes",
+   "date": "2026-05-08"
+  },
+  {
+   "feature": "Profile avatars",
+   "detail": "Avatar styles for profile.",
+   "quote": "12+ avatar styles to personalize your profile",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-01-06",
+   "alsoAt": [
+    "https://splyt.fit (in-app What’s New, build 140)"
+   ]
+  },
+  {
+   "feature": "Profile photo from contacts or library",
+   "detail": "Set profile photo.",
+   "quote": "Set your profile photo from your Apple Contacts or your photo library",
+   "url": "https://splyt.fit (in-app What’s New, build 139)",
+   "sourceType": "release_notes",
+   "date": "2026-04-23"
+  },
+  {
+   "feature": "Week start day setting",
+   "detail": "Choose the first day of the week.",
+   "quote": "Calendar picker on the home tab now respects your preferred start of the week",
+   "url": "https://splyt.fit (in-app What’s New, build 203)",
+   "sourceType": "release_notes",
+   "date": "2026-05-07"
+  },
+  {
+   "feature": "Notification history",
+   "detail": "Notifications page with history.",
+   "quote": "Notifications History section — past alerts stay accessible",
+   "url": "https://splyt.fit (in-app What’s New, build 215)",
+   "sourceType": "release_notes",
+   "date": "2026-05-11"
+  },
+  {
+   "feature": "Watch-routed notifications",
+   "detail": "Choose to deliver alerts to the watch.",
+   "quote": "Notifications can now go straight to your Apple Watch.",
+   "url": "https://splyt.fit (in-app What’s New, build 305)",
+   "sourceType": "release_notes",
+   "date": "2026-06-22"
+  },
+  {
+   "feature": "Apple and Google sign-in",
+   "detail": "Sign in with Apple or Google.",
+   "quote": "start with Apple or Google in a single tap.",
+   "url": "https://splyt.fit (in-app What’s New, build 371)",
+   "sourceType": "release_notes",
+   "date": "2026-08-13"
+  },
+  {
+   "feature": "In-app account deletion",
+   "detail": "Permanently delete account and data in-app.",
+   "quote": "You can permanently delete your account and all your data from inside the app.",
+   "url": "https://splyt.fit (in-app What’s New, build 366)",
+   "sourceType": "release_notes",
+   "date": "2026-08-07"
+  },
+  {
+   "feature": "Feedback with screenshots",
+   "detail": "Attach screenshots to feedback.",
+   "quote": "You can attach screenshots to feedback",
+   "url": "https://splyt.fit (in-app What’s New, build 412)",
+   "sourceType": "release_notes",
+   "date": "2026-09-04"
+  },
+  {
+   "feature": "Interactive logging tutorial",
+   "detail": "Onboarding includes a self-playing workout demonstrating logging.",
+   "quote": "a workout that plays itself so you can see how logging works before you lift anything.",
+   "url": "https://splyt.fit (in-app What’s New, build 453)",
+   "sourceType": "release_notes",
+   "date": "2026-09-27"
+  }
+ ],
+ "removed": [
+  {
+   "feature": "Food and calorie logging (meal logging, quick meal log, barcode scanner, calories/macros cards)",
+   "quote": "Food and calorie logging has been removed. Splyt is focused on training, sleep and recovery.",
+   "url": "https://splyt.fit (in-app What’s New, build 374)",
+   "date": "2026-08-15"
+  },
+  {
+   "feature": "Bluetooth gym-machine pairing (FTMS treadmills, bikes, rowers, ellipticals, stair climbers)",
+   "quote": "Removed the confusing “connect machine / searching” spinner on the watch during indoor cardio — Splyt tracks straight from the watch.",
+   "url": "https://splyt.fit (in-app What’s New, build 342)",
+   "date": "2026-07-18"
+  },
+  {
+   "feature": "AI voice 'vibes' / persona lineup (Calm … Drill Sergeant, Noir Detective) and coach styles",
+   "quote": "Voice mode is simpler and smoother: a focused set of four natural-sounding voices, and more lifelike, less robotic delivery.",
+   "url": "https://splyt.fit (in-app What’s New, build 342)",
+   "date": "2026-07-18"
+  },
+  {
+   "feature": "Hands-free AI voice chat (talking orb)",
+   "quote": "Talk to your coach\nAsk SPLYT anything out loud, mid-set, and hear the answer back.",
+   "url": "https://splyt.fit/roadmap",
+   "date": null
+  },
+  {
+   "feature": "Demo mode (try the app with sample data before sign-up)",
+   "quote": "Try Splyt before you sign up — tap “Demo mode” on the welcome screen to explore the whole app with sample data",
+   "url": "https://splyt.fit (in-app What’s New, build 347)",
+   "date": "2026-07-22"
+  },
+  {
+   "feature": "Apple Watch first-run tutorial / Replay Watch Tutorial",
+   "quote": "The Apple Watch app opens straight to your workouts — the first-run tutorial has been removed.",
+   "url": "https://splyt.fit (in-app What’s New, build 235)",
+   "date": "2026-05-21"
+  }
+ ],
+ "notes": "- CONFLICT: the CURRENT App Store description still advertises things later sources remove: \"Pair Splyt to a treadmill, bike, rower, elliptical, or stair climber over Bluetooth\", \"food you can log in plain English\" / \"Log lifts, cardio, sleep, food...\", and \"Hands-free voice mode, with a lineup of natural voices and a vibe to match, from Calm to Drill Sergeant\". Per instructions these are recorded under `removed`, not as claims. The App Store copy should be updated to match.\n- Removal evidence strength: food logging has an explicit public removal line (build 374). Bluetooth pairing, voice vibes, hands-free voice chat and demo mode have NO explicit public \"removed\" statement: Bluetooth is implied by build 342 (\"Splyt tracks straight from the watch\") and build 326 (\"record on Apple Fitness ... Splyt imports it\"); vibes by build 342 (\"a focused set of four natural-sounding voices\"); hands-free voice chat only by its appearing under the roadmap's \"Coming next\" (\"Talk to your coach\"); demo mode has no public removal quote at all (the quote given is the original launch line) — removal is per caller instruction.\n- Exercise library: \"1,513 exercises\" comes from the roadmap's \"Under the hood\" block (not the SHIPPED list); the older App Store note said \"800+ exercises\". Drop if only SHIPPED-section claims are allowed.\n- Platform: requires iOS 17 per website (App Store lookup says minimumOsVersion 16.4); App Store lookup lists iPad devices (iosUniversal) but no public iPad feature claim was found. No Android or web app claimed.\n- Pro-gated (not excluded, just noted): voice logging, auto rep counting, AI coach, progress photos (+AI analysis), AI support chat.\n- Some changelog wording names the app (\"Splyt AI\", \"Splyt ring\"); feature names were neutralised.\n- 'Group check-in challenges', 'PR spotlight', 'Community space' come from May 2026 entries; nothing later removes them and the roadmap SHIPPED list still includes \"SPLYT Community\".\n- The roadmap competitor-comparison matrix was not used as a source (it is a checklist with no per-feature text)."
+}

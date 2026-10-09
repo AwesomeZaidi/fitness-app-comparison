@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The list of 52 features was drawn up by SPLYT, which also makes one of the apps — so suggestions from outside are especially useful, including features SPLYT does **not** have.
+        The 188 features are built bottom-up from what the six apps document about themselves (see METHODOLOGY.md). A feature is missing if an app documents it in its own material but no row covers it — suggestions from outside are especially useful, including features SPLYT does **not** have. Since SPLYT made the grouping decisions, suggestions to merge or split existing features are welcome too.
   - type: input
     id: name
     attributes:
@@ -30,8 +30,8 @@ body:
   - type: textarea
     id: evidence
     attributes:
-      label: Apps you know have (or lack) it
-      description: Optional, with sources if you have them.
+      label: Apps that document it
+      description: At least one app's own source (App Store listing or release notes, website, help centre) with the sentence that documents it. Others you know have or lack it are useful too.
   - type: dropdown
     id: affiliation
     attributes:

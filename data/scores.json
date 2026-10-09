@@ -1,0 +1,756 @@
+{
+ "totalFeatures": 188,
+ "apps": {
+  "splyt": {
+   "yes": 133,
+   "yesPct": 70.7,
+   "partial": 1,
+   "no": 4,
+   "unknown": 50,
+   "onlyThisApp": [
+    "history-search",
+    "training-calendar",
+    "apple-calendar-sync",
+    "ai-physique-analysis",
+    "sleep-tracking",
+    "steps-tracking",
+    "activity-rings",
+    "habit-tracking",
+    "activity-types",
+    "multi-activity-session",
+    "gps-tracking",
+    "swim-tracking",
+    "machine-photo-scan",
+    "groups",
+    "competitions"
+   ],
+   "onlyThisAppLacks": [
+    "per-exercise-units",
+    "languages"
+   ]
+  },
+  "hevy": {
+   "yes": 120,
+   "yesPct": 63.8,
+   "partial": 0,
+   "no": 4,
+   "unknown": 64,
+   "onlyThisApp": [
+    "trainer-platform",
+    "imessage-stickers"
+   ],
+   "onlyThisAppLacks": []
+  },
+  "strong": {
+   "yes": 72,
+   "yesPct": 38.3,
+   "partial": 1,
+   "no": 5,
+   "unknown": 110,
+   "onlyThisApp": [
+    "library-management",
+    "nutrition-logging"
+   ],
+   "onlyThisAppLacks": [
+    "exercise-swap",
+    "workout-generation",
+    "injury-aware",
+    "muscle-breakdown",
+    "share-cards",
+    "vision-pro",
+    "week-start"
+   ]
+  },
+  "gravl": {
+   "yes": 109,
+   "yesPct": 58.0,
+   "partial": 2,
+   "no": 3,
+   "unknown": 74,
+   "onlyThisApp": [
+    "creator-programs",
+    "ai-form-analysis",
+    "offline-videos",
+    "garmin-watch-app",
+    "garmin-connect",
+    "developer-api",
+    "app-blocking"
+   ],
+   "onlyThisAppLacks": [
+    "bodyweight-exercises",
+    "save-as-template",
+    "volume-tracking",
+    "health-body-data",
+    "account-deletion"
+   ]
+  },
+  "fitbod": {
+   "yes": 91,
+   "yesPct": 48.4,
+   "partial": 6,
+   "no": 4,
+   "unknown": 87,
+   "onlyThisApp": [
+    "head-gesture-logging",
+    "strava-import",
+    "mac"
+   ],
+   "onlyThisAppLacks": [
+    "drop-sets",
+    "history-calendar",
+    "exercise-history",
+    "data-export"
+   ]
+  },
+  "motra": {
+   "yes": 104,
+   "yesPct": 55.3,
+   "partial": 1,
+   "no": 3,
+   "unknown": 80,
+   "onlyThisApp": [
+    "tempo-tracking",
+    "auto-exercise-detection",
+    "control-center"
+   ],
+   "onlyThisAppLacks": [
+    "edit-live-workout",
+    "log-past-workout",
+    "plate-calculator",
+    "exercise-demos",
+    "bodyweight-tracking"
+   ]
+  }
+ },
+ "categories": {
+  "Workout logging": {
+   "features": 25,
+   "yes": {
+    "splyt": 22,
+    "hevy": 19,
+    "strong": 14,
+    "gravl": 13,
+    "fitbod": 15,
+    "motra": 20
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Sets, supersets & loading": {
+   "features": 12,
+   "yes": {
+    "splyt": 11,
+    "hevy": 11,
+    "strong": 10,
+    "gravl": 10,
+    "fitbod": 8,
+    "motra": 8
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Templates, plans & calendar": {
+   "features": 13,
+   "yes": {
+    "splyt": 10,
+    "hevy": 7,
+    "strong": 6,
+    "gravl": 5,
+    "fitbod": 4,
+    "motra": 8
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Automatic programming": {
+   "features": 13,
+   "yes": {
+    "splyt": 3,
+    "hevy": 8,
+    "strong": 0,
+    "gravl": 13,
+    "fitbod": 13,
+    "motra": 10
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "AI & voice": {
+   "features": 8,
+   "yes": {
+    "splyt": 5,
+    "hevy": 1,
+    "strong": 0,
+    "gravl": 4,
+    "fitbod": 1,
+    "motra": 1
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 1,
+    "fitbod": 0,
+    "motra": 1
+   }
+  },
+  "Exercise library & content": {
+   "features": 10,
+   "yes": {
+    "splyt": 7,
+    "hevy": 5,
+    "strong": 6,
+    "gravl": 7,
+    "fitbod": 7,
+    "motra": 7
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Stats & progress": {
+   "features": 17,
+   "yes": {
+    "splyt": 14,
+    "hevy": 15,
+    "strong": 9,
+    "gravl": 10,
+    "fitbod": 12,
+    "motra": 11
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Health, body & recovery": {
+   "features": 14,
+   "yes": {
+    "splyt": 11,
+    "hevy": 6,
+    "strong": 7,
+    "gravl": 7,
+    "fitbod": 7,
+    "motra": 6
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Cardio, sports & other activities": {
+   "features": 8,
+   "yes": {
+    "splyt": 8,
+    "hevy": 1,
+    "strong": 1,
+    "gravl": 2,
+    "fitbod": 2,
+    "motra": 1
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Apple Watch & wearables": {
+   "features": 16,
+   "yes": {
+    "splyt": 8,
+    "hevy": 9,
+    "strong": 5,
+    "gravl": 9,
+    "fitbod": 4,
+    "motra": 9
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 4,
+    "motra": 0
+   }
+  },
+  "Social & competition": {
+   "features": 16,
+   "yes": {
+    "splyt": 13,
+    "hevy": 13,
+    "strong": 0,
+    "gravl": 5,
+    "fitbod": 0,
+    "motra": 7
+   },
+   "partial": {
+    "splyt": 1,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  },
+  "Sharing, import/export & integrations": {
+   "features": 12,
+   "yes": {
+    "splyt": 8,
+    "hevy": 9,
+    "strong": 4,
+    "gravl": 8,
+    "fitbod": 7,
+    "motra": 6
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 1,
+    "fitbod": 1,
+    "motra": 0
+   }
+  },
+  "Platforms, widgets & system": {
+   "features": 14,
+   "yes": {
+    "splyt": 6,
+    "hevy": 10,
+    "strong": 5,
+    "gravl": 8,
+    "fitbod": 6,
+    "motra": 6
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 1,
+    "gravl": 0,
+    "fitbod": 1,
+    "motra": 0
+   }
+  },
+  "Personalisation, account & support": {
+   "features": 10,
+   "yes": {
+    "splyt": 7,
+    "hevy": 6,
+    "strong": 5,
+    "gravl": 8,
+    "fitbod": 5,
+    "motra": 4
+   },
+   "partial": {
+    "splyt": 0,
+    "hevy": 0,
+    "strong": 0,
+    "gravl": 0,
+    "fitbod": 0,
+    "motra": 0
+   }
+  }
+ },
+ "vetting": {
+  "splyt": {
+   "total": 535,
+   "kept": 504,
+   "unsubstantiated": 9,
+   "ui_tweak": 16,
+   "aspect": 260,
+   "capability": 244,
+   "out_of_scope": 6
+  },
+  "hevy": {
+   "total": 233,
+   "kept": 231,
+   "capability": 124,
+   "aspect": 107,
+   "ui_tweak": 2
+  },
+  "strong": {
+   "total": 120,
+   "kept": 115,
+   "capability": 83,
+   "aspect": 32,
+   "fix": 3,
+   "unsubstantiated": 2
+  },
+  "gravl": {
+   "total": 174,
+   "kept": 170,
+   "capability": 111,
+   "aspect": 59,
+   "unsubstantiated": 1,
+   "fix": 3
+  },
+  "fitbod": {
+   "total": 141,
+   "kept": 138,
+   "capability": 92,
+   "aspect": 46,
+   "not_shipped": 2,
+   "unsubstantiated": 1
+  },
+  "motra": {
+   "total": 159,
+   "kept": 149,
+   "capability": 95,
+   "aspect": 54,
+   "fix": 2,
+   "unsubstantiated": 1,
+   "ui_tweak": 3,
+   "vague": 3,
+   "not_shipped": 1
+  }
+ },
+ "vettingChangedValues": [
+  {
+   "feature": "training-calendar",
+   "app": "hevy",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Hevy's calendar shows past workouts only."
+  },
+  {
+   "feature": "training-calendar",
+   "app": "strong",
+   "naive": "yes",
+   "vetted": "no",
+   "note": "The homepage strip lists 'Workout Scheduling', but Strong's help says it is still being built."
+  },
+  {
+   "feature": "ai-coach-chat",
+   "app": "motra",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Announced in release 6.3.0 (2026-05-22) as a staged rollout 'in the coming week'; no help article documents it, so availability to all users is unconfirmed."
+  },
+  {
+   "feature": "voice-logging",
+   "app": "gravl",
+   "naive": "unknown",
+   "vetted": "partial",
+   "note": "Gravl's help says workouts can be described out loud, but the feature is labelled Beta (publicly offered in the app). Not in the extracted claims because the brief excluded beta items; added here as partial."
+  },
+  {
+   "feature": "offline-videos",
+   "app": "fitbod",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Fitbod's help says offline video is unavailable."
+  },
+  {
+   "feature": "muscle-heatmap",
+   "app": "strong",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "Named only in one variant of the homepage feature strip; not described anywhere else."
+  },
+  {
+   "feature": "apple-health-import",
+   "app": "strong",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "Only claim was rejected as fix: 'Faster Apple Health workout imports' is a performance fix; no Strong source describes the import itself."
+  },
+  {
+   "feature": "health-body-data",
+   "app": "gravl",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "Only claim was rejected as fix: 'Improvements on bodyweight sync from Apple Health' is an improvement; no Gravl source describes the sync itself."
+  },
+  {
+   "feature": "body-measurements",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "Website says 'body weight and measurements', but the feature index describes a body weight log only."
+  },
+  {
+   "feature": "nutrition-logging",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Removed in build 374."
+  },
+  {
+   "feature": "watch-standalone",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "The website says no phone is needed; SPLYT's detailed feature index says only that the watch starts recording 'without touching your phone'. Not enough to confirm logging with the phone away."
+  },
+  {
+   "feature": "watch-standalone",
+   "app": "gravl",
+   "naive": "yes",
+   "vetted": "no",
+   "note": "App Store copy calls the watch app standalone, but Gravl's help says the phone must be within reach."
+  },
+  {
+   "feature": "watch-standalone",
+   "app": "fitbod",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Fitbod's help says the watch app is a companion."
+  },
+  {
+   "feature": "watch-templates",
+   "app": "fitbod",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Workouts must be started on the iPhone."
+  },
+  {
+   "feature": "watch-workout-editing",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Sets can be added or removed on the watch, but swapping or adding exercises requires the iPhone."
+  },
+  {
+   "feature": "airpods-heart-rate",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Live heart rate (including AirPods Pro 3) is 'gradually rolling out' per Fitbod's own help article."
+  },
+  {
+   "feature": "bluetooth-hr",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Android only, and part of live heart rate, which is still 'gradually rolling out'. Not available on iPhone."
+  },
+  {
+   "feature": "garmin-watch-app",
+   "app": "hevy",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Hevy's help centre says Garmin integration is not possible."
+  },
+  {
+   "feature": "garmin-connect",
+   "app": "hevy",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Hevy's help centre says Garmin integration is not possible."
+  },
+  {
+   "feature": "garmin-connect",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "Only the website FAQ quick-stats list Garmin under 'Wearable Sync'; the help centre documents Garmin only as a Bluetooth heart-rate broadcaster on Android. Treated as unsubstantiated."
+  },
+  {
+   "feature": "fitbit",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Fitbod can still post workouts to Fitbit and import Fitbit cardio (iOS only), but Fitbit no longer auto-syncs Fitbod workouts into Fitbit activities."
+  },
+  {
+   "feature": "live-follow",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "SPLYT's feature index describes a live 'training now' dot only; the website's claim that you can watch a friend's sets land live is not in the index."
+  },
+  {
+   "feature": "competitions",
+   "app": "motra",
+   "naive": "yes",
+   "vetted": "unknown",
+   "note": "'Challenges' appear only as a notification-settings category; no Motra source describes the feature."
+  },
+  {
+   "feature": "import-history",
+   "app": "gravl",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Only by emailing Gravl support, who import it for you; there is no self-serve importer."
+  },
+  {
+   "feature": "import-plan-from-media",
+   "app": "fitbod",
+   "naive": "unknown",
+   "vetted": "partial",
+   "note": "Fitbod can import a workout from a photo or screenshot on Android only; not on iPhone."
+  },
+  {
+   "feature": "android-app",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "No Google Play listing: a Google Play search for 'splyt' and 'splyt fitness' (2026-10-09) returns no SPLYT app."
+  },
+  {
+   "feature": "android-app",
+   "app": "motra",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "No Google Play listing for Motra (motra.com). The only 'MOTRA' result (com.motra.app) is a different developer (motraapp.com). Motra's own help describes iPhone and Apple Watch only."
+  },
+  {
+   "feature": "ipad-app",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "yes",
+   "note": "App Store product page lists iPad and the store record marks the app universal (iosUniversal)."
+  },
+  {
+   "feature": "ipad-app",
+   "app": "strong",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store product page lists iPad nowhere and the store record is not universal: there is no native iPad version."
+  },
+  {
+   "feature": "ipad-app",
+   "app": "gravl",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store product page lists iPad nowhere and the store record is not universal: there is no native iPad version."
+  },
+  {
+   "feature": "ipad-app",
+   "app": "fitbod",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store product page lists iPad nowhere and the store record is not universal: there is no native iPad version. Fitbod's help centre also says: 'We don't currently support iPad.'"
+  },
+  {
+   "feature": "ipad-app",
+   "app": "motra",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store product page lists iPad nowhere and the store record is not universal: there is no native iPad version."
+  },
+  {
+   "feature": "web-app",
+   "app": "strong",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "Strong's help lists a web app as in development."
+  },
+  {
+   "feature": "web-app",
+   "app": "fitbod",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Fitbod's website offers a public workout generator, but its own FAQ says the web platform is for onboarding only; you cannot use your training data there."
+  },
+  {
+   "feature": "vision-pro",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "yes",
+   "note": "App Store compatibility lists Apple Vision."
+  },
+  {
+   "feature": "vision-pro",
+   "app": "hevy",
+   "naive": "unknown",
+   "vetted": "yes",
+   "note": "App Store compatibility lists Apple Vision."
+  },
+  {
+   "feature": "vision-pro",
+   "app": "strong",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Apple Vision."
+  },
+  {
+   "feature": "mac",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Mac."
+  },
+  {
+   "feature": "mac",
+   "app": "hevy",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Mac."
+  },
+  {
+   "feature": "mac",
+   "app": "strong",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Mac."
+  },
+  {
+   "feature": "mac",
+   "app": "gravl",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Mac."
+  },
+  {
+   "feature": "mac",
+   "app": "motra",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store compatibility does not list Mac."
+  },
+  {
+   "feature": "languages",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "App Store lists English as the only language."
+  },
+  {
+   "feature": "live-activity",
+   "app": "strong",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Strong's Live Activity and Dynamic Island show the rest timer only, not the live workout."
+  }
+ ]
+}

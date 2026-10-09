@@ -1,0 +1,2221 @@
+{
+  "app": "hevy",
+  "collectedAt": "2026-10-09",
+  "sourcesRead": [
+    {
+      "url": "https://itunes.apple.com/lookup?id=1458862350&country=us",
+      "type": "app_store",
+      "what": "Current App Store description (v3.1.16, 2026-10-02)"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "type": "app_store",
+      "what": "App Store product page: compatibility, languages, platforms"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "type": "release_notes",
+      "what": "Version history 2.5.2 (2025-11-06) to 3.1.16 (2026-10-02), from fac-repo/data/releases/hevy.json, all read"
+    },
+    {
+      "url": "https://help.hevyapp.com/api/v2/help_center/en-us/articles.json",
+      "type": "help_centre",
+      "what": "All 89 help-centre articles read via the Zendesk API"
+    },
+    {
+      "url": "https://www.hevyapp.com/features/",
+      "type": "website",
+      "what": "Features index + all 48 /features/ pages from features-sitemap.xml"
+    },
+    {
+      "url": "https://www.hevyapp.com/",
+      "type": "website",
+      "what": "Homepage and /product/"
+    },
+    {
+      "url": "https://www.hevyapp.com/community-updates/july-26/",
+      "type": "website",
+      "what": "July 2026 community update (product changelog post)"
+    },
+    {
+      "url": "https://www.hevyapp.com/announcing-hevy-trainer/",
+      "type": "website",
+      "what": "Blog: Trainer announcement (2026-02-18)"
+    },
+    {
+      "url": "https://www.hevyapp.com/hevy-apple-watch-custom-face/",
+      "type": "website",
+      "what": "Blog: Apple Watch custom faces (2020-10-08)"
+    },
+    {
+      "url": "https://www.hevyapp.com/hevy-tutorial/",
+      "type": "website",
+      "what": "Blog: How to use Hevy"
+    },
+    {
+      "url": "https://www.hevyapp.com/hyrox-training/",
+      "type": "website",
+      "what": "Blog: HYROX training (2026-05-07)"
+    },
+    {
+      "url": "https://www.hevyapp.com/post-sitemap.xml",
+      "type": "website",
+      "what": "Scanned all 118 blog post URLs for product announcements; the rest are training guides"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.hevy",
+      "type": "google_play",
+      "what": "Google Play listing (Android + Wear OS availability only)"
+    }
+  ],
+  "claims": [
+    {
+      "feature": "Strength workout logging",
+      "detail": "Log sets, reps and weight for each exercise in a live workout.",
+      "quote": "Track your lifts with an intuitive, simple to use interface.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.hevy"
+      ]
+    },
+    {
+      "feature": "Start empty workout",
+      "detail": "Begin an unplanned workout and add exercises as you go.",
+      "quote": "Start an Empty Workout Go to the workout tab at the bottom of the app Tap \"+ Start Empty Workout\"",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35361530647959-How-to-Log-a-Workout-in-the-Hevy-App-Step-by-Step-Guide",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/start-empty-workout/"
+      ]
+    },
+    {
+      "feature": "Reusable workout routines",
+      "detail": "Create saved workout templates (routines) and start a workout from one.",
+      "quote": "Create a routine by adding exercises, sets, and any other details.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33703513582871-Workouts-vs-Routines-in-Hevy-What-They-Mean-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-routines/"
+      ]
+    },
+    {
+      "feature": "Routine folders",
+      "detail": "Organise routines into named folders, reorder and move routines between them by drag and drop.",
+      "quote": "You can create folders in the workout tab to organize your routines in your workout plan.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34953606698903-Build-a-Workout-Program-Create-Organize-Routines",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-routines/"
+      ]
+    },
+    {
+      "feature": "Duplicate routine",
+      "detail": "Copy an existing routine as the basis of a new one.",
+      "quote": "Open the Workout tab. Tap the three dots beside the routine. Select Duplicate Routine.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35119576252951-Reset-Data-Duplicate-Exercise-Routines-and-Manual-Deletion",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Update routine from workout",
+      "detail": "After a workout that changed a routine's structure, choose to apply the changes to the routine or keep the original.",
+      "quote": "you'll see a choice at the end to either \"Update Routine\" or \"Keep Original Routine.\"",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38387296276375-Update-Routine-vs-Keep-Original-Routine",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-routines/"
+      ]
+    },
+    {
+      "feature": "Auto-update routine weights and reps",
+      "detail": "Routine weight/rep values update from the latest workout unless switched off on the save screen.",
+      "quote": "Routine values are always updated unless you adjust the settings on the \"save workout\" screen.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34105442929943-Previous-Workout-Values-Vs-Routine-Values-How-to-Adjust-in-Settings",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rep range targets",
+      "detail": "Set a rep range (e.g. 8-12) instead of a fixed rep target per set.",
+      "quote": "Selecting Rep Range allows you to choose two values--for instance, 8 to 12 reps.",
+      "url": "https://www.hevyapp.com/features/how-to-write-sets-and-reps/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34953501503895-How-to-Share-Workouts-and-Routines-in-Hevy"
+      ]
+    },
+    {
+      "feature": "Duration-based exercise logging",
+      "detail": "Log time for duration exercises such as planks.",
+      "quote": "Duration-based activities like planks come with a single TIME column, where you can write a duration target for each set.",
+      "url": "https://www.hevyapp.com/features/how-to-write-sets-and-reps/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Distance and cardio exercise logging",
+      "detail": "Log distance and duration for cardio exercises like running or rowing.",
+      "quote": "distance & duration (e.g., rowing), or weight & distance (e.g., suitcase carry).",
+      "url": "https://www.hevyapp.com/features/custom-exercises/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises"
+      ]
+    },
+    {
+      "feature": "Bodyweight exercise logging",
+      "detail": "Log bodyweight reps exercises; bodyweight is counted in volume for full-bodyweight movements.",
+      "quote": "If you've entered your bodyweight in the app, the app will use that value for exercises that rely on 100 percent of your bodyweight as resistance.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/44098622782487-Bodyweight-Exercises-in-Hevy-Bodyweight-vs-Assisted-vs-Weighted",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Assisted bodyweight exercises",
+      "detail": "Log assistance weight that is subtracted from bodyweight for volume.",
+      "quote": "If the exercise uses 100 percent of your bodyweight, the app will include bodyweight in volume and also subtract the amount of assistance.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/44098622782487-Bodyweight-Exercises-in-Hevy-Bodyweight-vs-Assisted-vs-Weighted",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34380762441111-Assisted-Bodyweight-Exercises-How-it-Calculates-Volume-and-PRs"
+      ]
+    },
+    {
+      "feature": "Weighted bodyweight exercises",
+      "detail": "Log added load (vest, belt) on top of bodyweight.",
+      "quote": "For exercises that use 100 percent of your bodyweight, the app includes your bodyweight and the extra weight you add.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/44098622782487-Bodyweight-Exercises-in-Hevy-Bodyweight-vs-Assisted-vs-Weighted",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/38387131819799-Weighted-Bodyweight-Exercises-Is-Bodyweight-Included-in-Volume"
+      ]
+    },
+    {
+      "feature": "Update bodyweight mid-workout",
+      "detail": "Log a new bodyweight from inside an active workout.",
+      "quote": "During a workout, tap the three dots on an exercise that uses 100 percent of your bodyweight Tap Update Bodyweight",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/44098622782487-Bodyweight-Exercises-in-Hevy-Bodyweight-vs-Assisted-vs-Weighted",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Hybrid/HYROX functional exercises",
+      "detail": "Functional exercises for hybrid/HYROX-style training added to the library.",
+      "quote": "We've added some functional exercises to prepare for your next HYROX competition. You can now track your hybrid trainings right inside Hevy.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-05-06",
+      "alsoAt": [
+        "https://www.hevyapp.com/hyrox-training/"
+      ]
+    },
+    {
+      "feature": "Warm-up set type",
+      "detail": "Mark a set as a warm-up set.",
+      "quote": "Mark sets as Warmup, Normal, Drop sets, Failure and Supersets",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34896293707927-Set-Types-in-Hevy-Explained-Drop-Sets-Warm-Up-Sets-and-More"
+      ]
+    },
+    {
+      "feature": "Drop set type",
+      "detail": "Mark a set as a drop set; rest timer does not start before a drop set.",
+      "quote": "To add a drop set to a workout, tap the set number, then select 'D-Dropset'",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34896293707927-Set-Types-in-Hevy-Explained-Drop-Sets-Warm-Up-Sets-and-More",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-set-types/"
+      ]
+    },
+    {
+      "feature": "Failure set type",
+      "detail": "Mark a set as taken to failure.",
+      "quote": "To add a failure set, tap the set number, then select 'F - Failure set'",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34896293707927-Set-Types-in-Hevy-Explained-Drop-Sets-Warm-Up-Sets-and-More",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest timer skipped before drop sets",
+      "detail": "The automatic rest timer does not start when the next set is a drop set.",
+      "quote": "If you add a rest timer to an exercise, the timer will not start if the next set is a dropset.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34896293707927-Set-Types-in-Hevy-Explained-Drop-Sets-Warm-Up-Sets-and-More",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-set-types/"
+      ]
+    },
+    {
+      "feature": "Supersets",
+      "detail": "Pair two or more exercises back-to-back as a superset; each superset is colour-coded.",
+      "quote": "Hevy allows you to effortlessly create as many supersets as you want while logging a live session at the gym or creating a routine.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35650286563095-The-Complete-Guide-to-Supersets-and-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/what-are-supersets/"
+      ]
+    },
+    {
+      "feature": "Giant sets and circuits",
+      "detail": "Add three or more exercises to one superset to run a circuit or interval-style workout.",
+      "quote": "You can limit your supersets to two exercises or add multiple movements to the same superset, essentially creating a circuit.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35650286563095-The-Complete-Guide-to-Supersets-and-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/36954623739415-Circuits-Intervals-and-Supersets-Explained-How-to-Build-Them-in-the-Hevy-App"
+      ]
+    },
+    {
+      "feature": "Smart superset scrolling",
+      "detail": "Automatically scroll to the next exercise in a superset when a set is checked.",
+      "quote": "When enabled, Hevy automatically scrolls to the next exercise of a superset when you mark a set as complete.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35650286563095-The-Complete-Guide-to-Supersets-and-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-settings/"
+      ]
+    },
+    {
+      "feature": "Reorder and replace exercises",
+      "detail": "Drag-and-drop exercise order and swap an exercise for another from the library.",
+      "quote": "Reorder exercises through drag-and-drop Replace the exercise by choosing a different one from the library",
+      "url": "https://www.hevyapp.com/features/exercise-programming-options/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Auto-fill from last session",
+      "detail": "Adding a previously done exercise pre-fills its sets, weight and reps.",
+      "quote": "When you add an exercise you've done before, the number of sets, the weight, and the reps you've done before are automatically added, but you can adjust them.",
+      "url": "https://www.hevyapp.com/features/exercise-programming-options/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Previous performance column",
+      "detail": "Shows last time's weight and reps beside each set while logging.",
+      "quote": "your previous performance values appear on the left side under the column labelled Previous.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011896355479-How-to-Use-Previous-Workout-Values-to-Improve-Performance-in-Hevy",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/track-exercises/"
+      ]
+    },
+    {
+      "feature": "Previous values per routine",
+      "detail": "Choose whether previous values come from any workout or only the same routine.",
+      "quote": "Any workout: Your previous values will be retrieved from the last time you completed the exercise, regardless of the routine. Same Routine:",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34105442929943-Previous-Workout-Values-Vs-Routine-Values-How-to-Adjust-in-Settings",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Tap previous value to fill",
+      "detail": "Tap the previous value to copy it into the current set.",
+      "quote": "you can tap on a previous value to instantly add it to your current workout instead of writing the load and reps or duration on each set.",
+      "url": "https://www.hevyapp.com/features/track-exercises/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "RPE logging",
+      "detail": "Log Rate of Perceived Exertion (6-10 incl. half points) per set; shown with previous values next time.",
+      "quote": "You can tap the RPE button for a specific set to select a value from 6 to 10.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35687721776663-How-to-Use-RPE-Rate-of-Perceived-Exertion",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/how-to-calculate-rpe/",
+        "https://help.hevyapp.com/hc/en-us/articles/34490600233111-RPE-vs-RIR-What-They-Mean-and-How-to-Use-Them-in-Hevy"
+      ]
+    },
+    {
+      "feature": "RPE auto-checks set",
+      "detail": "Logging RPE automatically marks the set as complete.",
+      "quote": "Improved Log RPE experience with enhanced UI feedback and automatic set checking.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-01-15"
+    },
+    {
+      "feature": "RPE colour scale",
+      "detail": "Set rows show RPE on a colour scale.",
+      "quote": "Redesigned the Set Row UI - clearer active/checked states, an RPE color scale",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-20"
+    },
+    {
+      "feature": "Exercise notes in routines",
+      "detail": "Persistent per-exercise notes in a routine that show every time it is used, with clickable links.",
+      "quote": "Routine notes - you can add these to any exercise while building a routine (reusable workout template). They will appear with their respective exercises each time you use the routine to log a workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011779117591-How-to-Use-Exercise-Notes-in-Hevy-for-Better-Workout-Tracking",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/exercise-notes/"
+      ]
+    },
+    {
+      "feature": "Clickable links in notes",
+      "detail": "Routine notes can contain a clickable link, e.g. to a video.",
+      "quote": "You can include a link that's clickable when reviewing the routine or logging it as a live workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011779117591-How-to-Use-Exercise-Notes-in-Hevy-for-Better-Workout-Tracking",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-workout exercise notes",
+      "detail": "One-off notes on an exercise for a single session, saved with the workout.",
+      "quote": "Workout notes - these are the notes you can write for specific exercises while logging a session.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011779117591-How-to-Use-Exercise-Notes-in-Hevy-for-Better-Workout-Tracking",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout title and description",
+      "detail": "Name a workout and add a description when saving.",
+      "quote": "Write a description - write a note with feedback, observations, or even an update for people who follow you on Hevy.",
+      "url": "https://www.hevyapp.com/features/workout-log/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Tag users in workout description",
+      "detail": "Mention other users with @ in a workout description.",
+      "quote": "You can also tag people by adding @ and writing the person's name.",
+      "url": "https://www.hevyapp.com/features/workout-log/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/track-workouts/"
+      ]
+    },
+    {
+      "feature": "Gym tagging",
+      "detail": "Tag the gym where a workout took place.",
+      "quote": "Tag your GYM on your workouts - let everyone see where the work gets done!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-28"
+    },
+    {
+      "feature": "Discard workout",
+      "detail": "Throw away a workout in progress.",
+      "quote": "You can click the Discard Workout button at the bottom in case you can't finish a session you've started.",
+      "url": "https://www.hevyapp.com/features/start-empty-workout/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Pause workout timer",
+      "detail": "Pause and resume the workout duration clock (phone only).",
+      "quote": "Tap 'Pause Workout Timer' 3. Once you are ready to resume, tap the duration once again, then tap 'Resume Workout Timer'",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34513981310615-How-to-I-adjust-duration-and-pause-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Edit workout duration",
+      "detail": "Change a workout's duration on save or afterwards.",
+      "quote": "Select 'Duration' and a scroll list will appear",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34513981310615-How-to-I-adjust-duration-and-pause-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Backdate workouts",
+      "detail": "Change start date and time to log a past workout.",
+      "quote": "Adjust the start date and time (if logging a previously completed workout)",
+      "url": "https://www.hevyapp.com/features/start-empty-workout/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-consistency/"
+      ]
+    },
+    {
+      "feature": "Edit saved workouts",
+      "detail": "Edit sets, exercises, duration, media and visibility of a saved workout.",
+      "quote": "Tap the three dots next to a saved workout and select Edit Workout to change its details",
+      "url": "https://www.hevyapp.com/features/best-way-to-track-workouts/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Delete workouts and sets",
+      "detail": "Delete a saved workout, or swipe to delete a set.",
+      "quote": "How to delete a set 1. Swipe left on the set 2. Tap the delete button that appears on the right side of the set",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38030200802583-How-to-Delete-Comments-Sets-Workouts-Routines-Your-Hevy-Account",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Copy a past workout",
+      "detail": "Start a new live workout pre-filled from a past workout (own or another user's).",
+      "quote": "Select a past workout from you or from another user Tap the 3 dots in the top right-hand corner of the screen",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35361530647959-How-to-Log-a-Workout-in-the-Hevy-App-Step-by-Step-Guide",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/best-way-to-track-workouts/"
+      ]
+    },
+    {
+      "feature": "Save workout as routine",
+      "detail": "Turn any completed workout (own or someone else's) into a routine.",
+      "quote": "Tap the three dots on the top right of any workout and select Save as Routine .",
+      "url": "https://www.hevyapp.com/features/best-way-to-track-workouts/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Multiple workouts per day",
+      "detail": "Log more than one workout on the same date.",
+      "quote": "Can I log more than one workout in a single day? Yes.",
+      "url": "https://www.hevyapp.com/features/gym-consistency/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Live volume and set counter",
+      "detail": "Running volume and completed-set count shown during a workout.",
+      "quote": "Next to the stopwatch, you can monitor your volume load and the number of completed sets .",
+      "url": "https://www.hevyapp.com/features/start-empty-workout/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Live muscle heatmap while logging",
+      "detail": "Muscle distribution heatmap visible during an active workout.",
+      "quote": "You can now view a muscle distribution heatmap while logging your workout-tap it to see full details.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2025-12-05"
+    },
+    {
+      "feature": "Exercise how-to in workout",
+      "detail": "Open an exercise's instructions/stats mid-workout without leaving it.",
+      "quote": "You can also access this and the other sections while logging a workout by tapping on any movement's name. Doing so won't pause or discard the session.",
+      "url": "https://www.hevyapp.com/features/exercise-performance/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Per-workout privacy",
+      "detail": "Make an individual workout private.",
+      "quote": "On the screen before saving the workout, where you can add a photo, tap Visibility. Select Private.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34461853165079-How-to-keep-my-information-private-Account-Single-Private-Workout-Remove-Social-Media-Features",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Default workout visibility",
+      "detail": "Set all new workouts to private (or public) by default.",
+      "quote": "Select Default Workout Visibility. Select Private.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34461853165079-How-to-keep-my-information-private-Account-Single-Private-Workout-Remove-Social-Media-Features",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Automatic rest timer",
+      "detail": "Rest countdown starts automatically when a set is checked.",
+      "quote": "When enabled for an exercise, the countdown starts automatically when you mark a set as complete.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-rest-timer/"
+      ]
+    },
+    {
+      "feature": "Per-exercise rest timers",
+      "detail": "Different rest duration per exercise (5 s to 5 min).",
+      "quote": "Customize automatic rest timers for each exercise",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-rest-timer/"
+      ]
+    },
+    {
+      "feature": "Default rest timer",
+      "detail": "Global default rest duration applied to newly added exercises.",
+      "quote": "A default rest timer automatically applies your chosen duration to new exercises you add to a workout or routine.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Adjust rest timer in 15s steps",
+      "detail": "Add or remove 15 seconds from a running rest timer.",
+      "quote": "During your rest period, use +15 to add 15 seconds",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest timer sounds",
+      "detail": "Choose from 5 timer sounds and set timer volume (high/normal/low/off).",
+      "quote": "Timer Sound Choose from 5 different timer sounds",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33882110558743-Workout-Settings-Preferences-Timer-Warm-up-calculator-Plate-Calculator-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound"
+      ]
+    },
+    {
+      "feature": "Set-complete sound volume",
+      "detail": "Adjust the volume of the sound played when a set is checked.",
+      "quote": "Check Set The volume of the sound played when you mark a set as complete.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest timer notification",
+      "detail": "Push notification when the rest timer ends.",
+      "quote": "Rest Timer Receive a notification when your rest timer finishes.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33845807003671-Account-Settings-Preferences-Profile-Information-Adjust-username-password-or-email-address-Notifications",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Inline stopwatch for timed sets",
+      "detail": "Start/stop stopwatch inside duration-exercise sets that records the time.",
+      "quote": "Inline Timer Duration exercises include a built-in stopwatch to track the time of each set.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33882110558743-Workout-Settings-Preferences-Timer-Warm-up-calculator-Plate-Calculator-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35379662997783-The-duration-exercise-inline-timer-goes-up-and-not-down-why"
+      ]
+    },
+    {
+      "feature": "In-workout countdown timer",
+      "detail": "Separate countdown timer from the workout clock icon that alerts at zero.",
+      "quote": "Tap the clock icon at the top of the workout Choose 'Timer' Input the duration of the exercise When the timer reaches 0 it will use the same sound that you hear for the rest timer",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35379662997783-The-duration-exercise-inline-timer-goes-up-and-not-down-why",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Keep screen awake",
+      "detail": "Prevent the phone from sleeping during a workout.",
+      "quote": "Keep Awake During Workout This feature keeps your phone on during an active workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33882110558743-Workout-Settings-Preferences-Timer-Warm-up-calculator-Plate-Calculator-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Plate calculator",
+      "detail": "Shows which plates to load on a bar for a target weight, with custom bars/plates and closest-possible weight.",
+      "quote": "you can input the weight you want and the plates you have available, and the plate calculator will let you know how to load your barbell to achieve that weight",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34518876511383-How-to-use-the-Plate-Calculator-Logging-and-Adding-Custom-Plates-and-Bars",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/weight-plate-calculator/"
+      ]
+    },
+    {
+      "feature": "Custom bars and plates",
+      "detail": "Add custom bar and plate weights to the plate calculator.",
+      "quote": "Tap '+ Custom Bar' to add a custom bar size Tap '+ Custom Plate' to add a custom plate size",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34518876511383-How-to-use-the-Plate-Calculator-Logging-and-Adding-Custom-Plates-and-Bars",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Plate calculator for Smith machine",
+      "detail": "Plate calculator extended to Smith-machine hip thrust.",
+      "quote": "Plate Calculator is now available for Hip Thrust (Smith Machine) - quickly calculate your plate setup",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2025-12-18"
+    },
+    {
+      "feature": "Warm-up set calculator",
+      "detail": "Insert percentage-based warm-up sets for a target weight, with editable formula and plate/dumbbell rounding.",
+      "quote": "Hevy's warm-up calculator allows you to adjust some settings and more quickly add percentage-based warm-up sets to exercises",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35650921359639-How-to-Use-the-Warm-Up-Calculator-for-Percentage-Based-Warm-Up-Sets",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/warm-up-set-calculator/"
+      ]
+    },
+    {
+      "feature": "Exclude warm-ups from stats",
+      "detail": "Toggle whether warm-up sets count toward totals, volume and PRs.",
+      "quote": "Warm-up Sets When enabled, this feature includes warm-up sets in your workout statistics (Total sets, volume, and personal records).",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33882110558743-Workout-Settings-Preferences-Timer-Warm-up-calculator-Plate-Calculator-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-settings/"
+      ]
+    },
+    {
+      "feature": "Estimated one-rep max",
+      "detail": "Estimates 1RM from logged sets using a rep-percentage table.",
+      "quote": "Calculation of One Rep Max for all strength exercises",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/36954464726167-Understanding-Your-Estimated-One-Rep-Max-1RM-in-Hevy"
+      ]
+    },
+    {
+      "feature": "Kg and lb units",
+      "detail": "Choose weight, distance and body-measurement units globally.",
+      "quote": "From here, you can set the preferred units for weight, distance and body measurements",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34953292892823-How-to-change-the-measurement-units-Single-exercise-or-all-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-exercise weight unit",
+      "detail": "Override kg/lb for a single exercise.",
+      "quote": "You can also change the unit of measurement used for weight for specific exercises.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34953292892823-How-to-change-the-measurement-units-Single-exercise-or-all-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "First day of week setting",
+      "detail": "Choose which day the week/calendar starts on.",
+      "quote": "First Day of the Week This will set the day of the week the calendar begins.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33882110558743-Workout-Settings-Preferences-Timer-Warm-up-calculator-Plate-Calculator-Smart-Superset-Scrolling",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Dark mode",
+      "detail": "Dark appearance.",
+      "quote": "Dark Mode",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Haptic feedback",
+      "detail": "Haptic feedback on interactions.",
+      "quote": "more haptic feedback, a smoother dark mode experience",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-05-06"
+    },
+    {
+      "feature": "Female body model",
+      "detail": "Muscle heatmap figure follows the profile's sex; female assets added.",
+      "quote": "Female assets for muscle distribution!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-03-25",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35361145804439-How-to-Change-the-Heat-Map-Gender-in-the-Hevy-App"
+      ]
+    },
+    {
+      "feature": "Multiple languages",
+      "detail": "App available in English and 15 other languages.",
+      "quote": "English, Arabic, Catalan, French, German, Hindi, Italian, Japanese, Korean, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese, Turkish",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "No ads",
+      "detail": "App contains no advertising.",
+      "quote": "No ads and free.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.hevy"
+      ]
+    },
+    {
+      "feature": "Exercise library 400+",
+      "detail": "Built-in library of 400+ exercises with equipment and muscle filters and search.",
+      "quote": "Hevy's library has 400+ high-quality exercises.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688251991575-Hevy-Exercise-Library-400-Exercises-and-Custom-Exercises",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/exercise-library/"
+      ]
+    },
+    {
+      "feature": "Exercise demo videos",
+      "detail": "Exercises include demonstration videos/animations.",
+      "quote": "Hundreds of exercises with free high-quality videos for you to focus on your form",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35688251991575-Hevy-Exercise-Library-400-Exercises-and-Custom-Exercises"
+      ]
+    },
+    {
+      "feature": "Step-by-step exercise instructions",
+      "detail": "Written setup and execution instructions per exercise.",
+      "quote": "Step-by-step instructions on proper setup and execution",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688251991575-Hevy-Exercise-Library-400-Exercises-and-Custom-Exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Custom exercises",
+      "detail": "Create your own exercises with equipment, primary/secondary muscles, type and image/video.",
+      "quote": "Create your own custom exercises for your workouts",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34264544382615-How-to-Create-Edit-and-Duplicate-Custom-Exercises-in-Hevy"
+      ]
+    },
+    {
+      "feature": "Custom exercise media",
+      "detail": "Attach a photo, video or GIF to a custom exercise.",
+      "quote": "change the asset (you can add a photo, video, or GIF)",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688251991575-Hevy-Exercise-Library-400-Exercises-and-Custom-Exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Duplicate exercise",
+      "detail": "Copy a library exercise into a new custom one (e.g. per machine or to reset history).",
+      "quote": "Select Duplicate Exercise and add a clarification in the name",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43651329105687-Tracking-Progress-on-Gym-Machines-And-Why-It-Can-Be-Inconsistent",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35119576252951-Reset-Data-Duplicate-Exercise-Routines-and-Manual-Deletion"
+      ]
+    },
+    {
+      "feature": "Eight exercise types",
+      "detail": "Weight & reps, bodyweight, weighted/assisted bodyweight, duration, duration & weight, distance & duration, weight & distance.",
+      "quote": "You can choose between weight & reps (e.g., bench press), bodyweight reps (e.g., pull-ups), weighted bodyweight (e.g., weighted dips), assisted bodyweight (e.g., assisted pull-ups), duration (e.g., plank)",
+      "url": "https://www.hevyapp.com/features/custom-exercises/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Pre-built program library",
+      "detail": "26 ready-made programs filterable by level, goal and equipment, saved as routine folders.",
+      "quote": "Hevy has a pre-built library of 26 training programs and seven routine categories.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011518408983-How-to-Access-and-Use-Hevy-s-Routine-and-Program-Library",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-workout-routines/"
+      ]
+    },
+    {
+      "feature": "Pre-built routine categories",
+      "detail": "Single-workout categories: at home, travel, dumbbells only, band, cardio & HIIT, gym, bodyweight.",
+      "quote": "At home Travel Dumbbells only Band Cardio & HIIT Gym Bodyweight",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011518408983-How-to-Access-and-Use-Hevy-s-Routine-and-Program-Library",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Save routines from blog",
+      "detail": "Open routines linked in blog articles and save them to your library.",
+      "quote": "If you click this link, it will bring you to the routine and you can save it to your library from there.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36011518408983-How-to-Access-and-Use-Hevy-s-Routine-and-Program-Library",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Generated personalized program",
+      "detail": "Algorithmic program generated from goal, experience, equipment, frequency, duration and focus muscle.",
+      "quote": "Hevy Trainer is a new feature for Hevy Pro users that will provide a workout program based on your goals and preferences.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38385724273047-Hevy-Trainer-Explained-How-It-Builds-Your-Workout-Program",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-plan-generator/",
+        "https://www.hevyapp.com/announcing-hevy-trainer/"
+      ]
+    },
+    {
+      "feature": "Progressive overload suggestions",
+      "detail": "Tells you when and how much to increase weight based on performance.",
+      "quote": "Hevy Trainer has a progressive overload feature that will let you know when to increase your weight and by how much based on your performance.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38385724273047-Hevy-Trainer-Explained-How-It-Builds-Your-Workout-Program",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Progression for reps-only exercises",
+      "detail": "Progressive overload supports bodyweight reps-only exercises.",
+      "quote": "Progressive Overload now supports reps-only exercises (pull-ups, push-ups, etc.)",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-20"
+    },
+    {
+      "feature": "Suggested starting weights",
+      "detail": "Recommended starting weights for exercises logged before.",
+      "quote": "Suggested starting weights for new exercises ( when you've logged the exercise at least once before )",
+      "url": "https://www.hevyapp.com/announcing-hevy-trainer/",
+      "sourceType": "website",
+      "date": "2026-02-18"
+    },
+    {
+      "feature": "Stall reminders",
+      "detail": "Prompts to push harder when progression stalls.",
+      "quote": "Gentle reminders to maintain intensity if progress stalls",
+      "url": "https://www.hevyapp.com/announcing-hevy-trainer/",
+      "sourceType": "website",
+      "date": "2026-02-18",
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-plan-generator/"
+      ]
+    },
+    {
+      "feature": "Program progress report",
+      "detail": "Weekly consistency, exercise progress, sets per body part vs recommended range, weekly average bodyweight.",
+      "quote": "you can view your trainer progression using the Progress Report, exclusive to Hevy Trainer",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38385724273047-Hevy-Trainer-Explained-How-It-Builds-Your-Workout-Program",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-plan-generator/"
+      ]
+    },
+    {
+      "feature": "Recommended weekly sets range",
+      "detail": "Shows sets per body part and whether you are in the recommended (green) range.",
+      "quote": "a chart showing the number of sets per body part, and if you fall into the recommended (green) range",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Full program view",
+      "detail": "See the entire generated program at a glance.",
+      "quote": "You can now see your full Trainer program!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-06-25",
+      "alsoAt": [
+        "https://www.hevyapp.com/community-updates/july-26/"
+      ]
+    },
+    {
+      "feature": "Next-workout preview",
+      "detail": "Each generated workout shows exercise count, estimated duration and preview.",
+      "quote": "Each Trainer workout includes an overview: the number of exercises, the estimated duration, and a preview of the workout.",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Modify generated workouts",
+      "detail": "Add, remove, swap or reorder exercises in the next generated workout.",
+      "quote": "Trainer also allows you to make adjustments, such as adding, removing, swapping, or rearranging exercises.",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Suggested exercise alternatives",
+      "detail": "Replacing an exercise offers four recommended alternatives.",
+      "quote": "choose from four suitable alternatives recommended by Trainer at the top",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "One-off or permanent swap",
+      "detail": "Swap an exercise for just one session or for all future workouts.",
+      "quote": "When swapping exercises, Trainer asks if the change should be permanent or apply only to the current session.",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/community-updates/july-26/"
+      ]
+    },
+    {
+      "feature": "Excluded exercises list",
+      "detail": "Mark exercises 'Don't recommend again' and manage the exclusion list.",
+      "quote": "The Excluded Exercises setting contains exercises that you do not want Trainer to recommend.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Injury-aware programming",
+      "detail": "Flag injured body areas so the program avoids or warns on aggravating exercises.",
+      "quote": "Injury Management lets you flag injuries so Trainer can adapt your program around them.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-06",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work"
+      ]
+    },
+    {
+      "feature": "Program variety setting",
+      "detail": "Control how often program exercises rotate (consistent, ~6-weekly, weekly).",
+      "quote": "Program Variety setting lets you control how often your Trainer exercises change.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-06",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work"
+      ]
+    },
+    {
+      "feature": "Program equipment profiles",
+      "detail": "Equipment presets (home, garage, commercial, large gym) or custom, incl. available dumbbell/plate/bar weights.",
+      "quote": "You can now choose more granular equipments for trainer programs!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-04-09",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work"
+      ]
+    },
+    {
+      "feature": "Available dumbbell and plate weights",
+      "detail": "Specify exact dumbbell, plate and bar weights you own for program suggestions.",
+      "quote": "Tap Dumbbells to select your available dumbbell weights. Tap Plates to select your available plate weights. Tap Barbell to select your available bar weights.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Focus muscle group",
+      "detail": "Choose a muscle group to emphasise in the generated program.",
+      "quote": "The Focus Muscle Group setting allows you to choose a muscle group that you want to emphasize in your program.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Target workout duration",
+      "detail": "Set the desired length of generated workouts.",
+      "quote": "The Workout Duration setting controls the desired estimated length of each Trainer workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Program rest timer length",
+      "detail": "Short/medium/long default rest for generated workouts.",
+      "quote": "you can now change the default rest timer, with shorter and longer options to match how you train.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-05-06",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work"
+      ]
+    },
+    {
+      "feature": "Cardio in generated workouts",
+      "detail": "Add cardio at the start or end of generated workouts, or disable it.",
+      "quote": "You can: Disable cardio. Add cardio at the beginning of your workout. Add cardio at the end of your workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Split type selection",
+      "detail": "Choose Full Body, Upper/Lower or Push/Pull/Legs for the program.",
+      "quote": "Switch up your split: Full Body, Upper/Lower, Push Pull Legs and more - your training, your call.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-28",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work"
+      ]
+    },
+    {
+      "feature": "Training goal selection",
+      "detail": "Gain strength, build muscle or fat loss goal shapes rep ranges.",
+      "quote": "Available goals: Gain Strength Build Muscle Fat Loss",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Experience level setting",
+      "detail": "Beginner, intermediate or advanced level for the program.",
+      "quote": "Available options: Beginner Intermediate Advanced",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Weekly frequency setting",
+      "detail": "Choose 1-6 workouts per week; default split follows.",
+      "quote": "The Frequency setting controls how many Trainer workouts you are assigned each week.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Female program templates",
+      "detail": "Program templates personalized for female athletes.",
+      "quote": "Female templates: better personalization for our Athletes!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-08-28"
+    },
+    {
+      "feature": "Reorder program workouts",
+      "detail": "Rearrange the order of workouts in the generated program.",
+      "quote": "the three dots icon opens a menu with options to rearrange the workouts or access the program's settings",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Restart program",
+      "detail": "Restart the generated program.",
+      "quote": "You can also restart your program.",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "In-program workout tips",
+      "detail": "Small workout tips shown in the generated program.",
+      "quote": "Additionally, Trainer offers small workout tips to keep you informed:",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Program science explainer",
+      "detail": "In-app section explaining the research behind programming decisions.",
+      "quote": "Scroll down a bit further, and you'll see Science Behind Hevy Trainer .",
+      "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "ChatGPT app integration",
+      "detail": "In-ChatGPT app (@hevy) that reads your history, analyses progress and builds plans saved to your account.",
+      "quote": "you can dig deeper into your training and progress, ask questions about your workout history, and create workout plans tailored to your goals, equipment, and schedule - all from ChatGPT and saved straight to your Hevy account.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43652076665239-What-is-the-Hevy-App-on-ChatGPT",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/hevy-chatgpt/"
+      ]
+    },
+    {
+      "feature": "AI-generated plan import",
+      "detail": "Plans built in ChatGPT are saved directly as routines in the app.",
+      "quote": "Generate tailored training plans, analyze your progress and trends, or simply ask for a perfect next workout based on previous performance.",
+      "url": "https://www.hevyapp.com/features/hevy-chatgpt/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Send workout to AI assistants",
+      "detail": "Send a finished workout to ChatGPT or Claude from the finish screen for feedback.",
+      "quote": "You can now Send workouts to ChatGPT & Claude directly from the finish workout screen!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-09-03",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts"
+      ]
+    },
+    {
+      "feature": "Exercise progress charts",
+      "detail": "Full-screen graphs of heaviest weight, 1RM, set/session volume and total reps per exercise.",
+      "quote": "Analyze the progression of your lifts with beautiful full-screen graphs of volume, best weight & total reps",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises"
+      ]
+    },
+    {
+      "feature": "Cardio pace and distance charts",
+      "detail": "Cardio exercises chart best pace, longest distance and longest time.",
+      "quote": "For cardio exercises, you can view your Best Pace, Longest Distance and Longest Time on the graph",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise history",
+      "detail": "List of every past session of an exercise with sets and weights.",
+      "quote": "If you navigate to an exercise and tap the History tab, you will be able to see all of the workouts you have completed for this exercise",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Personal records tracking",
+      "detail": "PRs per exercise type: heaviest weight, best 1RM, best set/session volume, most reps, best time, longest distance.",
+      "quote": "Heaviest weight: The heaviest weight you've ever lifted Best 1RM:",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35649367857175-Personal-Records-PRs-and-Set-Records-Explained-How-They-Work-in-the-Hevy-App",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/38279531346455-Set-Records-vs-Personal-Records"
+      ]
+    },
+    {
+      "feature": "Set records table",
+      "detail": "Heaviest weight lifted for each rep count.",
+      "quote": "it displays the heaviest weight you've lifted for that specific number of repetitions.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35649367857175-Personal-Records-PRs-and-Set-Records-Explained-How-They-Work-in-the-Hevy-App",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Live PR notifications",
+      "detail": "Banner and sound the moment a set beats a personal record.",
+      "quote": "When you check off a set and achieve a Personal Record, a banner will appear letting you know what PR you have achieved.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36012016405655-Hevy-Live-PR-Notifications-Get-Instant-Updates-on-Your-Best-Lifts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/live-pr/"
+      ]
+    },
+    {
+      "feature": "PR medals on workouts",
+      "detail": "Medals shown on PR sets in saved workouts.",
+      "quote": "a medal will appear for the set the PR was achieved and in the workout information once you have saved the workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38279531346455-Set-Records-vs-Personal-Records",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strength level percentile",
+      "detail": "Beginner-to-Elite rating vs users of same sex, age and bodyweight, with percentile, on selected lifts.",
+      "quote": "It will also let you know what percentage of people in this group you are stronger than.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38001696749335-Strength-Level-Feature-How-Hevy-Compares-Your-Strength-by-Exercise",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Muscle group graphs",
+      "detail": "Muscle-group breakdown of each workout session.",
+      "quote": "Analyze your workout sessions in detail with muscle group graphs",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "7-day body heatmap",
+      "detail": "Workouts in the last 7 days with trained muscles on a body heatmap.",
+      "quote": "You can see how many times you've worked out in the previous seven days and what muscles you've trained during this time on the body heat map.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/muscle-group-workout-chart/"
+      ]
+    },
+    {
+      "feature": "Sets per muscle group chart",
+      "detail": "Weekly/monthly/yearly set counts per selectable muscle group.",
+      "quote": "This section includes a breakdown of how many sets you have done for each of the different muscle groups.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/sets-per-muscle-group-per-week/"
+      ]
+    },
+    {
+      "feature": "Muscle distribution chart",
+      "detail": "Volume split across muscles, compared with the previous period.",
+      "quote": "The muscle distribution chart allows you to see how you have divided your training volume between different muscles.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/training-chart/"
+      ]
+    },
+    {
+      "feature": "Weekly muscle body diagram",
+      "detail": "Sets per muscle per calendar week on a body diagram.",
+      "quote": "This section allows you to see the number of sets per muscle group from week to week, along with a muscle diagram",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Most-logged exercises",
+      "detail": "Your most frequent exercises over a chosen period.",
+      "quote": "This section provides an overview of the exercises you've logged most often in the past 30 days, three months, year, or since the start.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Monthly report",
+      "detail": "Recap of last month: workouts, duration, volume, sets, PRs, calendar, muscles, top exercises, photos.",
+      "quote": "This section gives you a detailed report from the last completed month.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35702030346903-Hevy-Statistics-Explained-Track-Your-Training-Progress-and-Muscle-Growth",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/monthly-report/"
+      ]
+    },
+    {
+      "feature": "Year in review",
+      "detail": "Annual December recap of stats, top month, muscles, exercises, supporters, streak and PRs.",
+      "quote": "Every December, Hevy highlights your training stats and consistency.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35700454899991-Discover-Your-Hevy-Training-Stats-with-the-Yearly-Review",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/year-in-review/"
+      ]
+    },
+    {
+      "feature": "Profile dashboard trends",
+      "detail": "Profile shows week-to-week time, volume and reps.",
+      "quote": "You'll be able to see your time spent training, volume, and number of reps from week to week.",
+      "url": "https://www.hevyapp.com/hevy-tutorial/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Workout calendar",
+      "detail": "Calendar of all workout days; tap a day to open or log a workout.",
+      "quote": "Use the calendar to stay on top of your training schedule",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35380117933207-Track-Your-Workout-Consistency-with-the-Calendar-and-Streak-Features"
+      ]
+    },
+    {
+      "feature": "Year and multi-year calendar",
+      "detail": "Zoom the calendar out to a whole year or all years.",
+      "quote": "You can now zoom out on your training and see your gym calendar for the whole year:",
+      "url": "https://www.hevyapp.com/features/gym-consistency/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Weekly streak",
+      "detail": "Count of consecutive weeks with at least one workout.",
+      "quote": "one that shows your current active streak (how many weeks in a row you have completed a workout)",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35380117933207-Track-Your-Workout-Consistency-with-the-Calendar-and-Streak-Features",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-consistency/"
+      ]
+    },
+    {
+      "feature": "Streak recovery by backfilling",
+      "detail": "Log a past workout in a missed week to restore the streak.",
+      "quote": "you can enter a past workout for that week to recover your streak.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34467766576279-How-to-Get-Your-Weekly-Streak-Back-in-the-Hevy-App",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest days counter",
+      "detail": "Shows days since your last workout.",
+      "quote": "it will show you how many rest days you have had since your last completed workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35380117933207-Track-Your-Workout-Consistency-with-the-Calendar-and-Streak-Features",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout count milestones",
+      "detail": "Ordinal workout number and streak shown after saving.",
+      "quote": "Ordinal number of your workout (e.g., 472nd)",
+      "url": "https://www.hevyapp.com/features/track-workouts/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Volume comparisons",
+      "detail": "Fun real-world comparison of total weight lifted.",
+      "quote": "You lifted a total of 12 610 kg. That's like lifting a truck!",
+      "url": "https://www.hevyapp.com/features/workout-log/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Watch heart rate and calories on workouts",
+      "detail": "Workouts recorded on a watch show average HR, HR graph and calories.",
+      "quote": "Hevy workouts logged on a smartwatch (WatchOS or WearOS) also include an average heart rate, a heart rate graph throughout the session, and calories burned.",
+      "url": "https://www.hevyapp.com/features/athlete-workouts/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Body measurements",
+      "detail": "Log weight, body fat % and 14 circumferences with graphs per measurement.",
+      "quote": "Hevy allows you to log weight, body fat, and 14 circumference measurements.",
+      "url": "https://www.hevyapp.com/features/gym-progress/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35385479603479-Body-Composition-Tracking-Measurements-and-Progress-Photos"
+      ]
+    },
+    {
+      "feature": "Left/right limb measurements",
+      "detail": "Separate left and right bicep, forearm, thigh and calf circumferences.",
+      "quote": "left and right bicep, left and right forearm, left and right thigh, and left and right calf.",
+      "url": "https://www.hevyapp.com/features/track-body-measurements/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Lean body mass",
+      "detail": "Log lean body mass, read/written with Apple Health.",
+      "quote": "Hevy can now read and write lean body mass to Apple Health.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2025-12-05"
+    },
+    {
+      "feature": "Progress photos",
+      "detail": "Private dated progress photos, one per day, with or without measurements.",
+      "quote": "Progress photos are only able to be seen by you unless you share them outside of Hevy.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385479603479-Body-Composition-Tracking-Measurements-and-Progress-Photos",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/progress-photos/"
+      ]
+    },
+    {
+      "feature": "Progress photo overlay",
+      "detail": "Ghost overlay of your last photo to line up the camera.",
+      "quote": "If you tap this, it will add an overlay of your last taken progress photo so you can line yourself up with it to get consistent angles.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385479603479-Body-Composition-Tracking-Measurements-and-Progress-Photos",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Progress photo comparison",
+      "detail": "Compare two progress photos side by side.",
+      "quote": "Tap on any photo for additional options, such as to compare it to another",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385479603479-Body-Composition-Tracking-Measurements-and-Progress-Photos",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/progress-photos/"
+      ]
+    },
+    {
+      "feature": "Backdated measurements",
+      "detail": "Enter measurements/photos for an earlier date.",
+      "quote": "you can use the scroll function to enter the correct date.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35385479603479-Body-Composition-Tracking-Measurements-and-Progress-Photos",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Follow other users",
+      "detail": "Follow friends and athletes and see their workouts in a home feed.",
+      "quote": "Follow your friend's progress by following their lifts and copying their routines",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts"
+      ]
+    },
+    {
+      "feature": "Discover feed",
+      "detail": "Feed of workouts from people you don't follow.",
+      "quote": "Discover Workouts from people you do not follow.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/discovery-feed/"
+      ]
+    },
+    {
+      "feature": "Suggested athletes",
+      "detail": "Recommended users to follow, can be hidden.",
+      "quote": "You can also find people through Suggested Athletes on the Home tab or by browsing Discover.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Search users",
+      "detail": "Find people by username.",
+      "quote": "Search for someone Home > Search icon > Enter their username",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Contacts friend finder",
+      "detail": "Find contacts using the app after phone-number verification.",
+      "quote": "Hevy allows you to connect your phone contacts to find people you know who are also using the app.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38029872435351-Find-and-Connect-Contacts-on-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Invite friends",
+      "detail": "Invite via WhatsApp, Messenger, Facebook, X, contacts or a link.",
+      "quote": "You can invite friends from WhatsApp, Messenger, Facebook, X (Twitter), and your contact list",
+      "url": "https://www.hevyapp.com/features/social-features/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Likes on workouts",
+      "detail": "Like other users' workouts.",
+      "quote": "On workout posts, you can like the workout, leave a comment, or reply to other comments.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/"
+      ]
+    },
+    {
+      "feature": "Comments and replies",
+      "detail": "Comment on workouts, reply, like comments, include links.",
+      "quote": "You can also include links in your comments.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/content-feed/"
+      ]
+    },
+    {
+      "feature": "Comment mentions",
+      "detail": "Mention users in comments with notifications.",
+      "quote": "Comment Mentions Receive a notification when another user mentions you in a comment.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33845807003671-Account-Settings-Preferences-Profile-Information-Adjust-username-password-or-email-address-Notifications",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Delete comments on own posts",
+      "detail": "Delete your comments and others' comments on your workouts.",
+      "quote": "You can delete your own comments on anyone's posts, and you can also delete other people's comments from your own posts.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38030200802583-How-to-Delete-Comments-Sets-Workouts-Routines-Your-Hevy-Account",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Private profile",
+      "detail": "Require approval of follow requests.",
+      "quote": "Set up your profile as a private profile or a public one",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34461853165079-How-to-keep-my-information-private-Account-Single-Private-Workout-Remove-Social-Media-Features"
+      ]
+    },
+    {
+      "feature": "Hide suggested users",
+      "detail": "Turn off follow suggestions.",
+      "quote": "Hide suggested users Profile > Settings > Privacy & Social > Hide Suggested Users > Turn on",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Block and report users",
+      "detail": "Block, unblock and report users.",
+      "quote": "From here, you can view your blocked users and choose to unblock them if needed.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34461853165079-How-to-keep-my-information-private-Account-Single-Private-Workout-Remove-Social-Media-Features",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/user-profiles/"
+      ]
+    },
+    {
+      "feature": "Per-user workout notifications",
+      "detail": "Get notified whenever a specific user saves a workout.",
+      "quote": "Workout Notifications - get a push notification each time the user saves a workout",
+      "url": "https://www.hevyapp.com/features/user-profiles/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Public user profiles",
+      "detail": "Profiles with bio, link, media, follower counts and weekly activity graph.",
+      "quote": "A user's profile brings together their workout history, routines, weekly activity, photos, and videos.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/user-profiles/"
+      ]
+    },
+    {
+      "feature": "Profile bio and link",
+      "detail": "Add profile picture, name, bio and a URL.",
+      "quote": "Link Add a URL to your profile, such as a website or social media page.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33845807003671-Account-Settings-Preferences-Profile-Information-Adjust-username-password-or-email-address-Notifications",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Mutual followers shown",
+      "detail": "See which friends also follow a profile.",
+      "quote": "Below the Follow button, you can see which of your friends also follow that person.",
+      "url": "https://www.hevyapp.com/features/user-profiles/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Save others' routines",
+      "detail": "Browse another user's routines and save them.",
+      "quote": "You can scroll through the user's saved routines, tap on each for details, and save any routine you like to your library.",
+      "url": "https://www.hevyapp.com/features/user-profiles/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Copy friends' workouts",
+      "detail": "Start a workout copied from a friend's session.",
+      "quote": "Copy your friends' workouts",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Compare stats with a user",
+      "detail": "Side-by-side muscle split, workouts, duration, volume over 30d/3m/1y/all.",
+      "quote": "There is a profile comparison and then exercise comparison.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38223346135191-How-to-Compare-Your-Progress-With-Friends-on-Hevy",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/workout-comparison/"
+      ]
+    },
+    {
+      "feature": "Exercise comparison with a user",
+      "detail": "Compare PRs and who is stronger on a shared exercise.",
+      "quote": "Tap this Compare option and you will be able to see who is stronger in the given exercise and a comparison of your PRs for the exercise.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38223346135191-How-to-Compare-Your-Progress-With-Friends-on-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Friends leaderboards",
+      "detail": "Rank yourself vs people you follow by heaviest lift on selected exercises.",
+      "quote": "The Leaderboard lets you see how you compare to the users you follow for a specific exercise.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38224023680407-Hevy-Exercise-Leaderboard-How-It-Works-and-Where-to-Find-It",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-leaderboard/"
+      ]
+    },
+    {
+      "feature": "Workout photos and video",
+      "detail": "Attach up to three photos or two photos + one video to a workout.",
+      "quote": "You can attach up to three photos, or two photos and one video, to a workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/gym-selfie-footage/"
+      ]
+    },
+    {
+      "feature": "Social share cards",
+      "detail": "Generated share images of workouts, PRs, volume with dark/light/transparent backgrounds.",
+      "quote": "Choose a dark, light, or transparent background, then share the design or save it as an image.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/shareable/"
+      ]
+    },
+    {
+      "feature": "Instagram story sharing",
+      "detail": "Share cards directly to Instagram Stories.",
+      "quote": "Navigate to the screen you want to share, tap Stories , and share.",
+      "url": "https://www.hevyapp.com/features/shareable/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Share exercise summary",
+      "detail": "Share an exercise's performance and PR summary outside the app.",
+      "quote": "You can tap the upright arrow icon on the top right beside the three dots to share a summary of your performance and personal records for this exercise",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Share stats charts",
+      "detail": "Share any stats graph or weekly muscle overview.",
+      "quote": "You can tap the upward arrow icon on the top right to share any graph you've generated on social media or elsewhere outside Hevy.",
+      "url": "https://www.hevyapp.com/features/sets-per-muscle-group-per-week/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Share calendar",
+      "detail": "Share your calendar view.",
+      "quote": "Tap the upright arrow icon on the top right and share your preferred gym calendar view with friends outside Hevy:",
+      "url": "https://www.hevyapp.com/features/gym-consistency/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Share workout link",
+      "detail": "Share a completed workout as a link viewable without an account.",
+      "quote": "Workouts and routines can be shared with people who do not currently use Hevy.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34953501503895-How-to-Share-Workouts-and-Routines-in-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Share routines",
+      "detail": "Share a routine by link; recipients can save it.",
+      "quote": "Share a routine Workout > Three dots beside the routine > Share Routine",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/share-folders-routines/"
+      ]
+    },
+    {
+      "feature": "Share routine folders",
+      "detail": "Share a whole folder by link or as an image.",
+      "quote": "You can share it on a different platform (similar to routines), generate a link to post anywhere",
+      "url": "https://www.hevyapp.com/features/share-folders-routines/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Share profile",
+      "detail": "Share a user profile outside the app.",
+      "quote": "The upward arrow icon on the top right allows you to share the user's profile outside Hevy.",
+      "url": "https://www.hevyapp.com/features/user-profiles/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "iMessage stickers",
+      "detail": "Sticker pack for iMessage.",
+      "quote": "iMessage stickers to lift Hevy",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Coach connection",
+      "detail": "Connect to a personal trainer's coaching account; a Coach tab appears.",
+      "quote": "Accepting your coach's invitation will generate a new Coach tab inside Hevy.",
+      "url": "https://www.hevyapp.com/features/strength-coach/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Coach-assigned programs",
+      "detail": "Log programs assigned by your coach, with program notes.",
+      "quote": "Navigate to the Coach tab to see the assigned workouts.",
+      "url": "https://www.hevyapp.com/features/strength-coach/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Chat with coach",
+      "detail": "Message your coach and send photos and videos.",
+      "quote": "You can also send them videos and images.",
+      "url": "https://www.hevyapp.com/features/strength-coach/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Auto-share data with coach",
+      "detail": "Workouts, measurements and progress photos flow to the coach automatically.",
+      "quote": "as you upload body measurements (read about this option here ) and progress photos (read about them here ), your trainer gains instant access to the platform.",
+      "url": "https://www.hevyapp.com/features/strength-coach/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Coach logs for you",
+      "detail": "Coach can log your prescribed workout on their phone in person.",
+      "quote": "The Hevy Coach mobile app lets your trainer see and log your prescribed workouts on their phone while coaching you in person.",
+      "url": "https://www.hevyapp.com/features/strength-coach/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Apple Watch app",
+      "detail": "Track workouts entirely from Apple Watch.",
+      "quote": "Leave your phone in the locker room, and track your workouts completely from your Apple Watch or WearOS device.",
+      "url": "https://www.hevyapp.com/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id1458862350"
+      ]
+    },
+    {
+      "feature": "Watch-phone live sync",
+      "detail": "Workout syncs live between watch and phone.",
+      "quote": "Live sync your Apple Watch workout with your phone",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Routines on watch",
+      "detail": "Start saved routines on the watch.",
+      "quote": "Use your Hevy routines on your Apple Watch",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Watch set logging",
+      "detail": "Log weight-lifting sets on the watch.",
+      "quote": "Easily track your weight lifting sets",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Watch set types",
+      "detail": "Mark warm-up, normal, drop and failure sets on the watch.",
+      "quote": "Mark sets as Warmup, Normal, Drop sets, or Failure",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Watch complications",
+      "detail": "Complications for watch faces.",
+      "quote": "Use Hevy Apple Watch Complications on your Watch Face",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Custom watch faces",
+      "detail": "Downloadable branded Apple Watch faces.",
+      "quote": "Today we're introducing support for 4 new Hevy custom watch faces for the Apple Watch!",
+      "url": "https://www.hevyapp.com/hevy-apple-watch-custom-face/",
+      "sourceType": "website",
+      "date": "2020-10-08",
+      "alsoAt": [
+        "https://www.hevyapp.com/"
+      ]
+    },
+    {
+      "feature": "Heart rate during workout",
+      "detail": "Heart rate tracked during the workout on the watch.",
+      "quote": "Keep track of your heart rate during your workout",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Watch duration timers",
+      "detail": "Timers for duration exercises on the watch.",
+      "quote": "Helpful timers for duration exercises",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Watch offline auto-save",
+      "detail": "Watch workouts save automatically when reconnecting to the phone.",
+      "quote": "Watch workouts automatically save when reconnecting to iPhone",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/"
+      ]
+    },
+    {
+      "feature": "Generated workout on watch",
+      "detail": "See the next generated program workout on Apple Watch.",
+      "quote": "Hevy Trainer is now on your wearable! You can now see your next trainer workout on your apple watch.",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-03-25"
+    },
+    {
+      "feature": "AirPods heart rate",
+      "detail": "Use AirPods Pro 3 biometrics (heart rate) while logging.",
+      "quote": "Added support for Airpods Pro 3 biometrics integration when logging a workout!",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "release_notes",
+      "date": "2026-01-22"
+    },
+    {
+      "feature": "Wear OS app",
+      "detail": "Companion app for Wear OS watches.",
+      "quote": "The Hevy Wear OS app works exclusively on smartwatches that use the Wear OS operating system.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34895840771479-WearOS-Watch-Compatibility-and-Syncing-Troubleshooting",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.hevy"
+      ]
+    },
+    {
+      "feature": "Wear OS tile",
+      "detail": "Tile for quick access on Wear OS.",
+      "quote": "Use Hevy Wear OS Tile to easily access Hevy",
+      "url": "https://play.google.com/store/apps/details?id=com.hevy",
+      "sourceType": "google_play",
+      "date": null
+    },
+    {
+      "feature": "Live Activity",
+      "detail": "Lock-screen live activity with current exercise, set, weights, duration and rest timer.",
+      "quote": "Live activity on your lock screen",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35649846517399-How-to-Use-Hevy-s-Live-Activity-on-iOS-and-Android"
+      ]
+    },
+    {
+      "feature": "Dynamic Island",
+      "detail": "Workout shown in the Dynamic Island.",
+      "quote": "Dynamic island to never lose track of your workout",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Complete sets from lock screen",
+      "detail": "Mark sets complete from the live activity without unlocking.",
+      "quote": "mark set as completed without unlocking your phone or opening the app.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35649846517399-How-to-Use-Hevy-s-Live-Activity-on-iOS-and-Android",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest timer controls on lock screen",
+      "detail": "Adjust +/-15s or skip rest from the live activity.",
+      "quote": "You can increase or decrease the rest timer in 15-second increments or skip it altogether from the widget.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35649846517399-How-to-Use-Hevy-s-Live-Activity-on-iOS-and-Android",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Home screen widgets",
+      "detail": "Multiple home-screen widgets for stats, calendar and quick actions.",
+      "quote": "Widgets for quick access",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them"
+      ]
+    },
+    {
+      "feature": "Stats widget",
+      "detail": "Configurable widget: volume, reps, duration, sets or workouts over 7 days or 3 months.",
+      "quote": "It can display total volume, reps, duration, sets, or number of workouts completed in either the past 7 days or 3 months.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Calendar widget",
+      "detail": "Widget showing the workout calendar, optionally with monthly stats.",
+      "quote": "The calendar widget displays the Calendar in Hevy that displays your workouts and rest days.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Weekly comparison widget",
+      "detail": "Weekly volume/duration/workouts/sets/reps vs previous week.",
+      "quote": "will also compare it to the previous week.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Routine of the day widget",
+      "detail": "Assign routines to weekdays; widget shows and starts today's routine.",
+      "quote": "This widget can be used to schedule routines for specific days of the week.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Quick access widget",
+      "detail": "Widget to start an empty workout, a routine or log a measurement.",
+      "quote": "You can either begin an empty workout, start a specific routine, or log a measurement in the app by tapping on this widget.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Routines widget",
+      "detail": "Widget showing a routine folder or latest routines.",
+      "quote": "This app can be used to display either a specific folder of routines or the latest routines you have used for a workout.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Streak widget",
+      "detail": "Widget showing current streak.",
+      "quote": "This widget will display your current streak on Hevy",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest days widget",
+      "detail": "Widget showing days since last workout.",
+      "quote": "This widget will display how many rest days have passed since your last workout",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Last week workouts widget",
+      "detail": "Widget showing workouts and rest days over the past 7 days.",
+      "quote": "This widget displays the workouts and rest days for the past 7 days.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "iPad app",
+      "detail": "Full iPad app.",
+      "quote": "Fully featured iPad app",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Android app",
+      "detail": "Available on Android via Google Play.",
+      "quote": "Hevy is a free workout tracker for iOS and Android.",
+      "url": "https://www.hevyapp.com/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.hevy"
+      ]
+    },
+    {
+      "feature": "Web app",
+      "detail": "Use on desktop browser at hevy.com to plan routines, analyse progress and see friends' workouts.",
+      "quote": "Use Hevy on the desktop and get a big screen view of your routines, exercise progress, and see your friend's workouts!",
+      "url": "https://www.hevyapp.com/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Cloud account sync",
+      "detail": "Data stored on servers and available across devices and platforms.",
+      "quote": "Your information on Hevy is stored to your profile on our servers, not to your device",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38223672272791-What-will-happen-to-my-information-if-I-uninstall-and-reinstall-the-Hevy-app",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34462203494679-Login-Options-Explained-Email-Password-Google-and-Apple-Sign-In"
+      ]
+    },
+    {
+      "feature": "Apple Health workout export",
+      "detail": "Write workouts to Apple Health.",
+      "quote": "Hevy uses HealthKit and CareKit to export your Hevy workouts into the Health app",
+      "url": "https://apps.apple.com/us/app/id1458862350",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/36957445562775-Hevy-Not-Syncing-to-Apple-Health-Step-by-Step-Troubleshooting-Guide"
+      ]
+    },
+    {
+      "feature": "Active calories to Apple Health",
+      "detail": "Workouts sent to Health with an active-calorie estimate.",
+      "quote": "the workout will get sent to Apple Health with a rough estimate of how many calories were burned in the workout",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34462684813079-How-to-see-the-calories-burned-in-a-workout-Apple-iOS-Android",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Health Connect sync",
+      "detail": "Android Health Connect integration (onward to Google Fit, Samsung Health).",
+      "quote": "Once this is done, Health Connect will act as a \"middle-man\" and send data it receives from Hevy to MyFitnessPal",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34895971528727-How-to-Connect-to-MyFitnessPal-Apple-Health-Health-Connect",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/34204824335255-How-to-Connect-Hevy-to-Google-Fit-Using-Health-Connect"
+      ]
+    },
+    {
+      "feature": "Per-workout sync toggles",
+      "detail": "Choose per workout whether it syncs to Apple Health / Strava.",
+      "quote": "Sync - if you have any active integrations, you can select where the workout appears (for example, in Apple Health and Strava ).",
+      "url": "https://www.hevyapp.com/features/workout-log/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Strava sync",
+      "detail": "One-way automatic sync of completed workouts to Strava.",
+      "quote": "Hevy can be integrated with Strava so that your completed Hevy workouts are automatically sent to Strava",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38279744541591-Using-Hevy-with-Strava-Setup-Syncing-and-Editing-Workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://www.hevyapp.com/features/strava-integration/"
+      ]
+    },
+    {
+      "feature": "Detailed Strava workout data",
+      "detail": "Strava activities include full exercise, set, rep/duration and weight detail plus muscle graph.",
+      "quote": "sending all the granular workout details that matter: a full list of exercises, sets, reps (or duration), and weight.",
+      "url": "https://www.hevyapp.com/community-updates/july-26/",
+      "sourceType": "website",
+      "date": "2026-07-03",
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/36955024819735-Strava-Hevy-Sync-Issues-Step-by-Step-Troubleshooting-Guide"
+      ]
+    },
+    {
+      "feature": "Import from Strong",
+      "detail": "Import workout history from a Strong CSV export, with undo.",
+      "quote": "In Hevy you can import a direct export CSV from the Strong app.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/38001424401943-How-to-Import-Strong-App-CSV-Files-and-Export-Your-Data-in-Hevy",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://help.hevyapp.com/hc/en-us/articles/35687878672663-Importing-Strong-Data-into-Hevy"
+      ]
+    },
+    {
+      "feature": "Revert data import",
+      "detail": "Undo a previous CSV import.",
+      "quote": "If Strong data has previously been imported, you should see an option to revert the import.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/35687878672663-Importing-Strong-Data-into-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Export workouts CSV",
+      "detail": "Export workout history as a spreadsheet-readable file.",
+      "quote": "Hevy exports data in a format that can be opened in spreadsheet programs such as Google Sheets, Microsoft Excel",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43708290987415-Exporting-Your-Data-from-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Export measurements",
+      "detail": "Export body measurement data.",
+      "quote": "You can export either your workout data or your measurement data .",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43708290987415-Exporting-Your-Data-from-Hevy",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Sign in with Apple or Google",
+      "detail": "Email/password, Google and Apple sign-in.",
+      "quote": "You can sign in to Hevy using your email address or username and password.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34462203494679-Login-Options-Explained-Email-Password-Google-and-Apple-Sign-In",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "In-app account deletion",
+      "detail": "Permanently delete account from settings.",
+      "quote": "Deleting your account is simple to do in the Hevy app.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34895456326423-Delete-Your-Hevy-or-Hevy-Coach-Account-Easily-Full-Tutorial",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Granular notification settings",
+      "detail": "Toggle notifications for follows, likes, comments, replies, mentions, monthly report.",
+      "quote": "Use the notification settings to choose which Hevy notifications you would like to receive.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/33845807003671-Account-Settings-Preferences-Profile-Information-Adjust-username-password-or-email-address-Notifications",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "In-app feature requests",
+      "detail": "Submit feature requests and bug reports in the app.",
+      "quote": "Settings > Contact Us > Feature request/Bug Report/ Get Help",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34161316169239-Bug-Report-Get-Help-and-Feature-Request-What-is-the-Difference",
+      "sourceType": "help_centre",
+      "date": null
+    }
+  ],
+  "removed": [
+    {
+      "feature": "Custom GPT chat (HevyGPT)",
+      "quote": "this also means we're sunsetting the old HevyGPT now that the new Hevy app for ChatGPT is available.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/43652076665239-What-is-the-Hevy-App-on-ChatGPT",
+      "date": null
+    },
+    {
+      "feature": "Facebook sign-in",
+      "quote": "we no longer support Facebook Sign-In",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34895051242903-Forgot-my-password-How-to-recover-or-change-a-password",
+      "date": null
+    },
+    {
+      "feature": "Direct Google Fit connection",
+      "quote": "We previously connected directly to Google Fit, but Google has removed this option.",
+      "url": "https://help.hevyapp.com/hc/en-us/articles/34204824335255-How-to-Connect-Hevy-to-Google-Fit-Using-Health-Connect",
+      "date": null
+    }
+  ],
+  "notes": "Quotes are verbatim except curly apostrophes/dashes normalised to ASCII. Help-centre and feature pages carry only update timestamps, so their date is null; dated website items are blog/community posts. Conflicts between sources: (1) Leaderboard exercises - website says 38, the newer help centre lists 13; (2) Strength Level - website says deadlift/squat/bench only, help centre lists 13 lifts; (3) Workout media - one website page says four photos or three photos + video, help centre and other pages say three photos or two photos + one video (used); (4) Routine categories 7 (help) vs 8 incl. Suspension Band (website). Many claims (warm-up calculator, generated programs/'Trainer', set count per muscle, extra measurements, unlimited history/routines/custom exercises) are Pro-only; free tier: 4 routines, 7 custom exercises, 3 months history, weight+waist measurements only. Generated programs are explicitly algorithmic, not AI ('do not rely on AI'); the AI features are the ChatGPT app and send-to-ChatGPT/Claude. Garmin: help centre states integration is NOT available (Garmin rejected API access) - not claimed. Calendar cannot be used to plan future workouts (help centre). Apple Watch pause is not supported (phone only). App Store compatibility also lists Apple Vision (visionOS 1.0+) and iPod touch - this is Apple's automatic iPad-app compatibility, not a claimed native app, so not listed as a claim. Hevy Coach (trainer-side SaaS: lead forms, team management) is a separate product; only client-side capabilities in the Hevy app were claimed. Wellhub/Gympass access is subscription-related and excluded. Exercise-level notes and single vs double dumbbell logging are 'on our radar' in the July 2026 update - excluded as roadmap. Excluded as polish/redesign: Liquid Glass UI, header redesign, notification screen redesign, duration text input revert. App Store accessibility section: developer has not declared any accessibility features."
+}

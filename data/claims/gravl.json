@@ -1,0 +1,1681 @@
+{
+  "app": "gravl",
+  "collectedAt": "2026-10-09",
+  "sourcesRead": [
+    {
+      "url": "https://itunes.apple.com/lookup?id=6450921637&country=us",
+      "type": "app_store",
+      "what": "iTunes lookup: current description (v1.53.4, 2026-10-05), languages, min OS"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "type": "app_store",
+      "what": "US product page: compatibility (iPhone, Apple Vision, Apple Watch), languages, accessibility (none declared), version history"
+    },
+    {
+      "url": "fac-repo/data/releases/gravl.json",
+      "type": "release_notes",
+      "what": "Collected App Store release notes 1.41 (2026-03-01) to 1.53.4 (2026-10-05), 25 versions"
+    },
+    {
+      "url": "https://gravl.ai/",
+      "type": "website",
+      "what": "Homepage feature sections"
+    },
+    {
+      "url": "https://gravl.ai/blog/how-gravl-algorithm-works",
+      "type": "website",
+      "what": "Blog 2026-07-16: algorithm explainer"
+    },
+    {
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "type": "website",
+      "what": "Blog 2026-07-28: own comparison post (only Gravl's self-claims extracted)"
+    },
+    {
+      "url": "https://gravl.ai/coach/hermes",
+      "type": "website",
+      "what": "Creator plan page"
+    },
+    {
+      "url": "https://gravl.ai/coach/sandra",
+      "type": "website",
+      "what": "Creator plan page"
+    },
+    {
+      "url": "https://gravl.ai/developers",
+      "type": "website",
+      "what": "Developer docs: overview, personal-tokens, oauth, scopes, endpoints, conventions, mcp, playground"
+    },
+    {
+      "url": "https://gravl.ai/developers/release-notes/1.53.3",
+      "type": "website",
+      "what": "Detailed release notes 1.52 to 1.53.3 (undated)"
+    },
+    {
+      "url": "https://gravl.ai/support",
+      "type": "website",
+      "what": "Support contact page"
+    },
+    {
+      "url": "https://gravl.ai/globe",
+      "type": "website",
+      "what": "Live workout globe page"
+    },
+    {
+      "url": "https://gravl.ai/help",
+      "type": "help_centre",
+      "what": "All 104 English help articles from sitemap (5 collections: Getting Started, Using The App, FAQs, Gravl Academy, Fitness) read; academy/fitness/billing articles checked for app-feature statements"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.liteup.getgains",
+      "type": "google_play",
+      "what": "Google Play listing (US): Android availability, Wear OS tiles"
+    }
+  ],
+  "claims": [
+    {
+      "feature": "Automatic progressive overload",
+      "detail": "Prescribes each next session's sets, reps and weights from logged history",
+      "quote": "Gravl estimates your one-rep max from your logged history and prescribes the next session from it.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/how-gravl-algorithm-works",
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Rep-then-weight double progression",
+      "detail": "Adds reps set by set until the target is met, then raises the weight one step",
+      "quote": "Reps climb set by set; when the ladder fills, the weight steps up, snapped to the plates or stack you actually have.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/how-gravl-algorithm-works"
+      ]
+    },
+    {
+      "feature": "Weights snapped to owned equipment",
+      "detail": "Recommended loads are rounded to plates, dumbbells or stack increments the gym actually has",
+      "quote": "Every weight gets snapped to something your gym can actually load: dumbbell steps, the plates you own, or the exact increments of a machine's stack",
+      "url": "https://gravl.ai/blog/how-gravl-algorithm-works",
+      "sourceType": "website",
+      "date": "2026-07-16",
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Per-exercise effort rating",
+      "detail": "Rate effort after an exercise; the rating steers the next prescription",
+      "quote": "Rate a set Easy or Hard and the next prescription adjusts.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-science-understand-your-recommended-weights"
+      ]
+    },
+    {
+      "feature": "Standalone Apple Watch app",
+      "detail": "Log sets and reps, run rest timers and finish a session from the watch",
+      "quote": "A standalone Apple Watch app. Log sets and reps, run rest timers, and finish a whole session from the watch.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-on-your-apple-watch"
+      ]
+    },
+    {
+      "feature": "Strength score",
+      "detail": "Single score comparing lifts against bodyweight- and sex-based standards, tracked over time per muscle group",
+      "quote": "See how your lifts compare against standards for your body weight and sex, tracked over time across every muscle group.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-strength-score-how-does-it-work"
+      ]
+    },
+    {
+      "feature": "Equipment-aware workout generation",
+      "detail": "Generated workouts only use exercises possible with the equipment in the gym profile",
+      "quote": "Gravl accounts for the equipment you own, which muscles are still recovering, what you trained last session, and which lifts you've neglected.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Exercise video library",
+      "detail": "300+ trainer-led exercise demonstration videos",
+      "quote": "300+ trainer-led exercise videos, downloadable for offline use.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Offline exercise video downloads",
+      "detail": "Download exercise videos by category to play without a connection",
+      "quote": "Toggle the exercise categories you want - Weights, Bodyweight, Cardio, Stretching and so on. Each one shows how many videos it has and how much space it needs, so no surprises.",
+      "url": "https://gravl.ai/help/download-exercise-videos-for-offline-use",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Exercise instructions",
+      "detail": "Written instructions alongside each exercise video",
+      "quote": "Watch the Video and instructions.",
+      "url": "https://gravl.ai/help/exercises-menu-and-statistics",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "AI workout generation",
+      "detail": "Generates a full personalized workout plan from goals, equipment and schedule",
+      "quote": "Gravl is an AI-powered training platform that uses a scientific algorithm and your onboarding information to build your personalized training plan.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Weekly plan generation",
+      "detail": "Plans the whole training week, recalculated after every logged workout",
+      "quote": "While your coach is still typing, Gravl has your week built: every set, every rep, every kilo, progressive overload included, recalculated after every workout you log.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Recovery-based adaptive split",
+      "detail": "Split that picks each session's muscles from recovery state and recent history",
+      "quote": "The system dynamically adjusts training days and muscle groups based on your recovery status and weekly training history.",
+      "url": "https://gravl.ai/help/complete-guide-to-splits-and-training-routines",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-ai-the-magic-behind-the-recovery-split"
+      ]
+    },
+    {
+      "feature": "Preset training splits",
+      "detail": "Library of ready-made splits (full body, PPL, upper/lower, bro split, etc.)",
+      "quote": "You can choose from a selection of scientifically-backed routines tailored to various goals and experience levels.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/complete-guide-to-splits-and-training-routines",
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "Custom split builder",
+      "detail": "Build your own split from saved workouts or chosen muscle groups, 1-7 workouts",
+      "quote": "On the menu sheet, tap Custom Split to build one from scratch, or AI Import to pull workouts in from a link, PDF, or photo.",
+      "url": "https://gravl.ai/help/create-your-own-workout-split",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/design-your-own-program"
+      ]
+    },
+    {
+      "feature": "Split recommendation helper",
+      "detail": "Recommends a training plan from schedule, goals and equipment",
+      "quote": "Personalized plan recommendations: Get help choosing a training plan based on your schedule, goals, and available equipment.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-09-26"
+    },
+    {
+      "feature": "Creator training plans",
+      "detail": "Structured multi-phase plans from named coaches with previews and their own exercise videos",
+      "quote": "Creator training plans: Train with Hermes and Sandra through structured plans with progressive phases, workout previews, and exercise videos.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-09-26",
+      "alsoAt": [
+        "https://gravl.ai/coach/hermes",
+        "https://gravl.ai/coach/sandra"
+      ]
+    },
+    {
+      "feature": "AI import of workouts and programs",
+      "detail": "Turn a social post, whiteboard photo, PDF or link into trackable workouts/splits",
+      "quote": "Got a routine on Instagram or TikTok, a photo of a whiteboard, or a PDF from your coach? Drop it into Gravl and AI turns it into a real workout: every set, rep and weight ready to track in your next session.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/create-your-own-workout-split"
+      ]
+    },
+    {
+      "feature": "AI one-off custom workout",
+      "detail": "Generate a single session from chosen muscles, duration, variety and goal",
+      "quote": "Once you've made up all your choices, tap Create session and watch our AI create your workout obeying all your wishes.",
+      "url": "https://gravl.ai/help/create-a-one-time-custom-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout regeneration",
+      "detail": "Rebuild today's session with the same muscles but different exercises",
+      "quote": "Regenerate keeps the same muscles and builds the session again with different exercises.",
+      "url": "https://gravl.ai/help/how-to-skip-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Skip planned workout",
+      "detail": "Skip to the next workout in the plan, or jump ahead to a later one",
+      "quote": "Skip moves you on to the following workout in your plan.",
+      "url": "https://gravl.ai/help/how-to-skip-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Start any workout of the week",
+      "detail": "Start any of the week's planned workouts and change their order",
+      "quote": "Start any workout for the week and easily change the order.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-03-22",
+      "alsoAt": [
+        "https://gravl.ai/help/plan-your-week-upcoming-workouts"
+      ]
+    },
+    {
+      "feature": "Upcoming workouts view",
+      "detail": "Shows the rest of the week's planned sessions in a carousel",
+      "quote": "With it on, the rest of your week shows up in the \"This Week\" carousel on the Train tab.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/plan-your-week-upcoming-workouts"
+      ]
+    },
+    {
+      "feature": "Per-session duration override",
+      "detail": "Change the length of just the next session (30-90 min) and rebuild it",
+      "quote": "The slider runs from 30 to 90 minutes in steps of 5, and the new length is applied when you close the sheet, not on a confirm button.",
+      "url": "https://gravl.ai/help/quick-filter-duration",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout duration setting",
+      "detail": "Default session length 30-90 minutes used to size generated workouts",
+      "quote": "How much time would you like to dedicate to your workout sessions? Select between 30 and 90 minutes.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Fitness goal selection",
+      "detail": "Four goals (build muscle, general fitness, conditioning, get stronger) that change rep ranges and exercise choice",
+      "quote": "Select from four options designed to meet your needs and reach your fitness goals.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Weekly training frequency goal",
+      "detail": "Choose 1-7 training days per week",
+      "quote": "Choose the number of days you want to work out each week, ranging from 1 to 7.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Experience level setting",
+      "detail": "No experience / beginner / intermediate / advanced shapes starting plan and weights",
+      "quote": "Making the right selection will help us tailor the perfect plan for you. Pick the one that best describes your situation.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise variety level",
+      "detail": "Consistent, balanced or varied exercise rotation",
+      "quote": "Tap the sliders icon at the top right of the Train tab to open Workout Settings, then under Training Style select Variety Level and choose between:",
+      "url": "https://gravl.ai/help/exercise-variety-level-set-your-preference",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Configurable sets per exercise",
+      "detail": "Min and max set counts for compound and isolation exercises",
+      "quote": "Customize your workouts by selecting the desired minimum and maximum number of sets for both compound and isolation exercises.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Configurable rep ranges",
+      "detail": "Rep ranges from 3-5 up to 15+ per compound/isolation",
+      "quote": "Choose ranges from 3-5 up to 15+ reps for compound exercises, and from 5-8 up to 15+ for isolation exercises",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Straight sets progression style",
+      "detail": "Same weight each set with reps adjusted",
+      "quote": "Straight - same weight in each set, with reps adjusted",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Pyramid sets",
+      "detail": "Weight increases while reps decrease across sets",
+      "quote": "Pyramid - increase weight while decreasing reps in each set",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Reverse pyramid sets",
+      "detail": "Reps increase while weight decreases across sets",
+      "quote": "Reverse pyramid - increase reps while decreasing weight in each set",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Scheduled deload periods",
+      "detail": "Schedule deload windows with start/end date and intensity percentage; excluded from progression",
+      "quote": "Select the Start and End Date and the Intensity.",
+      "url": "https://gravl.ai/help/deload-weeks-everything-you-need-to-know",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "Muscle focus",
+      "detail": "Prioritize up to two muscle groups placed first in workouts",
+      "quote": "You can select up to two muscle groups to focus on.",
+      "url": "https://gravl.ai/help/focus-on-or-exclude-muscle-groups-from-your-workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Muscle group exclusion",
+      "detail": "Exclude up to four muscle groups from workouts",
+      "quote": "you can select up to 4 muscle groups that will be completely excluded from your workouts.",
+      "url": "https://gravl.ai/help/focus-on-or-exclude-muscle-groups-from-your-workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise exclusion",
+      "detail": "Mark exercises as don't-recommend so the generator avoids them",
+      "quote": "You can choose which exercises to exclude and our AI will find alternatives while creating your workouts.",
+      "url": "https://gravl.ai/help/exclude-exercises-from-your-workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Favorite exercises prioritized",
+      "detail": "Mark exercises to be recommended more often",
+      "quote": "Once you've found the exercise, tap the three dots and select \"Recommend more often\".",
+      "url": "https://gravl.ai/help/prioritize-your-favorite-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise queue",
+      "detail": "Queue specific exercises to appear in upcoming generated workouts",
+      "quote": "We created the queue feature so that you can ensure certain exercises are included in your next workout.",
+      "url": "https://gravl.ai/help/queued-exercises-your-workout-wish-list",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Injury-aware programming",
+      "detail": "Log painful movements by body area; generated workouts avoid or substitute those movement patterns",
+      "quote": "You tell Gravl which movements hurt, and it will avoid exercises associated with those movement patterns until you report that they feel fine again.",
+      "url": "https://gravl.ai/help/train-around-an-injury",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Injury check-ins",
+      "detail": "Every two weeks asks whether flagged movements still hurt and clears them",
+      "quote": "Every two weeks, Gravl checks in about each movement you flagged:",
+      "url": "https://gravl.ai/help/train-around-an-injury",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Same-muscle exercise swap",
+      "detail": "Swap any exercise for a same-muscle alternative with sets/reps/weights recalculated",
+      "quote": "Machine taken? Swap any exercise in one tap. Gravl finds a same-muscle match and recalculates sets, reps and weights instantly.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/replace-an-exercise-in-your-workout"
+      ]
+    },
+    {
+      "feature": "Weight explanation insights",
+      "detail": "Tap a target weight to see why it was chosen (last session, rating, position, carry-over)",
+      "quote": "Tap any target weight and Gravl tells you why it picked it, based on\nyour estimated 1RM and how the lift has gone recently.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-science-understand-your-recommended-weights",
+        "https://gravl.ai/blog/how-gravl-algorithm-works"
+      ]
+    },
+    {
+      "feature": "Estimated 1RM tracking",
+      "detail": "Every logged set is converted into an estimated one-rep max",
+      "quote": "Reading: every set you log gets converted into an estimated 1RM.",
+      "url": "https://gravl.ai/blog/how-gravl-algorithm-works",
+      "sourceType": "website",
+      "date": "2026-07-16",
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "Manual 1RM override",
+      "detail": "Set or edit an exercise's 1RM in its advanced settings",
+      "quote": "Set your next 1RM",
+      "url": "https://gravl.ai/help/create-custom-exercises",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/how-gravl-algorithm-works"
+      ]
+    },
+    {
+      "feature": "Global recommended-weight reduction",
+      "detail": "Lower every recommended weight and 1RM by a chosen percentage (up to 60%) after a break",
+      "quote": "Move the slider to choose how much to take off, up to 60%, and every recommended weight and 1RM drops by that amount.",
+      "url": "https://gravl.ai/help/gravl-science-understand-your-recommended-weights",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise-order fatigue adjustment",
+      "detail": "Recommended weight accounts for an exercise's position in the workout",
+      "quote": "We adjust the weights based on the exercise order because your lifting capabilities vary depending on whether an exercise is performed first or last within a muscle group.",
+      "url": "https://gravl.ai/help/gravl-science-understand-your-recommended-weights",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Cross-exercise progress transfer",
+      "detail": "Strength gained on variant or same-muscle exercises carries over to an exercise you return to",
+      "quote": "Variant exercises transfer at about 90%.",
+      "url": "https://gravl.ai/blog/how-gravl-algorithm-works",
+      "sourceType": "website",
+      "date": "2026-07-16"
+    },
+    {
+      "feature": "Time-off weight easing",
+      "detail": "Eases suggested weights slightly after more than two weeks without training a muscle",
+      "quote": "If a muscle goes untrained for more than two weeks, Gravl eases the suggestions down by roughly 1% per week, and never by more than a few percent in total.",
+      "url": "https://gravl.ai/blog/how-gravl-algorithm-works",
+      "sourceType": "website",
+      "date": "2026-07-16"
+    },
+    {
+      "feature": "Per-lift learned progression thresholds",
+      "detail": "When to add weight is learned per user and per lift from prior increases",
+      "quote": "The thresholds that decide when you get 2.5 kg more are per user and per lift, learned from what happened after every previous bump.",
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "sourceType": "website",
+      "date": "2026-07-28"
+    },
+    {
+      "feature": "Bodyweight exercise progression",
+      "detail": "Exertion rating and progressive overload (rep ladder) for bodyweight exercises",
+      "quote": "Added exertion rate and progressive overload for bodyweight exercises.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-07-29",
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Weekly AI score explanation",
+      "detail": "Explain-with-AI plain summary of the week's Strength Score changes",
+      "quote": "Short on time? Tap Explain with AI for a quick, plain summary of your week.",
+      "url": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "AI workout summaries",
+      "detail": "AI-written summary of each completed workout",
+      "quote": "Added workout AI summaries for completed workouts.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-06-12"
+    },
+    {
+      "feature": "AI form analysis",
+      "detail": "Record or upload a set video and get a 1-100 score with form, tempo and range sub-scores and fixes",
+      "quote": "Record a set, get a score from 1 to 100 and find out exactly what to fix - like having a coach watch every rep!",
+      "url": "https://gravl.ai/help/form-analysis-ai-feedback-on-your-technique",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Form score history and friend leaderboard",
+      "detail": "Form analyses saved per exercise with history and a leaderboard against friends",
+      "quote": "And if you're feeling competitive: the Form tab also has a leaderboard, so you can compare scores with your friends.",
+      "url": "https://gravl.ai/help/form-analysis-ai-feedback-on-your-technique",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Human coach chat",
+      "detail": "Message real coaches in-app for app tips or workout advice",
+      "quote": "Get support from our coaches anytime. Whether it’s app tips or workout advice, just message us in-app.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "In-app AI support assistant",
+      "detail": "Support assistant in the app with photo attachments and hand-off to a person",
+      "quote": "Support is in the app now. Ask the assistant, attach a photo, or talk to\na real person.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18"
+    },
+    {
+      "feature": "One-tap prefilled set logging",
+      "detail": "Each set is prefilled with reps and weight; tap to log and the rest timer starts",
+      "quote": "Every set comes prefilled with reps and weight. Tap when it’s done and the rest timer starts.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Rest timer",
+      "detail": "Automatic rest timer between sets with configurable durations",
+      "quote": "We've set default rest times to 90 seconds for isolation exercises and 120 seconds for compound exercises, but you can easily customize them to fit your needs and reflect your actual rests.",
+      "url": "https://gravl.ai/help/adjust-your-rest-times",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-exercise rest timer",
+      "detail": "Override the rest timer for a single exercise",
+      "quote": "To change the timer for a single exercise, tap the timer pill on that exercise’s screen and pick Custom in Timer Settings.",
+      "url": "https://gravl.ai/help/level-5-rest-periods",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "Rest timer sound",
+      "detail": "Audible rest timer alert (fixes reference the sound)",
+      "quote": "Fixed Apple Music pausing on rest timer sound.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-24"
+    },
+    {
+      "feature": "Supersets",
+      "detail": "Combine exercises into supersets manually or let the generator add them",
+      "quote": "Select \"Add to superset\" and choose the second exercise.",
+      "url": "https://gravl.ai/help/create-a-superset",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan"
+      ]
+    },
+    {
+      "feature": "Circuits",
+      "detail": "Add a third or more exercise to an existing superset as a circuit",
+      "quote": "To add a third exercise, open the 3-dot menu of an exercise that is already in the superset. There the item reads \"Add to circuit\".",
+      "url": "https://gravl.ai/help/create-a-superset",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Drop sets",
+      "detail": "Swipe a set to add drops, or let the generator add dropsets",
+      "quote": "Each swipe adds one drop, so swipe twice for a two-drop chain, and a third swipe clears them.",
+      "url": "https://gravl.ai/help/create-a-dropset",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan"
+      ]
+    },
+    {
+      "feature": "Warm-up sets",
+      "detail": "Configurable 0-4 warm-up sets for compound and isolation exercises",
+      "quote": "Enable or disable them and/or adjust the number of warmup sets for compound and isolation exercises ranging from 0 to 4.",
+      "url": "https://gravl.ai/help/customize-your-warmup-sets",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Warm-up exercise routines",
+      "detail": "Targeted warm-up exercises added at the top of the workout",
+      "quote": "On the Warmup Exercises screen, turn on Include warmup exercises.",
+      "url": "https://gravl.ai/help/warmup-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Stretching cool-down routines",
+      "detail": "Post-workout stretches targeting trained muscles",
+      "quote": "Gravl’s stretching routines are specifically created to complement your workouts by focusing on the same muscle groups you just trained.",
+      "url": "https://gravl.ai/help/stretching-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Plate calculator",
+      "detail": "Shows plates per side for barbell and plate-loaded exercises",
+      "quote": "The plate calculator shows you exactly how to load it.",
+      "url": "https://gravl.ai/help/plates-calculator-effortless-barbell-weight-logging",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Plate loading modes",
+      "detail": "Choose fewest plates or fewest plate changes between sets",
+      "quote": "Fewest changes: keeps the plates from your previous set on the bar and only adds what's missing, so you don't strip the bar between sets.",
+      "url": "https://gravl.ai/help/plates-calculator-effortless-barbell-weight-logging",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Plate inventory",
+      "detail": "Record which plates and how many the gym has; calculator uses only those and warns on unloadable weights",
+      "quote": "New plate inventory. Tell Gravl what plates your gym has and the\ncalculator sticks to them, and warns you when a weight won't load.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18",
+      "alsoAt": [
+        "https://gravl.ai/help/plates-calculator-effortless-barbell-weight-logging"
+      ]
+    },
+    {
+      "feature": "Pause and resume workout",
+      "detail": "Pause an active workout timer; syncs to the watch",
+      "quote": "Tap the elapsed time on your active workout screen to pause your session.",
+      "url": "https://gravl.ai/help/life-calling-pause-your-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Reorder exercises",
+      "detail": "Drag and drop exercises within a workout",
+      "quote": "tap and hold the exercise, then drag and drop it.",
+      "url": "https://gravl.ai/help/reorder-your-workout-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Add exercises mid-workout",
+      "detail": "Add extra exercises or cardio to an ongoing workout",
+      "quote": "Tick the exercises you want, then tap the \"Add\" button at the bottom.",
+      "url": "https://gravl.ai/help/supersize-your-workout-add-more-exercises-or-cardio",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Manual empty workout",
+      "detail": "Start a blank workout and pick exercises yourself",
+      "quote": "tap \"Manual\" and pick Manual in the sheet that opens to start from an empty workout.",
+      "url": "https://gravl.ai/help/create-a-one-time-custom-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Cardio workout logging",
+      "detail": "Build a cardio session and log time and distance per interval",
+      "quote": "Log your time and distance for each interval.",
+      "url": "https://gravl.ai/help/sweat-it-out-create-a-cardio-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Timed exercise logging",
+      "detail": "Log time-based exercises, including on the watch",
+      "quote": "Work through supersets, dropsets and timed exercises.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Saved workout templates",
+      "detail": "Save favorite workouts to the library and replay them",
+      "quote": "Once saved, your workouts are available anytime in your Library.",
+      "url": "https://gravl.ai/help/create-and-save-your-favorite-sessions",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Saved workout progression modes",
+      "detail": "Saved workouts can repeat exactly, apply progressive overload or vary sets/reps",
+      "quote": "Specify how you want your saved workouts to behave when you do them in the future.",
+      "url": "https://gravl.ai/help/gravl-essentials-set-up-your-fitness-plan",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Log past workouts",
+      "detail": "Save a workout on an earlier date",
+      "quote": "On the Save Workout screen tap on the date and choose when your workout happened.",
+      "url": "https://gravl.ai/help/log-your-past-workouts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Edit finished workouts",
+      "detail": "Correct sets, exercises or weights of a saved workout",
+      "quote": "If you forgot to log a set, exercise or even made a mistake with the weights, you can edit past workouts.",
+      "url": "https://gravl.ai/help/correct-a-mistake-edit-a-finished-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Delete workouts",
+      "detail": "Remove a workout log (and its PRs) from history",
+      "quote": "Deleting is permanent, and it also removes the personal records that workout set.",
+      "url": "https://gravl.ai/help/delete-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise notes",
+      "detail": "Keep notes on an exercise",
+      "quote": "Take a look at your notes.",
+      "url": "https://gravl.ai/help/exercises-menu-and-statistics",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-exercise advanced settings",
+      "detail": "Fix sets and rep range for a specific exercise",
+      "quote": "Let's say you always want exactly 3 sets of dumbbell incline bench presses in the 5-8 rep range. Sure thing!",
+      "url": "https://gravl.ai/help/exercises-menu-and-statistics",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Automatic PR detection",
+      "detail": "Personal records detected as sets are logged",
+      "quote": "PRs are detected automatically as you log.",
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "sourceType": "website",
+      "date": "2026-07-28"
+    },
+    {
+      "feature": "PR and workout celebrations",
+      "detail": "Celebration screens for records, workouts, streaks and levels (can be turned off)",
+      "quote": "Plus redesigned form analysis, workout celebrations, measurement trends,",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-strength-score-how-does-it-work"
+      ]
+    },
+    {
+      "feature": "Workout Focus app blocking",
+      "detail": "Blocks chosen apps (and on iPhone, categories/websites) via Screen Time during a workout",
+      "quote": "Workout Focus blocks the apps you choose while a workout is in progress.",
+      "url": "https://gravl.ai/help/workout-focus-block-distracting-apps",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "App unblock during rest",
+      "detail": "Blocking mode that unlocks apps only while the rest timer runs",
+      "quote": "Allow during rest: apps unlock while your rest timer runs and lock again when it ends.",
+      "url": "https://gravl.ai/help/workout-focus-block-distracting-apps",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise library search and filters",
+      "detail": "Search exercises, splits and saved workouts with muscle/equipment filters and sorting",
+      "quote": "The Library tab keeps your exercises, splits and saved workouts in one list.",
+      "url": "https://gravl.ai/help/search-and-filter-your-library",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Last-trained date per exercise",
+      "detail": "Library rows show when each exercise was last trained",
+      "quote": "In the Exercises view, each row shows the muscle and the day you last trained it: Today, Yesterday or a date.",
+      "url": "https://gravl.ai/help/search-and-filter-your-library",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Custom exercises",
+      "detail": "Create exercises manually with type, muscles, equipment and picture",
+      "quote": "If you don't want to wait until it is added or if it, for some reason, doesn't meet our criteria, you can always add it yourself.",
+      "url": "https://gravl.ai/help/create-custom-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Custom exercise from video link",
+      "detail": "Paste a YouTube, Instagram or TikTok link and AI builds the exercise with its video",
+      "quote": "Import from social media- paste a video link (YouTube, Instagram or TikTok) and Gravl fills in the rest: name, muscles, equipment and the video itself.",
+      "url": "https://gravl.ai/help/create-custom-exercises",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "AI-filled custom exercise by name",
+      "detail": "Type an exercise name and AI fills in its details",
+      "quote": "Fill with AI- type the exercise name and AI fills in the details.",
+      "url": "https://gravl.ai/help/create-custom-exercises",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Custom exercises in generated workouts",
+      "detail": "Custom exercises can be included by the workout generator",
+      "quote": "Toggle on the option \"Include in workouts\".",
+      "url": "https://gravl.ai/help/create-custom-exercises",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "Custom equipment",
+      "detail": "Add machines missing from the catalog with name, category, unit and weight ranges",
+      "quote": "Create custom equipment in your gym profiles.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-07-29",
+      "alsoAt": [
+        "https://gravl.ai/help/create-custom-equipment"
+      ]
+    },
+    {
+      "feature": "AI equipment recognition from photo",
+      "detail": "Photograph a machine and AI fills its name, category, photo and weight stack",
+      "quote": "The fast way: tap Import from photo, take a picture of the machine, and the AI recognizes it and fills in the name, category and photo for you.",
+      "url": "https://gravl.ai/help/create-custom-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Machine weight ranges from photo",
+      "detail": "AI reads selectorized machine weight ranges from a photo",
+      "quote": "Added weight ranges for selectorized machines (AI photo).",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-07-29"
+    },
+    {
+      "feature": "Per-machine weight increments",
+      "detail": "Set each machine's stack range and step so recommendations are selectable",
+      "quote": "set the weight ranges: what the stack goes from, up to, and in which increments (for example 5 - 100 kg in 5 kg steps).",
+      "url": "https://gravl.ai/help/create-custom-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Multiple gym profiles",
+      "detail": "Separate gym profiles with their own equipment; switch between them",
+      "quote": "Need more profiles for different gyms or setups? Just repeat the steps above.",
+      "url": "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Gym search and equipment preload",
+      "detail": "Find your real gym during setup; verified gyms come with equipment preloaded",
+      "quote": "Find your gym during setup so Gravl can preload available equipment when supported",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-05-23",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment",
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Equipment configuration",
+      "detail": "Edit available equipment, units, increments, plates, bars, dumbbell and kettlebell weights",
+      "quote": "Edit the units, increments, available plates, bars, dumbbells, etc.",
+      "url": "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-gym records and 1RMs",
+      "detail": "Machine records and 1RMs tracked separately per gym",
+      "quote": "Records and 1RMs are now per gym, so a stronger machine somewhere else\ndoesn't hide your progress here.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment"
+      ]
+    },
+    {
+      "feature": "kg and lb units",
+      "detail": "Weight unit set per profile, per gym and per piece of equipment, switchable on the fly",
+      "quote": "The unit is set per piece of equipment, bars and plates included.",
+      "url": "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Per-gym weight unit",
+      "detail": "Set the unit machines are marked in for a specific gym",
+      "quote": "When editing a gym profile, you can also set a Weight unit just for that gym - the unit the machines there are marked in.",
+      "url": "https://gravl.ai/help/gravl-gym-set-up-profiles-and-available-equipment",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Configurable first day of week",
+      "detail": "Choose which day the week starts for streaks, trends and calendars",
+      "quote": "Added first-day-of-week setting and updated streaks, trends, measurements, calendars, and activity views to respect it.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-06-12"
+    },
+    {
+      "feature": "Dark mode",
+      "detail": "Dark theme, light theme or follow the system setting",
+      "quote": "System: Gravl follows your phone. It uses a light theme when your phone is in light mode and a dark theme when it is in dark mode.",
+      "url": "https://gravl.ai/help/themes-change-how-gravl-looks",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Color themes",
+      "detail": "Additional colour themes (Stealth, Pulse, Rose)",
+      "quote": "New themes: Personalize Gravl with Stealth, Pulse, and Rose, alongside Light and Original.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-09-26",
+      "alsoAt": [
+        "https://gravl.ai/help/themes-change-how-gravl-looks"
+      ]
+    },
+    {
+      "feature": "Accent color choice",
+      "detail": "Pick the accent colour of the light theme",
+      "quote": "Choose Black, Blue, Violet, Rose, Emerald or Orange.",
+      "url": "https://gravl.ai/help/themes-change-how-gravl-looks",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Alternate app icons",
+      "detail": "Choose a different home-screen app icon",
+      "quote": "You can also change the app icon in App preferences → App icon.",
+      "url": "https://gravl.ai/help/themes-change-how-gravl-looks",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/developers/release-notes/1.53.3"
+      ]
+    },
+    {
+      "feature": "Muscle recovery tracking",
+      "detail": "Visual per-muscle fatigue/recovery percentages after each session",
+      "quote": "Gravl's \"Muscle Recovery\" gives you a visual representation of your current fatigue levels.",
+      "url": "https://gravl.ai/help/gravl-muscle-fatigue-and-recovery",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Manual recovery adjustment",
+      "detail": "Drag a muscle's recovery slider to override the estimate",
+      "quote": "If our estimate feels off, tap \"Edit\" on the Muscle Recovery screen and drag a muscle's slider to the recovery you actually feel.",
+      "url": "https://gravl.ai/help/gravl-muscle-fatigue-and-recovery",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Rest day recommendation",
+      "detail": "Flags 'Rest recommended' when next workout's muscles are under 60% recovered",
+      "quote": "When recovery for your next workout drops below 60%, the pill on your workout card switches to \"Rest recommended\".",
+      "url": "https://gravl.ai/help/gravl-muscle-fatigue-and-recovery",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "External cardio counts toward recovery",
+      "detail": "Imported runs/rides with an effort rating feed muscle recovery and regenerate leg workouts",
+      "quote": "After each cardio session, the app will ask if your effort was light, moderate, or hard. Based on your input, fatigue is applied to the relevant muscle groups (primarily your legs)",
+      "url": "https://gravl.ai/help/the-impact-of-cardio-on-your-workouts",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava"
+      ]
+    },
+    {
+      "feature": "Apple Health sync",
+      "detail": "Writes workouts with active energy and heart rate to Apple Health and reads data",
+      "quote": "Apple Health (iPhone): sync workouts and active energy between Gravl and Health.",
+      "url": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "External workout import",
+      "detail": "Detects runs, rides, swims from Apple Health/Health Connect and imports them with stats",
+      "quote": "Went for a run, a ride or a swim tracked by another app? Once Apple Health or Health Connect is connected, Gravl detects those activities automatically and offers to import them.",
+      "url": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Route maps for imported workouts",
+      "detail": "Imported cardio shows route map, heart rate, distance, pace and elevation",
+      "quote": "Workout details now show richer cardio metrics and route maps for supported workouts",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-05-23",
+      "alsoAt": [
+        "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava"
+      ]
+    },
+    {
+      "feature": "Bodyweight sync from Apple Health",
+      "detail": "Body weight synced from Apple Health",
+      "quote": "Improvements on bodyweight sync from Apple Health.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-04-09"
+    },
+    {
+      "feature": "Health Connect sync",
+      "detail": "Android sync of workouts, active energy and heart rate with Health Connect",
+      "quote": "Health Connect (Android): same deal, Android edition.",
+      "url": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strava export",
+      "detail": "Push finished workouts to Strava",
+      "quote": "Strava: push your finished Gravl workouts to your Strava feed, so your followers see the grind too.",
+      "url": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Heart rate from AirPods",
+      "detail": "Reads heart rate from a watch or AirPods Pro 3 during workouts",
+      "quote": "Gravl also reads your heart rate from your watch or AirPods Pro 3.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Apple Watch set logging",
+      "detail": "Log sets and edit reps/weight from the wrist",
+      "quote": "Log a set and edit reps or weight on the fly before you confirm it.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Watch haptic rest timer",
+      "detail": "Rest timer buzzes the wrist when it's time to lift",
+      "quote": "Run the rest timer - your wrist buzzes when it's time to lift again, which is much harder to miss than a phone notification.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Watch heart rate and calories",
+      "detail": "Live heart rate and calories on the watch during the session",
+      "quote": "Watch your heart rate and calories live.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Watch PR celebration",
+      "detail": "PR celebration shown on the wrist",
+      "quote": "Get a PR celebration on the wrist when you hit a new record.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Watch effort rating",
+      "detail": "Rate exertion after an exercise on the watch",
+      "quote": "Rate your exertion after an exercise.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Live phone-watch sync",
+      "detail": "Two-way live sync between watch and phone, pauses included",
+      "quote": "Everything syncs live in both directions, pauses included, so you can switch between wrist and phone mid-session whenever you like.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Start workout from watch",
+      "detail": "Start today's workout from the Apple Watch, or auto-launch on the watch when started on phone",
+      "quote": "From the watch - open Gravl on the watch and start today's workout.",
+      "url": "https://gravl.ai/help/gravl-on-your-apple-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Simplified watch logging view",
+      "detail": "Watch view showing one set at a time",
+      "quote": "Rebuilt Apple Watch experience: Better synchronization with your iPhone, more reliable rest timers, and a simplified view for logging sets.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-09-26",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-on-your-wear-os-watch"
+      ]
+    },
+    {
+      "feature": "Apple Watch complication",
+      "detail": "Gravl icon complication on the watch face",
+      "quote": "Add the Gravl icon to your Apple Watch face.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-03-22"
+    },
+    {
+      "feature": "Garmin watch app",
+      "detail": "Connect IQ companion app on ~70 Garmin models: log sets, rest timer, HR, PRs; records Garmin activity",
+      "quote": "Garmin watch support: log workouts from your watch with real-time sync",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-07-11",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-on-your-garmin-watch",
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Garmin Connect activity recording",
+      "detail": "Watch-recorded sessions land in Garmin Connect as strength activities with HR and calories",
+      "quote": "The activity lands in Garmin Connect as a strength training activity, with heart rate and calories.",
+      "url": "https://gravl.ai/help/gravl-on-your-garmin-watch",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Wear OS watch app",
+      "detail": "Native Wear OS companion app for logging sets, rest timer, HR and calories",
+      "quote": "Gravl has a native Wear OS app, so you can log sets, run rest timers and check what's next straight from your wrist.",
+      "url": "https://gravl.ai/help/gravl-on-your-wear-os-watch",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.liteup.getgains"
+      ]
+    },
+    {
+      "feature": "Wear OS tiles",
+      "detail": "Watch tiles showing Strength Score and current week",
+      "quote": "Add the Gravl tiles to your watch face carousel and you can glance at your Strength Score and your current week without opening the app.",
+      "url": "https://gravl.ai/help/gravl-on-your-wear-os-watch",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://play.google.com/store/apps/details?id=com.liteup.getgains"
+      ]
+    },
+    {
+      "feature": "Home Screen activity widget",
+      "detail": "Activity widget for the phone home screen",
+      "quote": "New activity widget support and refreshed app/watch icons",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-05-23"
+    },
+    {
+      "feature": "Live Activity during workouts",
+      "detail": "Ongoing workout shown on the iOS lock screen as a Live Activity",
+      "quote": "The workout lives on your iOS lock screen as a Live Activity (interactive notifications on Android), so logging a set never means unlocking and navigating.",
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "sourceType": "website",
+      "date": "2026-07-28",
+      "alsoAt": [
+        "https://gravl.ai/help/workout-progress-notification-on-android"
+      ]
+    },
+    {
+      "feature": "Android ongoing workout notification",
+      "detail": "Android notification/Live Update with current exercise, set progress and pause/skip-rest controls",
+      "quote": "On Android, Gravl shows a notification while a workout is in progress.",
+      "url": "https://gravl.ai/help/workout-progress-notification-on-android",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/developers/release-notes/1.53.3"
+      ]
+    },
+    {
+      "feature": "Exercise analytics",
+      "detail": "Per-exercise statistics charts, records and full history",
+      "quote": "Statistics: charts, records and progress for the exercise - yours and your friends'.",
+      "url": "https://gravl.ai/help/exercises-menu-and-statistics",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exercise history",
+      "detail": "Every logged session for an exercise",
+      "quote": "History: every session you've logged with this exercise.",
+      "url": "https://gravl.ai/help/exercises-menu-and-statistics",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strength score levels",
+      "detail": "Score bands from Starter to Olympic with coloured badge",
+      "quote": "The badge around your score takes the color of your level.",
+      "url": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strength score weekly summary",
+      "detail": "Weekly breakdown of what moved the score, by cause and muscle",
+      "quote": "Tap the Weekly Summary card on the Progress tab to see what changed this week.",
+      "url": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strength score expiry alerts",
+      "detail": "Lists lifts expiring from the score soon with a one-tap add-to-queue",
+      "quote": "Keep your score lists the lifts that expire in the next two weeks.",
+      "url": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Exclude muscles from strength score",
+      "detail": "Leave up to two muscle groups out of the score",
+      "quote": "pick up to two groups on Excluded from Score, and tap Save.",
+      "url": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Weekly set volume trends",
+      "detail": "Per-muscle weekly set counts with direct/indirect breakdown",
+      "quote": "Weekly Set Trends show every muscle in a readable row, with volume ranges and a breakdown of direct and indirect work.",
+      "url": "https://gravl.ai/developers/release-notes/1.53.3",
+      "sourceType": "website",
+      "date": null
+    },
+    {
+      "feature": "Monthly review",
+      "detail": "Monthly stats recap that can be shared",
+      "quote": "Monthly Review: Get monthly stats and share your progress.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-03-22"
+    },
+    {
+      "feature": "Monthly review stories",
+      "detail": "Story-format monthly review",
+      "quote": "New: Monthly Review Stories.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-24"
+    },
+    {
+      "feature": "Body measurements logging",
+      "detail": "Log body-part circumference measurements and choose which to track",
+      "quote": "Open the Progress tab, tap + and choose Measurements.",
+      "url": "https://gravl.ai/help/how-to-accurately-measure-body-parts",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Body metrics dashboard",
+      "detail": "Weight, measurements and progress photos together with histories and comparisons",
+      "quote": "The new Body metrics dashboard brings weight, measurements and progress photos together.",
+      "url": "https://gravl.ai/developers/release-notes/1.53.3",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Measurement trends",
+      "detail": "Trend views for body measurements",
+      "quote": "Plus redesigned form analysis, workout celebrations, measurement trends,",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-18"
+    },
+    {
+      "feature": "Progress photos",
+      "detail": "Front/side/back progress photos from camera or library, private gallery",
+      "quote": "Pick the pose - Front, Side or Back - and use your camera or choose a photo from your library.",
+      "url": "https://gravl.ai/help/progress-photos-see-your-transformation",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Before/after photo comparison",
+      "detail": "Slider comparison of two progress photos",
+      "quote": "Drag the slider left and right to reveal one photo over the other.",
+      "url": "https://gravl.ai/help/progress-photos-see-your-transformation",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Activity calendar",
+      "detail": "Progress tab activity grid opening a calendar of workouts",
+      "quote": "on the Progress tab by tapping a day in the Activity grid to open the calendar.",
+      "url": "https://gravl.ai/help/correct-a-mistake-edit-a-finished-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Friends",
+      "detail": "Add friends by username search or personal QR code/link, with friend requests",
+      "quote": "QR: Gravl shows your personal QR code and a link you can share through any app you prefer.",
+      "url": "https://gravl.ai/help/gravl-with-your-crew-connect-with-friends-and-compare-progress",
+      "sourceType": "help_centre",
+      "date": null,
+      "alsoAt": [
+        "https://apps.apple.com/us/app/id6450921637"
+      ]
+    },
+    {
+      "feature": "Social activity feed",
+      "detail": "Friends' workouts, scores and badges appear in a feed",
+      "quote": "See your friends' workouts in your feed as they finish them.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-with-your-crew-connect-with-friends-and-compare-progress"
+      ]
+    },
+    {
+      "feature": "Claps and comments",
+      "detail": "React to and comment on friends' workouts",
+      "quote": "Give a clapto your friends' sessions and drop a comment to keep them accountable",
+      "url": "https://gravl.ai/help/gravl-with-your-crew-connect-with-friends-and-compare-progress",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Strength score friend leaderboard",
+      "detail": "Compete on Strength Score with friends",
+      "quote": "Clap their records, compare progress, and compete on the Strength Score leaderboard.",
+      "url": "https://gravl.ai/",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-strength-score-how-does-it-work"
+      ]
+    },
+    {
+      "feature": "Per-exercise friend comparison",
+      "detail": "Compare stats on any exercise with friends",
+      "quote": "See how you stack up on any exercise: open it, tap Analytics, and check the Friends card on the Statistics tab.",
+      "url": "https://gravl.ai/help/gravl-with-your-crew-connect-with-friends-and-compare-progress",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Streak and workout leaderboards",
+      "detail": "Compare current streak or total workouts with friends by period",
+      "quote": "You can compare your current streak or total workouts with your friends",
+      "url": "https://gravl.ai/help/streaks-and-rankings",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Weekly goal streaks",
+      "detail": "Counts consecutive weeks hitting the weekly goal plus a consistency streak",
+      "quote": "Your streak counts how many weeks in a row you've hit your weekly goal.",
+      "url": "https://gravl.ai/help/streaks-and-rankings",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Streak freezes",
+      "detail": "Earned freezes automatically protect a streak for a missed week",
+      "quote": "A Streak Freeze automatically covers a week where you miss your weekly goal, so your streak keeps going like nothing happened.",
+      "url": "https://gravl.ai/help/streak-freezes-protect-your-streak",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Achievement badges",
+      "detail": "Streak and other badges collected on the profile",
+      "quote": "And don't forget to show off those Streak badges! They're proof of your dedication.",
+      "url": "https://gravl.ai/help/streaks-and-rankings",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "XP and levels",
+      "detail": "Earn XP for workouts, PRs and goals to climb seven levels with badges",
+      "quote": "Gravl Levels: earn XP and level up as you train",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-07-11",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-levels-earn-xp-and-level-up"
+      ]
+    },
+    {
+      "feature": "Send workout to a friend",
+      "detail": "Share a workout as a link a friend can import and do",
+      "quote": "Gravl will generate a link that you can send to your friend via the app of your choice.",
+      "url": "https://gravl.ai/help/gravl-with-your-crew-share-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout share card editor",
+      "detail": "Design a share image with templates, stickers, photo effects, fonts and colours",
+      "quote": "New workout share editor with templates, stickers, photo effects, fonts, color controls, and Instagram sharing improvements.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-06-12",
+      "alsoAt": [
+        "https://gravl.ai/help/gravl-with-your-crew-share-a-workout",
+        "https://gravl.ai/"
+      ]
+    },
+    {
+      "feature": "Instagram Story sharing",
+      "detail": "Post workout card or badges straight to an Instagram Story",
+      "quote": "Tap Story to post straight to Instagram, the share icon to send it anywhere else or save it to your photos",
+      "url": "https://gravl.ai/help/gravl-with-your-crew-share-a-workout",
+      "sourceType": "help_centre",
+      "date": null
+    },
+    {
+      "feature": "Workout history export",
+      "detail": "Export workout history data from settings",
+      "quote": "Export workout history data from your settings.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-04-09"
+    },
+    {
+      "feature": "History import via support",
+      "detail": "Support imports a user's workout history from another app on request",
+      "quote": "Gravl can import all of your Fitbod workouts. Just email us at support@gravl.ai and your history comes with you.",
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "sourceType": "website",
+      "date": "2026-07-28"
+    },
+    {
+      "feature": "Web dashboard",
+      "detail": "Browser dashboard at app.gravl.ai",
+      "quote": "There is a web dashboard at app.gravl.ai for when you want your training on a big screen",
+      "url": "https://gravl.ai/blog/gravl-vs-fitbod",
+      "sourceType": "website",
+      "date": "2026-07-28"
+    },
+    {
+      "feature": "Public developer API",
+      "detail": "Read-only REST API over workouts, records, measurements and stats via personal tokens or OAuth",
+      "quote": "A versioned, scoped, read-only REST API over workouts, records, measurements and stats",
+      "url": "https://gravl.ai/developers",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/developers/personal-tokens"
+      ]
+    },
+    {
+      "feature": "MCP server for AI assistants",
+      "detail": "Connect Claude, ChatGPT etc. to log workouts, edit splits and query progress",
+      "quote": "Connect Claude or any MCP client to your account: log workouts and manage your training from a conversation.",
+      "url": "https://gravl.ai/developers",
+      "sourceType": "website",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/developers/mcp"
+      ]
+    },
+    {
+      "feature": "Android app",
+      "detail": "Available on Google Play in the US",
+      "quote": "Gravl is an AI personal trainer for strength training. It builds your plan, coaches you through every set, and tells you exactly how much weight to lift next time.",
+      "url": "https://play.google.com/store/apps/details?id=com.liteup.getgains",
+      "sourceType": "google_play",
+      "date": null
+    },
+    {
+      "feature": "Apple Vision Pro support",
+      "detail": "Listed as compatible with Apple Vision",
+      "quote": "Requires visionOS 1.0 or later.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null
+    },
+    {
+      "feature": "Eight languages",
+      "detail": "English, Czech, French, German, Italian, Polish, Portuguese, Spanish",
+      "quote": "English, Czech, French, German, Italian, Polish, Portuguese, Spanish",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "app_store",
+      "date": null,
+      "alsoAt": [
+        "https://gravl.ai/blog/gravl-vs-fitbod"
+      ]
+    },
+    {
+      "feature": "In-app feature request board",
+      "detail": "Post, vote on and follow status of feature requests in-app",
+      "quote": "New: Feature Requests section in Profile.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-08-24",
+      "alsoAt": [
+        "https://gravl.ai/help/suggest-a-feature"
+      ]
+    },
+    {
+      "feature": "Apple and Google sign-in",
+      "detail": "Sign in with email/password, Google or Apple",
+      "quote": "the same email and password, Google or Apple login you use in the app.",
+      "url": "https://gravl.ai/developers/mcp",
+      "sourceType": "website",
+      "date": null
+    }
+  ],
+  "removed": [
+    {
+      "feature": "Reset all recommended weights",
+      "quote": "Reset all recommended weights has been removed; percentage adjustments and individual exercise one-rep-max edits remain available.",
+      "url": "https://gravl.ai/developers/release-notes/1.53.3",
+      "date": null
+    },
+    {
+      "feature": "Free-form colour picker",
+      "quote": "Theme presets replace the free-form colour picker.",
+      "url": "https://gravl.ai/developers/release-notes/1.53.3",
+      "date": null
+    }
+  ],
+  "notes": "Excluded as beta: Voice and Text workout creation ('both in Beta', help create-a-one-time-custom-workout). Excluded: Gravl Macros (separate app, food/camera calorie tracking) and its bundle/free-month offers; pricing, Lifetime plan, Uala promo. Circuits: the 2026-07-28 vs-Fitbod blog says Gravl has no circuits, but the help article (updated 2026-09-27) documents 'Add to circuit' for a 3rd exercise in a superset; kept as a claim from the newer help source. App Store description calls the Apple Watch app 'standalone', but the help centre says the phone must be within reach and owns/saves the session; Garmin and Wear OS apps are explicitly companions. Languages: App Store lists 8 (EN, CS, FR, DE, IT, PL, PT, ES); the vs-Fitbod blog claims 9. iPad: product page compatibility lists only iPhone, Apple Vision and Apple Watch (no iPad-specific claim). Vision Pro claim is only the store compatibility line. Developer API is labelled 'Beta - the surface is stable' and read-only; MCP has write actions. Kept both since they are publicly available, but flag if beta exclusion should apply. 'Reps Progression' was renamed 'Rep style' (1.53.3) - not a removal. Rest-timer-sound claim rests on a bug-fix note that references the sound. Release-notes coverage only 2026-03-01..2026-10-05 per the collected file. Live Globe (gravl.ai/globe) is a public website map of live workouts, not recorded as an app feature. Gravl Academy/Fitness help articles are educational content, not recorded as a feature."
+}

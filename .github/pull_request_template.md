@@ -2,7 +2,7 @@
 
 ## What changes
 
-<!-- e.g. "Hevy · Garmin watch app: unknown → no" or "New release classified: Gravl 1.54" -->
+<!-- e.g. "Hevy · garmin-watch-app: unknown → no" or "New release classified: Gravl 1.54" -->
 
 ## Evidence
 
@@ -10,7 +10,8 @@
 
 ## Checklist
 
-- [ ] Every `yes`, `partial` or `no` I added has a source link and a quote or close paraphrase in `note`.
-- [ ] I used only allowed sources (see [METHODOLOGY.md](../METHODOLOGY.md#sources)).
+- [ ] I changed the inputs (`data/claims/`, `tooling/merge/mapping.py`), not the generated files, and ran `npm run build:matrix`.
+- [ ] Every claim or override I added has a verbatim quote and a source link.
+- [ ] I used only allowed sources (see [METHODOLOGY.md](../METHODOLOGY.md#21-collecting-claims)).
 - [ ] `npm run check` passes (validation + tests).
 - [ ] **Disclosure:** I work for, or am paid by, one of the compared apps — ☐ yes (which?) ☐ no. *(Welcome either way; it's just recorded.)*

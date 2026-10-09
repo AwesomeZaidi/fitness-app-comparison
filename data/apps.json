@@ -18,7 +18,7 @@
       ],
       "publisher": true,
       "platforms": "iPhone and Apple Watch. No Android app, no web app.",
-      "notes": "Publisher of this repository. Its matrix column is self-reported (see METHODOLOGY.md). Previously named Tempo; App Store notes before 1.0.26 use that name.",
+      "notes": "Publisher of this repository. Its matrix column is built from its public claims with the same rules as every other app (see METHODOLOGY.md); its feature index at splyt.fit/features was published 2026-10-09. Previously named Tempo; App Store notes before 1.0.26 use that name.",
       "paceSource": "in-app-whats-new"
     },
     {
