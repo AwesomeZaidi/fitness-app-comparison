@@ -37,6 +37,12 @@ jobs:
       - name: Snapshot App Store listings
         run: node scripts/fetch-listings.mjs
 
+      - name: Export this week's published rankings
+        env:
+          SPLYT_SUPABASE_URL: ${{ secrets.SPLYT_SUPABASE_URL }}
+          SPLYT_SUPABASE_ANON_KEY: ${{ secrets.SPLYT_SUPABASE_ANON_KEY }}
+        run: node scripts/export-rankings.mjs
+
       - name: Recompute scoreboard
         run: node scripts/compute-pace.mjs
 

@@ -198,6 +198,10 @@ Pull requests are welcome too. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Every Monday, an automated job re-reads the App Store and opens a pull request listing new releases and listing changes. **Nothing merges automatically.** A person classifies new releases and makes any change to the comparison, with a source. The feature list is not re-extracted automatically.
 
+## App Store rankings
+
+[splyt.fit/apps](https://splyt.fit/apps) lists every iOS workout tracker we can find, refreshed daily from Apple's public data. It ranks them by chart position, ratings gained and total ratings. **[RANKINGS.md](RANKINGS.md)** is the full method: sources, search terms, the exact labelling instructions, and the rule behind every list. Each week the published lists are exported to `data/rankings/`, so any past ranking can be checked.
+
 ## What's in here
 
 ```
@@ -215,6 +219,7 @@ data/
   pace.json            the scoreboard (generated: scripts/compute-pace.mjs)
   pace-crosscheck-2026-10-08.json sources checked outside the App Store
   snapshots/<app>/     App Store listing snapshots (description, version, notes)
+  rankings/<day>.json  the lists published on splyt.fit/apps that day (weekly export: scripts/export-rankings.mjs)
 tooling/
   EXTRACTION-BRIEF.md  the brief every app's claim extraction followed
   merge/mapping.py     every grouping, vetting and override judgement, as data
@@ -234,7 +239,7 @@ test/                  tests for the scripts and the published data (npm test)
 ## License
 
 - **Code** (`scripts/`, `tooling/merge/`, `.github/`) is MIT. See [LICENSE](LICENSE).
-- **Data** (`data/`) is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [data/LICENSE.md](data/LICENSE.md). Please credit "fitness-app-comparison" and link here.
+- **Data** (`data/`) is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [data/LICENSE.md](data/LICENSE.md). Please credit "fitness-app-comparison by SPLYT" and link here, or to [splyt.fit/compare](https://splyt.fit/compare) or [splyt.fit/apps](https://splyt.fit/apps).
 - **Text quoted from the apps' own material** — App Store listings, release notes, websites and help centres — in `data/claims/`, `data/releases/`, `data/snapshots/`, `data/matrix.json` and `MERGE-LOG.md` belongs to the developers who wrote it. It is included so the data can be verified. The CC BY license covers our compilation and annotations, not their text.
 
 App names and trademarks belong to their owners. None of the other five apps reviewed or endorsed this comparison.
