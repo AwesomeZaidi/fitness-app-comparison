@@ -1,0 +1,23 @@
+{
+  "app": "gravl",
+  "source": "https://itunes.apple.com/lookup?id=6450921637&country=us",
+  "fetchedAt": "2026-10-09T05:23:35.717Z",
+  "listing": {
+    "trackId": 6450921637,
+    "trackName": "Gravl: AI Personal Trainer",
+    "artistName": "GAINS AI",
+    "sellerUrl": "https://gravl.ai",
+    "version": "1.53.4",
+    "currentVersionReleaseDate": "2026-10-05T21:47:54Z",
+    "releaseNotes": "Fixed a bug when rating effort in cardio exercises.",
+    "description": "Gravl is an AI personal trainer for strength training. It builds your plan, coaches you through every set, and tells you exactly how much weight to lift next time.\n\nAUTOMATIC PROGRESSIVE OVERLOAD\nGravl estimates your one-rep max from your logged history and prescribes the next session from it. Reps climb set by set; when the ladder fills, the weight steps up, snapped to the plates or stack you actually have. Rate a set Easy or Hard and the next prescription adjusts.\n\nTRAIN ON YOUR WRIST, WITHOUT YOUR PHONE\nA standalone Apple Watch app. Log sets and reps, run rest timers, and finish a whole session from the watch. Syncs with Apple Health, Garmin and Strava.\n\nSTRENGTH SCORE\nSee how your lifts compare against standards for your body weight and sex, tracked over time across every muscle group.\n\nBUILT AROUND YOUR GYM, NOT A GENERIC TEMPLATE\nGravl accounts for the equipment you own, which muscles are still recovering, what you trained last session, and which lifts you've neglected. 300+ trainer-led exercise videos, downloadable for offline use.\n\nFree to start. Full training plans, the Apple Watch app and analytics on Gravl Premium.\n\nPrivacy: https://gravl.ai/privacy\nTerms: https://gravl.ai/terms\nTerms (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "price": 0,
+    "formattedPrice": "Free",
+    "currency": "USD",
+    "genres": [
+      "Health & Fitness"
+    ],
+    "minimumOsVersion": "16.4",
+    "contentAdvisoryRating": "4+"
+  }
+}

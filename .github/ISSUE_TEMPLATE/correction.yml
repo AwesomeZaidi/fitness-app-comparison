@@ -1,0 +1,67 @@
+name: Correct a cell
+description: A value in the comparison is wrong or out of date.
+title: "Correction: <app> / <feature>"
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks — corrections are the point of publishing this. A correction needs a source we can open and check.
+        Allowed sources: the app's **App Store listing or release notes**, its **official website**, **help centre / docs**, **official blog**, or **Google Play listing** (see METHODOLOGY.md).
+        Corrections to **SPLYT** are just as welcome and follow the same rules.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options: [SPLYT, Hevy, Strong, Gravl, Fitbod, Motra]
+    validations:
+      required: true
+  - type: input
+    id: feature
+    attributes:
+      label: Feature
+      description: As shown on splyt.fit/compare, or its id from data/features.json (e.g. "Automatic rep counting" / auto_rep_counting).
+    validations:
+      required: true
+  - type: dropdown
+    id: current
+    attributes:
+      label: Current value
+      options: ["yes", "partial", "no", "unknown"]
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed
+    attributes:
+      label: Proposed value
+      options: ["yes", "partial", "no", "unknown"]
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence URL
+      description: A page from one of the allowed sources that shows the proposed value.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: What the source says
+      description: Quote the relevant sentence, or describe where on the page to look.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Context, screenshots, which version or plan (free/paid) it applies to.
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Do you work for or with any of these apps?
+      description: Either answer is fine — we note it, and the evidence decides.
+      options: ["No", "Yes (please say which in the notes)", "Prefer not to say"]
+    validations:
+      required: true

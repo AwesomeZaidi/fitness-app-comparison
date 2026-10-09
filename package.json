@@ -1,0 +1,17 @@
+{
+  "name": "fitness-app-comparison",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open, auditable data behind splyt.fit/compare: six iOS workout trackers on 52 features, plus a release-pace scoreboard.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node scripts/fetch-releases.mjs && node scripts/fetch-listings.mjs",
+    "fetch:releases": "node scripts/fetch-releases.mjs",
+    "fetch:listings": "node scripts/fetch-listings.mjs",
+    "pace": "node scripts/compute-pace.mjs",
+    "validate": "node scripts/validate.mjs",
+    "report": "node scripts/diff-report.mjs"
+  }
+}

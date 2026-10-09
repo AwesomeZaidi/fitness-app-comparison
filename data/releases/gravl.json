@@ -1,0 +1,406 @@
+{
+  "app": "gravl",
+  "appStoreId": "6450921637",
+  "source": "https://apps.apple.com/us/app/id6450921637",
+  "history": "Live App Store page (apps.apple.com/us/app/id6450921637, fetched 2026-10-08; 25 most recent).",
+  "coverage": {
+    "from": "2026-03-01",
+    "to": "2026-10-05",
+    "note": "Covers 2026-03-01..2026-10-05 only. No Wayback captures of the Gravl page exist before 2026-08 and no other public source was found, so 2025-11-01..2026-02-28 is NOT covered. Version history lists versions like 1.53.1/1.53.4 without the intermediate .2/.3, which were presumably never released to the store."
+  },
+  "fetchedAt": "2026-10-09",
+  "releases": [
+    {
+      "version": "1.53.4",
+      "date": "2026-10-05",
+      "notes": "Fixed a bug when rating effort in cardio exercises.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: rating effort in cardio exercises",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.53.1",
+      "date": "2026-09-28",
+      "notes": "Fixed a crash when you go back to your active workout.\nFixed a freeze when you edit a set after you reopen the app.\nFaster app start, also on a slow network.\nFailed workout saves now retry automatically.\nApple Health sync is more reliable.\nImported workouts show better titles, and rides show your speed.\nFixed sets that were marked as done together by mistake.\nBetter weight suggestions for weighted bodyweight exercises.\nOther small fixes and improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Auto-retry failed workout saves",
+          "reason": "speed or reliability"
+        },
+        {
+          "item": "Faster app start",
+          "reason": "speed or reliability"
+        },
+        {
+          "item": "More reliable Apple Health sync",
+          "reason": "speed or reliability"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.53",
+      "date": "2026-09-26",
+      "notes": "• Workout Focus: Block distracting apps while you train, with optional access during rest breaks.\n• Rebuilt Apple Watch experience: Better synchronization with your iPhone, more reliable rest timers, and a simplified view for logging sets.\n• Creator training plans: Train with Hermes and Sandra through structured plans with progressive phases, workout previews, and exercise videos.\n• Personalized plan recommendations: Get help choosing a training plan based on your schedule, goals, and available equipment.\n• Redesigned Library: Find workouts, plans, and exercises faster with improved search, filters, and sorting that remembers your preferences.\n• New themes: Personalize Gravl with Stealth, Pulse, and Rose, alongside Light and Original.\n• Clearer progress tracking: Refreshed body measurements, exercise analytics, and progress screens.\n• Fixes and improvements: Better workout saving, pause and resume behavior, exercise replacements, and duplicate handling in Apple Health.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Workout Focus (block distracting apps)",
+        "Rebuilt Apple Watch app",
+        "Creator training plans",
+        "Personalized plan recommendations",
+        "Redesigned Library",
+        "New themes"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.52.1",
+      "date": "2026-08-28",
+      "notes": "Upcoming workouts now stay in the correct order after you reorganize your week or complete workouts out of sequence.\nInjury-aware workouts now clearly explain when exercises have been adjusted or when it’s better to skip a workout.\nSupport conversations now show when a reported issue has been resolved.\nWe’ve also polished gym profiles and fixed several smaller issues.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Injury-aware workout explanations",
+        "Support conversations show resolved status"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.52",
+      "date": "2026-08-24",
+      "notes": "- New: Injuries - adapt your workouts based on training limitations.\n- New: Monthly Review Stories.\n- New: Feature Requests section in Profile.\n- Plate calculator improvements.\n- Fixed a bug when reordering workouts.\n- Fixed streak badges not unlocking.\n- Fixed Apple Music pausing on rest timer sound.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Injuries: adapt workouts to limitations",
+        "Monthly Review Stories",
+        "Feature Requests section"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.51",
+      "date": "2026-08-18",
+      "notes": "Tap any target weight and Gravl tells you why it picked it, based on\nyour estimated 1RM and how the lift has gone recently.\n\nProgression is smarter: miss a set and you keep the reps you proved,\nweight jumps stay close to what you've actually lifted, and machines\nwith big weight steps finally work properly.\n\nRecords and 1RMs are now per gym, so a stronger machine somewhere else\ndoesn't hide your progress here.\n\nNew plate inventory. Tell Gravl what plates your gym has and the\ncalculator sticks to them, and warns you when a weight won't load.\n\nSupport is in the app now. Ask the assistant, attach a photo, or talk to\na real person.\n\nGarmin: four more watches supported, and a watch app install that\nactually works.\n\nPlus redesigned form analysis, workout celebrations, measurement trends,\nfaster syncing and a long list of fixes.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Explains why each target weight was picked",
+        "Per-gym records and 1RMs",
+        "Plate inventory for calculator",
+        "In-app support assistant",
+        "More Garmin watches"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.50",
+      "date": "2026-08-07",
+      "notes": "- Rep ladder improvement for bodyweight exercises.\n- Updated 1RM calculation for shoulder exercises based on the targeted sub-muscle.\n- Improved rules for creating exercises with AI.\n- Added deload info to the Weight Insights tab.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Rep ladder for bodyweight exercises",
+        "Deload info in Weight Insights"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.49",
+      "date": "2026-07-29",
+      "notes": "- Create custom equipment in your gym profiles.\n- Algorithm update for more accurate progressive overload recommendations.\n- Plate weight unit is now editable in your gym profile.\n- Create custom exercises from social media links.\n- Download videos for offline access.\n- Added weight ranges for selectorized machines (AI photo).\n- Added exertion rate and progressive overload for bodyweight exercises.\n- Improved logic for how favorited exercises are selected.\n- Bug fixed with duplicated workouts when using Apple Watch.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Custom equipment in gym profiles",
+        "Custom exercises from social media links",
+        "Offline video downloads",
+        "AI-photo weight ranges for selectorized machines",
+        "Progressive overload for bodyweight exercises"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.48.1",
+      "date": "2026-07-15",
+      "notes": "- Garmin bug fixes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Garmin bug fixes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.48",
+      "date": "2026-07-11",
+      "notes": "Garmin watch support: log workouts from your watch with real-time sync\nGravl Levels: earn XP and level up as you train",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Garmin watch support with real-time sync",
+        "Gravl Levels (XP)"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.8",
+      "date": "2026-06-26",
+      "notes": "Fixed an issue where exercise videos would not play.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: exercise videos not playing",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.7",
+      "date": "2026-06-20",
+      "notes": "- Bug fixed with tutorial walkthrough in exercise screen",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: exercise-screen tutorial",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.6",
+      "date": "2026-06-18",
+      "notes": "- Bug fixed with streak freeze not applying.\n- Bug fixed when editing favorite workouts.\n- Bug fixed with next workout generation.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: streak freeze not applying",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.3",
+      "date": "2026-06-16",
+      "notes": "- Bug fixed with in-app rest timer sound.\n- Bug fixed when logging time-based exercises\n- Bug fixed with next workout set.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: rest timer sound and time-based logging",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.2",
+      "date": "2026-06-14",
+      "notes": "Fixed bug where glutes were missing from Strength Score settings.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: glutes missing from Strength Score settings",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47.1",
+      "date": "2026-06-12",
+      "notes": "Fixed an issue where replacing an exercise could make it disappear from the workout list.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: replaced exercise disappearing",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.47",
+      "date": "2026-06-12",
+      "notes": "- New workout share editor with templates, stickers, photo effects, fonts, color controls, and Instagram sharing improvements.\n- Added progress photo support for body metrics, including capture, upload, gallery, and before/after comparison.\n- Added workout AI summaries for completed workouts.\n- Updated dark/light theme\n- Improved Strength Score with exercise score targets, score badges during workouts, level celebrations, friend score badges, stale-score recommendations, and new excluded-muscle settings.\n- Added smarter exercise recommendations that prioritize muscles and exercises needing updated score data.\n- Added streak improvements, including streak rewards, freeze syncing, timeframe sheets, celebration screens, and refreshed streak/progress UI.\n- Added first-day-of-week setting and updated streaks, trends, measurements, calendars, and activity views to respect it.\n- Improved onboarding, coachmarks, quick workout walkthroughs, and deep-link recovery for web/onboarding flows.\n- Refreshed the Library, Progress, Profile, Settings, exercise analytics, workout summary, and friend activity screens.\n- Improved Apple Health workout sync, including background sync for external workouts.\n- Fixed workout dates shifting across time zones in feed, calendar, weekly summaries, and exercise history.\n- Fixed rest timer behavior in the background and short rest times in workout summaries.\n- Fixed workout logging responsiveness, keyboard spacing, focused input color, and exercise note editing.\n- Fixed workout start/back-stack issues, active workout cancel state, pending save visibility, and watch sync updates.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Workout share editor with templates/stickers",
+        "Progress photos with before/after",
+        "AI workout summaries",
+        "Strength Score improvements",
+        "Streak rewards"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.45",
+      "date": "2026-05-23",
+      "notes": "- New onboarding flow with improved Apple Health permissions, body stats, gym selection, and personalized workout plan summary\n- Find your gym during setup so Gravl can preload available equipment when supported\n- Improved Apple Health workout import with route previews, heart rate, distance, and workout metrics when available\n- Workout details now show richer cardio metrics and route maps for supported workouts\n- Community and friend flows have been upgraded with profile completion, username search, QR invites, and friend request actions\n- Apple Watch workout syncing is more reliable, with better finished-workout handling and personal record feedback\n- New activity widget support and refreshed app/watch icons\n- General polish across onboarding, translations, notifications, profile setup, and app stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "New onboarding with gym selection",
+        "Apple Health import with route maps",
+        "Friend search and QR invites",
+        "Activity widget"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.44",
+      "date": "2026-05-04",
+      "notes": "- Bug fixed with workouts failing to save.\n- Bug fixed with AI imports from photo not matching existing exercises.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: workouts failing to save",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.43",
+      "date": "2026-04-09",
+      "notes": "- Export workout history data from your settings.\n- Bug fixed with monthly review video crash.\n- Bug fixed with saving workouts imported from social media.\n- Improvements on bodyweight sync from Apple Health.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Export workout history"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.42.2",
+      "date": "2026-03-30",
+      "notes": "Fixed an issue where editing manual duration didn’t update the workout in Apple Health\nCardio workouts are now correctly saved as cardio in Apple Health\nFixed issue with lbs conversion when syncing bodyweight from Apple Health",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.42.1",
+      "date": "2026-03-26",
+      "notes": "Fixed an issue where editing manual duration didn’t update the workout in Apple Health\nCardio workouts are now correctly saved as cardio in Apple Health\nFixed issue with lbs conversion when syncing bodyweight from Apple Health",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: Apple Health duration/cardio type/lbs conversion",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.42",
+      "date": "2026-03-22",
+      "notes": "- Monthly Review: Get monthly stats and share your progress.\n- Start any workout for the week and easily change the order.\n- Add the Gravl icon to your Apple Watch face.\n- Improved 1RM calculations for exercises without previous history.\n- Fixed a bug when editing workout duration.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Monthly Review",
+        "Reorder/start any workout of the week",
+        "Gravl Apple Watch complication"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.41.1",
+      "date": "2026-03-04",
+      "notes": "Internal bug fix",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "1.41",
+      "date": "2026-03-01",
+      "notes": "- Bug fixed with workout duration\n- Bug fixed with calories calculation from Apple Watch\n- Bug fixed with Fitness mode",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: workout duration and Apple Watch calories",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "description": "The six apps compared. appStoreId is the US App Store id; officialDomains are the sites accepted as official sources for that app, in addition to its App Store and Google Play listings.",
+  "sharedOfficialDomains": [
+    "apps.apple.com",
+    "play.google.com"
+  ],
+  "apps": [
+    {
+      "id": "splyt",
+      "name": "SPLYT",
+      "appStoreName": "SPLYT Fitness: Workout Tracker",
+      "developer": "Syed Hussain",
+      "appStoreId": "6755893717",
+      "appStoreUrl": "https://apps.apple.com/us/app/id6755893717",
+      "website": "https://www.splyt.fit",
+      "officialDomains": [
+        "splyt.fit",
+        "www.splyt.fit"
+      ],
+      "publisher": true,
+      "platforms": "iPhone and Apple Watch. No Android app, no web app.",
+      "notes": "Publisher of this repository. Its matrix column is self-reported (see METHODOLOGY.md). Previously named Tempo; App Store notes before 1.0.26 use that name.",
+      "paceSource": "in-app-whats-new"
+    },
+    {
+      "id": "hevy",
+      "name": "Hevy",
+      "appStoreName": "Hevy - Workout Tracker Gym Log",
+      "developer": "Hevy Studios S.L.",
+      "appStoreId": "1458862350",
+      "appStoreUrl": "https://apps.apple.com/us/app/id1458862350",
+      "website": "https://www.hevyapp.com",
+      "officialDomains": [
+        "hevyapp.com",
+        "www.hevyapp.com",
+        "help.hevyapp.com",
+        "hevy.com"
+      ],
+      "publisher": false,
+      "platforms": "iPhone, Apple Watch, Android, Wear OS; a web version at hevy.com with some features limited.",
+      "paceSource": "app-store"
+    },
+    {
+      "id": "strong",
+      "name": "Strong",
+      "appStoreName": "Strong Workout Tracker Gym Log",
+      "developer": "Strong Fitness PTE Limited",
+      "appStoreId": "464254577",
+      "appStoreUrl": "https://apps.apple.com/us/app/id464254577",
+      "website": "https://strong.app",
+      "officialDomains": [
+        "strong.app",
+        "help.strongapp.io",
+        "strongapp.io"
+      ],
+      "publisher": false,
+      "platforms": "iPhone, Apple Watch, Android. No web app.",
+      "paceSource": "app-store"
+    },
+    {
+      "id": "gravl",
+      "name": "Gravl",
+      "appStoreName": "Gravl: AI Personal Trainer",
+      "developer": "GAINS AI",
+      "appStoreId": "6450921637",
+      "appStoreUrl": "https://apps.apple.com/us/app/id6450921637",
+      "website": "https://gravl.ai",
+      "officialDomains": [
+        "gravl.ai",
+        "app.gravl.ai"
+      ],
+      "publisher": false,
+      "platforms": "iPhone, Apple Watch, Android, Wear OS, Garmin (Connect IQ); a web analytics dashboard.",
+      "notes": "Gravl: Macros is a separate app from the same company and is not part of this comparison.",
+      "paceSource": "app-store"
+    },
+    {
+      "id": "fitbod",
+      "name": "Fitbod",
+      "appStoreName": "Fitbod: Gym & Fitness Planner",
+      "developer": "Fitbod Inc.",
+      "appStoreId": "1041517543",
+      "appStoreUrl": "https://apps.apple.com/us/app/id1041517543",
+      "website": "https://fitbod.me",
+      "officialDomains": [
+        "fitbod.me",
+        "help.fitbod.me",
+        "app.fitbod.me"
+      ],
+      "publisher": false,
+      "platforms": "iPhone, Apple Watch, Android, Wear OS; the website handles account, subscription and the Workout Report.",
+      "paceSource": "app-store"
+    },
+    {
+      "id": "motra",
+      "name": "Motra",
+      "appStoreName": "Motra AI Workout Fitness Coach",
+      "developer": "Train Fitness Inc.",
+      "appStoreId": "1548577496",
+      "appStoreUrl": "https://apps.apple.com/us/app/id1548577496",
+      "website": "https://www.motra.com",
+      "officialDomains": [
+        "motra.com",
+        "www.motra.com",
+        "help.motra.com"
+      ],
+      "publisher": false,
+      "platforms": "iPhone and Apple Watch only.",
+      "notes": "Not \"MOTRA\" (App Store id 6756487760, Google Play com.motra.app) — an unrelated effort-points/running app from a different company.",
+      "paceSource": "app-store"
+    }
+  ]
+}

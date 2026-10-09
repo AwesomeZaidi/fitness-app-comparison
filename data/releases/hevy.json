@@ -1,0 +1,530 @@
+{
+  "app": "hevy",
+  "appStoreId": "1458862350",
+  "source": "https://apps.apple.com/us/app/id1458862350",
+  "history": "Live App Store page (apps.apple.com/us/app/id1458862350, fetched 2026-10-08; 25 most recent) + Wayback Machine captures of the same page dated 2026-04-12 and 2026-05-06 (each 25 most recent at capture time).",
+  "coverage": {
+    "from": "2025-11-01",
+    "to": "2026-10-02",
+    "note": "Continuous coverage 2025-08-27..2026-10-02 (sources overlap, no conflicts). Hevy often re-ships the previous release's notes verbatim (repeatsPreviousNotes=true); those are classified by text but carry no new features."
+  },
+  "fetchedAt": "2026-10-09",
+  "releases": [
+    {
+      "version": "3.1.16",
+      "date": "2026-10-02",
+      "notes": "What's new in this update:\n\nYou can now Send workouts to ChatGPT & Claude directly from the finish workout screen!\nAdded support for 5 new languages across the app and hevy.com\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.15",
+      "date": "2026-09-21",
+      "notes": "What's new in this update:\n\nYou can now Send workouts to ChatGPT & Claude directly from the finish workout screen!\nAdded support for 5 new languages across the app and hevy.com\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.14",
+      "date": "2026-09-16",
+      "notes": "What's new in this update:\n\nYou can now Send workouts to ChatGPT & Claude directly from the finish workout screen!\nAdded support for 5 new languages across the app and hevy.com\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.13",
+      "date": "2026-09-09",
+      "notes": "What's new in this update:\n\nYou can now Send workouts to ChatGPT & Claude directly from the finish workout screen!\nAdded support for 5 new languages across the app and hevy.com\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.12",
+      "date": "2026-09-03",
+      "notes": "What's new in this update:\n\nYou can now Send workouts to ChatGPT & Claude directly from the finish workout screen!\nAdded support for 5 new languages across the app and hevy.com\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Send workouts to ChatGPT & Claude from finish-workout screen",
+        "5 new languages"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.11",
+      "date": "2026-08-28",
+      "notes": "What's new in this update:\n\nTag your GYM on your workouts — let everyone see where the work gets done!\nSwitch up your split: Full Body, Upper/Lower, Push Pull Legs and more — your training, your call.\nFemale templates: better personalization for our Athletes!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Tag your gym on workouts",
+        "Choose training split (Full Body, Upper/Lower, PPL)",
+        "Female templates"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.10",
+      "date": "2026-08-20",
+      "notes": "What's new in this update:\n\nRedesigned the Set Row UI — clearer active/checked states, an RPE color scale\nProgressive Overload now supports reps-only exercises (pull-ups, push-ups, etc.)\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Redesigned set row UI with RPE color scale",
+        "Progressive overload for reps-only exercises"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.9",
+      "date": "2026-08-14",
+      "notes": "What's new in this update:\n\nProgram Variety setting lets you control how often your Trainer exercises change.\nInjury Management lets you flag injuries so Trainer can adapt your program around them.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.8",
+      "date": "2026-08-06",
+      "notes": "What's new in this update:\n\nProgram Variety setting lets you control how often your Trainer exercises change.\nInjury Management lets you flag injuries so Trainer can adapt your program around them.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Program Variety setting for Trainer",
+        "Injury Management for Trainer"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.7",
+      "date": "2026-07-30",
+      "notes": "What's new in this update:\n\nBug fixes and performance improvements!",
+      "generic": true,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.6",
+      "date": "2026-07-24",
+      "notes": "What's new in this update:\n\nBug fixes and performance improvements!",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.5",
+      "date": "2026-07-21",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.4",
+      "date": "2026-07-18",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.3",
+      "date": "2026-07-15",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-07-04",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-07-01",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-06-25",
+      "notes": "What's new in this update:\n\nDid you say liquid glass? Hevy now has new liquid glass components to make your navigation feel smooth and native!\nYou can now see your full Trainer program!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Liquid Glass navigation components",
+        "View full Trainer program"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.15",
+      "date": "2026-06-06",
+      "notes": "What's new in this update:\n\nWe heard you, the duration input is back as a text input!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.14",
+      "date": "2026-05-28",
+      "notes": "What's new in this update:\n\nWe heard you, the duration input is back as a text input!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Duration input back as text input"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.13",
+      "date": "2026-05-21",
+      "notes": "What's new in this update:\n\nNews for hybrid trainings: We’ve added some functional exercises to prepare for your next HYROX competition. You can now track your hybrid trainings right inside Hevy. Enjoy.\n\nHevy Trainer just got more flexible: you can now change\nthe default rest timer, with shorter and longer options\nto match how you train.\n\nWe've been polishing the app: more haptic feedback, a smoother dark mode experience, and a bunch of small Hevy details we think you'll appreciate.\n\nBug fixes to keep things running smoothly.\n\nAlso, keep your eyes open. There's a hidden Hevy logo\nhiding somewhere on certain Apple devices. Most people\nwon't find it. Will you?\n\nKeep lifting.",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.12",
+      "date": "2026-05-14",
+      "notes": "What's new in this update:\n\nNews for hybrid trainings: We’ve added some functional exercises to prepare for your next HYROX competition. You can now track your hybrid trainings right inside Hevy. Enjoy.\n\nHevy Trainer just got more flexible: you can now change\nthe default rest timer, with shorter and longer options\nto match how you train.\n\nWe've been polishing the app: more haptic feedback, a smoother dark mode experience, and a bunch of small Hevy details we think you'll appreciate.\n\nBug fixes to keep things running smoothly.\n\nAlso, keep your eyes open. There's a hidden Hevy logo\nhiding somewhere on certain Apple devices. Most people\nwon't find it. Will you?\n\nKeep lifting.",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.11",
+      "date": "2026-05-06",
+      "notes": "What's new in this update:\n\nNews for hybrid trainings: We’ve added some functional exercises to prepare for your next HYROX competition. You can now track your hybrid trainings right inside Hevy. Enjoy.\n\nHevy Trainer just got more flexible: you can now change\nthe default rest timer, with shorter and longer options\nto match how you train.\n\nWe've been polishing the app: more haptic feedback, a smoother dark mode experience, and a bunch of small Hevy details we think you'll appreciate.\n\nBug fixes to keep things running smoothly.\n\nAlso, keep your eyes open. There's a hidden Hevy logo\nhiding somewhere on certain Apple devices. Most people\nwon't find it. Will you?\n\nKeep lifting.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "HYROX/functional exercises for hybrid training",
+        "Configurable default rest timer in Trainer",
+        "More haptics and dark-mode polish"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.10",
+      "date": "2026-04-28",
+      "notes": "You can now choose more granular equipments for trainer programs!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.9",
+      "date": "2026-04-24",
+      "notes": "You can now choose more granular equipments for trainer programs!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.8",
+      "date": "2026-04-22",
+      "notes": "You can now choose more granular equipments for trainer programs!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.7",
+      "date": "2026-04-15",
+      "notes": "You can now choose more granular equipments for trainer programs!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.6",
+      "date": "2026-04-09",
+      "notes": "You can now choose more granular equipments for trainer programs!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "More granular equipment choice for Trainer programs"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.5",
+      "date": "2026-04-01",
+      "notes": "Bug fixes and performance improvements!",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.4",
+      "date": "2026-03-25",
+      "notes": "Hevy Trainer is now on your wearable! You can now see your next trainer workout on your apple watch.\nFemale assets for muscle distribution!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Hevy Trainer next workout on Apple Watch",
+        "Female muscle-distribution assets"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-03-14",
+      "notes": "Hevy Trainer is now live! You can now:\n- Generate your workouts\n- Follow a trainer guided program\n- Progress weight with progress overload\n- See your weekly progress\n- And much more!\n\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-03-12",
+      "notes": "Hevy Trainer is now live! You can now:\n- Generate your workouts\n- Follow a trainer guided program\n- Progress weight with progress overload\n- See your weekly progress\n- And much more!\n\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-03-06",
+      "notes": "Hevy Trainer is now live! You can now:\n- Generate your workouts\n- Follow a trainer guided program\n- Progress weight with progress overload\n- See your weekly progress\n- And much more!\n\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-02-17",
+      "notes": "Hevy Trainer is now live! You can now:\n- Generate your workouts\n- Follow a trainer guided program\n- Progress weight with progress overload\n- See your weekly progress\n- And much more!\n\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Hevy Trainer: generated workouts, guided programs, progressive overload, weekly progress"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.11",
+      "date": "2026-01-31",
+      "notes": "Added support for Airpods Pro 3 biometrics integration when logging a workout!\nBug fixes and performance improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.10",
+      "date": "2026-01-27",
+      "notes": "Added support for Airpods Pro 3 biometrics integration when logging a workout!\nBug fixes and performance improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.9",
+      "date": "2026-01-22",
+      "notes": "Added support for Airpods Pro 3 biometrics integration when logging a workout!\nBug fixes and performance improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "AirPods Pro 3 biometrics (heart rate) during logging"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.8",
+      "date": "2026-01-16",
+      "notes": "Improved Log RPE experience with enhanced UI feedback and automatic set checking.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.7",
+      "date": "2026-01-15",
+      "notes": "Improved Log RPE experience with enhanced UI feedback and automatic set checking.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Improved RPE logging with auto set-checking"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.6",
+      "date": "2025-12-18",
+      "notes": "Plate Calculator is now available for Hip Thrust (Smith Machine) - quickly calculate your plate setup\nRedesigned notification screen - easily see and manage your unread notifications\nBug fixes and performance improvements for a smoother experience",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Plate calculator for Smith-machine hip thrust",
+        "Redesigned notifications screen"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.5",
+      "date": "2025-12-09",
+      "notes": "You can now view a muscle distribution heatmap while logging your workout—tap it to see full details.\nHevy can now read and write lean body mass to Apple Health. Try it out by logging a new measurement!\nPlus, we’ve made various bug fixes and performance improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": true,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.4",
+      "date": "2025-12-05",
+      "notes": "You can now view a muscle distribution heatmap while logging your workout—tap it to see full details.\nHevy can now read and write lean body mass to Apple Health. Try it out by logging a new measurement!\nPlus, we’ve made various bug fixes and performance improvements.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Live muscle-distribution heatmap while logging",
+        "Read/write lean body mass with Apple Health"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.3",
+      "date": "2025-11-20",
+      "notes": "New app headers design! The app is becoming prettier for you!\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "New app header design"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "2.5.2",
+      "date": "2025-11-06",
+      "notes": "Hevy will now warn you when your device is running low on storage before or during a workout, helping ensure your data is never lost.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Low-storage warning before/during workouts"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    }
+  ]
+}

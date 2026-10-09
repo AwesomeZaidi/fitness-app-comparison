@@ -1,0 +1,2299 @@
+{
+  "description": "One cell per feature per app. value: yes | partial | no | unknown. Competitor cells cite a public source; SPLYT cells are self-reported. See METHODOLOGY.md.",
+  "values": [
+    "yes",
+    "partial",
+    "no",
+    "unknown"
+  ],
+  "cells": {
+    "set_logging": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide",
+        "note": "2026 Features Guide: 'Log sets, reps, and weight with ease'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "App Store: 'record your workouts as effortlessly and as quickly as possible'; sets with weight/reps, multiple exercise types.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/log-your-past-workouts",
+        "note": "Core function: 'Enter the reps and weights and log all the sets you did'; sets arrive pre-filled with recommended weights.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/29486697282711-Exercise-Details-Screen-Sets-Reps-and-Weight-Fields-Explained",
+        "note": "Help center: 'Fitbod provides three key fields to help you log your exercises: Sets, Reps, and Weight.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "Tracks reps for 470+ exercise types from Apple Watch motion; manual entry of exercises/sets/weights/reps also supported on iPhone (help.motra.com 'Workout Data Not Saving': Manual Workout).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "set_types": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34896293707927-Set-Types-in-Hevy-Explained-Drop-Sets-Warm-Up-Sets-and-More",
+        "note": "Set types Warm-up, Normal, Drop set, Failure; App Store: 'Mark sets as Warmup, Normal, Drop sets, Failure and Supersets'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/166-set-tags",
+        "note": "Sets can be tagged Warm-up, Drop Set or Failure via the Set Tag menu; RPE also supported.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/create-a-dropset",
+        "note": "Dropsets via swipe/3-dot menu; configurable warm-up sets (https://gravl.ai/help/customize-your-warmup-sets). No explicit 'failure' set tag found; dropset reps are to failure.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006337634-Warm-Up-Sets",
+        "note": "Warm-up sets exist (auto-added, or 'Add Warm-Up Set' mid-workout), and Reps in Reserve can be logged from 0 (failure) to 4+. No drop-set or failure-set tag appears anywhere in the 99-article help center.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/12770673-drop-sets",
+        "note": "'Motra now has full support for Drop Sets' (iPhone + Watch); warm-up and cool-down set labels (help article 9672186). No failure-set tag found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "supersets": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36954623739415-Circuits-Intervals-and-Supersets-Explained-How-to-Build-Them-in-the-Hevy-App",
+        "note": "Dedicated superset feature, also used to build circuits/intervals; Smart Superset Scrolling.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/98-supersets-and-circuits",
+        "note": "Supersets/Circuits: group exercises; Next button cycles between grouped exercises.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/create-a-superset",
+        "note": "'Add to superset'; a third exercise reads 'Add to circuit'; Gravl can auto-build supersets into generated workouts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006427813-Circuits-Supersets",
+        "note": "Supersets (2 exercises) and circuits (3+) can be auto-generated or built via 'Build superset/circuit'. Timed Intervals are also available (iOS only).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9672557-supersets",
+        "note": "Supersets detected automatically or created manually; 6.2.0 labels groups of 3+ exercises 'Circuit'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "rest_timer": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35385404949143-Rest-Timer-Default-Rest-Timer-How-to-Add-Adjust-Volume-and-Sound",
+        "note": "Automatic per-exercise rest timers; default rest timer setting.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/231-rest-timer",
+        "note": "Rest Timer starts automatically after a set (default 2:00), per-exercise durations; Live Activity added in 6.5.0.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/adjust-your-rest-times",
+        "note": "Rest timers, configurable per exercise; also on watch with wrist buzz.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006340194-Rest-Timer",
+        "note": "'Once you log a set, the countdown timer will start and a tone and/or vibration will emit.' Notifications fire when the app is in the background.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9671219-rest-time-and-rest-alarm",
+        "note": "Rest time with visual and audio rest alarm.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "plate_calc": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34518876511383-How-to-use-the-Plate-Calculator-Logging-and-Adding-Custom-Plates-and-Bars",
+        "note": "Plate calculator with custom plates and bars; release 2.5.6 extended it to Smith-machine hip thrust.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/169-plate-calculator",
+        "note": "Plate Calculator (Strong PRO only), accounts for bar weight; not on Apple Watch.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/plates-calculator-effortless-barbell-weight-logging",
+        "note": "Plate calculator with 'Fewest plates'/'Fewest changes' modes and per-gym plate inventory (release 1.51).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360007700013-Plate-Calculator",
+        "note": "Plate Calculator for barbell, EZ bar, trap bar, Smith, leg press and other plate-loaded equipment. Phone only, not on the watch.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention found in help center, site or release notes (PR Breakdown has a 1RM/rep calculator, not a plate calculator).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "prev_values": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36011896355479-How-to-Use-Previous-Workout-Values-to-Improve-Performance-in-Hevy",
+        "note": "Previous workout values shown/prefilled; a setting picks previous values vs routine values.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://strong.app/love",
+        "note": "Official testimonials: 'love that it remembers the sets from the previous workout'; Focus Metric (help 226) compares to last time you did the exercise.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/blog/gravl-vs-fitbod",
+        "note": "'Gravl pre-fills every set'; Insights pill shows 'what you did last time' and estimated 1RM trend.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/30721437384215-How-to-Navigate-the-Exercise-Details-Screen",
+        "note": "Exercise Details shows 'Historical Logs & Performance – Quick access to your past workout data', and sets come prefilled with recommended sets, reps and weight based on history.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9888453-about-motra",
+        "note": "Detects sets and will 'provide historical or suggested weights to log'; 5.4.0 notes mention 'recent workout weights memory'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "pr_tracking": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36012016405655-Hevy-Live-PR-Notifications-Get-Instant-Updates-on-Your-Best-Lifts",
+        "note": "Live PR notifications during the workout, plus set records per exercise.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/216-exercise-records-screen",
+        "note": "Records tab shows all-time bests and best performance at each rep (<=12 reps); App Store: 'Advanced Statistics show your personal records'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/blog/gravl-vs-fitbod",
+        "note": "'PRs are detected automatically as you log'; PR celebration on watch; records per gym (release 1.51).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/12732749777047-Fitbod-Metrics-Records",
+        "note": "Metrics & Records covers estimated strength (e1RM) and records. Focus Exercises stats include 'estimated 1RM, personal records'. The offline article mentions 'Personal records, milestones'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9703315-personal-record-pr-breakdown",
+        "note": "PR Breakdown per exercise: heaviest weight at each rep count plus predicted maxes from last 90 days. Automatic PR alerts not confirmed.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "exercise_demos": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35688251991575-Hevy-Exercise-Library-400-Exercises-and-Custom-Exercises",
+        "note": "400+ exercises, each with 'a demonstrational animation' and step-by-step instructions; App Store copy: 'free high-quality videos'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/97-create-custom-exercises",
+        "note": "'over 200 built in exercises ... including Instructions and Videos'; App Store: 'growing library of animated videos'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "'300+ trainer-led exercise videos, downloadable for offline use.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1041517543",
+        "note": "App Store: 'Hi-res, multi-angle videos of each exercise' across 1000+ exercises. Help center notes GIFs were removed and videos are used instead.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "5.5.0: 'New Exercise Details Page: instructions, coaching tips, advanced muscle group breakdowns'. No evidence of video/animation demos.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "grip_variants": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "Library has equipment-specific variants as separate exercises and custom exercises can be duplicated, but there's no evidence of grip/attachment variants tracked under one movement.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No first-class grip/attachment variant tracking found; only workaround is creating custom exercises per variation.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No evidence of attachment/grip variants tracked under one movement. Machine stats can be split per gym profile, which is a different thing.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/28062570249623-Custom-Exercises",
+        "note": "No attachment or grip selector. Grip variants exist as separate library exercises (e.g. Neutral Grip Pull Up, Wide Grip Lat Pulldown, V-Bar Pulldown), and help suggests custom exercises to 'Differentiate between grips or stances'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/9888453-about-motra",
+        "note": "Auto-detection 'differentiates between exercise grips and variations' (e.g. '12 types of bench press' per App Store) - variants exist as separate library exercises; no per-set grip/attachment field found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "voice_logging": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention of voice logging in the official 48-item feature list or the help center; not confirmed either way.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No in-app voice logging mentioned in App Store description, release notes or help center.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/create-a-one-time-custom-workout",
+        "note": "Manual workout sheet offers 'Voice and Text, both in Beta, if you'd rather describe your session out loud'. This creates a session by voice. No evidence of logging individual sets by voice mid-workout.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention of voice logging in the 99 help-center articles or the App Store description.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No voice-logging feature found. 6.4.0 mentions phone-only workouts where 'audio would stop recording' but purpose of that audio is not documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "multi_activity": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises",
+        "note": "Cardio exercises (running, biking etc.) can be added as distance/duration entries in the same workout as lifts (release 3.0.11 added HYROX functional exercises). These are manual exercise rows, not separate sports or recovery sessions.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "partial",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "Cardio exercises (duration/distance types) can be added to the same workout as lifts ('comprehensive range of cardio and strength exercises'); no sports/sauna/recovery activities.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/supersize-your-workout-add-more-exercises-or-cardio",
+        "note": "Cardio exercises can be added to a strength workout ('Other filters > Cardio'). No sauna or recovery activity types found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006427673-Cardio-Recommendations",
+        "note": "'Add cardio exercises to the beginning or end of your strength workout.' Cardio is limited to machine or conditioning-style exercises inside the lifting session. No sport or sauna blocks.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No evidence of combining lifting with cardio/sport sessions; exercises can be measured by reps, distance or time (6.2.0).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "cardio_gps": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "no",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/38279744541591-Using-Hevy-with-Strava-Setup-Syncing-and-Editing-Workouts",
+        "note": "No GPS or route tracking appears anywhere in the official feature list. Cardio is manual distance/duration entry. The help center points to Strava, which 'uses GPS data to track' runs, and that sync is one-way from Hevy to Strava.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/228-what-is-strong",
+        "note": "No GPS/route tracking found anywhere; Strong positions itself for 'gym and weightlifting workouts'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+        "note": "Shows route maps only for runs/rides imported from Apple Health or Health Connect. In-app cardio logs time and distance per interval; no in-app GPS tracking found. Gravl says it is 'not a running/cycling coach' (https://gravl.ai/llms.txt).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "no",
+        "source": "https://fitbod.me/faqs/",
+        "note": "FAQ: 'Fitbod is built exclusively for resistance and strength training.' Runs, walks and rides are only imported from Apple Health, Health Connect or Strava, and custom exercises 'Does not support distance-based tracking'. No GPS route tracking is documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No GPS cardio tracking found; product is strength-focused (distance-measured exercises exist per 6.2.0, but no route tracking documented).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "sports_tracking": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/38279531346455-Set-Records-vs-Personal-Records",
+        "note": "Duration and distance exercises like Yoga, Plank, Running and Biking exist as exercises inside a gym workout. There are no first-class sport workout types.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/228-what-is-strong",
+        "note": "No first-class non-gym sports workouts found; app described as tracking 'gym and weightlifting workouts'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+        "note": "Runs, rides and swims from other apps can be imported (read-only, effort-rated, used for recovery). Native sessions are strength plus cardio exercises; sports are not first-class workout types.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/28062570249623-Custom-Exercises",
+        "note": "'Fitbod is optimized for strength training, but you can still log other activities using Custom exercises. Examples include yoga, pilates, rock climbing, basketball...' These are not first-class workout types. Imported HealthKit sports such as yoga and basketball 'won't be read'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No evidence of non-gym sports as first-class workouts; library adds stretches/warm-ups (5.5.0).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "offline": {
+      "splyt": {
+        "value": "partial",
+        "source": null,
+        "note": "Partial: workouts log offline and sync when the connection returns; not every feature works offline.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://www.hevyapp.com/",
+        "note": "The homepage watch section lists 'Workout Offline', and the App Store says 'Watch workouts automatically save when reconnecting to iPhone'. No official statement on full offline use of the phone app, and a third-party user review complains logging needed internet.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/143-strong-account",
+        "note": "Data synced via Strong Cloud; no official statement on full offline operation found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/download-exercise-videos-for-offline-use",
+        "note": "Exercise videos can be downloaded so they 'play instantly - even with your phone in airplane mode'. Full offline logging/generation not documented; release 1.53.1 notes 'Failed workout saves now retry automatically'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006572594-Can-I-use-Fitbod-without-an-internet-connection",
+        "note": "'Yes. You can keep training anywhere, even without a connection.' Offline it generates workouts locally and logs and saves them. Uncached videos, Focus Exercises split alignment and synced records need a connection.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/14076038-workout-data-not-saving",
+        "note": "Workouts that can't upload (weak/missing internet) are kept as pending and retried; pending workouts deleted after 14 days. Full offline use not documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "watch_app": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1458862350",
+        "note": "App Store: Apple Watch app with live sync, routines, set tracking and heart rate.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+        "note": "Strong for Apple Watch: 'record and control your workout from your wrist' (watchOS 10+).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/gravl-on-your-apple-watch",
+        "note": "'Gravl runs natively on Apple Watch'. Watch app rebuilt in 1.53 (Sep 2026).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006499194-Apple-Watch",
+        "note": "There is an Apple Watch app (watchOS 10+), a companion to the iPhone app.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "Core product runs on Apple Watch Series 4+.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "watch_standalone_logging": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/",
+        "note": "Homepage: 'track your workouts completely from your Apple Watch or WearOS device'. App Store: 'Watch workouts automatically save when reconnecting to iPhone'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "App Store: 'Fully-featured Apple Watch app to log workouts with or without your iPhone'; help 224 describes adding exercises/sets, finishing workouts on watch.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/gravl-on-your-apple-watch",
+        "note": "Watch can start, log and finish a workout, but help says \"Keep the iPhone within reach: the app on the phone is still what owns and saves the session\" (App Store copy claims \"without your phone\").",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006499194-Apple-Watch",
+        "note": "The watch can log and adjust sets, add or remove sets, and run the rest timer. But 'designed as a companion app, not a standalone experience': starting, swapping or adding exercises, and saving all require the iPhone.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9916819-empty-workouts",
+        "note": "Workouts can be started on Apple Watch (Start a Workout > Empty Workout); sets, set types, RPE, custom exercises logged on watch.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "auto_rep_counting": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No official mention found. Hevy does not advertise it, but no explicit statement that it's unsupported either.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+        "note": "Watch values are edited with Digital Crown/pickers; no automatic rep counting mentioned anywhere.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "Not mentioned in the watch help articles' lists of wrist features or in release notes.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention in the help center's Apple Watch or Wear OS articles or in the App Store description.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "Flagship feature: 'tracking reps for over 470 unique exercise types - completely hands free' via Neural Kinetic Profiling.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "watch_voice": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No official mention found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+        "note": "No voice commands mentioned in watch help articles or release notes.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "Not mentioned in the Apple Watch help article.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No watch voice commands found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "complications": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1458862350",
+        "note": "App Store: 'Use Hevy Apple Watch Complications on your Watch Face'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+        "note": "Watch complications not mentioned in help center or recent release notes (only iPhone widgets).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "Release 1.42 (Mar 2026): 'Add the Gravl icon to your Apple Watch face' (launcher-style). Wear OS has Gravl tiles showing Strength Score and current week.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "Not mentioned in the Apple Watch help article. The watch app 'doesn't currently support Always On display'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "6.1.0: 'Watch Streak Widgets: Your Apple Watch widgets now display your workout streak.' (watchOS widgets; classic face complications not separately documented).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "garmin": {
+      "splyt": {
+        "value": "no",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34895840771479-WearOS-Watch-Compatibility-and-Syncing-Troubleshooting",
+        "note": "Wear OS watch app is supported (help article plus the Free-vs-Pro table: 'Apple Watch & Wear OS'). Garmin is NOT supported: 'Garmin has rejected Hevy's application for access to their API' (help article 35361029194647).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/228-what-is-strong",
+        "note": "Help: 'We offer apps for iPhone (including Apple Watch) and Android' — no Garmin/Wear OS app found; one third-party blog claims Wear OS but unverified.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/gravl-on-your-garmin-watch",
+        "note": "Garmin Connect IQ app (release 1.48, Jul 2026) and native Wear OS app; Fitbit sync listed.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/4406074415383-WearOS-on-Android",
+        "note": "Wear OS app: start a workout, view it, log and add sets, finish (saved via the phone). No Garmin app. Garmin and WHOOP can only broadcast heart rate over BLE (Android). Fitbit integration on iOS.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "no",
+        "source": "https://help.motra.com/en/articles/9689464-which-smartwatches-are-supported",
+        "note": "'At this time Motra is available exclusively for the Apple Watch.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "ai_programs": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/38385724273047-Hevy-Trainer-Explained-How-It-Builds-Your-Workout-Program",
+        "note": "Hevy Trainer (Pro, launched 3.0.0 in Feb 2026) builds a personalized program from goals, equipment and history, with progression and weekly progress.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://strong.app/",
+        "note": "No AI anywhere in official feature lists (homepage 'Strong has all the features' list, App Store, help center); Strong pitches against 'the latest quick fix or pointless fad' (help 228).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/blog/how-gravl-algorithm-works",
+        "note": "AI-generated weekly plan 'recalculated after every session'; recovery split adapts days and muscles.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1041517543",
+        "note": "Core product: 'AI-Generated Workouts', 'Adaptive AI learns from your edits', non-linear periodization. Each workout is generated from recovery, goals and equipment.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14021528-ai-generated-workouts-how-to-use-motra-s-workout-generator",
+        "note": "Pro: AI-generated workouts from goals, equipment, recovery, history; Smart Weights. Generates single workouts/templates - multi-week programs not documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "ai_coach_chat": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/43652076665239-What-is-the-Hevy-App-on-ChatGPT",
+        "note": "No in-app AI chat. You can 'ask questions about your workout history' via the Hevy app inside ChatGPT (third party), and 3.1.12+ can 'Send workouts to ChatGPT & Claude'. The in-app coach chat is with human Hevy Coach trainers.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://strong.app/",
+        "note": "No AI coach in any official feature list (homepage, App Store, help center).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/blog/gravl-vs-hevy",
+        "note": "Chat is with HUMAN coaches: 'Gravl has coaches in your chat... a plan adjusted by a person'. The in-app AI assistant is for app support (release 1.51). AI chat over your training only via an external assistant through Gravl's MCP server (https://gravl.ai/developers/mcp). No in-app AI coach chat found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": "https://help.fitbod.me/hc/en-us/articles/1500012605521-Fitbod-s-Ask-a-Trainer-Program",
+        "note": "No in-app AI chat found in the help center or the App Store description. The closest thing is 'Ask a Trainer', where human certified trainers answer via a form or trainer@fitbod.me. That is not an AI chat.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "6.3.0 (May 2026): AI Coach rollout - 'send videos in chat, save and view workout templates Coach suggests'; 6.2.0 Smart Swap AI coach recommendations. Also MCP connection to ChatGPT/Claude (help article 14140325).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "import_any": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "Nothing found about AI import from screenshots or text. The ChatGPT app can create plans saved to Hevy, but it doesn't import logged workouts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://strong.app/",
+        "note": "No AI import in any official feature list; help 235 says even Strong's own exported files 'cannot be imported back into Strong'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/blog/gravl-vs-fitbod",
+        "note": "'AI imports: machines from a photo, exercises by name, programs from PDFs or social posts'; custom exercises from YouTube/Instagram/TikTok links.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/38318585683991-Customizing-Today-s-Workout",
+        "note": "'Import Workouts (Android only) Import a workout from a photo or screenshot.' Not on iOS, and only photos or screenshots.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No AI import from screenshots/text found; only file import (.csv/.xlsx) reviewed by staff.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "progressive_overload": {
+      "splyt": {
+        "value": "partial",
+        "source": null,
+        "note": "Partial: last time’s weights are prefilled; no increase is suggested.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide",
+        "note": "Hevy Trainer (Pro): 'Get progressive overload recommendations based on your previous performance. Receive suggested weights and reps'. Release 3.1.10 extended it to reps-only exercises.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/226-focus-metric",
+        "note": "No automatic progression suggestions found; only Focus Metric comparing to last session (e.g. Volume Increase %) and RPE logging.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "'AUTOMATIC PROGRESSIVE OVERLOAD... tells you exactly how much weight to lift next time.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/43492523917207-How-does-Fitbod-adapt-as-I-get-stronger",
+        "note": "Help article \"How does Fitbod adapt as I get stronger?\": the algorithm adjusts sets, reps and weight from logged history and RiR. Focus Exercises add \"structured progression with automatic rep and weight adjustments\".",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14021530-auto-progression-how-motra-adjusts-your-weights-automatically",
+        "note": "Auto-Progression adjusts weights/reps from recent performance, progression level and optional Apple Health wellness data.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "injury_adapt": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/43572343844247-How-Hevy-Trainer-Settings-Work",
+        "note": "Trainer Injuries setting: 'Trainer attempts to avoid exercises that may aggravate the selected area'. Added in 3.1.8.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://strong.app/",
+        "note": "No adaptive/AI programming in any official feature list; user builds own templates.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/train-around-an-injury",
+        "note": "Injuries feature (release 1.52, Aug 2026). Flags painful movements; generated workouts exclude them, fixed sessions substitute exercises, with check-ins every two weeks.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/37629269518103-Injuries-and-Limitations",
+        "note": "My Plan → Injuries / Limitations: describe the injury, answer questions, and Fitbod excludes stressing exercises and recommends alternatives.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9889240-personalization-of-generated-workouts",
+        "note": "Fitness Profile lets you 'specify any injuries or areas to avoid'; excluded exercises and saved custom instructions apply to generated workouts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "templates": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34953606698903-Build-a-Workout-Program-Create-Organize-Routines",
+        "note": "Routines (reusable templates) in folders. Free users get up to 4, Pro unlimited.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/105-about-templates",
+        "note": "Workout Templates (Routines); free version limited to 3, unlimited with PRO; template search added 6.3.0.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/create-and-save-your-favorite-sessions",
+        "note": "Save favorite sessions; custom programs and splits (https://gravl.ai/help/design-your-own-program).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/6259258835863-Save-a-Workout",
+        "note": "Saved Workouts can be loaded as-is or regenerated with new sets, reps and weight. On-demand pre-built workouts are also available (iOS).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14076039-workout-templates",
+        "note": "Create from scratch, from a completed workout, or with AI; tags and sorting (6.0.0, 6.1.2).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "calendar": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35380117933207-Track-Your-Workout-Consistency-with-the-Calendar-and-Streak-Features",
+        "note": "Calendar shows history and streaks and allows back-logging, but 'the calendar feature cannot be used to plan out which days you intend to complete workouts.' Hevy Trainer does lay out a program schedule.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://strong.app/",
+        "note": "Official homepage feature list (current version) names 'Workout Scheduling'; not yet documented in help center or App Store text.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/plan-your-week-upcoming-workouts",
+        "note": "Shows and reorders upcoming workouts for the current week only: 'Gravl only shows you one week at a time'. No scheduling to specific future dates.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/6259258835863-Save-a-Workout",
+        "note": "FAQ: 'Fitbod doesn't have a built-in weekly planner yet.' You can pick specific training days, get workout previews or notifications, and the widget shows the next workout. You cannot schedule workouts on a calendar.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No scheduling-ahead feature found; only 'Last Hit' dates on templates and a past-workout calendar in the Monthly Progress widget.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "splits": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36011518408983-How-to-Access-and-Use-Hevy-s-Routine-and-Program-Library",
+        "note": "Routine/program library with body-part splits and beginner programs. Release 3.1.11: 'Switch up your split: Full Body, Upper/Lower, Push Pull Legs'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "partial",
+        "source": "https://help.strongapp.io/article/105-about-templates",
+        "note": "'Strong includes some default templates as examples'; description says optimized for Starting Strength/StrongLifts 5x5, but no catalog of split programs.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/complete-guide-to-splits-and-training-routines",
+        "note": "Gravl Splits (Full Body, Upper/Lower, PPL, Bro Split...), plus the Recovery Split, custom splits and creator plans (1.53).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/34336407191191-My-Plan",
+        "note": "Training Splits: Push/Pull/Legs, Upper/Lower, Full Body, Fresh Muscle Groups, with more options when Focus Exercises are on.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Public template library and difficulty levels exist, but no named split programs (PPL, Upper/Lower) confirmed; templates help article only suggests Push/Pull/Legs as user tags.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "share_routines": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34953501503895-How-to-Share-Workouts-and-Routines-in-Hevy",
+        "note": "Share Routine works 'including people who do not currently use the Hevy app'; whole folders can also be shared.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/109-share-workout-or-template",
+        "note": "Share a Workout or Template via link; recipient taps link to import into Strong (account required).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/gravl-with-your-crew-share-a-workout",
+        "note": "'Gravl will generate a link that you can send to your friend... the workout will be imported.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006427453-Sharing-a-Workout-Gym-Location-Settings",
+        "note": "'Generate a shareable link to send a workout to a partner.' The workout adapts to the recipient. Workouts with custom exercises can't be shared.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14076039-workout-templates",
+        "note": "Public templates shared via a link from the share button; others can copy public templates. Private templates can't be shared.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "import_other_apps": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35687878672663-Importing-Strong-Data-into-Hevy",
+        "note": "Only a Strong CSV import, and only once. Other apps work only if you convert the file to Strong format yourself, without support.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://help.strongapp.io/article/235-export-workout-data",
+        "note": "Only CSV export; 'exported files cannot be imported back into Strong'; no import from other apps documented (Apple Health workout import exists, not app history import).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No Strong/Hevy/CSV import found in the help center. Only Apple Health / Health Connect external-workout import and AI import of programs from PDFs or posts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No help article on importing history from Strong, Hevy or others. History can only be pulled from Apple Health, Health Connect and Strava (cardio activity types).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/10057923-data-import-and-export",
+        "note": "Import by request: upload .csv/.xlsx/.xls, reviewed by Motra, up to 7 days; no named Strong/Hevy one-tap importer.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "apple_health": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36957445562775-Hevy-Not-Syncing-to-Apple-Health-Step-by-Step-Troubleshooting-Guide",
+        "note": "Exports workouts to Apple Health; reads and writes body measurements such as lean body mass (release 2.5.4).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/147-sync-with-apple-health",
+        "note": "'Strong fully syncs with Apple Health' — workouts out, bodyweight/body fat/nutrition in.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+        "note": "Two-way workout and active energy sync with Apple Health and Health Connect; body weight sync.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360047357794-Apple-Health",
+        "note": "Writes workouts and calories. Reads compatible workouts, body composition and heart rate.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9696443-sync-with-apple-health",
+        "note": "Workouts written to Apple Health and close fitness rings; reads wellness data.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "strava": {
+      "splyt": {
+        "value": "partial",
+        "source": null,
+        "note": "Partial: Strava activities arrive through Apple Health; there is no direct Strava connection.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/38279744541591-Using-Hevy-with-Strava-Setup-Syncing-and-Editing-Workouts",
+        "note": "One-way automatic sync of Hevy workouts to Strava.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://strong.app/",
+        "note": "Homepage lists unnamed '3rd Party Integrations'; integrations help category covers only Apple Health, Health Connect, MyFitnessPal (legacy) — no Strava found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/connected-apps-apple-health-health-connect-and-strava",
+        "note": "'Strava: push your finished Gravl workouts to your Strava feed.' Push only.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360040720154-Strava-Integration",
+        "note": "Shares Fitbod workouts to Strava and imports public Strava activities. iOS and Android.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9899525-connecting-strava",
+        "note": "'have all your Motra workouts automatically posted to Strava.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "habits": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "no",
+        "source": "https://www.hevyapp.com/features/",
+        "note": "Absent from the official 48-item feature list and the entire help center.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No habit tracking mentioned; only Workouts Per Week goal widget.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/streaks-and-rankings",
+        "note": "Weekly workout-goal streaks, consistency streaks, streak freezes and XP levels only. General habit calendars exist only in the separate Gravl Macros app.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No habit tracking found. The only consistency feature is the weekly workout goal with streaks.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Only workout streaks (time/weight/workout-based weekly goal, 6.0.0); no general habit tracking found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "sleep": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "no",
+        "source": "https://www.hevyapp.com/features/",
+        "note": "Absent from the official feature list. The help center mentions sleep only as data from other apps in Health Connect.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No sleep tracking mentioned anywhere.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No sleep tracking or analysis found in the workout app.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No sleep feature in the help center. The Apple Health read permissions listed don't include sleep.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/10070482-wellness-factors-in-progressive-overload",
+        "note": "Sleep quality/HRV from Apple Health feed progressive-overload recommendations; no sleep tracking/analysis view documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "rings": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "Hevy has weekly streaks and a calendar, but no evidence of daily activity or score rings.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/147-sync-with-apple-health",
+        "note": "No in-app rings; workouts only contribute to Apple's Activity Rings via Apple Health.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No daily activity rings/score found. Weekly goal/streak cards and an 'activity widget' (1.45) exist, but their form is unclear.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360058341233-iOS-Widget",
+        "note": "The widget shows a 'workouts/week ring' against the weekly goal, plus an overall Strength Score. There are no daily activity rings.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/9696443-sync-with-apple-health",
+        "note": "Workouts help close Apple's fitness rings; in-app has weekly progress/streak and recovery gauge, but no own daily score rings documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "body_weight": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34462134138775-How-to-Record-Body-Measurements-and-Progress-Photos",
+        "note": "Body weight and waist are free; additional body measurements need Pro.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/238-add-measurements",
+        "note": "Weight, body fat %, caloric intake; body part measurements (neck, chest, waist...) are PRO-only; Apple Health sync.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/how-to-accurately-measure-body-parts",
+        "note": "Progress tab: + > Measurements, with configurable body parts. Body weight syncs with Apple Health and is shared with Gravl Macros.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/18213217448983-Body-Composition",
+        "note": "Body tab → Composition: weight, body fat %, lean mass, BMI and waist circumference (iOS). Entered manually or synced from Health.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "partial",
+        "source": "https://help.motra.com/en/articles/14076032-setting-up-your-fitness-profile",
+        "note": "Weight/height read from Apple Health for calibrating suggestions; no in-app weight/measurement tracking over time.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "progress_photos": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/features/progress-photos/",
+        "note": "Official 'Progress Photos' feature; help article on recording measurements and progress photos.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "App Store: 'Add notes and progress pictures to your workouts'; help 236: 'take progress photos'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/progress-photos-see-your-transformation",
+        "note": "Front/side/back photos with a before/after compare slider (release 1.47).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No mention in the help center (Body Composition covers metrics only).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Workouts can carry photos in the social feed; no dedicated progress photos found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "recovery": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No recovery activities or strain/recovery scores found in official materials.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No recovery activities or recovery/strain scores mentioned.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/gravl-muscle-fatigue-and-recovery",
+        "note": "Per-muscle Muscle Recovery percentages, including effort-rated imported cardio; 'Rest recommended' below 60%. No sauna or cold-plunge activities.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006269014-Muscle-Recovery",
+        "note": "Each muscle group gets a recovery % (0-100) based on logged training, shown as a heat map on the Body tab, and it drives exercise selection. No sauna or cold-plunge activities.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9689587-muscle-recovery",
+        "note": "Daily muscle recovery scores (recovered/moderately/heavily fatigued); Recovery % on templates (6.1.0).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "nutrition": {
+      "splyt": {
+        "value": "no",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "no",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/34895971528727-How-to-Connect-to-MyFitnessPal-Apple-Health-Health-Connect",
+        "note": "No nutrition tracking in the official feature list. The help center sends users to MyFitnessPal via Apple Health/Health Connect for that.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "partial",
+        "source": "https://help.strongapp.io/article/240-track-nutrition-with-strong",
+        "note": "View calories/macros imported from Apple Health/Google Fit apps or enter total kcal manually; no food logging in-app.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "no",
+        "source": "https://gravl.ai/help/gravl-workouts-macros-bundle",
+        "note": "Nutrition is in the separate Gravl Macros app, sold with Workouts as a bundle. Macros help says 'Your food diary... stay[s] in Macros. Workouts never sees what you ate' (https://gravl.ai/macros/help/is-my-data-shared-with-gravl-workouts). Only body data is shared.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No nutrition or macro tracking in the help center or the App Store description. The blog has nutrition articles only.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Rebrand post lists nutrition as part of a future vision ('coming soon'); no nutrition tracking found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "social_feed": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35688036014231-Hevy-App-Social-Guide-Connect-Follow-and-Share-Your-Workouts",
+        "note": "Home feed of followed users' workouts (likes, comments) plus a Discover feed.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://help.strongapp.io/article/143-strong-account",
+        "note": "No friends feed found; sharing is link-based only ('data is completely private ... unless you explicitly choose to share it').",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/gravl-with-your-crew-connect-with-friends-and-compare-progress",
+        "note": "Feed of friends' workouts, scores and badges, with claps and comments.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/38657483026967-Clubs",
+        "note": "Clubs (beta, select gyms, new signups only): a gym-club activity feed where completed workouts appear and can get emoji reactions. No friend-follow feed.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14076035-social-features",
+        "note": "Feed of followed users' workouts with likes and comments; public/private accounts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "competitions": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://www.hevyapp.com/features/gym-leaderboard/",
+        "note": "Only all-time leaderboards ranking you against people you follow on heaviest weight for 38 movements, plus profile comparison. No time-bound challenges or competitions.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No competitions/challenges mentioned.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/streaks-and-rankings",
+        "note": "Friend leaderboards for streaks, total workouts and Strength Score, plus a per-exercise Friends card. No time-boxed head-to-head challenges found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/38657483026967-Clubs",
+        "note": "Clubs weekly leaderboards (volume and workout count) among members of the same gym. Beta, select gyms only, no friend-vs-friend challenges. Exercise percentile rankings against anonymised peers are also rolling out.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Social and achievements articles mention no challenges or leaderboards.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "live_follow": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No evidence of watching a friend's workout live; the feed shows completed workouts.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No live following of friends mentioned; 'Live Sync' is phone<->own watch only.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No evidence of watching a friend's workout live.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "Not found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "Not mentioned.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "trainer_share": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/features/trainer-platform/",
+        "note": "Hevy Coach platform: coaches assign workouts and chat with clients. Workout CSV export can also be sent to a coach.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "partial",
+        "source": "https://help.strongapp.io/article/109-share-workout-or-template",
+        "note": "Can share individual workouts/templates via link or CSV export; no coach dashboard (help 236 notes trainers use Strong).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/blog/gravl-vs-hevy",
+        "note": "Gravl's own human coaches in chat review videos and adjust plans. No feature found for sharing reports with your own trainer or a coach dashboard. Data is reachable via the API/MCP.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No coach dashboard or report sharing found. You can share a workout summary image or link socially, Ask a Trainer is email Q&A, and Fitbod for Business is employer seats.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No coach dashboard or trainer sharing found (corporate wellness page offers discounted subscriptions only).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "stats_charts": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35382889578135-Exercise-Performance-Tracking-in-Library-Weight-Bodyweight-Cardio-and-Duration-Based-Exercises",
+        "note": "Per-exercise graphs of heaviest weight, 1RM, best set volume, session volume and reps. Free covers 3 months; Pro covers all time.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/237-about-exercise-detail",
+        "note": "Charts tab per exercise (Strong PRO only); App Store: graphs for Volume and 1RM Progression.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/help/exercises-menu-and-statistics",
+        "note": "Per-exercise Analytics with Statistics (charts, records, progress), History and Form tabs.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/42459670227223-Exercise-Percentile-Ranking",
+        "note": "'Open an exercise. Tap History. Tap Trends. Select a stat to view its chart.' Estimated strength over time is in Exercise History.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id1548577496",
+        "note": "Trends tab with per-exercise search (6.1.0) and trends based on past performance (5.3.0); PR Breakdown per exercise.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "muscle_map": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/features/training-chart/",
+        "note": "Muscle distribution chart/body heatmap; sets per muscle group per week (Pro). Live heatmap during logging added in 2.5.4.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://strong.app/",
+        "note": "Official homepage feature list (current version) names 'Muscle Heat Map'; not yet documented in help center or App Store text.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/help/gravl-strength-score-how-does-it-work",
+        "note": "Strength Score and Muscle Recovery are per muscle group. No muscle heatmap of volume found; the 'workout heatmap' in the friends section appears to be an activity calendar.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360006269014-Muscle-Recovery",
+        "note": "\"After you finish your workout, you can view a heat map showing which muscles were used.\" The Body tab has a recovery heat map, and Workout Report adds Muscle Volume and Strength per muscle.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/9689587-muscle-recovery",
+        "note": "Mannequin view of muscle-group readiness; Weekly Sets widget is a radar chart of muscle groups trained.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "recaps": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/features/monthly-report",
+        "note": "Monthly Report (last completed month only) and Year in Review.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "unknown",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "No weekly/monthly recap feature found; Workouts Per Week widget only.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "Monthly Review with shareable stats (1.42) and Monthly Review Stories (1.52); AI workout summaries (1.47).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/16436302450711-Your-Workout-Report",
+        "note": "Workout Report emailed 'weekly and monthly', viewable in the app and on the website. A Year In Review report also exists.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No weekly/monthly recap found; only weekly/monthly progress widgets and streak notifications.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "export_data": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/43708290987415-Exporting-Your-Data-from-Hevy",
+        "note": "Export Workouts / Export Measurements as CSV that opens in spreadsheets.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://help.strongapp.io/article/235-export-workout-data",
+        "note": "Export Strong Data to CSV from Settings (iOS and Android).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "Release 1.43 (Apr 2026): 'Export workout history data from your settings.' Also a read API with personal tokens (https://gravl.ai/developers). Format not stated.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://griptapp.com/help/import-from-fitbod",
+        "note": "Third-party guide (Aug 2026): 'In Fitbod, open the Log tab and tap the gear icon... tap Export Workout Data. Save the CSV file.' The official help center has no article on it.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/10057923-data-import-and-export",
+        "note": "Export workout history to CSV (emailed); custom date range since 6.2.0.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "widgets": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/36956630666647-Hevy-App-Widgets-Explained-Setup-Features-and-How-to-Use-Them",
+        "note": "Home screen widgets for aggregate data, calendar and stats on iOS and Android.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "Release notes 6.4.0 (2026-05-28): 'Calendar home screen widget' and 'Activity widget'; Workouts Per Week home screen widget.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id6450921637",
+        "note": "Release 1.45 (May 2026): 'New activity widget support'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360058341233-iOS-Widget",
+        "note": "Small and medium home-screen widgets show workouts this week vs. the goal and the next workout.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+        "note": "Home Screen (Weekly/Monthly Progress, Weekly Sets, Volume) and Lock Screen widgets, Control Center button.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "live_activity": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://help.hevyapp.com/hc/en-us/articles/35649846517399-How-to-Use-Hevy-s-Live-Activity-on-iOS-and-Android",
+        "note": "Live Activity / Dynamic Island with the rest timer and mark-set-complete.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://apps.apple.com/us/app/id464254577",
+        "note": "Release notes 6.5.0 (2026-08-12): 'Live Activity and Dynamic Island support for rest timers'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://gravl.ai/blog/gravl-vs-fitbod",
+        "note": "'The workout lives on your iOS lock screen as a Live Activity.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://help.fitbod.me/hc/en-us/articles/360058341233-iOS-Widget",
+        "note": "'With Live activities, you can now see real-time updates of your workout right on your lock screen or in the Dynamic island.'",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "yes",
+        "source": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+        "note": "Live Activity on Lock Screen and Dynamic Island with current exercise, rest timer and log-next-set button.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "siri": {
+      "splyt": {
+        "value": "yes",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "unknown",
+        "source": null,
+        "note": "No official mention of Siri or Shortcuts support found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://strong.app/",
+        "note": "Homepage feature list: 'Siri Shortcuts'; 6.2.9 release notes: 'Shortcut for adding measurements'.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "unknown",
+        "source": null,
+        "note": "No Siri or Shortcuts mention found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "unknown",
+        "source": null,
+        "note": "No Siri or Shortcuts support documented.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No Siri/Shortcuts support found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "android": {
+      "splyt": {
+        "value": "no",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "yes",
+        "source": "https://www.hevyapp.com/",
+        "note": "'a free workout tracker for iOS and Android'. Wear OS is also supported.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "yes",
+        "source": "https://play.google.com/store/apps/details?id=io.strongapp.strong",
+        "note": "Google Play listing, updated Oct 6 2026 ('What's new in Strong 6.2').",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "yes",
+        "source": "https://play.google.com/store/apps/details?id=com.liteup.getgains",
+        "note": "Android app on Google Play; Gravl claims 'full feature parity between iOS and Android' (gravl.ai/blog/gravl-vs-fitbod).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "yes",
+        "source": "https://fitbod.me/",
+        "note": "'Available on both Android and iOS.' Some features are iOS-only (Timed Intervals, On-Demand Workouts).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "no",
+        "source": "https://help.motra.com/en/articles/9689464-which-smartwatches-are-supported",
+        "note": "'Motra is available exclusively for the Apple Watch'; App Store only, no Google Play listing found (the Android 'MOTRA' is an unrelated running app). (A Google Play app named 'MOTRA' (com.motra.app, 'Track effort. Earn value. Real rewards') is a different, unrelated product.)",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    },
+    "web_app": {
+      "splyt": {
+        "value": "no",
+        "source": null,
+        "note": "Self-reported: checked against SPLYT’s own code on 2026-10-08.",
+        "checkedAt": "2026-10-08",
+        "basis": "self-reported"
+      },
+      "hevy": {
+        "value": "partial",
+        "source": "https://www.hevyapp.com/",
+        "note": "hevy.com web version gives a 'big screen view of your routines, exercise progress' and friends' workouts. The 2026 guide lists 'Web browser' among supported devices. Some features are limited on web (custom exercises can't be edited there), and live logging on web isn't confirmed.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "strong": {
+        "value": "no",
+        "source": "https://help.strongapp.io/article/228-what-is-strong",
+        "note": "'We offer apps for iPhone (including Apple Watch) and Android'; homepage: 'available on iPhone, Android, and Apple Watch'; no web login (strong.app/login 404s).",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "gravl": {
+        "value": "partial",
+        "source": "https://gravl.ai/blog/gravl-vs-fitbod",
+        "note": "Web dashboard at app.gravl.ai ('Gravl on the web — training analytics for advanced lifters'). Analytics only; the Hevy comparison lists Gravl's web column as 'App only'. No web workout logging found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "fitbod": {
+        "value": "partial",
+        "source": "https://help.fitbod.me/hc/en-us/articles/16436302450711-Your-Workout-Report",
+        "note": "The website (app.fitbod.me) handles account and subscription, and 'Your Workout Report can be accessed via the Fitbod app or your account on the Fitbod website'. No web workout logging or planning found.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      },
+      "motra": {
+        "value": "unknown",
+        "source": null,
+        "note": "No web app found; MCP connector lets ChatGPT/Claude read data, but that is not a web app.",
+        "checkedAt": "2026-10-08",
+        "basis": "public-source"
+      }
+    }
+  }
+}

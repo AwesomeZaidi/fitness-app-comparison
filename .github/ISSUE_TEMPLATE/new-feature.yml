@@ -1,0 +1,41 @@
+name: Suggest a feature to compare
+description: Propose a feature that should be added to (or removed from) the comparison.
+title: "Feature: <name>"
+labels: [feature-suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The list of 52 features was drawn up by SPLYT, which also makes one of the apps — so suggestions from outside are especially useful, including features SPLYT does **not** have.
+  - type: input
+    id: name
+    attributes:
+      label: Feature name
+      placeholder: e.g. "RPE / RIR logging"
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition
+      description: One or two sentences precise enough that two people would mark the same app the same way. Say what counts as "partial".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters to lifters
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Apps you know have (or lack) it
+      description: Optional, with sources if you have them.
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Do you work for or with any of these apps?
+      options: ["No", "Yes (please say which above)", "Prefer not to say"]
+    validations:
+      required: true

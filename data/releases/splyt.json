@@ -1,0 +1,180 @@
+{
+  "app": "splyt",
+  "appStoreId": "6755893717",
+  "source": "https://apps.apple.com/us/app/id6755893717",
+  "history": "Built by scripts/fetch-releases.mjs from the live App Store page.",
+  "coverage": {
+    "from": "2025-12-10",
+    "to": "2026-10-02",
+    "note": ""
+  },
+  "fetchedAt": "2026-10-09",
+  "releases": [
+    {
+      "version": "1.0.26",
+      "date": "2026-10-02",
+      "notes": "Rebranded to Splyt — new name, new icon. Same app, same data, nothing you\nneed to do.\n\nSplyt opens with a new animation — the wordmark splits down the middle and\npulls back to your Home.\n\nYour Apple Watch opens on a microphone. Tap it, say \"basketball\", \"start my\nplan\", \"rest day\" — it counts down 3-2-1 and starts.\n\nSay your split out loud and Splyt builds it. It reads gym shorthand, times\nsaid loosely — \"half four\", \"after work\" — and a rambling take where the\ndays and times arrive in any order.\n\nThe watch rest screen is redesigned: a ring counting down, your heart rate,\n−30s / +30s in the corners. Swipe right to see your next set, left for your\nmusic.\n\nFix sets by voice. \"I started with 10 pounds and then did 30 for the rest\"\ncorrects the sets you already logged instead of piling more underneath them.\n\nA personal record is a moment now. The rest bar opens into a card showing\nhow far you beat your best, and the set keeps the trophy.\n\nSend your week to your trainer. The Weekly Recap exports your training day\nby day, PRs, weight, steps, sleep and habits — as a PDF, or a private link\nthat opens in any browser. You pick what goes in it.\n\nThe training calendar is redrawn — one row a day, today raised with its\nsessions already open — and the home screen widget matches it. Copy a day\nyou've already planned and it lands with its times.\n\nShare a workout with anyone. Your summary opens as a web page, so friends\nwithout Splyt can see what you did — and tapping a splyt.fit link opens it\nstraight in the app.\n\nBrowse the whole exercise library from Stats without starting a workout.\nSearch it, filter by body part, tap any record to open that exercise.\n\nClosing your Splyt ring flashes and glows. Your watch counts rows and other\nhorizontal pulls.\n\nA phone you've used before opens on \"Welcome back\" — one tap to continue.\n\nPlus a faster way to start a workout, and a long list of fixes.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.25",
+      "date": "2026-09-19",
+      "notes": "Start just one activity from a planned day and you get that activity — not the day's main workout loaded into it.\n\nDiscard a workout and it stays discarded. It no longer reappears as a finished, empty session or push your plan on to the next thing.\n\nYour character's picture no longer sticks as a black square after signing out and back in.\n\nTap a friend's name in your plan to see what they trained.\n\nBuilding a core workout now offers core movements and asks about core.\n\nRemoving a day's first activity renames the day to match what's left.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.24",
+      "date": "2026-09-18",
+      "notes": "Big new things\n\nThe Vessel — swipe right in any live activity, a glass fills as you go against last time / typical / best. Lifts race weight moved, not the clock.\nFriends tab rebuilt — empty state leads with the founders (tap to read their story and numbers), and a friend's friends now list on their profile, one tap from Add.\nUse these sets — paste a past session's sets onto the movement you're on.\nOTA updates — screen-only changes can now reach users without an App Store trip.\nCompetitions got a real cleanup\n\nSleep races count the nights you didn't log — logging eight nights used to lose to someone who logged two.\nForfeit races name who actually came last and what they owe; results land 9 PM.\nNo more \"someone passed you\" the morning after a race ended.\nTimed core work no longer counts as weight lifted (a 60s plank was adding 600 lb).\nFriend-facing fixes\n\nYour lifts show their real names on a friend's screen instead of \"Traditional Strength Training\".\nOpening one activity in a friend's workout no longer offers Edit, Share or Scan.\nEveryone's called by their chosen display name, not their sign-up first name.\nPlus — free-tier group locks, Siri on a locked phone, watch auto-rep, photo permissions, live Graph redraw, workout settings mid-session, pressable This Week bars.\n\nWhat I did today specifically: the sleep-race scoring (four copies of the same wrong rule), the display-name sweep across six notification paths, the friend-workout naming + owner-gating, and the split-view fixes. Plus corrected your Best Sleep race — it now reads 6.73 to 1.70 in your favour.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.23",
+      "date": "2026-09-17",
+      "notes": "The live workout, redesigned. Your workout's name and clock sit at the top with Finish and a menu beside them, every movement is its own card, and a floating pill holds the mic and add. While you rest it shows how long is left — drag it sideways to change the rest, tap it for fifteen more seconds.\n\nCreate your own character. Describe anything — a purple bear, a lightbulb, your dog — or start from a photo. Make yourself from a selfie and a full-length shot, in the clothes you're wearing or ones you describe. Animated or fully realistic, and private to you.\n\nThe character library. Everything anyone has made and shared, free for everyone to use.\n\nSplits have a home. Open the training calendar and tap the grid to pick a proven split sorted by how many days a week you train, build one by hand, or drag a day to move everything on it. Splits can roll — four days on, one off — so your week no longer has to be seven days long.\n\nSay your split. Tap the mic and describe your week — \"push, pull, legs, rest, repeat, everything at 3 PM\" — and it lands as your week, days and times in place.\n\nCompetition maps move like maps. Pinch to zoom on the spot under your fingers, twist to turn, drag with two fingers to tilt. When a race ends, see how far your steps would have taken you on a real map, with everyone on the line and an award for each person that's true of their week.\n\nRace chat. A message from the group buzzes your phone; tap a photo to see it full screen, zoom, save or share.\n\nOn your watch: Activity rings pick up your ring theme's gradient instead of three flat colours, supersets go round by round, and reps are counted on more movements.\n\nDozens of fixes, including workouts that kept counting after you left, splits that read 0% however much you trained, and the rest chime arriving late.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.22",
+      "date": "2026-09-10",
+      "notes": "Share any saved workout as a link. Whoever opens it sees every set, weight and rep, and can save it to their own library.\n\nPlan a split by picking the shape of your week — full body, upper/lower, push/pull/legs and more, drawn day by day with the muscles each one trains.\n\nYour Apple Watch now counts reps on lat pulldowns and straight-arm pulldowns.\n\nCompetitions: accept or decline an invite right on the map, see when someone leaves a race, and report or block in chat.\n\nWorkouts end when you end them. The last activity of a session could keep counting long after you'd left.\n\nFaster set logging during a workout, and your week now starts on the day you chose — habits, profile and streaks included.\n\nPlus a long list of smaller fixes across notifications, recaps and the watch.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.21",
+      "date": "2026-09-07",
+      "notes": "- Competitions you can watch — your race runs in a road, a gym or a pool, with a character you pick.\n- A race that hasn't started opens on its own fight card, and you can see who's training right now.\n- Bug fixes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.20",
+      "date": "2026-09-02",
+      "notes": "Recaps now include your training calendar, and shared workouts preview properly. Plus fixes across sign-in, habits, supersets and rest timers.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.19",
+      "date": "2026-09-02",
+      "notes": "Your ring is actually yours — turn pillars off or set your own activity rule\nSharing — Share Day for your whole day\nPlanning — editing a planned day now edits the day itself, with the full builder, and you can move or cancel sessions, including recurrences.\nWorkouts — reorder mid-workout with supersets moving as one block, bodyweight lifts counting toward volume, and the watch honouring your real rest times.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.18",
+      "date": "2026-08-24",
+      "notes": "Everything since our last release — this is the biggest update Tempo has ever shipped.\n\nYour watch counts your reps.\nApple Watch now counts reps for you on bench press, shoulder press, curls, squats, triceps work, and chest flyes. A live count appears mid-set on your wrist, and your phone takes over the whole screen with a count you can read from across the room. Keep it with a tap, or slide to correct it.\n\nTempo talks to your gym's machines.\nNo Bluetooth machine? Snap a photo of the console and Tempo reads your metrics straight into the workout.\n\nLifting got serious.\nSupersets, giant sets, drop sets, and warm-up and failure sets are now first-class — in your live workout and baked into your templates. A new in-workout keyboard built for lifting keeps the system keyboard out of your way. Tap the bar icon on any barbell lift to see exactly which plates to load. Log reps in reserve with the Effort slider. Set per-set reps for pyramids and dropsets.\n\nOutdoor tracking without a watch.\nStart an outdoor run, walk, ride, or hike with just your phone and watch your distance, pace, and route map update live. Your route saves to your summary and to anything you share — including a card built for your Instagram Story.\n\nYour day, in one ring.\nThe Tempo ring blends workouts, sleep, and habits into a single daily target, no Apple Watch required. Set your Move, Exercise, and Stand goals right inside Tempo, pick from dozens of ring colorways, and put your ring on your lock screen, home screen, or watch face.\n\nA coach that does more.\nTempo AI is now one continuous, searchable conversation. It builds real programs with warm-ups, top sets, and supersets, edits your existing split when you ask, searches the web for what's current, and sets goals from a plain sentence like \"box 5 times a week.\" Every plan shows you a Confirm card first — nothing lands on your calendar until you tap it. New voices and vibes too, from Calm to Drill Sergeant.\n\nCompete, and see how everyone's doing.\nGo head-to-head or as a group on workouts, volume, minutes, steps, sleep, or bedtime — all tracked automatically. Past competitions live on their own screen with each winner front and center. The Tempo Community brings a weekly challenge, a PR spotlight, and a recap of how the whole community trained.\n\nRecovery counts now.\nSauna, cold plunge, ice bath, steam room, and massage sessions show up on your training calendar and in your stats as recovery, not training.\n\nStats worth opening.\nVolume by body part, daily strain, training times, steps history, sleep stages, weight trends, and a weekly plain-language recap of the week you actually had.\n\nBring your training with you.\nImport a workout from a pasted note, a photo, a CSV, a Google Sheet, or a link to a TikTok, Instagram, or YouTube video. Workouts from GymKit treadmills, Apple Fitness, Strava, and Nike Run Club sync into your history automatically.\n\nProgress Photos (Pro).\nPrivate, encrypted progress photos with weekly reminders — and an optional AI read on your physique with annotated callouts.\n\nPlus a lot more.\nAnimated demos and step-by-step instructions on every exercise. Folders for saved workouts, shareable with friends. Missed workouts that stay on your record. Finish a workout with no signal and it saves the moment you reconnect. Demo mode so you can try Tempo before signing up. Report and block controls, and full account deletion from inside the app.\n\nTerms of Use: https://www.tempofitness.ai/terms",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-01-30",
+      "notes": "- View exercise PRs from your playground members\n- Workout history for easier progress tracking\n- UI improvements throughout the app\n- Bug fixes and general performance enhancements",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-01-21",
+      "notes": "- Weekly Stats Cards: See your calories, macros, and steps at a glance with beautiful new weekly views.\n- Barcode Scanner Fix: Faster, more reliable food scanning.\n- UI Polish: Refreshed design for a cleaner experience.\n- Bug fixes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-01-15",
+      "notes": "- Coach Style (Tempo AI): Choose how Tempo AI talks to you - Chill, Balanced, or Hard - to match your vibe and keep you accountable.\n- Post-Workout Share View: Share a clean workout recap in seconds.\n- Pro Widgets: Add widgets for quick access to streaks, progress, and your next workout.\n- Barcode Scanner (Pro): Scan barcodes to log food faster.\n\n\nImprovements & fixes: Performance updates and bug fixes for a smoother experience.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-01-06",
+      "notes": "Profile Avatars\n- 12+ avatar styles to personalize your profile\n- Pro: customize hair, skin tone & accessories\n\nTempo AI Insights (Pro)\n- Daily personalized fitness insights at 11 AM\n\nApple Health Integration\n- Sleep & weight sync automatically\n- Sleep stages (Core, REM, Deep) with quality scores\n\nNutrition + Workout Tracking\n- Log calories by meal with visual progress ring\n- 800+ exercises with movement images\n- Import history from Strong & Hevy\n- Plan workouts for the future\n\nCalendar & History\n- Visual indicators for logged days\n- Calendar & list view toggle\n\nPlaygrounds\n- Member avatars & activity tracking\n- View member logs & workout history\n- Comment on playground members for accountability\n\nImport/Export\n- Import from Strong, Hevy, CSV\n- Export workouts, exercises, daily logs\n\nBug Fixes & Polish\n- Notifications now work on first install\n- Swipe gestures & UI improvements",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2025-12-17",
+      "notes": "Quick Meal Logging\n• Save favorites + use recents\n• Log meals in 1 tap\n• Repeat meals instantly\n\nCalendar View\n• Jump to any date\n• Review past logs faster\n\nImprovements\n• Faster daily logging\n• Less friction for food tracking\n• Smoother date navigation\n• Bug Fixes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "1.0",
+      "date": "2025-12-10",
+      "notes": "",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "auto",
+      "firstSeen": "2026-10-09"
+    }
+  ],
+  "paceNote": "SPLYT's scoreboard count does not use these App Store entries (paceSource: in-app-whats-new); they are kept for reference and left unclassified."
+}

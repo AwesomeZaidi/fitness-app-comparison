@@ -1,0 +1,24 @@
+{
+  "app": "motra",
+  "source": "https://itunes.apple.com/lookup?id=1548577496&country=us",
+  "fetchedAt": "2026-10-09T05:23:37.747Z",
+  "listing": {
+    "trackId": 1548577496,
+    "trackName": "Motra AI Workout Fitness Coach",
+    "artistName": "Train Fitness Inc.",
+    "sellerUrl": null,
+    "version": "6.4.4",
+    "currentVersionReleaseDate": "2026-08-10T10:07:07Z",
+    "releaseNotes": "This version contains minor backend enhancements to improve watch connectivity.",
+    "description": "Motra (formerly known as Train Fitness) is the first app to offer automatic exercise tracking, using only the motion of your Apple Watch. Trusted by 100,000+ weight lifters, Motra is the future of AI + gym workouts.\n\nOur application monitors the motion of your Apple Watch, tracking reps for over 470 unique exercise types – completely hands free! Our app will track push ups, bicep curls, 12 types of bench press, squats, deadlifts, and hundreds more! No more manually logging each set.\n\nThis automatic tracking is made possible by our patented Neural Kinetic Profiling, an advancement in AI that allows workout tracking using wrist motion. \n\nUnsure what to do at the gym? Using the Motra app, you can generate workouts based on your recovery, goals, and fitness data with the help of AI. Our Smart Weights system will recommend specific workout plans, exercises, sets, and weight… entirely customized to you! Let artificial intelligence build the best possible workout for you, and stop guessing what to do at the gym.  \n\nWe built Motra because we too are lifters, gym enthusiasts, & fellow athletes, and we're tired of entering a workout log, manually. We believe that a gym workout tracker should be as easy as recording a run, and we’ll stop at nothing to get there. The Motra App is an all-encompassing workout log app that tracks how you move and helps you achieve your strength training goals at the gym. Simply strap on your Apple Watch, and see the magic unfold.\n\nOur application runs on the Apple Watch Series 4 and newer. Unfortunately, we do not support the Apple Watch 1, 2 and 3.\n\nWe are very serious about data. We do not sell your personal data to third parties. Our data storage practices are designed to enhance user experience without compromising privacy. We only retain the essential data needed for a seamless experience. Please see our Privacy Policy & Commitment below for more details.\n\nAny purchases will be applied to your iCloud account at the end of your free trial. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime directly from your iCloud account, or on the Motra application. For more information, see our terms of service or privacy policy.\n\nPrivacy Commitment: https://motra.com/privacycommitment\nPrivacy Policy: https://motra.com/privacy\nTerms and Conditions: https://motra.com/terms\nSupport: hello@motra.com",
+    "price": 0,
+    "formattedPrice": "Free",
+    "currency": "USD",
+    "genres": [
+      "Health & Fitness",
+      "Lifestyle"
+    ],
+    "minimumOsVersion": "17.0",
+    "contentAdvisoryRating": "4+"
+  }
+}

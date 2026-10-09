@@ -1,0 +1,239 @@
+{
+  "description": "Sources outside the App Store checked on 2026-10-08 for anything shipped between 2026-08-24 and 2026-10-08 that the release notes did not name.",
+  "collectedAt": "2026-10-08",
+  "window": "2026-08-24..2026-10-08",
+  "method": "WebSearch/WebFetch plus direct curl of Google Play pages, APKMirror version lists, official sitemaps (lastmod) and the Fitbod Zendesk help-center API (created_at/edited_at). Reddit (www/old.reddit.com) returned HTTP 403 for every request and Internet Archive was 'Temporarily Offline', so neither was usable. X/Instagram are not indexed for this window.",
+  "apps": [
+    {
+      "app": "hevy",
+      "sourcesChecked": [
+        {
+          "url": "https://www.hevyapp.com/community-updates/",
+          "what": "Official community-update posts",
+          "result": "Only post: July 2026 update. Nothing for Aug–Oct."
+        },
+        {
+          "url": "https://www.hevyapp.com/community-updates/july-26/",
+          "what": "July 2026 update",
+          "result": "Outside the window. Lists injury management and workout reordering as 'coming'. Injury management then shipped on 2026-08-06 (iOS 3.1.8), also outside the window."
+        },
+        {
+          "url": "https://www.hevyapp.com/*-sitemap.xml",
+          "what": "Sitemap lastmod for every page changed since Aug 20",
+          "result": "SEO and guide articles, plus feature pages refreshed 09-24 (hevy-chatgpt, home-screen-widgets, workout-plan-generator). None carries a dated launch."
+        },
+        {
+          "url": "https://www.hevyapp.com/features/hevy-chatgpt/",
+          "what": "Hevy ChatGPT plugin page",
+          "result": "Called 'new' but undated. A reviewer quote says 'since January', so it predates the window."
+        },
+        {
+          "url": "https://www.hevyapp.com/features/workout-plan-generator/",
+          "what": "Trainer page",
+          "result": "Undated. Describes features already in the App Store notes."
+        },
+        {
+          "url": "https://www.hevyapp.com/press/",
+          "what": "Press page",
+          "result": "No dated news."
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.hevy",
+          "what": "Google Play What's new",
+          "result": "Updated Oct 1, 2026. Same text as iOS (Send to ChatGPT & Claude, 5 languages)."
+        },
+        {
+          "url": "https://www.apkmirror.com/apk/hevy-gym-workout-tracker/hevy-gym-log-workout-tracker/",
+          "what": "Android version history",
+          "result": "3.1.11/3.1.12 (Aug 31), 3.1.13 (Sep 8), 3.1.14 (Sep 11), Wear OS 3.1.16 (Oct 2). Notes match iOS. No extra features."
+        },
+        {
+          "url": "WebSearch: Hevy Coach / hevycoach.com changelog; Hevy Claude MCP",
+          "what": "B2B coach platform and server-side AI connectors",
+          "result": "Found nothing official. The Hevy MCP servers that turned up are community-built."
+        },
+        {
+          "url": "https://www.reddit.com/r/Hevy",
+          "what": "Subreddit",
+          "result": "Unreachable (HTTP 403)."
+        }
+      ],
+      "shippedInWindow": [],
+      "announcedNotShipped": []
+    },
+    {
+      "app": "strong",
+      "sourcesChecked": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=io.strongapp.strong",
+          "what": "Google Play What's new",
+          "result": "Updated Oct 6, 2026. Text reads 'What's new in Strong 6.2 • Live Updates • Other bug fixes'."
+        },
+        {
+          "url": "https://www.apkmirror.com/apk/strong-fitness-pte-ltd/strong-workout-tracker-gym-log/",
+          "what": "Android version history",
+          "result": "v6.2.5 (Sep 30) and v6.2.6 (Oct 7) are in the window. Betas 6.3-beta.19 (Sep 12) and 6.3-beta.21 (Sep 28)."
+        },
+        {
+          "url": "https://www.apkmirror.com/apk/strong-fitness-pte-ltd/strong-workout-tracker-gym-log/strong-workout-tracker-gym-log-v6-2-4-release/",
+          "what": "v6.2.4 notes",
+          "result": "Same 'Live Updates' text, uploaded 2026-08-12. So 'Live Updates' predates the window and is carried-over boilerplate."
+        },
+        {
+          "url": "WebSearch: strong.app changelog / help center release notes",
+          "what": "Official changelog",
+          "result": "No public changelog found."
+        },
+        {
+          "url": "https://www.reddit.com/r/strongapp",
+          "what": "Subreddit",
+          "result": "Unreachable (HTTP 403)."
+        }
+      ],
+      "shippedInWindow": [],
+      "announcedNotShipped": [
+        {
+          "date": "2026-09-12/2026-09-28",
+          "what": "Android 6.3 beta builds (6.3-beta.19, 6.3-beta.21), contents unknown. These are beta builds, not releases.",
+          "url": "https://www.apkmirror.com/apk/strong-fitness-pte-ltd/strong-workout-tracker-gym-log/",
+          "platform": "Android (beta)"
+        }
+      ]
+    },
+    {
+      "app": "fitbod",
+      "sourcesChecked": [
+        {
+          "url": "https://fitbod.me/post-sitemap1.xml + post-sitemap2.xml + page-sitemap.xml",
+          "what": "Blog/page lastmod since Aug 20",
+          "result": "15 pages. Every one is SEO or training content except the Family Plan post and the Insights explainer."
+        },
+        {
+          "url": "https://fitbod.me/blog/fitbods-new-family-plan-offering/",
+          "what": "Family Plan announcement",
+          "result": "datePublished 2026-08-26. Presents the plan as available now: 'here it is'. Duo (2) and Family (5), annual, bought on the web at app.fitbod.me/family."
+        },
+        {
+          "url": "https://help.fitbod.me/api/v2/help_center/en-us/articles/42280653162519.json",
+          "what": "Family Plan help article metadata",
+          "result": "created_at 2026-07-28, edited_at 2026-08-19. The support doc predates the window, so the plan may have gone live before Aug 24."
+        },
+        {
+          "url": "https://fitbod.me/blog/fitbod-insights-feature/",
+          "what": "Insights post (2026-09-17)",
+          "result": "Explains existing features (Results, Workout Report, Strength Score). Not a launch."
+        },
+        {
+          "url": "https://fitbod.me/blog/how-to-turn-any-workout-goal-into-a-fitness-challenge-youll-actually-finish/",
+          "what": "Post dated 2026-09-24",
+          "result": "How-to article. No feature launch."
+        },
+        {
+          "url": "https://help.fitbod.me/api/v2/help_center/en-us/articles.json?sort_by=created_at",
+          "what": "Newest help articles",
+          "result": "In the window: five algorithm FAQ articles created Sep 14 (no new feature). 'Injuries and Limitations' (created Jan 13) edited Sep 25 and 'My Plan' edited Sep 9, neither saying what changed. 'Exercise Percentile Ranking' (gradual rollout) created Aug 4, outside the window."
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fitbod.fitbod",
+          "what": "Google Play What's new",
+          "result": "Updated Sep 30, 2026. Notes are generic: 'Bugs were squashed... Performance got a boost'."
+        },
+        {
+          "url": "https://www.apkmirror.com/apk/fitbod/fitbod-workout-fitness-plans/",
+          "what": "Android version history",
+          "result": "8.31 (Aug 26), 8.32 (Aug 31), 8.33 (Sep 9), 8.34 (Sep 16), 8.35 (Oct 1). Every set of notes is generic."
+        },
+        {
+          "url": "https://x.com/FitbodApp",
+          "what": "X account",
+          "result": "The indexed copy only shows posts from 2024."
+        },
+        {
+          "url": "https://www.reddit.com/r/fitbod",
+          "what": "Subreddit",
+          "result": "Unreachable (HTTP 403)."
+        }
+      ],
+      "shippedInWindow": [
+        {
+          "date": "2026-08-26",
+          "what": "BORDERLINE: public launch announcement of the Fitbod Family Plan (Duo/Family shared subscription, bought on the web, iOS/Android/web). It is a subscription product, not an app feature, and its help doc dates from Jul 28, so the actual go-live may predate the window.",
+          "url": "https://fitbod.me/blog/fitbods-new-family-plan-offering/",
+          "platform": "Web (billing), all platforms"
+        }
+      ],
+      "announcedNotShipped": []
+    },
+    {
+      "app": "motra",
+      "sourcesChecked": [
+        {
+          "url": "https://www.motra.com/what-is-new",
+          "what": "Official changelog",
+          "result": "Newest entries: 6.4.4 (Jul 21, 2026) and 6.4.3 (Jul 13). Nothing dated Aug–Oct. (The App Store dates 6.4.4 to Aug 10.)"
+        },
+        {
+          "url": "https://help.motra.com/en/",
+          "what": "Intercom help center",
+          "result": "No release notes or announcements."
+        },
+        {
+          "url": "https://www.mydealz.de/deals/ios-trainings-workout-app-motra-ai-20-fur-2-monate-kostenlos-2833073",
+          "what": "Deal post mentioning 'Motra AI 2.0'",
+          "result": "Undated ('more than 2 weeks ago'). A promo for 2 months free. Does not say when 'Motra AI 2.0' shipped, and no official source uses that name."
+        },
+        {
+          "url": "https://apps.apple.com/us/app/id6756487760",
+          "what": "'MOTRA' (MOTRA APP LTD)",
+          "result": "A different company (an effort-points/running app). Its Sep 2/20/22 releases do NOT belong to Motra."
+        },
+        {
+          "url": "https://wellnessproject.ai/ko/motra-for-android",
+          "what": "'Motra for Android'",
+          "result": "Third-party competitor page. States Motra has no Android app (verified Sep 27, 2026)."
+        },
+        {
+          "url": "https://www.motra.com/sitemap.xml",
+          "what": "Sitemap",
+          "result": "Serves HTML, no sitemap."
+        }
+      ],
+      "shippedInWindow": [],
+      "announcedNotShipped": []
+    },
+    {
+      "app": "gravl",
+      "sourcesChecked": [
+        {
+          "url": "https://gravl.ai/blog",
+          "what": "Blog",
+          "result": "Newest posts Jul 28 and Jul 16, 2026. No announcements in the window."
+        },
+        {
+          "url": "https://gravl.ai/sitemap.xml",
+          "what": "Sitemap lastmod",
+          "result": "Help articles refreshed Sep 27–30 (gym profiles, recommended weights, strength score, splits), around the time 1.53 shipped. Documentation only."
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.gravl.macros",
+          "what": "Gravl: Macros (separate nutrition app)",
+          "result": "Android 1.8, updated Oct 5, 2026: new onboarding, custom macro targets, Routines, past-day water logging, guided import. A different product from the workout app."
+        },
+        {
+          "url": "WebSearch: Gravl reddit / social",
+          "what": "Social/Reddit",
+          "result": "Nothing indexed."
+        }
+      ],
+      "shippedInWindow": [
+        {
+          "date": "~2026-10-05 (Play 'Updated on'; the release date of 1.8 itself is unverified)",
+          "what": "SEPARATE APP, do not add to the workout-app count: Gravl: Macros 1.8 (new onboarding, custom calorie/macro targets, Routines section, water logging on past days, guided import)",
+          "url": "https://play.google.com/store/apps/details?id=com.gravl.macros",
+          "platform": "Android (separate app)"
+        }
+      ],
+      "announcedNotShipped": []
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "app": "motra",
+  "appStoreId": "1548577496",
+  "source": "https://apps.apple.com/us/app/id1548577496",
+  "history": "Live App Store page (apps.apple.com/us/app/id1548577496, fetched 2026-10-08; 25 most recent).",
+  "coverage": {
+    "from": "2025-10-20",
+    "to": "2026-08-10",
+    "note": "Complete for the window: 25 listed versions reach back to 2025-10-20. Last release 2026-08-10 (none in Sep/Oct). Not to be confused with 'MOTRA' (id 6756487760, an effort-points platform)."
+  },
+  "fetchedAt": "2026-10-09",
+  "releases": [
+    {
+      "version": "6.4.4",
+      "date": "2026-08-10",
+      "notes": "This version contains minor backend enhancements to improve watch connectivity.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Watch connectivity (backend)"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.3",
+      "date": "2026-07-14",
+      "notes": "This version contains minor backend updates to help us improve page load speeds.",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.2",
+      "date": "2026-06-20",
+      "notes": "Version 6.4.2 contains minor fixes for exercise auto-detection.\n\nAs always, if you notice any bugs or issues, please be sure to report these - our team reviews every single submission!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: exercise auto-detection",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.1",
+      "date": "2026-06-17",
+      "notes": "Version 6.4.1 contains minor fixes around auto-detection of exercises for template-based workouts.\n\nAs always, if you notice any bugs or issues, please be sure to report these - our team reviews every single submission!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: auto-detection on template workouts",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.0",
+      "date": "2026-06-14",
+      "notes": "Version 6.4.0 contains new features to better support our AI coach. See below for a full breakdown:\n\n- New Gym Builder: We've completely revamped the gym builder. You can now specify custom weight increments for each exercise\n- Phone-Only Workout Improvements: For users that don't have an Apple Watch, we've made some improvements to the phone-only workout. These improvements should fix bugs where the audio would stop recording, and these workouts would not sync heart rate data to Apple Health.\n- Apple Health Sync Banner: You'll now see a banner on your home screen whenever you launch the app, showcasing any health syncs that are occurring.\n- Various bug fixes\n\nAs always, if you notice any bugs or issues, please be sure to report these - our team reviews every single submission!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Revamped Gym Builder with per-exercise weight increments",
+        "Apple Health sync banner"
+      ],
+      "notCounted": [
+        {
+          "item": "Phone-only workout fixes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.3.0",
+      "date": "2026-05-22",
+      "notes": "Version 6.3.0 is an exciting new update with a completely redesigned onboarding, new bug fixes, and more. We've also started rolling out our AI coach feature. Be on the lookout for the release of this in the coming week.\n\nRedesigned onboarding — new animated walkthrough, faster Apple Health setup, email signup with verification, and an imporved \"forgot password\" flow.\nAI Coach upgrades — send videos in chat, save and view workout templates Coach suggests, and Coach now asks for missing health data when it helps.\nAccount & privacy — Manage Account shows all your linked sign-in providers, and Apple Sign-In is fully revoked when you delete your account.\n\nBug fixes\n\nWatch workouts no longer reappear as active after saving\nHeart rate now syncs on watch workouts saved via phone fallback\nWarm-up edits no longer change your working sets\nFixed \"Watch app not installed\" showing after iOS-only updates",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Redesigned onboarding",
+        "AI Coach: send videos, save suggested templates"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.2",
+      "date": "2026-05-06",
+      "notes": "Version 6.2.2 contains minor performance improvements and bug fixes.",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.1",
+      "date": "2026-05-01",
+      "notes": "Version 6.2.1 contains minor performance improvements and bug fixes.",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.0",
+      "date": "2026-05-01",
+      "notes": "Version 6.2.0 has some major improvements and quality of life fixes for the app. We're very excited about this one! Please see below for the full feature breakdown: \n\nWorkouts\n\nExercise groups with more than 2 exercises now show a \"Circuit\" label\nFixed phone edits reverting unexpectedly during a workout\nFixed phone-only workouts reappearing as active the next day\nWorkouts/templates now save in completion order (vs staying in the template order)\nYou can now customize how individual exercises are measured between reps, distance, and time on both the watch, and phone app\nSmart Swap Feature - You can now get AI coach recommendations when swapping exercises from the iPhone app based on your workout\n\n\nMCP (Model Context Protocol)\n\nYou can now connect ChatGPT directly to Motra! With this you can ask ChatGPT anything about your workout history, stats, trends, etc. Browse apps from the ChatGPT app directory, from Settings > Apps, or from the Apps entry in the sidebar. Search for \"Motra\" and authenticate your account. For the time being, ChatGPT integration is read-only (meaning it can read your data, but not write/create workouts). Write access will be coming soon. Claude support coming soon too. \n\n\nMisc\n\nYou can now export workout data by custom date range\n\nAs always, please feel free to reach out if you have any issues, bugs, or suggestions. Our team reads all bug reports! You can reach us through the in-app support, or by emailing hello@motra.com",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Circuit labels",
+        "Per-exercise measurement (reps/distance/time)",
+        "AI Smart Swap",
+        "ChatGPT connection via MCP (read-only)",
+        "Export by custom date range"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.1.2",
+      "date": "2026-04-06",
+      "notes": "Version 6.1.2 is a minor update that introduces sorting for custom exercises and templates. You can now sort either your custom exercises or custom templates to allow easier filtering.\n\nAs always, please feel free to reach out if you have any issues, bugs, or suggestions. Our team reads all bug reports! You can reach us through the in-app support, or by emailing hello@motra.com",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Sorting for custom exercises and templates"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.1.1",
+      "date": "2026-03-17",
+      "notes": "Version 6.1.1 is a minor update with some bug fixes and performance updates. See below for details, and happy workouts!\n\nBUG FIXES:\n\n- Fixed a bug where the green checkmark on the watch confirmation screen was hard to tap \n- Fixed a bug where the watch would override and undo changes made on the phone in some cases \n- Fixed a bug where audio playback rest alarms could become unreliable \n\nAs always, please feel free to reach out if you have any issues, bugs, or suggestions. Our team reads all bug reports! You can reach us through the in-app support, or by emailing hello@motra.com",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: watch overriding phone edits, rest alarm reliability",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.1.0",
+      "date": "2026-03-02",
+      "notes": "Version 6.1.0 introduces some minor new features, and a variety of bug fixes and performance updates. See below for details, and happy workouts!\n\nNEW FEATURES:\n\nExercise Search in Trends: Quickly find specific exercises in the Trends tab with the new search bar.\nLast Hit Templates: See when you last performed each template to help plan your training week.\nRecovery % in Templates: Templates now show your recovery percentage so you can decide what to train next.\nWatch Streak Widgets: Your Apple Watch widgets now display your workout streak.\n\nBUG FIXES:\n\nNegative weights no longer stick around after swapping exercise type\nFixed a false \"Watch Disconnected\" screen that could appear when ending a workout normally\nImproved the UI on the Timed exercise countdown screen when Always-On Display is active\nSwitching weight units now correctly converts the value in the editor\nFixed a bug with custom exercise creation where equipment would always be required\nVarious Apple Watch stability and workout tracking improvements",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Exercise search in Trends",
+        "Last-performed date on templates",
+        "Recovery % on templates",
+        "Watch streak widgets"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-01-14",
+      "notes": "Train Fitness is becoming Motra! \n\nWe're excited to share a major milestone in our journey. We have undergone a branding change from Train Fitness to Motra - a new name, a new identity, and a new chapter in how technology supports human movement.\n\nThis isn't just a rebrand. It's an evolution of everything we've been building from day one. Motra isn't just a new name—it's the beginning of a more intelligent, more human way to support movement and performance. Over the coming months, major changes will be coming to further support your fitness journey. We're only getting started. For more information on our rebrand, please see our website: \n\nhttps://www.motra.com/motra-rebrand-announcement\n\n\nOTHER CHANGES:\n\nTagging / organizing templates: You can now add tags to your templates to be able to sort / organize them. Add multiple tags for easy filtering and access! \n\nStreak customization: You can now set a custom weekly streak. Choose between a time based, weight-based, or workout-based streak, and set your goal. \n\nCustom exercise enhancements: Custom exercises can now support photos, as well as non-weighted variations of exercises \n\nWe hope you enjoy these new changes. Thank for for being a part of the journey!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Rebrand from Train Fitness to Motra",
+        "Template tags",
+        "Custom weekly streak goals",
+        "Photos for custom exercises"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.5.2",
+      "date": "2026-01-02",
+      "notes": "Version 5.5.2 contains small fixes to improve discovery and search of exercises on the iPhone app. Happy holidays from the Train Fitness team!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Improved exercise search/discovery"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.5.1",
+      "date": "2025-12-26",
+      "notes": "Version 5.5.1 is a minor update which contains a connectivity improvement for the watch & phone connection. Users who have updated watchOS 26.2 but have not yet updated their phone to iOS 26.2 may experience connection drops between the watch and phone. Please either update your phone to iOS 26.2, or install this Train Fitness update to resolve the issue. \n\nHappy holidays, and happy workouts from the Train Fitness team!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: watchOS 26.2 connection drops",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.5.0",
+      "date": "2025-12-17",
+      "notes": "Fellow lifters – we’re excited to be bringing another MAJOR update to the app. This release contains the following updates: \n\nNEW FEATURES:\n-\t1,000+ new exercises: We’ve expanded our exercise library extensively, adding over one thousand new exercises to our library\n-\tAddition of over 100 stretches & warm-up exercises: Train Fitness now fully supports stretching and warmups\n-\tNew Exercise Details Page: Each exercise now has instructions, coaching tips, advanced muscle group breakdowns, and more\n-\tIntegrated timer for time-based exercises: Timed exercises such as a plank or wall-sit now include an integrated, built in rest timer to keep track of your exercise\n-\tNew exercise search: We’ve added a new tab to the app, allowing for quick access to search exercises\n-\tSupport for negative-weight exercises: Assisted exercises such as Assisted Pull-Up or Assisted Dips are now fully supported with negative weight logging\n-\tBetter support for non-weighted exercises: Exercises which don’t require weight such as Jump Rope no longer include weight options when logging\n-\tImproved privacy settings: You can now customize if you want your workout location to be public or private\n-\tNew optional setting to keep the iPhone screen on during the duration of a workout\n-\tImprovements to auto-detection memory: The app will now better remember incorrect detections & swaps\n\nBUG FIXES: \n-\tFix for weight unit changes between lb & kg not persisting when swapped on the watch\n-\tFix for the watch volume (TVL) displaying incorrectly on template workouts\n-\tOther minor bug fixes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "1,000+ new exercises",
+        "100+ stretches/warm-ups",
+        "Exercise details page",
+        "Integrated timer for timed exercises",
+        "Negative-weight (assisted) exercises"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.4.0",
+      "date": "2025-11-13",
+      "notes": "Version 5.4.0 contains the following improvements:\n- Logging weight in any unit. You can now choose between lb/kg for any exercise, logging in whichever unit you prefer for individual exercises \n- Bug fix where recent workout weights memory was not being updated correctly in some cases\n- Other bug fixes and performance updates  \n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Per-exercise lb/kg units"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.3.2",
+      "date": "2025-11-11",
+      "notes": "Version 5.3.2 contains the following improvements: \n- Fix for the rest alarm audio not triggering when the phone app transitions to the background \n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: rest alarm audio in background",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.3.1",
+      "date": "2025-11-05",
+      "notes": "Version 5.3.1 contains the following improvements: \n- Collapsing of exercises on the watch. You can now expand/collapse exercises on the Apple Watch as well, allowing for easier and cleaner workout management on the watch\n- Improvements for workout syncing between the watch and iPhone\n- Fix for the \"Smart Update\" toggle for the Apple Watch not correctly enabling/disabling the setting. \n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Collapse exercises on Apple Watch"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "5.3.0",
+      "date": "2025-10-30",
+      "notes": "Version 5.3.0 contains the following improvements: \n- Improvement to support auto-detection of custom exercises when in \"Template\" detection mode\n- Smart Update of weights and reps on the iPhone now remembers your last choice and chooses this as the default\n- Smart Update of weights and reps on the Apple Watch is now off by default. You can enable this from the iPhone app Settings > Workout Settings\n- The list of exercises on the \"Trends\" tab now shows exercises based on your past performance and history \n- Fix for the \"Suggested\" exercise feature sometimes returning a duplicate exercise to one you have already done\n- Fix for workout mirroring between the watch and iPhone\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "5.2.1",
+      "date": "2025-10-24",
+      "notes": "Version 5.2.1 contains minor improvements, including: \n- Fix for in rare cases template workouts started on the phone immediately clearing themselves\n- Improvement for iPhone workouts with not watch connected saving calories correctly to Apple Health\n- Improvements for translations\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "5.2.0",
+      "date": "2025-10-23",
+      "notes": "Version 5.2.0 includes support for exercise notes on the Apple Watch! You can now view, add, edit, and delete exercise notes directly from your Apple Watch without the need of your iPhone!\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "5.1.3",
+      "date": "2025-10-23",
+      "notes": "Version 5.1.3 contains the following improvements: \n- Improved saving of workouts. Previously, if a workout was saved while offline, it was taking longer than expected for the workout to upload. This version fixes this so these workouts are uploaded as soon as possible.\n- Fix for the watch screen freezing occasionally while confirming sets.\n- Fix for workout recovery on watch sometimes not recovering the entire workout (when the watch app is closed / opened during a workout)\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "5.1.2",
+      "date": "2025-10-21",
+      "notes": "Version 5.1.2 contains the following improvements: \n- Improved recovering workouts from watch. Previously if you closed the app on your watch, the workout would in some cases not recover. We've fixed this\n- Improved syncing between the watch and iPhone\n- Extended our translation support for select languages \n- Exercises added on the iPhone are now added in the order you select them \n- Watch app now has \"Smart-Weight\" logic, which will automatically increase / decrease the weight of upcoming sets when you edit one set\n- Improved experience and bug fixes for the iPhone weight / reps editor \n- New interface to search for users (access from the Feed tab)\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "5.1.1",
+      "date": "2025-10-20",
+      "notes": "Version 5.1.1 is a minor update which contains visual updates for users still on iOS 18.\n\nWe value community feedback immensely. If you'd like to share feedback, report bugs, schedule a live call with our engineering team, or otherwise give us your thoughts on the app, you can do so directly from the Train Fitness iPhone app from: Profile (You) Tab > Settings > Get Involved.\nHappy lifting!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    }
+  ]
+}

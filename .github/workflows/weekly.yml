@@ -1,0 +1,75 @@
+name: Weekly refresh
+
+# Fetches App Store release history and listings, recomputes the scoreboard,
+# validates, and opens a pull request with a summary. Nothing merges on its
+# own: new releases are classified, and any matrix change is made, by a person.
+#
+# Repository setting required: Settings → Actions → General → "Allow GitHub
+# Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Mondays 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch App Store release history
+        run: node scripts/fetch-releases.mjs
+
+      - name: Snapshot App Store listings
+        run: node scripts/fetch-listings.mjs
+
+      - name: Recompute scoreboard
+        run: node scripts/compute-pace.mjs
+
+      - name: Validate
+        id: validate
+        run: |
+          set +e
+          node scripts/validate.mjs > "$RUNNER_TEMP/validation.txt" 2>&1
+          status=$?
+          cat "$RUNNER_TEMP/validation.txt"
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Write report
+        run: node scripts/diff-report.mjs --validation "$RUNNER_TEMP/validation.txt" --out "$RUNNER_TEMP/report.md"
+
+      - name: Date
+        id: date
+        run: echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/weekly-refresh
+          delete-branch: true
+          commit-message: "data: weekly App Store refresh ${{ steps.date.outputs.today }}"
+          title: "Weekly refresh ${{ steps.date.outputs.today }}"
+          body-path: ${{ runner.temp }}/report.md
+          labels: automated, needs-review
+          add-paths: |
+            data/**
+
+      - name: Fail if validation failed
+        if: steps.validate.outputs.status != '0'
+        run: |
+          echo "validate.mjs reported errors — see the PR body." >&2
+          exit 1

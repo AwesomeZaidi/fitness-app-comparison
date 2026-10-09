@@ -1,0 +1,360 @@
+{
+  "app": "strong",
+  "appStoreId": "464254577",
+  "source": "https://apps.apple.com/us/app/id464254577",
+  "history": "Live App Store page (apps.apple.com/us/app/id464254577, fetched 2026-10-08; 25 most recent).",
+  "coverage": {
+    "from": "2025-06-16",
+    "to": "2026-10-08",
+    "note": "Complete for the window: the 25 listed versions reach back to 2025-06-16. Strong ships roughly monthly."
+  },
+  "fetchedAt": "2026-10-09",
+  "releases": [
+    {
+      "version": "6.5.1",
+      "date": "2026-10-08",
+      "notes": "• Fix: Sign-in prompt now appears instead of retrying a failed login indefinitely\n• Fix: Sign-in sessions could be lost or fail to renew, stopping sync\n• Fix: Workout template cards not updated immediately after exercise renames\n• Fix: Calendar widget not highlighting days with zero-minute workouts\n• Fix: Apple Watch - Sign-in prompt could stay hidden after a failed login\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: sign-in sessions failing to renew / stopping sync",
+          "reason": "fix"
+        },
+        {
+          "item": "Fix: calendar widget zero-minute workouts",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.5.0",
+      "date": "2026-08-12",
+      "notes": "• New: Live Activity and Dynamic Island support for rest timers\n• Fix: Large measurement histories from Apple Health could fail to import\n• Fix: Exercises could appear misaligned in workout history\n• Fix: Apple Watch - Workout calories could be recorded incorrectly in Apple Health after completion\n• Faster Start Workout screen loads with large template libraries\n• Faster Apple Health workout imports for accounts with many workouts",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Live Activity & Dynamic Island rest timer"
+      ],
+      "notCounted": [
+        {
+          "item": "Faster Apple Health workout import",
+          "reason": "speed or reliability"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.3",
+      "date": "2026-07-23",
+      "notes": "• Fix: Chart plot markers could show outdated theme colors\n• Fix: Add Measurement date pickers not themed correctly\n• Fix: Apple Watch - Issues with timer and workout updates during Live Sync",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: Apple Watch Live Sync timer issues",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.2",
+      "date": "2026-06-25",
+      "notes": "• New: \"Week of Year\" label format option for the Workouts Per Week widget\n• Fix: Keyboard may get stuck when switching between fields on iOS 27\n• Fix: RPE keyboard not appearing on iOS 27\n• Fix: Calendar widget highlighted date may be difficult to read for Liquid Glass theme\n• Various minor UI display fixes\n• Various layout improvements to the Strong iOS widgets",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "'Week of Year' label for Workouts Per Week widget"
+      ],
+      "notCounted": [
+        {
+          "item": "iOS 27 keyboard/RPE fixes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.1",
+      "date": "2026-06-09",
+      "notes": "• Fix: Improved messaging for sync and authentication\n• Fix: RPE value not saved when pressing 'Next' on keyboard\n• Fix: Apple Watch - Resolved various crashes and stability issues\n• Fix: Apple Watch - Finished Live Sync workouts may not appear on phone",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: Apple Watch crashes and Live Sync workouts not appearing",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.4.0",
+      "date": "2026-05-28",
+      "notes": "• New: Calendar home screen widget for tracking monthly workouts and weekly streaks\n• New: Activity widget for tracking workout activity over time",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Calendar home-screen widget",
+        "Activity widget"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.3.3",
+      "date": "2026-04-30",
+      "notes": "• New - Apple Watch: Button Repeat toggle in Advanced settings\n• Fix: Freezing for users with large workout histories\n• Fix: Timers may stop randomly during a Live Sync workout\n• Fix: Chart calculation related crashes\n• Fix: Rare crashes during background sync\n• Fix: Plate calculator may be cut off with large number of plates\n• Fix: Expanded workout cards clipped at bottom if the workouts have notes",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Apple Watch Button Repeat toggle"
+      ],
+      "notCounted": [
+        {
+          "item": "Fix: freezing with large histories",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.3.2",
+      "date": "2026-04-16",
+      "notes": "• New: Exercise search now highlights individual matched characters\n• New: Improved exercise search ranking\n• Fix: PRO status not unlocking for some users, requiring manual restore\n• Fix: Blank navigation bar in Measurements after unlocking PRO",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Exercise search character highlighting and better ranking"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.3.1",
+      "date": "2026-04-07",
+      "notes": "• Fix: Paused rest timers could fire notifications after incrementing or decrementing\n• Fix: Verify Email button could be tapped multiple times in quick succession\n• Fix: Possible instances of PRO not unlocked, requiring restore purchases",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: paused rest timer notifications",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.3.0",
+      "date": "2026-03-19",
+      "notes": "• New: Template Search\n• Fix: Settings screen UI inconsistencies\n• Fix: Add Measurement dialog may be cut off on some devices\n• Fix: Apple Watch - Collapse of exercise section may affect Live Sync\n• Fix: Apple Watch - Action button fails to complete a set\n• Improved support for the Show Borders accessibility feature",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Template search"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.9",
+      "date": "2026-03-09",
+      "notes": "• New: Shortcut for adding measurements from Profile widgets\n• Fix: Possible instances of PRO not unlocked, requiring restore purchases",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Shortcut to add measurements from Profile widgets"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.8",
+      "date": "2026-02-23",
+      "notes": "• Fix: Timer notifications still firing after workout completions\n• Fix: Apple Watch - Navbar timer not tappable on watchOS 26\n• Fix: Inconsistent error banner styling in Profile popups\n• Fix: Possible instances of PRO not unlocked, requiring restore purchases",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: timer notifications after workout completion",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.7",
+      "date": "2026-01-14",
+      "notes": "• Fix: Timer may not count down when app is in background\n• Fix: Timer may reset after returning to app from background or termination\n• Improvements to subscriptions and purchase recognition",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: background timer countdown",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.6",
+      "date": "2025-12-18",
+      "notes": "• Fix: Incorrect background color when opening Theme Selection settings screen\n• Fix: Incorrect Profile header background color during theme transition\n• Fix: Theme not propagating correctly in Apple Watch settings screen\n• Fix: Next Set may be incorrect under rare circumstances\n• Fix: App may freeze and crash when navigating to Profile\n• Fix: Keyboard does not dismiss after tapping Exercise Category in Create Exercise",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fix: theme and Profile freeze bugs",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.5",
+      "date": "2025-12-01",
+      "notes": "• Minor fixes to improve stability on latest versions of iOS/watchOS\n• Fix: Improved UI for Apple Watch SE 3",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Improved UI for Apple Watch SE 3"
+      ],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.4",
+      "date": "2025-11-13",
+      "notes": "• Minor fixes to improve stability on latest versions of iOS/watchOS",
+      "generic": true,
+      "repeatsPreviousNotes": false,
+      "features": [],
+      "notCounted": [],
+      "classifiedBy": "human",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "version": "6.2.3",
+      "date": "2025-10-15",
+      "notes": "• Fix: Exercise Charts not showing all datapoints\n• Fix: EZ Bar incorrectly shows '8 kg' instead of '7.5 kg' in Bar Type menu\n• Fix: Some users are unable to upload pending changes\n• Fix: Verify email banner showing when there is no email set",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.2.2",
+      "date": "2025-10-01",
+      "notes": "• Fix: Updated CSV Export format",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.2.1",
+      "date": "2025-09-18",
+      "notes": "• Fix: Missing ‘Data Management > Sync’ in Settings",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.2.0",
+      "date": "2025-09-08",
+      "notes": "• New: Export measurements from Strong to .csv file\n• New: Apple Watch - Exercise details on exercise name tap and in set group menu\n• Fix: Workout notes not showing in history cards\n• Fix: Order of reordered Templates may reset after app restart\n• Fix: Apple Watch - Workout navbar is empty when heart rate or calories data is unavailable\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.1.4",
+      "date": "2025-08-13",
+      "notes": "• New: Export data from Strong with/without timers and workout notes\n• Fix: Exported data might have values with more than two decimal places\n• Fix: Reordered Template does not always stay in position\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.1.3",
+      "date": "2025-07-30",
+      "notes": "• Fix: Issues with uploading data for some users\n• Fix: Reauthentication screen not showing for users with app transfered from new phone\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.1.2",
+      "date": "2025-07-16",
+      "notes": "• Fix: Slow personal records calculation for users with large workout history\n• Fix: App slowdowns when processing large number of workouts for personal records\n• Fix: Processing large number of workouts for personal records can cause app termination in background\n• Fix: Personal records might not be calculated correctly when \"Start History From\" date is set\n• Fix: Records screen not respecting \"Start History From\" date\n• Fix: Strong PRO unlocked alert repeatedly showing on launch when using iOS 26\n• Fix: Apple Watch - Back button too narrow on watchOS 26",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.1.1",
+      "date": "2025-07-02",
+      "notes": "• Fix: Slow app launch for users with large history of performed workouts\n• Fix: Slow initial presentation of History screen if user has hundreds of workouts\n• Fix: App can crash if History screen is scrolled quickly\n• Fix: Slow History browsing on older devices\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    },
+    {
+      "version": "6.1.0",
+      "date": "2025-06-16",
+      "notes": "• New: Ability to rename custom exercise\n• New: Apple Watch - Replace exercise option\n• Fix: Keyboard in Log Workout screen can't be dismissed by swiping down the keyboard or tapping outside the keyboard\n• Fix: Unable to request notification permissions in certain cases\n• Fix: Exercises with long names may appear cut off in Template previews\n• Fix: Timer notifications may show outdated details\n• Fix: Timer notifications may not include next set details (simple timer mode)\n• Fix: Timer notifications may still appear if set was deleted (simple timer mode)\n• Fix: Timer doesn't stop when set was marked incomplete or deleted (simple timer mode)\n• Fix: Timer still runs even if exercise was deleted or replaced\n• Fix: iOS may suggest adding inline timers even when using simple timer mode\n• Fix: Timer navigation bar button squished on iPhone 16e\n• Fix: Apple Watch - Navigation bar buttons disappear for a second on finished timer in update set view\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-09"
+    }
+  ]
+}

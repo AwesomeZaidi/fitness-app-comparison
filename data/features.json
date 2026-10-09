@@ -1,0 +1,351 @@
+{
+  "description": "The 52 features compared. Ids are stable; labels are what splyt.fit/compare shows.",
+  "categories": [
+    {
+      "id": "logging",
+      "label": "Logging"
+    },
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "ai",
+      "label": "AI"
+    },
+    {
+      "id": "plan",
+      "label": "Plan"
+    },
+    {
+      "id": "health",
+      "label": "Health"
+    },
+    {
+      "id": "social",
+      "label": "Social"
+    },
+    {
+      "id": "stats",
+      "label": "Stats"
+    },
+    {
+      "id": "everywhere",
+      "label": "Everywhere"
+    }
+  ],
+  "features": [
+    {
+      "id": "set_logging",
+      "category": "logging",
+      "label": "Sets, reps, weight",
+      "definition": "Log sets, reps and weight."
+    },
+    {
+      "id": "set_types",
+      "category": "logging",
+      "label": "Warm-up, drop & failure sets",
+      "definition": "Tag sets as warm-up, drop set or failure set."
+    },
+    {
+      "id": "supersets",
+      "category": "logging",
+      "label": "Supersets & circuits",
+      "definition": "Group exercises into supersets or circuits."
+    },
+    {
+      "id": "rest_timer",
+      "category": "logging",
+      "label": "Rest timer",
+      "definition": "A rest timer between sets."
+    },
+    {
+      "id": "plate_calc",
+      "category": "logging",
+      "label": "Plate calculator",
+      "definition": "Shows which plates to load for a target weight."
+    },
+    {
+      "id": "prev_values",
+      "category": "logging",
+      "label": "Last time’s numbers",
+      "definition": "Shows previous performance for an exercise, or prefills last time’s weights."
+    },
+    {
+      "id": "pr_tracking",
+      "category": "logging",
+      "label": "Personal records",
+      "definition": "Detects and records personal records."
+    },
+    {
+      "id": "exercise_demos",
+      "category": "logging",
+      "label": "Exercise demos",
+      "definition": "Video or animated demonstrations in the exercise library."
+    },
+    {
+      "id": "grip_variants",
+      "category": "logging",
+      "label": "Grips & handles",
+      "definition": "Logs grip, handle or attachment variations of one movement (e.g. rope vs bar) and tracks them separately under that movement."
+    },
+    {
+      "id": "voice_logging",
+      "category": "logging",
+      "label": "Log by voice",
+      "definition": "Log sets by speaking, inside the app (not just Siri dictation into a text field)."
+    },
+    {
+      "id": "multi_activity",
+      "category": "logging",
+      "label": "Lift + cardio in one session",
+      "definition": "One session that combines lifting with cardio, a sport, sauna or similar."
+    },
+    {
+      "id": "cardio_gps",
+      "category": "logging",
+      "label": "GPS runs & rides",
+      "definition": "GPS outdoor cardio tracking (run, walk, ride) with a route."
+    },
+    {
+      "id": "sports_tracking",
+      "category": "logging",
+      "label": "Sports beyond the gym",
+      "definition": "Non-gym sports and activities (basketball, yoga, swimming…) as first-class workouts."
+    },
+    {
+      "id": "offline",
+      "category": "logging",
+      "label": "Works offline",
+      "definition": "Works fully offline."
+    },
+    {
+      "id": "watch_app",
+      "category": "watch",
+      "label": "Apple Watch app",
+      "definition": "Has an Apple Watch app."
+    },
+    {
+      "id": "watch_standalone_logging",
+      "category": "watch",
+      "label": "Full logging on the Watch",
+      "definition": "Log full strength workouts from the watch, not just view them."
+    },
+    {
+      "id": "auto_rep_counting",
+      "category": "watch",
+      "label": "Automatic rep counting",
+      "definition": "Counts reps automatically from wrist motion."
+    },
+    {
+      "id": "watch_voice",
+      "category": "watch",
+      "label": "Voice on the Watch",
+      "definition": "Voice commands on the watch."
+    },
+    {
+      "id": "complications",
+      "category": "watch",
+      "label": "Watch face complications",
+      "definition": "Watch face complications."
+    },
+    {
+      "id": "garmin",
+      "category": "watch",
+      "label": "Garmin & other wearables",
+      "definition": "Support for a wearable other than Apple Watch: Garmin, Wear OS or another. Wear OS-only support counts as yes; the note says which."
+    },
+    {
+      "id": "ai_programs",
+      "category": "ai",
+      "label": "AI-built programs",
+      "definition": "AI-generated or adaptive workout programs."
+    },
+    {
+      "id": "ai_coach_chat",
+      "category": "ai",
+      "label": "AI coach chat",
+      "definition": "Chat with an AI coach about your training, inside the app."
+    },
+    {
+      "id": "import_any",
+      "category": "ai",
+      "label": "Import from screenshots & notes",
+      "definition": "Import workouts from screenshots, notes, text or social posts using AI."
+    },
+    {
+      "id": "progressive_overload",
+      "category": "ai",
+      "label": "Progression suggestions",
+      "definition": "Automatic weight or rep progression suggestions."
+    },
+    {
+      "id": "injury_adapt",
+      "category": "ai",
+      "label": "Adapts to injuries",
+      "definition": "Adapts workouts to injuries or limitations."
+    },
+    {
+      "id": "templates",
+      "category": "plan",
+      "label": "Saved workouts",
+      "definition": "Saved workouts or routines."
+    },
+    {
+      "id": "calendar",
+      "category": "plan",
+      "label": "Training calendar",
+      "definition": "A training calendar for scheduling workouts ahead of time."
+    },
+    {
+      "id": "splits",
+      "category": "plan",
+      "label": "Proven splits",
+      "definition": "Ready-made split programs (Push/Pull/Legs, Upper/Lower…)."
+    },
+    {
+      "id": "share_routines",
+      "category": "plan",
+      "label": "Share workouts by link",
+      "definition": "Share workouts or routines with other people by link."
+    },
+    {
+      "id": "import_other_apps",
+      "category": "plan",
+      "label": "Import from other apps",
+      "definition": "Import workout history from Strong, Hevy or other apps."
+    },
+    {
+      "id": "apple_health",
+      "category": "health",
+      "label": "Apple Health",
+      "definition": "Syncs with Apple Health."
+    },
+    {
+      "id": "strava",
+      "category": "health",
+      "label": "Strava",
+      "definition": "Syncs with Strava."
+    },
+    {
+      "id": "habits",
+      "category": "health",
+      "label": "Habits",
+      "definition": "Habit tracking."
+    },
+    {
+      "id": "sleep",
+      "category": "health",
+      "label": "Sleep",
+      "definition": "Sleep tracking or analysis."
+    },
+    {
+      "id": "rings",
+      "category": "health",
+      "label": "Daily rings",
+      "definition": "Daily activity or score rings of the app’s own."
+    },
+    {
+      "id": "body_weight",
+      "category": "health",
+      "label": "Body weight & measurements",
+      "definition": "Track body weight and measurements over time."
+    },
+    {
+      "id": "progress_photos",
+      "category": "health",
+      "label": "Progress photos",
+      "definition": "Progress photos."
+    },
+    {
+      "id": "recovery",
+      "category": "health",
+      "label": "Recovery & sauna",
+      "definition": "Recovery activities (sauna, cold plunge…) or recovery/strain scores."
+    },
+    {
+      "id": "nutrition",
+      "category": "health",
+      "label": "Nutrition",
+      "definition": "Nutrition or macro tracking in the same app."
+    },
+    {
+      "id": "social_feed",
+      "category": "social",
+      "label": "Friends’ feed",
+      "definition": "A feed of friends’ workouts."
+    },
+    {
+      "id": "competitions",
+      "category": "social",
+      "label": "Competitions",
+      "definition": "Competitions or challenges between friends."
+    },
+    {
+      "id": "live_follow",
+      "category": "social",
+      "label": "Follow a friend live",
+      "definition": "Follow a friend’s workout while it is happening."
+    },
+    {
+      "id": "trainer_share",
+      "category": "social",
+      "label": "Reports for your trainer",
+      "definition": "Share reports with your own trainer or coach, or a coach dashboard."
+    },
+    {
+      "id": "stats_charts",
+      "category": "stats",
+      "label": "Progress charts",
+      "definition": "Progress charts per exercise."
+    },
+    {
+      "id": "muscle_map",
+      "category": "stats",
+      "label": "Muscle map",
+      "definition": "Muscle heatmap or volume by muscle."
+    },
+    {
+      "id": "recaps",
+      "category": "stats",
+      "label": "Weekly & monthly recaps",
+      "definition": "Weekly or monthly recaps."
+    },
+    {
+      "id": "export_data",
+      "category": "stats",
+      "label": "Export your data",
+      "definition": "Export your data (CSV or similar)."
+    },
+    {
+      "id": "widgets",
+      "category": "everywhere",
+      "label": "Widgets",
+      "definition": "Home Screen or Lock Screen widgets."
+    },
+    {
+      "id": "live_activity",
+      "category": "everywhere",
+      "label": "Live Activity",
+      "definition": "Live Activity / Dynamic Island."
+    },
+    {
+      "id": "siri",
+      "category": "everywhere",
+      "label": "Siri & Shortcuts",
+      "definition": "Siri or Shortcuts support."
+    },
+    {
+      "id": "android",
+      "category": "everywhere",
+      "label": "Android",
+      "definition": "An Android app."
+    },
+    {
+      "id": "web_app",
+      "category": "everywhere",
+      "label": "Web app",
+      "definition": "A web app."
+    }
+  ]
+}

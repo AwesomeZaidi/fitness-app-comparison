@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: See the comparison
+    url: https://splyt.fit/compare
+    about: The published comparison built from this data.
