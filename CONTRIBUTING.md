@@ -1,5 +1,9 @@
 # Contributing
 
+Thanks for helping. You don't need to be a developer: most contributions are a link and a sentence in an issue form.
+
+**What happens to your contribution:** it's labelled within 3 days, decided within 14, and if it's accepted the change is credited to you in the pull request. Corrections to SPLYT's own cells are handled first. Before opening a pull request, run `npm run check`. Please read the [code of conduct](CODE_OF_CONDUCT.md).
+
 Corrections are the main reason this repository is public. If a value is wrong, we want to know, and that includes values for SPLYT.
 
 ## The quick way: open an issue
