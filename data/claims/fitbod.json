@@ -13,7 +13,7 @@
    "what": "Product page: description, compatibility (iPhone, Watch, Mac, Vision), languages"
   },
   {
-   "url": "scratchpad/fac-repo/data/releases/fitbod.json",
+   "url": "data/releases/fitbod.json",
    "type": "release_notes",
    "what": "44 releases 2025-11-03..2026-10-06; every note is boilerplate 'Bug fixes and improvements' - no claims"
   },

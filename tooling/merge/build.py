@@ -201,7 +201,7 @@ for f in M.FEATURES:
         aspects=asp,
         firstDocumented=dict(app=fd[1], date=fd[0], url=fd[2]) if fd else None,
         members={a: [label(a, i) for i, r in members[fid][a]] for a in APPS if members[fid][a]},
-        alsoEvidencedBy={a: [label(a, i) for i, r in candidates(fid, a) if r == "also"] for a in APPS
+        alsoEvidencedBy={a: list(dict.fromkeys(label(a, i) for i, r in candidates(fid, a) if r == "also")) for a in APPS
                          if any(r == "also" for _, r in candidates(fid, a))},
     ))
 

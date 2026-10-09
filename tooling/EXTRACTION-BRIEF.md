@@ -27,7 +27,7 @@ Every distinct user-facing capability the app SAYS it has, today:
 1. Current App Store listing: `https://itunes.apple.com/lookup?id=<ID>&country=us`
    (description) and the product page https://apps.apple.com/us/app/id<ID>.
 2. Its release notes / version history: already collected at
-   `/private/tmp/claude-501/-Users-asimzaidi-code-techmade-tempo5-tempo/e66187b6-9560-4cdc-801a-82d725c53bec/scratchpad/fac-repo/data/releases/<app>.json`
+   `data/releases/<app>.json`
    (read all of it; older notes count if not later removed).
 3. Its official website feature pages and blog announcements.
 4. Its official help centre / docs / FAQ (feature lists, "how to" articles prove a
@@ -37,7 +37,7 @@ Every distinct user-facing capability the app SAYS it has, today:
 Not allowed: review sites, Reddit, YouTube, third-party blogs, your own knowledge.
 
 ## Output
-Write JSON to `/private/tmp/claude-501/-Users-asimzaidi-code-techmade-tempo5-tempo/e66187b6-9560-4cdc-801a-82d725c53bec/scratchpad/fl/claims-<app>.json`:
+Write JSON to `data/claims/<app>.json`:
 ```
 { "app": "<app>", "collectedAt": "2026-10-09",
   "sourcesRead": [{"url","type","what"}],

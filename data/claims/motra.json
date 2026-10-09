@@ -13,7 +13,7 @@
    "what": "Product page: compatibility (iPhone iOS 17+, Apple Watch watchOS 10+, Apple Vision visionOS 1+), languages, version history"
   },
   {
-   "url": "scratchpad/fac-repo/data/releases/motra.json",
+   "url": "data/releases/motra.json",
    "type": "release_notes",
    "what": "All 25 release notes 5.1.1 (2025-10-20) to 6.4.4 (2026-08-10)"
   },
