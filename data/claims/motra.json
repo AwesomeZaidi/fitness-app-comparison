@@ -1,0 +1,1736 @@
+{
+ "app": "motra",
+ "collectedAt": "2026-10-09",
+ "sourcesRead": [
+  {
+   "url": "https://itunes.apple.com/lookup?id=1548577496&country=us",
+   "type": "app_store",
+   "what": "Current App Store description (v6.4.4, 2026-08-10), languages, devices"
+  },
+  {
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "type": "app_store",
+   "what": "Product page: compatibility (iPhone iOS 17+, Apple Watch watchOS 10+, Apple Vision visionOS 1+), languages, version history"
+  },
+  {
+   "url": "scratchpad/fac-repo/data/releases/motra.json",
+   "type": "release_notes",
+   "what": "All 25 release notes 5.1.1 (2025-10-20) to 6.4.4 (2026-08-10)"
+  },
+  {
+   "url": "https://www.motra.com/what-is-new",
+   "type": "website",
+   "what": "Official changelog (Version History) 5.3.0-6.4.4; text identical to App Store notes, dates differ slightly"
+  },
+  {
+   "url": "https://help.motra.com/en/",
+   "type": "help_centre",
+   "what": "Intercom help centre: all 9 collections and all 71 articles read in full (Zendesk API not applicable)"
+  },
+  {
+   "url": "https://www.motra.com/",
+   "type": "website",
+   "what": "Homepage incl. expanded FAQ accordions and feature tiles"
+  },
+  {
+   "url": "https://www.motra.com/neural-kinetic-profiling",
+   "type": "website",
+   "what": "Neural Kinetic Profiling technology page"
+  },
+  {
+   "url": "https://www.motra.com/guide",
+   "type": "website",
+   "what": "Motra Guide video tutorials (5 entries)"
+  },
+  {
+   "url": "https://www.motra.com/exercises",
+   "type": "website",
+   "what": "Web exercise library (147 pages of 12)"
+  },
+  {
+   "url": "https://www.motra.com/workouts",
+   "type": "website",
+   "what": "Web workout template library (102 pages)"
+  },
+  {
+   "url": "https://www.motra.com/en/motra-rebrand-announcement",
+   "type": "website",
+   "what": "Rebrand announcement (roadmap language only)"
+  },
+  {
+   "url": "https://www.motra.com/corporate",
+   "type": "website",
+   "what": "Corporate wellness offering"
+  },
+  {
+   "url": "https://www.motra.com/company",
+   "type": "website",
+   "what": "Company page"
+  },
+  {
+   "url": "https://www.motra.com/affiliate",
+   "type": "website",
+   "what": "Affiliate program (excluded: promo)"
+  },
+  {
+   "url": "https://www.motra.com/blog",
+   "type": "website",
+   "what": "Blog index + 3 linked posts (general training content, no feature announcements)"
+  },
+  {
+   "url": "https://play.google.com/store/search?q=motra%20ai%20workout&c=apps",
+   "type": "google_play",
+   "what": "No Android listing found"
+  }
+ ],
+ "claims": [
+  {
+   "feature": "Automatic exercise detection",
+   "detail": "Identifies which exercise is being performed from Apple Watch wrist motion alone",
+   "quote": "the first app to offer automatic exercise tracking, using only the motion of your Apple Watch",
+   "category": "auto-tracking",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": "2026-08-10"
+  },
+  {
+   "feature": "Automatic rep counting",
+   "detail": "Counts reps hands-free from watch motion",
+   "quote": "tracking reps for over 470 unique exercise types – completely hands free!",
+   "category": "auto-tracking",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": "2026-08-10"
+  },
+  {
+   "feature": "470+ auto-detectable exercises",
+   "detail": "470+ exercises auto-detected on paid tier, 180 on free tier",
+   "quote": "Motra Pro users have access to all 470+ auto-detected exercises, while Motra Free users have access to 180 auto-detected exercises.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/9696451-exercise-auto-detection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "No camera or video required",
+   "detail": "Detection uses only watch accelerometer/gyroscope; no filming",
+   "quote": "Exercise auto-detection allows Motra to identify exercises using only Apple Watch wrist motion data. No video or camera is required.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/9696451-exercise-auto-detection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Automatic set start/end detection",
+   "detail": "Detects when each set begins and ends during a workout",
+   "quote": "During a workout, Motra detects the start and end of each set, suggests weights based on your history, and differentiates between exercise grips and variations.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/9888453-about-motra",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Grip and variation recognition",
+   "detail": "Distinguishes grips and variations of the same exercise (e.g. close-grip vs regular)",
+   "quote": "Easily differentiates between exercise grips and variation for a truly accurate and customized tracking experience.",
+   "category": "auto-tracking",
+   "url": "https://www.motra.com/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Detects free-weight, cable, machine and bodyweight exercises",
+   "detail": "Auto-tracking covers dumbbell, barbell, cable, kettlebell, machine and bodyweight movements",
+   "quote": "Yes, Motra can automatically track a wide range of exercises, including dumbbell, barbell, cable, kettlebell, machine, and bodyweight exercises.",
+   "category": "auto-tracking",
+   "url": "https://www.motra.com/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Automatic superset detection",
+   "detail": "Supersets are detected and created on the watch as you alternate exercises",
+   "quote": "Motra will automatically detect and create a supersets on your Apple Watch",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/9672557-supersets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Personalized detection learning",
+   "detail": "Detection model adapts to the user's movement patterns over roughly 5 workouts",
+   "quote": "Motra’s model continuously learns from your activity, improving in accuracy over time.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/9889025-progressive-learning",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9688829-how-motra-s-ai-learns-your-movement-patterns"
+   ]
+  },
+  {
+   "feature": "Detection learning toggle",
+   "detail": "User can turn per-user AI learning on or off",
+   "quote": "Toggle AI Learning on or off.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/14076031-configuring-auto-detection",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Reset detection learning",
+   "detail": "Clears learned movement data to restart detection calibration",
+   "quote": "Tap Reset Detection Cache (shown in red with a warning icon).",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/14076031-configuring-auto-detection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9889025-progressive-learning"
+   ]
+  },
+  {
+   "feature": "Adjustable minimum rep threshold",
+   "detail": "Set the fewest reps (1-8) before auto-detection registers a set",
+   "quote": "Tap the picker on the right side to select a value from 1 to 8.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/14076031-configuring-auto-detection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9696439-minimum-rep-threshold"
+   ]
+  },
+  {
+   "feature": "Pause auto-detection mid-workout",
+   "detail": "Turn detection off during a workout while heart rate, calories and time keep tracking",
+   "quote": "You can disable auto-detection, but still keep your workout running. Your heart-rate, calories, and workout time will continue to track while auto-detection is paused.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/13179912-how-to-turn-auto-detection-on-or-off-during-a-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual-mode default for watch workouts",
+   "detail": "Option to make every new watch workout start with auto-detection off",
+   "quote": "Once enabled, every new workout begins in Manual (Off).",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/13179912-how-to-turn-auto-detection-on-or-off-during-a-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Higher-accuracy detection model tier",
+   "detail": "Paid tier uses a newer detection model (stated 94%+ vs 80% accuracy)",
+   "quote": "Motra AI 2.0 — Available to premium (Pro) subscribers. Uses advanced Neural Kinetic Profiling for more accurate exercise recognition.",
+   "category": "auto-tracking",
+   "url": "https://help.motra.com/en/articles/14076031-configuring-auto-detection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9893825-motra-pro-levelling-up-your-fitness-journey"
+   ]
+  },
+  {
+   "feature": "Auto-detection of custom exercises in templates",
+   "detail": "Custom exercises can be auto-detected when following a template",
+   "quote": "Improvement to support auto-detection of custom exercises when in \"Template\" detection mode",
+   "category": "auto-tracking",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-10-30",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Detection remembers corrections",
+   "detail": "Remembers incorrect detections and user swaps to improve future detection",
+   "quote": "Improvements to auto-detection memory: The app will now better remember incorrect detections & swaps",
+   "category": "auto-tracking",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Form feedback",
+   "detail": "Claims motion model provides form feedback from wrist data",
+   "quote": "allowing Motra to accurately track what exercise a user is doing, count their reps, and provide form-feedback.",
+   "category": "auto-tracking",
+   "url": "https://www.motra.com/neural-kinetic-profiling",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Unilateral rep counting",
+   "detail": "Single-side exercises counted per complete both-sides movement, flagged x2",
+   "quote": "In exercises that involve movements on both the left and right sides independently, reps are counted using only one side.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9696458-counting-reps",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple Watch app",
+   "detail": "Full watch app; requires Series 4 or newer and watchOS 10+",
+   "quote": "Our application runs on the Apple Watch Series 4 and newer.",
+   "category": "watch",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": "2026-08-10"
+  },
+  {
+   "feature": "Start workouts on the watch",
+   "detail": "Begin an empty or template workout directly on Apple Watch",
+   "quote": "On your Apple Watch, tap \"Start a Workout > Empty Workout\" to begin a session.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/9916819-empty-workouts",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9698208-templated-workouts"
+   ]
+  },
+  {
+   "feature": "Phone-watch workout mirroring",
+   "detail": "A live session is mirrored on iPhone and watch; edit or end on either",
+   "quote": "Any session started on either the iPhone or Apple Watch will be mirrored across both devices, allowing you to edit or end the session on either one.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/9916819-empty-workouts",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Sync templates to watch",
+   "detail": "Transfer templates to the watch to start workouts from the wrist",
+   "quote": "Templates can be synced to your Apple Watch for starting workouts directly from your wrist.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Customizable watch workout display",
+   "detail": "Three configurable stat slots: heart rate, volume, duration, HR zone, calories, avg rest",
+   "quote": "You have 3 customizable slots to select the stats you want to display.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/9911165-customizing-apple-watch-display",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise notes on watch",
+   "detail": "View, add, edit and delete exercise notes on the watch",
+   "quote": "You can now view, add, edit, and delete exercise notes directly from your Apple Watch without the need of your iPhone!",
+   "category": "watch",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-10-23",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Collapse exercises on watch",
+   "detail": "Expand/collapse exercises in the watch workout view",
+   "quote": "Collapsing of exercises on the watch. You can now expand/collapse exercises on the Apple Watch as well, allowing for easier and cleaner workout management on the watch",
+   "category": "watch",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-11-05",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Watch streak complications",
+   "detail": "Apple Watch widgets show the workout streak",
+   "quote": "Watch Streak Widgets: Your Apple Watch widgets now display your workout streak.",
+   "category": "watch",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-03-02",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Offline watch workout storage",
+   "detail": "Watch keeps unsynced workouts up to 14 days and can re-send them",
+   "quote": "Your Watch stores unsaved workouts locally for up to 14 days, so you won't lose data even if sync is delayed.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/14021529-troubleshooting-apple-watch-connection-issues",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9698190-syncing-workouts-from-apple-watch-to-iphone"
+   ]
+  },
+  {
+   "feature": "Interrupted workout recovery",
+   "detail": "Prompts to recover and save a freeform workout after the watch battery dies",
+   "quote": "You should see a prompt to recover and save the interrupted workout. Follow the on-screen instructions.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/14076038-workout-data-not-saving",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Heart rate tracking",
+   "detail": "Records heart rate during workouts via Apple Watch",
+   "quote": "Motra still tracks heart rate, calories, and duration",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/13179912-how-to-turn-auto-detection-on-or-off-during-a-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Customizable heart rate zones",
+   "detail": "Five HR zones from age-based max HR; boundaries adjustable and synced to watch",
+   "quote": "You can adjust the boundaries between zones by dragging the dividers in the chart.",
+   "category": "watch",
+   "url": "https://help.motra.com/en/articles/14076032-setting-up-your-fitness-profile",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9671427-heart-rate-zones-hrz"
+   ]
+  },
+  {
+   "feature": "Calorie tracking",
+   "detail": "Active calories measured through Apple Health/Apple Watch",
+   "quote": "Motra leverages Apple Health to measure and track your calories during a workout.",
+   "category": "health",
+   "url": "https://help.motra.com/en/articles/9698202-calories",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual calorie editing",
+   "detail": "Edit a saved workout's calorie value",
+   "quote": "You can manually edit calories: tap the ... menu on the workout, tap Edit, then go to Advanced to change the calorie value",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/14021539-troubleshooting-apple-health-sync",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9698202-calories"
+   ]
+  },
+  {
+   "feature": "Phone-only workout logging",
+   "detail": "Log workouts on iPhone without an Apple Watch",
+   "quote": "For users that don't have an Apple Watch, we've made some improvements to the phone-only workout.",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-06-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Freeform empty workouts",
+   "detail": "Start an open workout with no pre-planned exercises",
+   "quote": "An Empty Workout means you are starting an open workout with no pre-planned exercises.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9916819-empty-workouts",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Warm-up and cool-down sets",
+   "detail": "Mark sets as warm-up (WU) or cool-down (CD)",
+   "quote": "On Motra, you can add multiple Warm-Up (WU) and Cool-Down (CD) sets at the start and end of each exercise.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672186-warm-up-wu-and-cool-down-cd-sets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Drop sets",
+   "detail": "Mark sets as drop sets on iPhone and watch",
+   "quote": "As of October 2025, Motra now has full support for Drop Sets, both on the Apple Watch and iPhone.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/12770673-drop-sets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual supersets",
+   "detail": "Group exercises into supersets in templates or live workouts; break or swap within them",
+   "quote": "You can manually create Supersets when creating templates or during a live workout in the Mobile Workout Editor.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672557-supersets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Circuits",
+   "detail": "Groups of more than two exercises are labeled as circuits",
+   "quote": "Exercise groups with more than 2 exercises now show a \"Circuit\" label",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-01",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Per-set RPE logging",
+   "detail": "Log 1-10 effort for any set",
+   "quote": "You can log Effort for any set during a workout.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/11831615-adding-rpe-effort-to-a-set",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout perceived effort rating",
+   "detail": "Rate a whole workout's effort 1-10 after finishing",
+   "quote": "Use the slider to set your Effort from 1 to 10.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672055-perceived-effort",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Tempo tracking",
+   "detail": "Track lifting tempo per set",
+   "quote": "You can also track supersets, warm-up and cool-down sets, muscle splits, tempo, and RPE directly from your Apple Watch.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9888453-about-motra",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9698163-tempo",
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Automatic rest timer",
+   "detail": "Counts time since the last set, shown on watch, Live Activity and iPhone",
+   "quote": "Motra automatically tracks your rest time, counting the seconds since you finished your last set.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9671219-rest-time-and-rest-alarm",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest alarm",
+   "detail": "Notifies when the target rest time is up",
+   "quote": "You can also add a Rest Alarm to any workout, which specifies a time at which you should be notified about your next set.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9671219-rest-time-and-rest-alarm",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076034-managing-notifications"
+   ]
+  },
+  {
+   "feature": "Per-set rest times",
+   "detail": "Different rest durations for each set in a template",
+   "quote": "This allows custom rest values for each given set you perform.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9671219-rest-time-and-rest-alarm",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Spoken rest audio prompts",
+   "detail": "Voice cues through headphones when rest is ending",
+   "quote": "When enabled, you will receive spoken audio cues through your headphones when your rest time is running out.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/14076034-managing-notifications",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9671219-rest-time-and-rest-alarm"
+   ]
+  },
+  {
+   "feature": "Smart set auto-update",
+   "detail": "Editing one set's weight/reps/rest applies the change to later unlogged sets",
+   "quote": "any change you make to a set — such as weight, reps, or rest time — is intelligently applied to future, unlogged sets of the same exercise.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/12676559-smart-set-updates-auto-update",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/11081434-updating-set-weight-reps-and-rest-time"
+   ]
+  },
+  {
+   "feature": "Previous performance display",
+   "detail": "Shows last session's weights and reps for each exercise",
+   "quote": "Tap the dropdown in the \"Rest\" column and set it to \"Previous\". This will display the most recent weights and repetitions used for that exercise.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672229-weight-input",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weight memory",
+   "detail": "Pre-fills the weight used last time for each exercise",
+   "quote": "For any exercise, Motra remembers the weight you used last time and uses that historical value when you do the exercise next time.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672229-weight-input",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Assisted exercises with negative weight",
+   "detail": "Log assistance as negative weight (assisted pull-ups, dips)",
+   "quote": "Support for negative-weight exercises: Assisted exercises such as Assisted Pull-Up or Assisted Dips are now fully supported with negative weight logging",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Non-weighted exercise logging",
+   "detail": "Exercises without load hide weight fields",
+   "quote": "Better support for non-weighted exercises: Exercises which don’t require weight such as Jump Rope no longer include weight options when logging",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Reps, distance or time measurement",
+   "detail": "Choose per exercise whether it is measured in reps, distance or time, on phone and watch",
+   "quote": "You can now customize how individual exercises are measured between reps, distance, and time on both the watch, and phone app",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-01",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Timed exercise timer",
+   "detail": "Built-in countdown timer for timed exercises like planks",
+   "quote": "Integrated timer for time-based exercises: Timed exercises such as a plank or wall-sit now include an integrated, built in rest timer to keep track of your exercise",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Per-exercise weight units",
+   "detail": "Choose lb or kg individually for each exercise",
+   "quote": "Logging weight in any unit. You can now choose between lb/kg for any exercise, logging in whichever unit you prefer for individual exercises",
+   "category": "units",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-11-13",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Weight unit setting",
+   "detail": "Global lb/kg preference",
+   "quote": "Scroll down to the Weight Units toggle.",
+   "category": "units",
+   "url": "https://help.motra.com/en/articles/10104897-change-weight-units",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Distance unit setting",
+   "detail": "Global distance unit preference",
+   "quote": "Scroll down to the Distance Units toggle.",
+   "category": "units",
+   "url": "https://help.motra.com/en/articles/14124179-change-distance-units",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise swap",
+   "detail": "Swap an exercise in a workout or superset",
+   "quote": "To swap an exercise, tap on the \"...\" beside the exercise to be swapped and select \"Swap Exercise.\"",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9672557-supersets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI exercise swap suggestions",
+   "detail": "AI recommends replacement exercises when swapping, based on the workout",
+   "quote": "Smart Swap Feature - You can now get AI coach recommendations when swapping exercises from the iPhone app based on your workout",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-01",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Keep screen awake during workouts",
+   "detail": "Optional setting to keep the iPhone screen on for the whole workout",
+   "quote": "New optional setting to keep the iPhone screen on during the duration of a workout",
+   "category": "logging",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Inactivity save reminder",
+   "detail": "Reminder to save the workout after 15-60 min of inactivity",
+   "quote": "This sends you a reminder after a period of inactivity during your workout.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/14076038-workout-data-not-saving",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Location-based save reminder",
+   "detail": "Reminder to save the workout when leaving the workout location",
+   "quote": "This sends you a reminder when you move away from the location where you started your workout.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/14076038-workout-data-not-saving",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log all unlogged sets on finish",
+   "detail": "On finishing, mark all remaining sets complete or discard them",
+   "quote": "\"Log All Sets\" -- This marks every unlogged set as complete and includes them in your saved workout.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/14076038-workout-data-not-saving",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit past workouts",
+   "detail": "Edit exercises, weights, titles, captions after saving",
+   "quote": "Edit exercises, weights, titles, captions, or any other details anytime after the session.",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9980535-getting-started-with-motra",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout photos and captions",
+   "detail": "Add title, caption and pictures to a workout",
+   "quote": "Give the workout a title and caption, and add pictures!",
+   "category": "logging",
+   "url": "https://help.motra.com/en/articles/9980535-getting-started-with-motra",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076035-social-features"
+   ]
+  },
+  {
+   "feature": "1,000+ exercise library expansion",
+   "detail": "Library expanded by over one thousand exercises",
+   "quote": "1,000+ new exercises: We’ve expanded our exercise library extensively, adding over one thousand new exercises to our library",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Stretches and warm-up exercises",
+   "detail": "100+ stretching and warm-up exercises",
+   "quote": "Addition of over 100 stretches & warm-up exercises: Train Fitness now fully supports stretching and warmups",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Exercise detail pages",
+   "detail": "Per-exercise instructions, coaching tips and muscle breakdown",
+   "quote": "New Exercise Details Page: Each exercise now has instructions, coaching tips, advanced muscle group breakdowns, and more",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Exercise search tab",
+   "detail": "Dedicated tab for searching exercises",
+   "quote": "New exercise search: We’ve added a new tab to the app, allowing for quick access to search exercises",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Exercise difficulty levels",
+   "detail": "Exercises/templates rated Beginner to Expert",
+   "quote": "The difficulty level of a template is determined by the difficulty of the exercises it contains.",
+   "category": "content",
+   "url": "https://help.motra.com/en/articles/9888581-understanding-difficulty-levels",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Custom exercises",
+   "detail": "Create exercises not in the library; tracked like built-ins, incl. muscle recovery",
+   "quote": "If there's an exercise you'd like to log in your workouts that isn't available in Motra, you can create a custom exercise.",
+   "category": "content",
+   "url": "https://help.motra.com/en/articles/9696454-custom-exercise",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Custom exercise photos",
+   "detail": "Custom exercises can have photos and non-weighted variants",
+   "quote": "Custom exercises can now support photos, as well as non-weighted variations of exercises",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-01-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Sort custom exercises and templates",
+   "detail": "Sorting options for custom exercises and templates",
+   "quote": "You can now sort either your custom exercises or custom templates to allow easier filtering.",
+   "category": "content",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-04-06",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Video tutorial guide",
+   "detail": "Official how-to videos (first workout, logging weights/reps, exercise types, volume)",
+   "quote": "In this video, learn how to accurately log weights for dumbbell, kettlebell, barbell, and machine exercises, as well as bodyweight movements.",
+   "category": "content",
+   "url": "https://www.motra.com/guide",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Workout templates",
+   "detail": "Reusable workouts with exercises, sets, reps, weights, rest",
+   "quote": "A template is a reusable workout blueprint.",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9698208-templated-workouts"
+   ]
+  },
+  {
+   "feature": "Save workout as template",
+   "detail": "Turn any completed workout (own or another user's) into a template",
+   "quote": "You can save any workout—yours or someone else’s—as a template.",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/9698208-templated-workouts",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076039-workout-templates"
+   ]
+  },
+  {
+   "feature": "Template tags",
+   "detail": "Color-coded tags to organize and filter templates",
+   "quote": "Tagging / organizing templates: You can now add tags to your templates to be able to sort / organize them.",
+   "category": "programming",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-01-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Template search and muscle filter",
+   "detail": "Search templates by name and filter by muscle group",
+   "quote": "Filter by Muscle Group — use the muscle group filter dropdown to show only templates targeting specific muscles",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Update template from workout",
+   "detail": "After a template workout, choose to update weights, reps and/or structure (phone or watch)",
+   "quote": "When you finish a workout that was started from a template and your performance differs from the template, Motra detects the changes and asks how you'd like to update the template.",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9696236-update-template"
+   ]
+  },
+  {
+   "feature": "Public templates and sharing",
+   "detail": "Templates can be public; share link; start or copy others' templates",
+   "quote": "Public templates can be shared with other Motra users:",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Duplicate templates",
+   "detail": "Copy own or other users' public templates",
+   "quote": "To make a copy of any template:",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pre-made template library",
+   "detail": "100+ pre-built workout templates (full access on paid tier); browsable on website",
+   "quote": "Motra Pro also gives you access to more than 100 expertly crafted workout templates",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/9893825-motra-pro-levelling-up-your-fitness-journey",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/workouts"
+   ]
+  },
+  {
+   "feature": "Template volume progression chart",
+   "detail": "Chart of max volume over time per template",
+   "quote": "Volume Progression chart — tracks your max volume over time for this template",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Muscle map for templates",
+   "detail": "Mannequin visual of primary and secondary muscles targeted",
+   "quote": "Muscle group mannequin — a visual breakdown of primary and secondary muscles targeted",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076039-workout-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Template last-performed date",
+   "detail": "Shows when each template was last done",
+   "quote": "Last Hit Templates: See when you last performed each template to help plan your training week.",
+   "category": "programming",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-03-02",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Template recovery match",
+   "detail": "Templates show muscle recovery percentage / match score",
+   "quote": "Recovery % in Templates: Templates now show your recovery percentage so you can decide what to train next.",
+   "category": "programming",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-03-02",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Guided template mode",
+   "detail": "Guide Mode assists with the next set in template workouts",
+   "quote": "You can turn Guide Mode on or off to assist with the next set.",
+   "category": "programming",
+   "url": "https://help.motra.com/en/articles/9980535-getting-started-with-motra",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI workout generation",
+   "detail": "Generates workouts from recovery, goals and fitness data",
+   "quote": "you can generate workouts based on your recovery, goals, and fitness data with the help of AI.",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": "2026-08-10"
+  },
+  {
+   "feature": "Readiness-aware generation",
+   "detail": "Generator considers recovery, readiness, sleep and past lift metrics",
+   "quote": "Motra AI factors in your recovery, readiness, sleep, and past workouts (including rep acceleration, velocity, range of motion, and more) to ensure we recommend the perfect workout for you.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9689530-generate-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Generation duration and intensity",
+   "detail": "Choose workout length and Low/Medium/High intensity",
+   "quote": "Customize the intensity setting based on how you feel today:",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9689530-generate-workout",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14021528-ai-generated-workouts-how-to-use-motra-s-workout-generator",
+    "https://help.motra.com/en/articles/9888525-understanding-workout-intensity"
+   ]
+  },
+  {
+   "feature": "Target muscle group selection",
+   "detail": "Pick muscle groups for a generated workout; recovered ones preselected",
+   "quote": "Specify which muscle groups you'd like to target. The recovered muscles will be selected by default.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9689530-generate-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "One-off generation instructions",
+   "detail": "Free-text request for a single generated workout (500 chars)",
+   "quote": "Free-text instructions for this workout only (500 characters)",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/14021528-ai-generated-workouts-how-to-use-motra-s-workout-generator",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9889240-personalization-of-generated-workouts"
+   ]
+  },
+  {
+   "feature": "Saved generation instructions",
+   "detail": "Persistent preferences applied to every generated workout",
+   "quote": "You can save specific instructions for Motra to consider when generating workouts.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9889240-personalization-of-generated-workouts",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Excluded exercises",
+   "detail": "Exercises that will never be included in generated workouts",
+   "quote": "You have the option to exclude specific exercises from your workout plan, tailoring your routine to match your preferences or avoid particular movements.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9889240-personalization-of-generated-workouts",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise variety preference",
+   "detail": "Familiar / Some New / Mostly New exercise mix",
+   "quote": "Familiar / Some New / Mostly New",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/14021528-ai-generated-workouts-how-to-use-motra-s-workout-generator",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9889240-personalization-of-generated-workouts"
+   ]
+  },
+  {
+   "feature": "Generated warm-ups, cool-downs and supersets",
+   "detail": "Option to include warm-up/cool-down sets and supersets in generated workouts",
+   "quote": "Specify if you want warm-up or cool-down sets and if you want supersets in your generated workout.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/9689530-generate-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Regenerate with feedback",
+   "detail": "Regenerate a workout with natural-language change requests",
+   "quote": "Add feedback explaining what you'd like changed",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/14021528-ai-generated-workouts-how-to-use-motra-s-workout-generator",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI weight and rep recommendations",
+   "detail": "Recommends exercises, sets and weights personalized from history",
+   "quote": "Our Smart Weights system will recommend specific workout plans, exercises, sets, and weight… entirely customized to you!",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": "2026-08-10"
+  },
+  {
+   "feature": "Auto-progression levels",
+   "detail": "Five progressive-overload rates from None to Extreme (~0-10% per 2 weeks)",
+   "quote": "You can choose how aggressively Motra increases your weights:",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/14021530-auto-progression-how-motra-adjusts-your-weights-automatically",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/10060175-unlocking-gains-progressive-overload"
+   ]
+  },
+  {
+   "feature": "Progression for custom templates",
+   "detail": "Progressive overload suggestions apply to user-made templates",
+   "quote": "Progressive overload now extends to custom templates you create yourself.",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/10060175-unlocking-gains-progressive-overload",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Wellness-based progression",
+   "detail": "Uses selectable Apple Health metrics (sleep, HRV, resting HR, etc.) to tune progression",
+   "quote": "Toggle which health data Motra uses for predicting progression",
+   "category": "ai",
+   "url": "https://help.motra.com/en/articles/14021530-auto-progression-how-motra-adjusts-your-weights-automatically",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/10070482-wellness-factors-in-progressive-overload"
+   ]
+  },
+  {
+   "feature": "Gym equipment profiles",
+   "detail": "Create multiple gyms with their available equipment for generation",
+   "quote": "You can create multiple gyms (for example, \"Home Gym\" and \"Commercial Gym\") and switch between them whenever you generate a workout.",
+   "category": "personalization",
+   "url": "https://help.motra.com/en/articles/14076033-gym-builder",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Custom weight increments",
+   "detail": "Specify available weights per equipment so progression matches your gym",
+   "quote": "You can now specify custom weight increments for each exercise",
+   "category": "personalization",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-06-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Experience level and goals profile",
+   "detail": "Beginner-Expert experience and multiple fitness goals shape workouts",
+   "quote": "Your goals directly influence the types of exercises Motra selects, the rep and set ranges in generated workouts, and how aggressively auto-progression increases your weights over time.",
+   "category": "personalization",
+   "url": "https://help.motra.com/en/articles/14076032-setting-up-your-fitness-profile",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Injury-aware exercise selection",
+   "detail": "Listed injuries cause risky exercises to be avoided or substituted",
+   "quote": "When you generate an AI workout, exercises that could aggravate your listed injuries are automatically avoided or substituted with safer alternatives.",
+   "category": "personalization",
+   "url": "https://help.motra.com/en/articles/14076032-setting-up-your-fitness-profile",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI coach chat",
+   "detail": "Chat-based AI coach (rollout began May 2026)",
+   "quote": "AI Coach upgrades — send videos in chat, save and view workout templates Coach suggests, and Coach now asks for missing health data when it helps.",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-22",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Video upload to AI coach",
+   "detail": "Send videos to the AI coach in chat",
+   "quote": "send videos in chat",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-22",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Save coach-suggested templates",
+   "detail": "Save and view workout templates the AI coach suggests",
+   "quote": "save and view workout templates Coach suggests",
+   "category": "ai",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-22",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Connect to external AI assistants",
+   "detail": "MCP connector for ChatGPT, Claude and other MCP clients to query training data",
+   "quote": "Motra now integrates with AI assistants like Claude and ChatGPT, giving you a powerful new way to explore and understand your workout data.",
+   "category": "integrations",
+   "url": "https://help.motra.com/en/articles/14140325-connect-motra-to-your-favorite-ai-assistant",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id1548577496"
+   ]
+  },
+  {
+   "feature": "Create templates via AI assistant",
+   "detail": "External AI assistants can create or update workout templates",
+   "quote": "Generate workout template which aligns with your goals and available equipments, you can also ask to update your existing templates",
+   "category": "integrations",
+   "url": "https://help.motra.com/en/articles/14140325-connect-motra-to-your-favorite-ai-assistant",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Muscle recovery tracking",
+   "detail": "Daily per-muscle recovery score from exercises and weights",
+   "quote": "Motra uses an advanced algorithm to calculate readiness based on your exercises and weights. Your muscle recovery score updates daily.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9689587-muscle-recovery",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Recovery body map",
+   "detail": "Bar chart and mannequin views of muscle readiness",
+   "quote": "Tap on the gauge to see the bar chart for muscle group readiness or view the mannequin view.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9689587-muscle-recovery",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Total volume lifted",
+   "detail": "Volume metric accounting for per-hand and per-side exercises",
+   "quote": "Total Volume Lifted (TVL) is a measure of the weight (or volume) moved.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9698172-total-volume-lifted-tvl",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Estimated one-rep max",
+   "detail": "Estimated 1RM per exercise (Brzycki formula)",
+   "quote": "The first row in the predicted column essentially shows your estimated 1 rep max (1RM) for this exercise.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9703315-personal-record-pr-breakdown",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/10060175-unlocking-gains-progressive-overload"
+   ]
+  },
+  {
+   "feature": "Rep-range PR table",
+   "detail": "Best and predicted weight for each rep count per exercise",
+   "quote": "\"Predicted\" is the estimated weight you can lift for the specified reps, helping you decide how much weight to use for sets.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9703315-personal-record-pr-breakdown",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise trends",
+   "detail": "Trends tab of per-exercise history with search",
+   "quote": "Exercise Search in Trends: Quickly find specific exercises in the Trends tab with the new search bar.",
+   "category": "stats",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-03-02",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Advanced metrics history",
+   "detail": "Detailed progress tracking and comparison over time (free tier limited to 7 days)",
+   "quote": "Track your progress in detail, compare performance over time, and benchmark against your goals or others.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/9893825-motra-pro-levelling-up-your-fitness-journey",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Achievements",
+   "detail": "Milestone banners for PRs, workout counts and streaks",
+   "quote": "Achievements are milestone banners that appear when you hit notable moments in your fitness journey.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Automatic PR detection",
+   "detail": "Flags new personal records for weight, reps or time; longest and highest-volume workout",
+   "quote": "Set a new personal record on a specific exercise for weight, reps, or time.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Custom weekly streak goal",
+   "detail": "Weekly streak by workout time, workout count or total volume",
+   "quote": "Streak customization: You can now set a custom weekly streak. Choose between a time based, weight-based, or workout-based streak, and set your goal.",
+   "category": "stats",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-01-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "External workouts count toward streak",
+   "detail": "Apple Health/imported workouts can count toward weekly goal",
+   "quote": "When enabled, those workouts count toward your weekly goal just like workouts logged directly in Motra.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout calendar",
+   "detail": "Calendar view of workout history across months",
+   "quote": "Tap the My Week card to open the full Calendar view, where you can see your workout history across months.",
+   "category": "stats",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Configurable week start day",
+   "detail": "Choose the day the week starts",
+   "quote": "Your week starts on the day you have configured in Settings > Personalize > Start Week On.",
+   "category": "personalization",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Streak reminder notifications",
+   "detail": "Reminder one day before the week resets if the goal isn't met",
+   "quote": "Motra will send you a reminder one day before your week resets, giving you a chance to complete your goal and keep your streak alive.",
+   "category": "notifications",
+   "url": "https://help.motra.com/en/articles/14076029-achievements-and-streaks",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout reminders",
+   "detail": "Scheduled reminders to work out",
+   "quote": "Workout Reminders -- Reminds you when it is time to work out based on your schedule.",
+   "category": "notifications",
+   "url": "https://help.motra.com/en/articles/14076034-managing-notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Granular notification controls",
+   "detail": "Per-type push notification toggles",
+   "quote": "Each type has its own toggle so you can turn it on or off independently.",
+   "category": "notifications",
+   "url": "https://help.motra.com/en/articles/14076034-managing-notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Home Screen widgets",
+   "detail": "Weekly progress, monthly progress, weekly sets and volume widgets",
+   "quote": "Motra offers a collection of Home Screen widgets, Lock Screen widgets, a Control Center shortcut, and a Live Activity",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Muscle set-distribution widget",
+   "detail": "Large widget with radar chart of weekly sets per muscle group",
+   "quote": "A spider/radar chart breaking down which muscle groups you targeted this week (set distribution).",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Lock Screen widgets",
+   "detail": "Rectangular/circular widgets for weekly progress and minutes",
+   "quote": "Choose from Weekly Progress, Weekly Workout Minutes (rectangular or circular), or Quick Access.",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Control Center control",
+   "detail": "Control Center button to open the app (iOS 18+)",
+   "quote": "A Motra button you can add to Control Center for one-tap access to the app.",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live Activity and Dynamic Island",
+   "detail": "Lock Screen/Dynamic Island shows current exercise and rest timer",
+   "quote": "When you start a workout in Motra, a Live Activity automatically appears on your Lock Screen and in the Dynamic Island (on supported iPhones).",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log sets from Live Activity",
+   "detail": "Log the next set from the Lock Screen or Dynamic Island",
+   "quote": "Log Next Set button -- tap the checkmark directly from the Live Activity or Dynamic Island to log your next set without opening the app.",
+   "category": "widgets",
+   "url": "https://help.motra.com/en/articles/14076037-widgets-and-live-activity",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple Health workout sync",
+   "detail": "Saves workouts with calories/HR to Apple Health; closes activity rings",
+   "quote": "Workouts logged on Motra close fitness rings and update Apple Health directly.",
+   "category": "health",
+   "url": "https://help.motra.com/en/articles/9696443-sync-with-apple-health",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Import workouts from Apple Health",
+   "detail": "Imports other apps' workouts (e.g. cardio) via Apple Health",
+   "quote": "Motra can import workouts from other apps (like Apple Fitness, Strava, etc.) via Apple Health, so all your training is in one place.",
+   "category": "health",
+   "url": "https://help.motra.com/en/articles/14021539-troubleshooting-apple-health-sync",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Body metrics from Apple Health",
+   "detail": "Reads height, weight, sex, birth date to personalize",
+   "quote": "Motra also reads your fitness profile (height, weight, biological sex, date of birth) from Apple Health to personalize your experience.",
+   "category": "health",
+   "url": "https://help.motra.com/en/articles/14021539-troubleshooting-apple-health-sync",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076032-setting-up-your-fitness-profile"
+   ]
+  },
+  {
+   "feature": "Health sync status banner",
+   "detail": "Home-screen banner showing Apple Health syncs in progress",
+   "quote": "Apple Health Sync Banner: You'll now see a banner on your home screen whenever you launch the app, showcasing any health syncs that are occurring.",
+   "category": "health",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-06-14",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Strava sync",
+   "detail": "Auto-posts workouts (exercises, calories, muscle groups, HR) to Strava; manual resync",
+   "quote": "Once connected, your Motra workouts — including calories, exercises, and muscle groups — will automatically sync to Strava.",
+   "category": "integrations",
+   "url": "https://help.motra.com/en/articles/14076036-troubleshooting-strava-connection",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9899525-connecting-strava"
+   ]
+  },
+  {
+   "feature": "Workout history import",
+   "detail": "Import history from other apps via CSV/XLSX/XLS (reviewed, up to 7 days)",
+   "quote": "Seamlessly bring your workout history into Motra using the Data Import feature. Files in .csv, .xlsx, and .xls formats are accepted.",
+   "category": "import-export",
+   "url": "https://help.motra.com/en/articles/10057923-data-import-and-export",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/9696224-weight-reps-auto-progression"
+   ]
+  },
+  {
+   "feature": "CSV data export",
+   "detail": "Emailed CSV export of workout history",
+   "quote": "Easily export your workout history to a CSV file using the Data Export feature.",
+   "category": "import-export",
+   "url": "https://help.motra.com/en/articles/10057923-data-import-and-export",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Export by date range",
+   "detail": "Export workout data for a custom date range",
+   "quote": "You can now export workout data by custom date range",
+   "category": "import-export",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2026-05-01",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Social activity feed",
+   "detail": "Feed of followed users' workouts with stats, photos and achievements",
+   "quote": "The Feed is the social hub of Motra.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://www.motra.com/"
+   ]
+  },
+  {
+   "feature": "Follow users",
+   "detail": "Follow other users or request to follow private accounts",
+   "quote": "Tap the Follow button to send a follow (or follow request if the account is private).",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "User search",
+   "detail": "Search for users from the feed",
+   "quote": "New interface to search for users (access from the Feed tab)",
+   "category": "social",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-10-21",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Suggested people",
+   "detail": "Discover People suggestions in the feed",
+   "quote": "a horizontal row of suggested users appears in the feed so you can quickly find new people to follow.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Likes",
+   "detail": "Like workouts and comments",
+   "quote": "Tap the heart icon on any workout card in the feed.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Comments and mentions",
+   "detail": "Comment on workouts; mention users",
+   "quote": "A comment sheet slides up. Type your comment and submit.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076034-managing-notifications"
+   ]
+  },
+  {
+   "feature": "Workout share cards",
+   "detail": "Shareable workout image cards with customizable templates and backgrounds",
+   "quote": "The Share Workout screen opens with multiple customizable card templates.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share to Instagram Stories",
+   "detail": "Direct sharing of workout cards to Instagram Stories",
+   "quote": "tap the Instagram icon to share directly to Instagram Stories (if Instagram is installed).",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend activity notifications",
+   "detail": "Notifications when friends work out or hit streak milestones",
+   "quote": "Posts & Streaks -- Notifies you when friends complete a workout or hit a streak milestone.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076034-managing-notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Challenges",
+   "detail": "Challenge invitations, updates and results (named only in notification settings)",
+   "quote": "Challenges -- Notifies you about challenge invitations, updates, and results.",
+   "category": "social",
+   "url": "https://help.motra.com/en/articles/14076034-managing-notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Private account",
+   "detail": "Approve followers before they can see workouts",
+   "quote": "If you’d prefer to share your fitness journey only with people you approve, you can easily switch to a private account.",
+   "category": "privacy",
+   "url": "https://help.motra.com/en/articles/11386790-privacy-security",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.motra.com/en/articles/14076035-social-features"
+   ]
+  },
+  {
+   "feature": "Per-workout visibility",
+   "detail": "Set each workout Visible or Hidden; defaults per workout type",
+   "quote": "Any workout can be edited to change the visibility between Visible and Hidden, depending on if you want your workout to be seen by others.",
+   "category": "privacy",
+   "url": "https://help.motra.com/en/articles/11386790-privacy-security",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout location privacy",
+   "detail": "Choose whether workout location is public or private",
+   "quote": "Improved privacy settings: You can now customize if you want your workout location to be public or private",
+   "category": "privacy",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "release_notes",
+   "date": "2025-12-17",
+   "alsoAt": [
+    "https://www.motra.com/what-is-new"
+   ]
+  },
+  {
+   "feature": "Block users",
+   "detail": "Block users from seeing profile and workouts",
+   "quote": "If someone is making you uncomfortable or you’d rather they not see your workouts or profile, you can block this user.",
+   "category": "privacy",
+   "url": "https://help.motra.com/en/articles/11386790-privacy-security",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Report users and workouts",
+   "detail": "Report a user or workout for review",
+   "quote": "Select Report User or Report Workout. The report is sent to the Motra team for review.",
+   "category": "privacy",
+   "url": "https://help.motra.com/en/articles/14076035-social-features",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Remove followers",
+   "detail": "Silently remove a follower",
+   "quote": "You can remove followers quietly and easily.",
+   "category": "privacy",
+   "url": "https://help.motra.com/en/articles/11386790-privacy-security",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple, Google or email sign-in",
+   "detail": "Account sign-in with Apple, Google or email",
+   "quote": "Sign in with your Motra account (Google, Apple, or email)",
+   "category": "account",
+   "url": "https://help.motra.com/en/articles/14140325-connect-motra-to-your-favorite-ai-assistant",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id1548577496"
+   ]
+  },
+  {
+   "feature": "Delete your data",
+   "detail": "User can delete their data at any time",
+   "quote": "You can delete your data at any time.",
+   "category": "account",
+   "url": "https://help.motra.com/en/articles/9704443-our-privacy-commitment",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Localized in 18 languages",
+   "detail": "App available in English plus 17 other languages",
+   "quote": "English, Danish, Dutch, Finnish, French, German, Greek, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Simplified Chinese, Spanish, Swedish, Traditional Chinese, Ukrainian",
+   "category": "platform",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Apple Vision Pro compatibility",
+   "detail": "Listed as runnable on Apple Vision (visionOS 1.0+)",
+   "quote": "Requires visionOS 1.0 or later.",
+   "category": "platform",
+   "url": "https://apps.apple.com/us/app/id1548577496",
+   "sourceType": "app_store",
+   "date": null
+  }
+ ],
+ "removed": [],
+ "notes": "No features were found to be explicitly removed. Ambiguities: (1) The MCP help article says all tools are 'strictly read-only' yet lists Create/Update Template tools; 6.2.0 notes said ChatGPT was read-only with write 'coming soon'. Template creation via assistant is kept but contradictory. Multi-day plans via MCP are 'Coming Soon' and excluded. (2) AI Coach chat: 6.3.0 (2026-05-22) says rollout started 'in the coming week'; no help-centre article documents it. (3) Auto-progression article says there is 'no permanent toggle yet' for auto-detection off, but the newer auto-detection article documents an 'Always off' setting; the newer one was used. (4) 'Form feedback' is claimed only on the NKP marketing page, never in help docs. (5) 'Challenges' appear only as a notification category; no article describes the feature. (6) Exercise library size: help says 400+ (old), 5.5.0 added 1,000+; web library shows 147 pages x 12 (~1,760). (7) Platform: iPhone + Apple Watch only; help says 'available exclusively for the Apple Watch'; no Android/Google Play listing found; no web app; product page compatibility lists iPhone, Apple Watch and Apple Vision but not iPad (iPad appears only in the API supportedDevices list, likely iPhone-compat). (8) Excluded: pricing/Pro tiers, referral/affiliate, corporate wellness, rebrand, 'Spring 2026 Apparel', bug fixes, redesigned onboarding. Free-vs-Pro limits noted in details where relevant (180 vs 470+ detectable exercises, 2 templates vs unlimited, 40 custom exercises on Pro, 7-day metrics on free). (9) Website FAQ also mentions 'easy sharing of workouts via text'. (10) What's New page dates differ from App Store dates by days to weeks; App Store dates used."
+}

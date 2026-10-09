@@ -16,6 +16,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild features, matrix and scores from the claims
+        run: |
+          npm run build:matrix
+          if ! git diff --exit-code -- data MERGE-LOG.md || [ -n "$(git status --porcelain -- data MERGE-LOG.md)" ]; then
+            echo "::error::The committed data differs from the rebuild. Run 'npm run build:matrix' and commit the result." >&2
+            git status --porcelain -- data MERGE-LOG.md
+            exit 1
+          fi
       - name: Validate the data
         run: node scripts/validate.mjs
       - name: Run the tests

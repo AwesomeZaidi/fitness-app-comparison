@@ -15,23 +15,15 @@ const err = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
 const VALUES = ['yes', 'partial', 'no', 'unknown'];
+const SOURCE_TYPES = ['app_store', 'release_notes', 'website', 'help_centre', 'google_play'];
+const CLASSES = ['capability', 'aspect', 'unsubstantiated', 'not_shipped', 'fix', 'ui_tweak', 'vague', 'out_of_scope'];
+const CELL_KEYS = ['value', 'quote', 'url', 'sourceType', 'date', 'note', 'claim'];
+// SPLYT's in-app What's New screen has no web page; cells citing it name the build instead.
+const IN_APP_WHATS_NEW = /^https:\/\/splyt\.fit \(in-app What['’]s New, build \d+\)$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const isDate = (s) => typeof s === 'string' && DATE.test(s) && !Number.isNaN(new Date(s).getTime());
 // Wrong-app guard: "MOTRA" (6756487760) is a different company's app.
 const FORBIDDEN_IDS = { '6756487760': 'MOTRA, an unrelated effort-points app — Motra is 1548577496' };
-
-// ---- features.json
-const fjson = readJson('data/features.json');
-const catIds = new Set(fjson.categories.map((c) => c.id));
-const featIds = new Set();
-for (const f of fjson.features) {
-  if (!/^[a-z][a-z0-9_]*$/.test(f.id)) err(`features: bad id "${f.id}"`);
-  if (featIds.has(f.id)) err(`features: duplicate id "${f.id}"`);
-  featIds.add(f.id);
-  if (!catIds.has(f.category)) err(`features: ${f.id} has unknown category "${f.category}"`);
-  if (!f.label?.trim()) err(`features: ${f.id} has no label`);
-  if (!f.definition?.trim()) err(`features: ${f.id} has no definition`);
-}
 
 // ---- apps.json
 const ajson = readJson('data/apps.json');
@@ -47,40 +39,124 @@ for (const a of apps) {
 }
 const publishers = apps.filter((a) => a.publisher);
 if (publishers.length !== 1) err(`apps: exactly one app must be marked publisher (found ${publishers.length})`);
+const officialFor = (app) => new Set([...(ajson.sharedOfficialDomains ?? []), ...app.officialDomains]);
+
+// ---- data/claims: the raw, per-app claims every feature and cell is built from
+const claims = {}; // app -> array of claims; SPLYT's feature index is addressed as "i<n>"
+const claimKey = (app, idx) => `${app}:${idx}`;
+const claimByKey = new Map();
+function loadClaims(file, app, prefix) {
+  const at = `claims/${file}`;
+  const d = readJsonIfExists(`data/claims/${file}`);
+  if (!d) { err(`${at} is missing`); return; }
+  if (d.app !== app && !(prefix && d.app?.startsWith(app))) err(`${at}: "app" is "${d.app}", expected "${app}"`);
+  if (!isDate(d.collectedAt)) err(`${at}: collectedAt must be YYYY-MM-DD`);
+  if (!Array.isArray(d.claims) || !d.claims.length) { err(`${at}: needs a non-empty "claims" array`); return; }
+  d.claims.forEach((c, i) => {
+    const id = `${at} #${prefix}${i}`;
+    if (!c.feature?.trim()) err(`${id}: no feature name`);
+    if (!c.quote?.trim()) err(`${id}: no quote`);
+    if (!c.url?.startsWith('https://')) err(`${id}: url must start with https://`);
+    if (!SOURCE_TYPES.includes(c.sourceType)) err(`${id}: sourceType "${c.sourceType}" not in ${SOURCE_TYPES.join('|')}`);
+    if (c.date != null && !isDate(c.date)) err(`${id}: date must be YYYY-MM-DD or null`);
+    claimByKey.set(claimKey(app, `${prefix}${i}`), c);
+  });
+  for (const r of d.removed ?? []) if (!r.feature || !r.quote || !r.url) err(`${at}: removed items need {feature, quote, url}`);
+  claims[app] = (claims[app] ?? 0) + d.claims.length;
+}
+for (const app of apps) loadClaims(`${app.id}.json`, app.id, '');
+loadClaims('splyt-index.json', 'splyt', 'i');
+const claimFiles = new Set(fs.readdirSync(path.join(ROOT, 'data/claims')).filter((f) => f.endsWith('.json')));
+for (const f of claimFiles) if (f !== 'splyt-index.json' && !appIds.has(f.replace(/\.json$/, ''))) err(`claims/${f}: not an app in apps.json`);
+
+// ---- features.json
+const features = readJson('data/features.json');
+if (!Array.isArray(features)) err('features.json must be an array');
+const featIds = new Set();
+const categories = new Set();
+for (const f of features) {
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(f.id)) err(`features: bad id "${f.id}" (lowercase, digits and hyphens)`);
+  if (featIds.has(f.id)) err(`features: duplicate id "${f.id}"`);
+  featIds.add(f.id);
+  if (!f.name?.trim()) err(`features: ${f.id} has no name`);
+  if (!f.definition?.trim()) err(`features: ${f.id} has no definition`);
+  if (!f.category?.trim()) err(`features: ${f.id} has no category`);
+  categories.add(f.category);
+  if (!Array.isArray(f.aspects)) err(`features: ${f.id} aspects must be an array`);
+  for (const [k, list] of [...Object.entries(f.members ?? {}), ...Object.entries(f.alsoEvidencedBy ?? {})]) {
+    if (!appIds.has(k)) { err(`features: ${f.id} lists claims for unknown app "${k}"`); continue; }
+    for (const idx of list) if (!claimByKey.has(claimKey(k, idx))) err(`features: ${f.id} refers to claim ${k}:${idx}, which does not exist`);
+  }
+  if (!Object.keys(f.members ?? {}).length && !Object.keys(f.alsoEvidencedBy ?? {}).length) err(`features: ${f.id} has no claims behind it`);
+  if (f.firstDocumented && (!appIds.has(f.firstDocumented.app) || !isDate(f.firstDocumented.date))) err(`features: ${f.id} firstDocumented needs a known app and a YYYY-MM-DD date`);
+}
 
 // ---- matrix.json
 const m = readJson('data/matrix.json');
-const officialFor = (app) => new Set([...(ajson.sharedOfficialDomains ?? []), ...app.officialDomains]);
-for (const fid of Object.keys(m.cells)) if (!featIds.has(fid)) err(`matrix: unknown feature id "${fid}"`);
+let inAppCitations = 0;
+for (const fid of Object.keys(m)) if (!featIds.has(fid)) err(`matrix: unknown feature id "${fid}"`);
 for (const fid of featIds) {
-  const row = m.cells[fid];
+  const row = m[fid];
   if (!row) { err(`matrix: feature "${fid}" is missing`); continue; }
   for (const k of Object.keys(row)) if (!appIds.has(k)) err(`matrix: ${fid} has unknown app "${k}"`);
   for (const app of apps) {
     const c = row[app.id];
     const at = `matrix: ${fid} / ${app.id}`;
     if (!c) { err(`${at} is missing`); continue; }
+    for (const k of CELL_KEYS) if (!(k in c)) err(`${at} has no "${k}" field`);
+    for (const k of Object.keys(c)) if (!CELL_KEYS.includes(k)) err(`${at} has an unexpected field "${k}"`);
     if (!VALUES.includes(c.value)) err(`${at} value "${c.value}" not in ${VALUES.join('|')}`);
-    if (!isDate(c.checkedAt)) err(`${at} checkedAt must be YYYY-MM-DD`);
-    if (app.publisher) {
-      if (c.basis !== 'self-reported') err(`${at} must have basis "self-reported"`);
-      if (!c.note?.trim()) err(`${at} needs a note`);
-      if (c.value === 'partial' && /^Self-reported: checked/.test(c.note)) err(`${at} is partial but its note does not say what is missing`);
-      continue;
+    if (c.date != null && !isDate(c.date)) err(`${at} date must be YYYY-MM-DD or null`);
+    if (c.claim != null) {
+      const cl = claimByKey.get(c.claim);
+      if (!c.claim.startsWith(`${app.id}:`)) err(`${at} cites another app's claim ${c.claim}`);
+      else if (!cl) err(`${at} cites claim ${c.claim}, which does not exist`);
+      else if (cl.quote !== c.quote || cl.url !== c.url || cl.sourceType !== c.sourceType) err(`${at} quote/url/sourceType do not match claim ${c.claim}`);
     }
-    if (c.basis !== 'public-source') err(`${at} must have basis "public-source"`);
-    if (c.value !== 'unknown') {
-      if (!c.source) { err(`${at} is "${c.value}" but has no source URL`); continue; }
-      let u;
-      try { u = new URL(c.source); } catch { err(`${at} source is not a URL: ${c.source}`); continue; }
-      if (u.protocol !== 'https:') err(`${at} source must be https: ${c.source}`);
-      if (!c.note?.trim()) err(`${at} is "${c.value}" but has no quote or paraphrase in note`);
-      const host = u.hostname;
-      const ok = [...officialFor(app)].some((d) => host === d || host.endsWith(`.${d}`));
-      if (!ok) warn(`${at} source is not on an official domain (${host}) — see METHODOLOGY.md, "Sources"`);
-    } else if (c.source) {
-      try { new URL(c.source); } catch { err(`${at} source is not a URL: ${c.source}`); }
-    }
+    if (c.value === 'unknown') continue;
+    // yes / partial / no: every app, SPLYT included, needs a source URL and a quote.
+    if (!c.quote?.trim()) err(`${at} is "${c.value}" but has no quote`);
+    if (!SOURCE_TYPES.includes(c.sourceType)) err(`${at} sourceType "${c.sourceType}" not in ${SOURCE_TYPES.join('|')}`);
+    if (c.value !== 'yes' && !c.note?.trim()) err(`${at} is "${c.value}" but has no note saying why`);
+    if (!c.url) { err(`${at} is "${c.value}" but has no source URL`); continue; }
+    if (app.publisher && IN_APP_WHATS_NEW.test(c.url)) { inAppCitations++; continue; }
+    let u;
+    try { u = new URL(c.url); } catch { err(`${at} source is not a URL: ${c.url}`); continue; }
+    if (/\s/.test(c.url)) { err(`${at} source is not a URL: ${c.url}`); continue; }
+    if (u.protocol !== 'https:') err(`${at} source must be https: ${c.url}`);
+    const host = u.hostname;
+    const ok = [...officialFor(app)].some((d) => host === d || host.endsWith(`.${d}`));
+    if (!ok) warn(`${at} source is not on an official domain (${host}) — see METHODOLOGY.md, section 2.1`);
+  }
+}
+if (inAppCitations) warn(`matrix: ${inAppCitations} SPLYT cell(s) cite SPLYT's in-app What's New screen (readable in the app, not on the web) — see METHODOLOGY.md`);
+
+// ---- vetting.json: every claim classified exactly once; nothing left unplaced
+const vetting = readJson('data/vetting.json');
+const vetted = new Set();
+for (const v of vetting) {
+  const k = claimKey(v.app, v.claimIndex);
+  const at = `vetting: ${k}`;
+  if (!claimByKey.has(k)) { err(`${at} is not a claim in data/claims`); continue; }
+  if (vetted.has(k)) err(`${at} is classified twice`);
+  vetted.add(k);
+  if (!CLASSES.includes(v.class)) err(`${at} class "${v.class}" not in ${CLASSES.join('|')}${v.class === 'unplaced' ? ' — the claim was never mapped (tooling/merge/mapping.py)' : ''}`);
+  if (!v.reason?.trim()) err(`${at} (${v.class}) has no reason`);
+  if (v.mappedTo != null && !featIds.has(v.mappedTo)) err(`${at} is mapped to unknown feature "${v.mappedTo}"`);
+  for (const x of v.alsoEvidences ?? []) if (!featIds.has(x)) err(`${at} also evidences unknown feature "${x}"`);
+  if (v.feature !== claimByKey.get(k).feature) err(`${at} feature name does not match the claim file`);
+}
+for (const k of claimByKey.keys()) if (!vetted.has(k)) err(`vetting: claim ${k} has not been classified (unmapped)`);
+
+// ---- scores.json agrees with the matrix
+const scores = readJson('data/scores.json');
+if (scores.totalFeatures !== featIds.size) err(`scores: totalFeatures ${scores.totalFeatures} ≠ ${featIds.size} features`);
+for (const app of apps) {
+  const s = scores.apps?.[app.id];
+  if (!s) { err(`scores: ${app.id} is missing`); continue; }
+  for (const v of VALUES) {
+    const n = [...featIds].filter((fid) => m[fid]?.[app.id]?.value === v).length;
+    if (s[v] !== n) err(`scores: ${app.id} ${v} is ${s[v]}, matrix gives ${n} — run npm run build:matrix`);
   }
 }
 
@@ -136,5 +212,5 @@ else {
 for (const w of warnings) console.log(`warning: ${w}`);
 for (const e of errors) console.log(`ERROR:   ${e}`);
 const fail = errors.length || (opt.strict && warnings.length);
-console.log(`\n${errors.length} error(s), ${warnings.length} warning(s) — ${featIds.size} features × ${apps.length} apps checked.`);
+console.log(`\n${errors.length} error(s), ${warnings.length} warning(s) — ${featIds.size} features × ${apps.length} apps, ${claimByKey.size} claims checked.`);
 process.exit(fail ? 1 : 0);

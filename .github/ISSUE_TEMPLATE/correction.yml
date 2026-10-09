@@ -20,7 +20,7 @@ body:
     id: feature
     attributes:
       label: Feature
-      description: As shown on splyt.fit/compare, or its id from data/features.json (e.g. "Automatic rep counting" / auto_rep_counting).
+      description: As shown on splyt.fit/compare, or its id from data/features.json (e.g. "Automatic rep counting" / auto-rep-counting). To challenge how a claim was classified or grouped, also give the claim (e.g. hevy:94) — see MERGE-LOG.md.
     validations:
       required: true
   - type: dropdown
@@ -41,7 +41,7 @@ body:
     id: evidence
     attributes:
       label: Evidence URL
-      description: A page from one of the allowed sources that shows the proposed value.
+      description: A page from the app's own allowed sources that shows the proposed value. Every yes, partial and no needs one, SPLYT's included.
       placeholder: https://
     validations:
       required: true
@@ -49,7 +49,7 @@ body:
     id: quote
     attributes:
       label: What the source says
-      description: Quote the relevant sentence, or describe where on the page to look.
+      description: Quote the sentence, verbatim (it becomes the cell's quote). For a "no", quote the statement of absence or removal; "not found" means unknown, not no.
     validations:
       required: true
   - type: textarea

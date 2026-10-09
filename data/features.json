@@ -1,351 +1,6312 @@
-{
-  "description": "The 52 features compared. Ids are stable; labels are what splyt.fit/compare shows.",
-  "categories": [
-    {
-      "id": "logging",
-      "label": "Logging"
-    },
-    {
-      "id": "watch",
-      "label": "Watch"
-    },
-    {
-      "id": "ai",
-      "label": "AI"
-    },
-    {
-      "id": "plan",
-      "label": "Plan"
-    },
-    {
-      "id": "health",
-      "label": "Health"
-    },
-    {
-      "id": "social",
-      "label": "Social"
-    },
-    {
-      "id": "stats",
-      "label": "Stats"
-    },
-    {
-      "id": "everywhere",
-      "label": "Everywhere"
-    }
+[
+ {
+  "id": "set-logging",
+  "name": "Strength set logging",
+  "definition": "Log weight and reps for each set of a lift during a live workout.",
+  "category": "Workout logging",
+  "aspects": [
+   "Custom lifting keypad",
+   "Default sets and reps",
+   "Workout defaults",
+   "Duplicate or remove a set",
+   "Eight exercise types",
+   "Per-side unilateral labelling",
+   "Smart set auto-update"
   ],
-  "features": [
-    {
-      "id": "set_logging",
-      "category": "logging",
-      "label": "Sets, reps, weight",
-      "definition": "Log sets, reps and weight."
-    },
-    {
-      "id": "set_types",
-      "category": "logging",
-      "label": "Warm-up, drop & failure sets",
-      "definition": "Tag sets as warm-up, drop set or failure set."
-    },
-    {
-      "id": "supersets",
-      "category": "logging",
-      "label": "Supersets & circuits",
-      "definition": "Group exercises into supersets or circuits."
-    },
-    {
-      "id": "rest_timer",
-      "category": "logging",
-      "label": "Rest timer",
-      "definition": "A rest timer between sets."
-    },
-    {
-      "id": "plate_calc",
-      "category": "logging",
-      "label": "Plate calculator",
-      "definition": "Shows which plates to load for a target weight."
-    },
-    {
-      "id": "prev_values",
-      "category": "logging",
-      "label": "Last time’s numbers",
-      "definition": "Shows previous performance for an exercise, or prefills last time’s weights."
-    },
-    {
-      "id": "pr_tracking",
-      "category": "logging",
-      "label": "Personal records",
-      "definition": "Detects and records personal records."
-    },
-    {
-      "id": "exercise_demos",
-      "category": "logging",
-      "label": "Exercise demos",
-      "definition": "Video or animated demonstrations in the exercise library."
-    },
-    {
-      "id": "grip_variants",
-      "category": "logging",
-      "label": "Grips & handles",
-      "definition": "Logs grip, handle or attachment variations of one movement (e.g. rope vs bar) and tracks them separately under that movement."
-    },
-    {
-      "id": "voice_logging",
-      "category": "logging",
-      "label": "Log by voice",
-      "definition": "Log sets by speaking, inside the app (not just Siri dictation into a text field)."
-    },
-    {
-      "id": "multi_activity",
-      "category": "logging",
-      "label": "Lift + cardio in one session",
-      "definition": "One session that combines lifting with cardio, a sport, sauna or similar."
-    },
-    {
-      "id": "cardio_gps",
-      "category": "logging",
-      "label": "GPS runs & rides",
-      "definition": "GPS outdoor cardio tracking (run, walk, ride) with a route."
-    },
-    {
-      "id": "sports_tracking",
-      "category": "logging",
-      "label": "Sports beyond the gym",
-      "definition": "Non-gym sports and activities (basketball, yoga, swimming…) as first-class workouts."
-    },
-    {
-      "id": "offline",
-      "category": "logging",
-      "label": "Works offline",
-      "definition": "Works fully offline."
-    },
-    {
-      "id": "watch_app",
-      "category": "watch",
-      "label": "Apple Watch app",
-      "definition": "Has an Apple Watch app."
-    },
-    {
-      "id": "watch_standalone_logging",
-      "category": "watch",
-      "label": "Full logging on the Watch",
-      "definition": "Log full strength workouts from the watch, not just view them."
-    },
-    {
-      "id": "auto_rep_counting",
-      "category": "watch",
-      "label": "Automatic rep counting",
-      "definition": "Counts reps automatically from wrist motion."
-    },
-    {
-      "id": "watch_voice",
-      "category": "watch",
-      "label": "Voice on the Watch",
-      "definition": "Voice commands on the watch."
-    },
-    {
-      "id": "complications",
-      "category": "watch",
-      "label": "Watch face complications",
-      "definition": "Watch face complications."
-    },
-    {
-      "id": "garmin",
-      "category": "watch",
-      "label": "Garmin & other wearables",
-      "definition": "Support for a wearable other than Apple Watch: Garmin, Wear OS or another. Wear OS-only support counts as yes; the note says which."
-    },
-    {
-      "id": "ai_programs",
-      "category": "ai",
-      "label": "AI-built programs",
-      "definition": "AI-generated or adaptive workout programs."
-    },
-    {
-      "id": "ai_coach_chat",
-      "category": "ai",
-      "label": "AI coach chat",
-      "definition": "Chat with an AI coach about your training, inside the app."
-    },
-    {
-      "id": "import_any",
-      "category": "ai",
-      "label": "Import from screenshots & notes",
-      "definition": "Import workouts from screenshots, notes, text or social posts using AI."
-    },
-    {
-      "id": "progressive_overload",
-      "category": "ai",
-      "label": "Progression suggestions",
-      "definition": "Automatic weight or rep progression suggestions."
-    },
-    {
-      "id": "injury_adapt",
-      "category": "ai",
-      "label": "Adapts to injuries",
-      "definition": "Adapts workouts to injuries or limitations."
-    },
-    {
-      "id": "templates",
-      "category": "plan",
-      "label": "Saved workouts",
-      "definition": "Saved workouts or routines."
-    },
-    {
-      "id": "calendar",
-      "category": "plan",
-      "label": "Training calendar",
-      "definition": "A training calendar for scheduling workouts ahead of time."
-    },
-    {
-      "id": "splits",
-      "category": "plan",
-      "label": "Proven splits",
-      "definition": "Ready-made split programs (Push/Pull/Legs, Upper/Lower…)."
-    },
-    {
-      "id": "share_routines",
-      "category": "plan",
-      "label": "Share workouts by link",
-      "definition": "Share workouts or routines with other people by link."
-    },
-    {
-      "id": "import_other_apps",
-      "category": "plan",
-      "label": "Import from other apps",
-      "definition": "Import workout history from Strong, Hevy or other apps."
-    },
-    {
-      "id": "apple_health",
-      "category": "health",
-      "label": "Apple Health",
-      "definition": "Syncs with Apple Health."
-    },
-    {
-      "id": "strava",
-      "category": "health",
-      "label": "Strava",
-      "definition": "Syncs with Strava."
-    },
-    {
-      "id": "habits",
-      "category": "health",
-      "label": "Habits",
-      "definition": "Habit tracking."
-    },
-    {
-      "id": "sleep",
-      "category": "health",
-      "label": "Sleep",
-      "definition": "Sleep tracking or analysis."
-    },
-    {
-      "id": "rings",
-      "category": "health",
-      "label": "Daily rings",
-      "definition": "Daily activity or score rings of the app’s own."
-    },
-    {
-      "id": "body_weight",
-      "category": "health",
-      "label": "Body weight & measurements",
-      "definition": "Track body weight and measurements over time."
-    },
-    {
-      "id": "progress_photos",
-      "category": "health",
-      "label": "Progress photos",
-      "definition": "Progress photos."
-    },
-    {
-      "id": "recovery",
-      "category": "health",
-      "label": "Recovery & sauna",
-      "definition": "Recovery activities (sauna, cold plunge…) or recovery/strain scores."
-    },
-    {
-      "id": "nutrition",
-      "category": "health",
-      "label": "Nutrition",
-      "definition": "Nutrition or macro tracking in the same app."
-    },
-    {
-      "id": "social_feed",
-      "category": "social",
-      "label": "Friends’ feed",
-      "definition": "A feed of friends’ workouts."
-    },
-    {
-      "id": "competitions",
-      "category": "social",
-      "label": "Competitions",
-      "definition": "Competitions or challenges between friends."
-    },
-    {
-      "id": "live_follow",
-      "category": "social",
-      "label": "Follow a friend live",
-      "definition": "Follow a friend’s workout while it is happening."
-    },
-    {
-      "id": "trainer_share",
-      "category": "social",
-      "label": "Reports for your trainer",
-      "definition": "Share reports with your own trainer or coach, or a coach dashboard."
-    },
-    {
-      "id": "stats_charts",
-      "category": "stats",
-      "label": "Progress charts",
-      "definition": "Progress charts per exercise."
-    },
-    {
-      "id": "muscle_map",
-      "category": "stats",
-      "label": "Muscle map",
-      "definition": "Muscle heatmap or volume by muscle."
-    },
-    {
-      "id": "recaps",
-      "category": "stats",
-      "label": "Weekly & monthly recaps",
-      "definition": "Weekly or monthly recaps."
-    },
-    {
-      "id": "export_data",
-      "category": "stats",
-      "label": "Export your data",
-      "definition": "Export your data (CSV or similar)."
-    },
-    {
-      "id": "widgets",
-      "category": "everywhere",
-      "label": "Widgets",
-      "definition": "Home Screen or Lock Screen widgets."
-    },
-    {
-      "id": "live_activity",
-      "category": "everywhere",
-      "label": "Live Activity",
-      "definition": "Live Activity / Dynamic Island."
-    },
-    {
-      "id": "siri",
-      "category": "everywhere",
-      "label": "Siri & Shortcuts",
-      "definition": "Siri or Shortcuts support."
-    },
-    {
-      "id": "android",
-      "category": "everywhere",
-      "label": "Android",
-      "definition": "An Android app."
-    },
-    {
-      "id": "web_app",
-      "category": "everywhere",
-      "label": "Web app",
-      "definition": "A web app."
-    }
-  ]
-}
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-29",
+   "url": "https://splyt.fit (in-app What’s New, build 171)"
+  },
+  "members": {
+   "splyt": [
+    "0",
+    "2",
+    "27",
+    "i24",
+    "i3",
+    "i31"
+   ],
+   "hevy": [
+    "0",
+    "80"
+   ],
+   "strong": [
+    "12",
+    "85"
+   ],
+   "gravl": [
+    "58"
+   ],
+   "fitbod": [
+    "57",
+    "66"
+   ],
+   "motra": [
+    "33",
+    "47",
+    "46"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "strong": [
+    "12",
+    "85",
+    "12",
+    "85"
+   ],
+   "motra": [
+    "47",
+    "47"
+   ]
+  }
+ },
+ {
+  "id": "empty-workout",
+  "name": "Start an empty workout",
+  "definition": "Start an unplanned workout and add exercises as you go.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-19",
+   "url": "https://splyt.fit (in-app What’s New, build 387)"
+  },
+  "members": {
+   "splyt": [
+    "4",
+    "i63"
+   ],
+   "hevy": [
+    "1"
+   ],
+   "strong": [
+    "100"
+   ],
+   "gravl": [
+    "74"
+   ],
+   "fitbod": [
+    "51"
+   ],
+   "motra": [
+    "34"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "4",
+    "4"
+   ]
+  }
+ },
+ {
+  "id": "previous-performance",
+  "name": "Previous performance shown or pre-filled",
+  "definition": "While logging, each set shows or pre-fills what you lifted last time on that exercise.",
+  "category": "Workout logging",
+  "aspects": [
+   "Copy sets from a past session",
+   "Copy numbers between movements",
+   "Use these sets",
+   "Previous values per routine",
+   "Tap previous value to fill"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-19",
+   "url": "https://splyt.fit (in-app What’s New, build 387)"
+  },
+  "members": {
+   "splyt": [
+    "4",
+    "22",
+    "23",
+    "i32",
+    "i33",
+    "i8"
+   ],
+   "hevy": [
+    "23",
+    "24",
+    "25",
+    "26"
+   ],
+   "gravl": [
+    "58"
+   ],
+   "motra": [
+    "47",
+    "48"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "58",
+    "58"
+   ]
+  }
+ },
+ {
+  "id": "live-workout-stats",
+  "name": "Live comparison during a workout",
+  "definition": "During a workout, running totals or a live comparison against previous sessions are shown.",
+  "category": "Workout logging",
+  "aspects": [
+   "Recent sessions mid-workout",
+   "Volume change vs last session"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-05",
+   "url": "https://splyt.fit (in-app What’s New, build 268)"
+  },
+  "members": {
+   "splyt": [
+    "37",
+    "39",
+    "i59"
+   ],
+   "hevy": [
+    "45"
+   ],
+   "strong": [
+    "107",
+    "108"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "rpe-rir",
+  "name": "Effort per set (RPE / RIR)",
+  "definition": "Record perceived exertion or reps in reserve for a set or exercise.",
+  "category": "Workout logging",
+  "aspects": [
+   "RPE auto-checks set",
+   "Edit effort rating later"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-01-15",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "15",
+    "i27"
+   ],
+   "hevy": [
+    "27",
+    "28"
+   ],
+   "strong": [
+    "85"
+   ],
+   "gravl": [
+    "3"
+   ],
+   "fitbod": [
+    "62",
+    "63"
+   ],
+   "motra": [
+    "39"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-effort-rating",
+  "name": "Whole-workout effort rating",
+  "definition": "Rate how hard an entire session felt.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-15",
+   "url": "https://splyt.fit (in-app What’s New, build 374)"
+  },
+  "members": {
+   "splyt": [
+    "16",
+    "i16"
+   ],
+   "motra": [
+    "40"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "tempo-tracking",
+  "name": "Lifting tempo tracking",
+  "definition": "Record the tempo of a set.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "motra": [
+    "41"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "41",
+    "41"
+   ]
+  }
+ },
+ {
+  "id": "quick-complete",
+  "name": "Complete planned sets without entering each",
+  "definition": "Mark a planned workout, group or all remaining sets as done as prescribed instead of entering every set.",
+  "category": "Workout logging",
+  "aspects": [
+   "Simple mode strength session",
+   "Simple mode"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-29",
+   "url": "https://splyt.fit (in-app What’s New, build 171)"
+  },
+  "members": {
+   "splyt": [
+    "28",
+    "29",
+    "i50",
+    "i49"
+   ],
+   "fitbod": [
+    "45"
+   ],
+   "motra": [
+    "61"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-notes",
+  "name": "Workout name and notes",
+  "definition": "Give a workout a name and attach a free-text note or description.",
+  "category": "Workout logging",
+  "aspects": [
+   "Auto-named strength workouts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-30",
+   "url": "https://splyt.fit (in-app What’s New, build 177)"
+  },
+  "members": {
+   "splyt": [
+    "26",
+    "31"
+   ],
+   "hevy": [
+    "33"
+   ],
+   "strong": [
+    "32"
+   ],
+   "motra": [
+    "63"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-media",
+  "name": "Photos or video on a workout",
+  "definition": "Attach photos or video to a logged workout.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "171"
+   ],
+   "strong": [
+    "33"
+   ],
+   "motra": [
+    "63"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "strong": [
+    "33",
+    "33"
+   ],
+   "motra": [
+    "63",
+    "63"
+   ]
+  }
+ },
+ {
+  "id": "edit-live-workout",
+  "name": "Add and reorder exercises mid-workout",
+  "definition": "Add exercises to, or drag to reorder exercises within, a workout in progress.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-02",
+   "url": "https://apps.apple.com/us/app/id6755893717"
+  },
+  "members": {
+   "splyt": [
+    "24",
+    "i40"
+   ],
+   "hevy": [
+    "22"
+   ],
+   "strong": [
+    "101"
+   ],
+   "gravl": [
+    "72",
+    "73"
+   ],
+   "fitbod": [
+    "55"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "exercise-swap",
+  "name": "Exercise swap with suggested alternatives",
+  "definition": "Replace an exercise mid-workout, with the app suggesting suitable alternatives.",
+  "category": "Workout logging",
+  "aspects": [
+   "Machine taken? alternatives",
+   "One-off or permanent swap",
+   "AI exercise swap suggestions"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-05-01",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "20",
+    "i37",
+    "i38"
+   ],
+   "hevy": [
+    "94",
+    "95",
+    "22"
+   ],
+   "gravl": [
+    "42"
+   ],
+   "fitbod": [
+    "56"
+   ],
+   "motra": [
+    "56",
+    "57"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "22",
+    "22"
+   ]
+  }
+ },
+ {
+  "id": "exercise-notes",
+  "name": "Exercise notes",
+  "definition": "Attach a note to an exercise, kept with the session or shown next time.",
+  "category": "Workout logging",
+  "aspects": [
+   "Clickable links in notes",
+   "Per-workout exercise notes",
+   "Pinned exercise notes"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-10-23",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "21",
+    "i36"
+   ],
+   "hevy": [
+    "30",
+    "31",
+    "32"
+   ],
+   "strong": [
+    "34",
+    "35"
+   ],
+   "gravl": [
+    "82"
+   ],
+   "fitbod": [
+    "64"
+   ],
+   "motra": [
+    "24"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "24",
+    "24"
+   ]
+  }
+ },
+ {
+  "id": "grip-tracking",
+  "name": "Grip and attachment tracking",
+  "definition": "Record the grip, handle or attachment used, with history kept per grip.",
+  "category": "Workout logging",
+  "aspects": [
+   "Per-grip history and weights",
+   "Filter history by grip"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "18",
+    "19",
+    "i34",
+    "i233"
+   ],
+   "motra": [
+    "4",
+    "5"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "4",
+    "5",
+    "4",
+    "5"
+   ]
+  }
+ },
+ {
+  "id": "bodyweight-exercises",
+  "name": "Bodyweight, weighted and assisted exercises",
+  "definition": "Exercises that use body weight, including added load or assistance, are logged and counted correctly.",
+  "category": "Workout logging",
+  "aspects": [
+   "Update bodyweight mid-workout"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "30"
+   ],
+   "hevy": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "strong": [
+    "10"
+   ],
+   "fitbod": [
+    "68"
+   ],
+   "motra": [
+    "49"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "timed-exercises",
+  "name": "Timed exercises",
+  "definition": "Log time-based exercises (e.g. planks) by duration, with a timer.",
+  "category": "Workout logging",
+  "aspects": [
+   "Inline stopwatch for timed sets",
+   "In-workout countdown timer",
+   "Reps, distance or time measurement"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "i35"
+   ],
+   "hevy": [
+    "8",
+    "57",
+    "58"
+   ],
+   "strong": [
+    "11"
+   ],
+   "gravl": [
+    "76"
+   ],
+   "fitbod": [
+    "70"
+   ],
+   "motra": [
+    "52",
+    "51"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "pause-discard",
+  "name": "Pause, resume or discard a workout",
+  "definition": "Pause the workout clock and resume later, or throw away a workout in progress.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2022-08-05",
+   "url": "https://fitbod.me/blog/a-better-workout-tab/"
+  },
+  "members": {
+   "splyt": [
+    "124",
+    "i47"
+   ],
+   "hevy": [
+    "36",
+    "37"
+   ],
+   "gravl": [
+    "71"
+   ],
+   "fitbod": [
+    "60",
+    "61"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "124",
+    "124"
+   ]
+  }
+ },
+ {
+  "id": "edit-past-workouts",
+  "name": "Edit or delete past workouts",
+  "definition": "Change or delete a workout after it has been saved.",
+  "category": "Workout logging",
+  "aspects": [
+   "Delete a workout or one activity",
+   "Edit workout duration"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-10",
+   "url": "https://splyt.fit (in-app What’s New, build 332)"
+  },
+  "members": {
+   "splyt": [
+    "32",
+    "i18",
+    "i19"
+   ],
+   "hevy": [
+    "40",
+    "41",
+    "38"
+   ],
+   "strong": [
+    "94"
+   ],
+   "gravl": [
+    "80",
+    "81"
+   ],
+   "fitbod": [
+    "58",
+    "59"
+   ],
+   "motra": [
+    "62"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "log-past-workout",
+  "name": "Log a workout after the fact",
+  "definition": "Record a workout you did earlier, on its real date and time.",
+  "category": "Workout logging",
+  "aspects": [
+   "Log a missed workout late",
+   "Multiple workouts per day"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-07",
+   "url": "https://splyt.fit (in-app What’s New, build 327)"
+  },
+  "members": {
+   "splyt": [
+    "33",
+    "i0",
+    "i1"
+   ],
+   "hevy": [
+    "39",
+    "44"
+   ],
+   "strong": [
+    "93"
+   ],
+   "gravl": [
+    "79"
+   ],
+   "fitbod": [
+    "54"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "history-search",
+  "name": "Search workout history",
+  "definition": "Search or filter the list of past workouts.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-17",
+   "url": "https://splyt.fit (in-app What’s New, build 381)"
+  },
+  "members": {
+   "splyt": [
+    "181",
+    "i20"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "inactivity-reminder",
+  "name": "Forgotten-workout reminder",
+  "definition": "Prompts you when a workout appears abandoned (inactivity or leaving the location).",
+  "category": "Workout logging",
+  "aspects": [
+   "'Still working out?' check"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-10-02",
+   "url": "https://splyt.fit (in-app What’s New, build 459)"
+  },
+  "members": {
+   "splyt": [
+    "43",
+    "i61",
+    "i268"
+   ],
+   "motra": [
+    "59",
+    "60"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "offline-logging",
+  "name": "Offline logging",
+  "definition": "Workouts can be logged and saved without a connection and sync later.",
+  "category": "Workout logging",
+  "aspects": [
+   "Interrupted workout recovery"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-08",
+   "url": "https://splyt.fit (in-app What’s New, build 328)"
+  },
+  "members": {
+   "splyt": [
+    "34",
+    "i2"
+   ],
+   "hevy": [
+    "196"
+   ],
+   "fitbod": [
+    "77"
+   ],
+   "motra": [
+    "27",
+    "28"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "kg-lb",
+  "name": "Kilograms and pounds",
+  "definition": "Choose kilograms or pounds as the weight unit.",
+  "category": "Workout logging",
+  "aspects": [
+   "Distance unit setting"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-10-05",
+   "url": "https://splyt.fit (in-app What’s New, build 462)"
+  },
+  "members": {
+   "splyt": [
+    "36",
+    "i4"
+   ],
+   "hevy": [
+    "66"
+   ],
+   "strong": [
+    "30"
+   ],
+   "gravl": [
+    "102"
+   ],
+   "fitbod": [
+    "75"
+   ],
+   "motra": [
+    "54",
+    "55"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "per-exercise-units",
+  "name": "Per-exercise weight units",
+  "definition": "Use a different weight unit for an individual exercise or piece of equipment.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-11-13",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "hevy": [
+    "67"
+   ],
+   "strong": [
+    "31"
+   ],
+   "gravl": [
+    "103"
+   ],
+   "fitbod": [
+    "76"
+   ],
+   "motra": [
+    "53"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "keep-screen-awake",
+  "name": "Keep screen awake during workouts",
+  "definition": "Option to stop the phone locking during a workout.",
+  "category": "Workout logging",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "i60"
+   ],
+   "hevy": [
+    "59"
+   ],
+   "motra": [
+    "58"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "rest-timer",
+  "name": "Rest timer",
+  "definition": "A countdown (or count-up) between sets, typically starting when a set is completed.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Adjustable rest by drag",
+   "Manual rest start",
+   "Manual rest for any activity",
+   "Default rest timer",
+   "Adjust rest timer in 15s steps",
+   "Full-screen rest timer",
+   "Adjust or skip rest timer",
+   "Manual rest timer start"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-31",
+   "url": "https://splyt.fit (in-app What’s New, build 254)"
+  },
+  "members": {
+   "splyt": [
+    "44",
+    "47",
+    "50",
+    "i42",
+    "i45"
+   ],
+   "hevy": [
+    "50",
+    "52",
+    "53"
+   ],
+   "strong": [
+    "9",
+    "86",
+    "87",
+    "88"
+   ],
+   "gravl": [
+    "59"
+   ],
+   "fitbod": [
+    "71"
+   ],
+   "motra": [
+    "42"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "custom-rest",
+  "name": "Custom rest per exercise or set",
+  "definition": "Set different rest durations per exercise or per set, remembered next time.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Rest after warm-up option",
+   "Separate warm-up rest duration"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "45",
+    "46",
+    "51",
+    "i43",
+    "i44"
+   ],
+   "hevy": [
+    "51"
+   ],
+   "strong": [
+    "89",
+    "90"
+   ],
+   "gravl": [
+    "60"
+   ],
+   "fitbod": [
+    "72"
+   ],
+   "motra": [
+    "44"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "rest-alerts",
+  "name": "Rest-end alerts",
+  "definition": "A sound, vibration, voice cue or notification when rest is over.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Rest timer sounds",
+   "Set-complete sound volume",
+   "Rest timer sound choice",
+   "Spoken rest audio prompts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-20",
+   "url": "https://splyt.fit (in-app What’s New, build 390)"
+  },
+  "members": {
+   "splyt": [
+    "48",
+    "i46"
+   ],
+   "hevy": [
+    "56",
+    "54",
+    "55"
+   ],
+   "strong": [
+    "91",
+    "92"
+   ],
+   "gravl": [
+    "61",
+    "121"
+   ],
+   "fitbod": [
+    "73"
+   ],
+   "motra": [
+    "43",
+    "45"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "121",
+    "121"
+   ]
+  }
+ },
+ {
+  "id": "warmup-sets",
+  "name": "Warm-up set tagging",
+  "definition": "Mark sets as warm-ups (kept separate from working sets).",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Exclude warm-ups from stats"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "10",
+    "i28"
+   ],
+   "hevy": [
+    "15",
+    "64"
+   ],
+   "strong": [
+    "12"
+   ],
+   "gravl": [
+    "65"
+   ],
+   "fitbod": [
+    "37"
+   ],
+   "motra": [
+    "35"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i28",
+    "i28"
+   ],
+   "gravl": [
+    "65",
+    "65"
+   ],
+   "fitbod": [
+    "37",
+    "37"
+   ]
+  }
+ },
+ {
+  "id": "warmup-calculator",
+  "name": "Automatic warm-up sets",
+  "definition": "The app inserts warm-up sets with calculated weights before working sets.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Customizable warm-up formulas"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "63"
+   ],
+   "strong": [
+    "26",
+    "27"
+   ],
+   "gravl": [
+    "65"
+   ],
+   "fitbod": [
+    "37"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "drop-sets",
+  "name": "Drop sets",
+  "definition": "Log a set as a drop set with reduced-weight follow-on efforts.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Default drop-set reduction",
+   "Rest timer skipped before drop sets"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-09",
+   "url": "https://splyt.fit (in-app What’s New, build 275)"
+  },
+  "members": {
+   "splyt": [
+    "8",
+    "9",
+    "i29"
+   ],
+   "hevy": [
+    "16",
+    "18"
+   ],
+   "strong": [
+    "14"
+   ],
+   "gravl": [
+    "64"
+   ],
+   "motra": [
+    "36"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "failure-sets",
+  "name": "Failure sets",
+  "definition": "Mark a set as taken to failure.",
+  "category": "Sets, supersets & loading",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-09",
+   "url": "https://splyt.fit (in-app What’s New, build 275)"
+  },
+  "members": {
+   "splyt": [
+    "11",
+    "i28"
+   ],
+   "hevy": [
+    "17"
+   ],
+   "strong": [
+    "13"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "other-set-types",
+  "name": "Additional set types (top set, partials, cool-down)",
+  "definition": "Set-type tags beyond warm-up, drop and failure, such as top sets, partial reps or cool-down sets.",
+  "category": "Sets, supersets & loading",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-10-05",
+   "url": "https://splyt.fit (in-app What’s New, build 462)"
+  },
+  "members": {
+   "splyt": [
+    "12",
+    "13",
+    "i30"
+   ],
+   "motra": [
+    "35"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "35",
+    "35"
+   ]
+  }
+ },
+ {
+  "id": "supersets",
+  "name": "Supersets",
+  "definition": "Group two exercises to be performed back-to-back.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Smart superset scrolling",
+   "Superset-aware next-set navigation",
+   "Normalize weights across superset"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-09",
+   "url": "https://splyt.fit (in-app What’s New, build 274)"
+  },
+  "members": {
+   "splyt": [
+    "5",
+    "i39"
+   ],
+   "hevy": [
+    "19",
+    "21"
+   ],
+   "strong": [
+    "15",
+    "17"
+   ],
+   "gravl": [
+    "62"
+   ],
+   "fitbod": [
+    "43",
+    "44"
+   ],
+   "motra": [
+    "37"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "giant-sets-circuits",
+  "name": "Giant sets and circuits",
+  "definition": "Group three or more exercises together as a giant set or circuit.",
+  "category": "Sets, supersets & loading",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-05-01",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "6",
+    "i39"
+   ],
+   "hevy": [
+    "20"
+   ],
+   "strong": [
+    "16"
+   ],
+   "gravl": [
+    "63"
+   ],
+   "fitbod": [
+    "43"
+   ],
+   "motra": [
+    "38"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i39",
+    "i39"
+   ],
+   "fitbod": [
+    "43",
+    "43"
+   ]
+  }
+ },
+ {
+  "id": "set-targets",
+  "name": "Per-set rep targets and pyramids",
+  "definition": "Templates can hold rep ranges or different targets per set (pyramids, reverse pyramids).",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Straight sets progression style"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-17",
+   "url": "https://splyt.fit (in-app What’s New, build 226)"
+  },
+  "members": {
+   "splyt": [
+    "14"
+   ],
+   "hevy": [
+    "7"
+   ],
+   "gravl": [
+    "32",
+    "33",
+    "31"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "plate-calculator",
+  "name": "Plate calculator",
+  "definition": "Shows which plates to load for a target weight.",
+  "category": "Sets, supersets & loading",
+  "aspects": [
+   "Load the bar",
+   "Custom bars and plates",
+   "Plate calculator for Smith machine",
+   "Bar type selection",
+   "Plate loading modes",
+   "Plate inventory",
+   "Bar-plus-plates vs plates-only weight"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2025-12-18",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "17",
+    "i26",
+    "i25"
+   ],
+   "hevy": [
+    "60",
+    "61",
+    "62"
+   ],
+   "strong": [
+    "28",
+    "29"
+   ],
+   "gravl": [
+    "68",
+    "69",
+    "70"
+   ],
+   "fitbod": [
+    "74",
+    "67"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "templates",
+  "name": "Saved workout templates",
+  "definition": "Save reusable workouts and start a session from one.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Search workout picker",
+   "Set types in templates",
+   "Duplicate routine",
+   "Template search",
+   "Sort custom exercises and templates",
+   "Template search and muscle filter",
+   "Muscle map for templates"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2026-03-19",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "75",
+    "40",
+    "78",
+    "i136"
+   ],
+   "hevy": [
+    "2",
+    "4"
+   ],
+   "strong": [
+    "3",
+    "49"
+   ],
+   "gravl": [
+    "77"
+   ],
+   "fitbod": [
+    "52"
+   ],
+   "motra": [
+    "73",
+    "71",
+    "76",
+    "82"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "template-organisation",
+  "name": "Template folders or tags",
+  "definition": "Organise templates into folders or tags.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Archive templates"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-01-14",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "76",
+    "i139"
+   ],
+   "hevy": [
+    "3"
+   ],
+   "strong": [
+    "97",
+    "98"
+   ],
+   "motra": [
+    "75"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "save-as-template",
+  "name": "Repeat a past workout or save it as a template",
+  "definition": "Turn a completed workout into a template, or start a new session copied from it.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Copy a past workout"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "i23",
+    "i138"
+   ],
+   "hevy": [
+    "43",
+    "42"
+   ],
+   "strong": [
+    "95"
+   ],
+   "fitbod": [
+    "52"
+   ],
+   "motra": [
+    "74"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "52",
+    "52"
+   ]
+  }
+ },
+ {
+  "id": "update-template",
+  "name": "Update template from a workout",
+  "definition": "After a workout that changed, choose to write the changes back into its template.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Auto-update routine weights and reps"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "5",
+    "6"
+   ],
+   "strong": [
+    "96"
+   ],
+   "motra": [
+    "77"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "template-history",
+  "name": "Per-template progress",
+  "definition": "A template shows its past runs or a progress trend.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Template last-performed date"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-03-02",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "95"
+   ],
+   "motra": [
+    "81",
+    "83"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "prebuilt-workouts",
+  "name": "Ready-made single workouts",
+  "definition": "A library of pre-built single sessions to start from.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Save routines from blog"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "82",
+    "83"
+   ],
+   "strong": [
+    "99"
+   ],
+   "fitbod": [
+    "48"
+   ],
+   "motra": [
+    "80"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "prebuilt-programs",
+  "name": "Ready-made programs and splits",
+  "definition": "A library of pre-built multi-day programs or weekly splits.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Auto-fill split with exercises",
+   "Fill a split with exercises",
+   "Split recommendation helper"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-09-26",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "79",
+    "80",
+    "i110",
+    "i119"
+   ],
+   "hevy": [
+    "81"
+   ],
+   "gravl": [
+    "13",
+    "15"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "creator-programs",
+  "name": "Programs from named coaches",
+  "definition": "Structured plans authored by named coaches or creators, with their own content.",
+  "category": "Templates, plans & calendar",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-09-26",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "gravl": [
+    "16"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "split-builder",
+  "name": "Custom split builder",
+  "definition": "Build your own multi-day split or weekly plan by hand.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Rotating splits",
+   "Splits hub",
+   "Rotating split cycles",
+   "Start from a split shape",
+   "Drag to reorder a split",
+   "Vary weeks in a split",
+   "Split length and start date",
+   "Preview before adding",
+   "Split progress page",
+   "Edit a split",
+   "Pause a split",
+   "Run a split again",
+   "Delete a split",
+   "Split progress card"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-12",
+   "url": "https://splyt.fit (in-app What’s New, build 428)"
+  },
+  "members": {
+   "splyt": [
+    "82",
+    "81",
+    "i112",
+    "i109",
+    "i111",
+    "i113",
+    "i114",
+    "i115",
+    "i116",
+    "i117",
+    "i120",
+    "i121",
+    "i122",
+    "i123",
+    "i124",
+    "i213"
+   ],
+   "gravl": [
+    "14"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "training-calendar",
+  "name": "Planning calendar",
+  "definition": "Schedule workouts on future dates in a calendar, and see planned against completed.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Monthly ring calendar",
+   "Drag to reschedule",
+   "Copy a planned day",
+   "Scheduled workout times",
+   "Usual training time hint",
+   "Missed workout tracking",
+   "Recurring planned sessions",
+   "Rest day logging",
+   "Month view",
+   "Repeat a planned day",
+   "Copy a training day",
+   "Rest days",
+   "Remove planned workouts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-09",
+   "url": "https://splyt.fit (in-app What’s New, build 212)"
+  },
+  "members": {
+   "splyt": [
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "65",
+    "i126",
+    "i128",
+    "i127",
+    "i129",
+    "i130",
+    "i131",
+    "i132",
+    "i133"
+   ],
+   "strong": [
+    "57"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "history-calendar",
+  "name": "Workout history calendar",
+  "definition": "A calendar or grid view of days you trained.",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Year and multi-year calendar"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2026-05-28",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "i214",
+    "83"
+   ],
+   "hevy": [
+    "134",
+    "135"
+   ],
+   "strong": [
+    "44"
+   ],
+   "gravl": [
+    "150"
+   ],
+   "motra": [
+    "120"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "83",
+    "83"
+   ],
+   "strong": [
+    "44",
+    "44"
+   ]
+  }
+ },
+ {
+  "id": "workout-reminders",
+  "name": "Workout reminders",
+  "definition": "Notifications reminding you to train (scheduled or after inactivity).",
+  "category": "Templates, plans & calendar",
+  "aspects": [
+   "Next-activity reminder"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "i267",
+    "i269"
+   ],
+   "fitbod": [
+    "49"
+   ],
+   "motra": [
+    "123"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "apple-calendar-sync",
+  "name": "Apple Calendar sync",
+  "definition": "Planned workouts appear in the system calendar.",
+  "category": "Templates, plans & calendar",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "91",
+    "i135"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "plan-generation",
+  "name": "Generated training program",
+  "definition": "The app builds a personalised multi-day program from your goals, schedule and equipment.",
+  "category": "Automatic programming",
+  "aspects": [
+   "AI programs with set types",
+   "AI split editing",
+   "AI confirm before changes",
+   "Plans and splits from chat",
+   "Full program view",
+   "Next-workout preview",
+   "Modify generated workouts",
+   "Program variety setting",
+   "Focus muscle group",
+   "Target workout duration",
+   "Program rest timer length",
+   "Cardio in generated workouts",
+   "Split type selection",
+   "Training goal selection",
+   "Experience level setting",
+   "Weekly frequency setting",
+   "Female program templates",
+   "Reorder program workouts",
+   "Restart program",
+   "In-program workout tips",
+   "Program science explainer",
+   "Weekly plan generation",
+   "Skip planned workout",
+   "Start any workout of the week",
+   "Upcoming workouts view",
+   "Workout duration setting",
+   "Fitness goal selection",
+   "Weekly training frequency goal",
+   "Exercise variety level",
+   "Configurable sets per exercise",
+   "Configurable rep ranges",
+   "Muscle focus",
+   "Per-exercise advanced settings",
+   "Experience levels",
+   "Powerlifting-focused programming",
+   "Olympic weightlifting programming",
+   "Training split selection",
+   "Workouts-per-week schedule",
+   "Adjustable workout duration",
+   "Exercise variability setting"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-03-22",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "103",
+    "104",
+    "105",
+    "109",
+    "i107",
+    "i95"
+   ],
+   "hevy": [
+    "84",
+    "91",
+    "92",
+    "93",
+    "98",
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113"
+   ],
+   "gravl": [
+    "10",
+    "11",
+    "20",
+    "21",
+    "22",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "35",
+    "83"
+   ],
+   "fitbod": [
+    "0",
+    "11",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "0",
+    "11",
+    "0",
+    "11"
+   ]
+  }
+ },
+ {
+  "id": "workout-generation",
+  "name": "Generated single workout",
+  "definition": "The app generates a personalised workout on demand (today's session).",
+  "category": "Automatic programming",
+  "aspects": [
+   "Workouts built in chat",
+   "Per-session duration override",
+   "Learns from user edits",
+   "Per-session workout modifiers",
+   "Change today's muscle focus",
+   "Swap day within training split",
+   "Cardio added to strength workouts",
+   "Generation duration and intensity",
+   "Target muscle group selection",
+   "One-off generation instructions",
+   "Saved generation instructions",
+   "Exercise variety preference",
+   "Experience level and goals profile"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-29",
+   "url": "https://splyt.fit (in-app What’s New, build 164)"
+  },
+  "members": {
+   "splyt": [
+    "102",
+    "107",
+    "i106",
+    "i94"
+   ],
+   "hevy": [
+    "92"
+   ],
+   "gravl": [
+    "18",
+    "23"
+   ],
+   "fitbod": [
+    "0",
+    "1",
+    "16",
+    "17",
+    "18",
+    "41"
+   ],
+   "motra": [
+    "86",
+    "88",
+    "89",
+    "90",
+    "91",
+    "93",
+    "102"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "92",
+    "92"
+   ]
+  }
+ },
+ {
+  "id": "progressive-overload",
+  "name": "Automatic progressive overload",
+  "definition": "The app recommends when and how much to increase weight or reps based on your performance.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Progression for reps-only exercises",
+   "Suggested starting weights",
+   "Stall reminders",
+   "Rep-then-weight double progression",
+   "Weight explanation insights",
+   "Global recommended-weight reduction",
+   "Exercise-order fatigue adjustment",
+   "Cross-exercise progress transfer",
+   "Time-off weight easing",
+   "Per-lift learned progression thresholds",
+   "Bodyweight exercise progression",
+   "Auto-recommended sets, reps and weight",
+   "Conservative starting estimates for new users",
+   "Return-from-break load reduction",
+   "Auto-progression levels",
+   "Wellness-based progression"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-02-18",
+   "url": "https://www.hevyapp.com/announcing-hevy-trainer/"
+  },
+  "members": {
+   "hevy": [
+    "85",
+    "86",
+    "87",
+    "88"
+   ],
+   "gravl": [
+    "0",
+    "1",
+    "43",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+   ],
+   "fitbod": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "motra": [
+    "96",
+    "97",
+    "99"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "template-progression",
+  "name": "Progression on repeated templates",
+  "definition": "Saved workouts can be re-run with automatically progressed sets, reps or weights.",
+  "category": "Automatic programming",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "78"
+   ],
+   "fitbod": [
+    "53"
+   ],
+   "motra": [
+    "98"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "recovery-planning",
+  "name": "Recovery-driven workout selection",
+  "definition": "The next workout's muscles are chosen from estimated per-muscle recovery.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Rest day recommendation",
+   "Workout auto-refresh on new data",
+   "Template recovery match"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-03-02",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "gravl": [
+    "12",
+    "111"
+   ],
+   "fitbod": [
+    "11",
+    "17",
+    "20"
+   ],
+   "motra": [
+    "87",
+    "84"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "11",
+    "17",
+    "11",
+    "17"
+   ]
+  }
+ },
+ {
+  "id": "auto-supersets",
+  "name": "Automatically generated supersets",
+  "definition": "Generated workouts can group exercises into supersets or circuits automatically.",
+  "category": "Automatic programming",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "62"
+   ],
+   "fitbod": [
+    "42"
+   ],
+   "motra": [
+    "94"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "62",
+    "62"
+   ]
+  }
+ },
+ {
+  "id": "exercise-preferences",
+  "name": "Exercise exclusions and preferences",
+  "definition": "Exclude exercises (or muscles) from recommendations, or ask for some more often.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Muscle group exclusion",
+   "Exercise queue"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "96"
+   ],
+   "gravl": [
+    "37",
+    "38",
+    "36",
+    "39"
+   ],
+   "fitbod": [
+    "22"
+   ],
+   "motra": [
+    "92"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "injury-aware",
+  "name": "Injury-aware programming",
+  "definition": "Record injuries or painful movements and recommendations avoid or substitute aggravating exercises.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Injury check-ins"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-08-06",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "106"
+   ],
+   "hevy": [
+    "97"
+   ],
+   "gravl": [
+    "40",
+    "41"
+   ],
+   "fitbod": [
+    "23"
+   ],
+   "motra": [
+    "103"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "equipment-profiles",
+  "name": "Gym equipment profiles",
+  "definition": "Saved gym/equipment profiles restrict recommended exercises to what you have.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Custom equipment",
+   "AI equipment recognition from photo",
+   "Machine weight ranges from photo",
+   "Gym search and equipment preload",
+   "Bodyweight-only mode",
+   "Home training without equipment",
+   "Share gym equipment setup"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-04-09",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "hevy": [
+    "99"
+   ],
+   "gravl": [
+    "6",
+    "98",
+    "94",
+    "95",
+    "96",
+    "99"
+   ],
+   "fitbod": [
+    "32",
+    "34",
+    "30",
+    "31",
+    "35"
+   ],
+   "motra": [
+    "100"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "owned-weights",
+  "name": "Available weights and increments",
+  "definition": "Tell the app which dumbbells, plates or machine increments you have so suggestions are loadable.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Equipment configuration",
+   "Resistance band collection"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-06-14",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "hevy": [
+    "100"
+   ],
+   "gravl": [
+    "2",
+    "97",
+    "100"
+   ],
+   "fitbod": [
+    "33",
+    "36"
+   ],
+   "motra": [
+    "101"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "periodization",
+  "name": "Periodization (deloads, phases, test days)",
+  "definition": "Planned variation over weeks: deload periods, phased progressions or max-effort test days.",
+  "category": "Automatic programming",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2026-10-06",
+   "url": "https://apps.apple.com/us/app/id1041517543"
+  },
+  "members": {
+   "gravl": [
+    "34"
+   ],
+   "fitbod": [
+    "2",
+    "15",
+    "21"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-regeneration",
+  "name": "Regenerate today's workout",
+  "definition": "Ask for a new version of a generated workout.",
+  "category": "Automatic programming",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "19"
+   ],
+   "fitbod": [
+    "19"
+   ],
+   "motra": [
+    "95"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "weekly-set-targets",
+  "name": "Weekly set targets per muscle",
+  "definition": "Recommended weekly working-set ranges per muscle, with progress against them.",
+  "category": "Automatic programming",
+  "aspects": [
+   "Program progress report"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "90",
+    "89"
+   ],
+   "gravl": [
+    "142"
+   ],
+   "fitbod": [
+    "24"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "142",
+    "142"
+   ]
+  }
+ },
+ {
+  "id": "ai-coach-chat",
+  "name": "AI coach chat",
+  "definition": "A conversational AI coach inside the app that answers using your own training data.",
+  "category": "AI & voice",
+  "aspects": [
+   "AI long-term memory",
+   "AI charts in chat",
+   "AI web search",
+   "AI photo understanding",
+   "Searchable AI chat history",
+   "AI exercise cards in chat",
+   "Habits managed in chat",
+   "Log sleep, weight and notes",
+   "Answers from your history",
+   "Web answers with sources",
+   "Photos in AI chat",
+   "Chat history and search",
+   "Coach memory",
+   "Coach style",
+   "AI coach nudges",
+   "AI goal setting and coaching",
+   "Goal suggestions",
+   "Video upload to AI coach",
+   "Save coach-suggested templates"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-24",
+   "url": "https://splyt.fit (in-app What’s New, build 141)"
+  },
+  "members": {
+   "splyt": [
+    "96",
+    "97",
+    "98",
+    "99",
+    "100",
+    "101",
+    "113",
+    "i93",
+    "i96",
+    "i97",
+    "i99",
+    "i100",
+    "i101",
+    "i102",
+    "i103",
+    "i104",
+    "i272",
+    "108",
+    "i98"
+   ],
+   "motra": [
+    "104",
+    "105",
+    "106"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "ai-summaries",
+  "name": "AI-written training summaries",
+  "definition": "AI-written plain-language summaries of a workout or a training week.",
+  "category": "AI & voice",
+  "aspects": [
+   "Weekly plain-language recap",
+   "Insight history",
+   "Coach's read in recaps",
+   "Weekly AI insight"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-19",
+   "url": "https://splyt.fit (in-app What’s New, build 229)"
+  },
+  "members": {
+   "splyt": [
+    "110",
+    "111",
+    "112",
+    "i105",
+    "i224",
+    "i271"
+   ],
+   "gravl": [
+    "52",
+    "53"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "ai-form-analysis",
+  "name": "Form analysis from video",
+  "definition": "Record or upload a video of a set and get a form score or feedback.",
+  "category": "AI & voice",
+  "aspects": [
+   "Form score history and friend leaderboard"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "54",
+    "55"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "ai-physique-analysis",
+  "name": "AI progress-photo analysis",
+  "definition": "AI commentary on progress photos.",
+  "category": "AI & voice",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-26",
+   "url": "https://splyt.fit (in-app What’s New, build 316)"
+  },
+  "members": {
+   "splyt": [
+    "114",
+    "i108"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "ai-custom-exercise",
+  "name": "AI-filled custom exercises",
+  "definition": "AI fills in a custom exercise's details from its name or a video link.",
+  "category": "AI & voice",
+  "aspects": [
+   "Custom exercise from video link"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-19",
+   "url": "https://splyt.fit (in-app What’s New, build 300)"
+  },
+  "members": {
+   "splyt": [
+    "71",
+    "i10"
+   ],
+   "gravl": [
+    "92",
+    "91"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "external-ai",
+  "name": "ChatGPT / Claude / MCP integration",
+  "definition": "Connect external AI assistants (ChatGPT, Claude, MCP clients) to your training data.",
+  "category": "AI & voice",
+  "aspects": [
+   "AI-generated plan import",
+   "Send workout to AI assistants",
+   "Create templates via AI assistant"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-09-03",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "hevy": [
+    "114",
+    "115",
+    "116"
+   ],
+   "gravl": [
+    "168"
+   ],
+   "motra": [
+    "107",
+    "108"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "voice-logging",
+  "name": "Voice logging",
+  "definition": "Log sets, workouts or plans by speaking.",
+  "category": "AI & voice",
+  "aspects": [
+   "Voice correction of logged sets",
+   "Voice superset grouping",
+   "Voice workout commands",
+   "Voice template builder",
+   "Voice split builder",
+   "Voice quick-log after the fact",
+   "Voice grip setting",
+   "Voice day logging",
+   "Watch voice start",
+   "Watch voice logging",
+   "Log past workouts by voice",
+   "Build a template by talking",
+   "Describe your split aloud",
+   "Start a workout by voice",
+   "Voice logging on the watch"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-06",
+   "url": "https://splyt.fit (in-app What’s New, build 195)"
+  },
+  "members": {
+   "splyt": [
+    "116",
+    "117",
+    "118",
+    "119",
+    "120",
+    "121",
+    "122",
+    "123",
+    "66",
+    "133",
+    "134",
+    "i90",
+    "i91",
+    "i92",
+    "i118",
+    "i66",
+    "i74"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "head-gesture-logging",
+  "name": "Head-gesture logging",
+  "definition": "Log sets hands-free with head gestures through headphones.",
+  "category": "AI & voice",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "fitbod": [
+    "119"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "exercise-library",
+  "name": "Built-in exercise library",
+  "definition": "A built-in catalogue of exercises (size as stated by the app).",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Hybrid/HYROX functional exercises",
+   "Pregnancy-safe exercise category",
+   "Cardio exercises",
+   "Mobility exercises",
+   "Partner exercises",
+   "Olympic lift progressions",
+   "Plyometric exercises",
+   "Exercise effectiveness score",
+   "Exercise difficulty levels"
+  ],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2023-02-27",
+   "url": "https://fitbod.me/blog/new-partner-exercises-are-now-live-on-fitbod/"
+  },
+  "members": {
+   "splyt": [
+    "67",
+    "i6"
+   ],
+   "hevy": [
+    "74",
+    "14"
+   ],
+   "strong": [
+    "106"
+   ],
+   "gravl": [
+    "7"
+   ],
+   "fitbod": [
+    "78",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89"
+   ],
+   "motra": [
+    "64",
+    "68"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "7",
+    "7"
+   ]
+  }
+ },
+ {
+  "id": "exercise-demos",
+  "name": "Exercise demonstration videos or animations",
+  "definition": "Each exercise has a video or animated demonstration.",
+  "category": "Exercise library & content",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-15",
+   "url": "https://splyt.fit (in-app What’s New, build 222)"
+  },
+  "members": {
+   "splyt": [
+    "68",
+    "i7"
+   ],
+   "hevy": [
+    "75"
+   ],
+   "strong": [
+    "5"
+   ],
+   "gravl": [
+    "7"
+   ],
+   "fitbod": [
+    "79"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "exercise-instructions",
+  "name": "Written exercise instructions",
+  "definition": "Step-by-step written instructions for exercises.",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Exercise how-to in workout"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "68",
+    "i7"
+   ],
+   "hevy": [
+    "76",
+    "47"
+   ],
+   "strong": [
+    "4"
+   ],
+   "gravl": [
+    "9"
+   ],
+   "fitbod": [
+    "80"
+   ],
+   "motra": [
+    "66"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "68",
+    "i7",
+    "68",
+    "i7"
+   ]
+  }
+ },
+ {
+  "id": "exercise-muscle-map",
+  "name": "Target muscles per exercise",
+  "definition": "Shows the primary and secondary muscles an exercise works.",
+  "category": "Exercise library & content",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "69"
+   ],
+   "fitbod": [
+    "81"
+   ],
+   "motra": [
+    "66"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "66",
+    "66"
+   ]
+  }
+ },
+ {
+  "id": "exercise-search",
+  "name": "Exercise search and filters",
+  "definition": "Search the exercise library and filter it by muscle or equipment.",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Last-trained date per exercise"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "73",
+    "i5"
+   ],
+   "hevy": [
+    "74"
+   ],
+   "strong": [
+    "48"
+   ],
+   "gravl": [
+    "88",
+    "89"
+   ],
+   "fitbod": [
+    "82"
+   ],
+   "motra": [
+    "67"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "74",
+    "74"
+   ]
+  }
+ },
+ {
+  "id": "custom-exercises",
+  "name": "Custom exercises",
+  "definition": "Create your own exercises.",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Share custom exercises",
+   "Custom exercise media",
+   "Duplicate exercise",
+   "Rename custom exercises",
+   "Custom exercises in generated workouts",
+   "Custom exercise photos"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2025-06-16",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "70",
+    "72",
+    "i9"
+   ],
+   "hevy": [
+    "77",
+    "78",
+    "79"
+   ],
+   "strong": [
+    "0",
+    "59"
+   ],
+   "gravl": [
+    "90",
+    "93"
+   ],
+   "fitbod": [
+    "65"
+   ],
+   "motra": [
+    "69",
+    "70"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "library-management",
+  "name": "Hide, merge or reset exercise data",
+  "definition": "Hide unwanted library exercises, merge one exercise's history into another, or reset history from a date.",
+  "category": "Exercise library & content",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "strong": [
+    "104",
+    "105",
+    "61"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "offline-videos",
+  "name": "Offline exercise videos",
+  "definition": "Download exercise videos to watch without a connection.",
+  "category": "Exercise library & content",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "8"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "warmup-routines",
+  "name": "Warm-up, stretching and mobility routines",
+  "definition": "Stretching, mobility or warm-up exercise routines added before or after workouts.",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Foam-rolling soft-tissue work",
+   "Muscle primer activation drills"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "gravl": [
+    "66",
+    "67"
+   ],
+   "fitbod": [
+    "38",
+    "39",
+    "40"
+   ],
+   "motra": [
+    "65"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "app-tutorials",
+  "name": "In-app tutorials and guided setup",
+  "definition": "Built-in or official how-to guidance for using the app.",
+  "category": "Exercise library & content",
+  "aspects": [
+   "Guided setup"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-27",
+   "url": "https://splyt.fit (in-app What’s New, build 453)"
+  },
+  "members": {
+   "splyt": [
+    "246",
+    "i276"
+   ],
+   "motra": [
+    "72"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "personal-records",
+  "name": "Personal records",
+  "definition": "Personal records are detected automatically, ideally flagged as they happen.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Top personal records list",
+   "Live PR detection",
+   "PRs on workout summary",
+   "Live PR notifications",
+   "PR medals on workouts",
+   "PR and workout celebrations",
+   "Per-gym records and 1RMs"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-28",
+   "url": "https://gravl.ai/blog/gravl-vs-fitbod"
+  },
+  "members": {
+   "splyt": [
+    "35",
+    "74",
+    "i231",
+    "i219",
+    "i236",
+    "i237"
+   ],
+   "hevy": [
+    "120",
+    "122",
+    "123"
+   ],
+   "strong": [
+    "6"
+   ],
+   "gravl": [
+    "84",
+    "85",
+    "101"
+   ],
+   "fitbod": [
+    "94"
+   ],
+   "motra": [
+    "117"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "74",
+    "74"
+   ]
+  }
+ },
+ {
+  "id": "rep-max-table",
+  "name": "Records by rep count",
+  "definition": "A table of best (and predicted) weights for each rep count.",
+  "category": "Stats & progress",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "121"
+   ],
+   "strong": [
+    "62",
+    "63"
+   ],
+   "motra": [
+    "113"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "estimated-1rm",
+  "name": "Estimated one-rep max",
+  "definition": "Estimated 1RM calculated from logged sets.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Manual 1RM override"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-16",
+   "url": "https://gravl.ai/blog/how-gravl-algorithm-works"
+  },
+  "members": {
+   "splyt": [
+    "74",
+    "i230"
+   ],
+   "hevy": [
+    "65"
+   ],
+   "strong": [
+    "7"
+   ],
+   "gravl": [
+    "44",
+    "45"
+   ],
+   "fitbod": [
+    "90"
+   ],
+   "motra": [
+    "112"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "74",
+    "74"
+   ]
+  }
+ },
+ {
+  "id": "exercise-charts",
+  "name": "Per-exercise progress charts",
+  "definition": "Charts of an exercise's weight, 1RM, volume or reps over time.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Cardio pace and distance charts"
+  ],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2023-04-16",
+   "url": "https://fitbod.me/blog/exercise-history-and-records/"
+  },
+  "members": {
+   "splyt": [
+    "74",
+    "i229"
+   ],
+   "hevy": [
+    "117",
+    "118"
+   ],
+   "strong": [
+    "18",
+    "19",
+    "103"
+   ],
+   "gravl": [
+    "136"
+   ],
+   "fitbod": [
+    "95"
+   ],
+   "motra": [
+    "114"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "exercise-history",
+  "name": "Per-exercise history",
+  "definition": "A list of every past session of a given exercise.",
+  "category": "Stats & progress",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-03-02",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "74",
+    "i232"
+   ],
+   "hevy": [
+    "119"
+   ],
+   "strong": [
+    "102"
+   ],
+   "gravl": [
+    "137"
+   ],
+   "motra": [
+    "114"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "74",
+    "74"
+   ],
+   "motra": [
+    "114",
+    "114"
+   ]
+  }
+ },
+ {
+  "id": "volume-tracking",
+  "name": "Training volume tracking",
+  "definition": "Total volume (weight x reps) calculated per workout and over time.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Volume and cardio trends",
+   "Count dumbbells twice option"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-22",
+   "url": "https://splyt.fit (in-app What’s New, build 307)"
+  },
+  "members": {
+   "splyt": [
+    "173",
+    "i218",
+    "i220"
+   ],
+   "hevy": [
+    "133"
+   ],
+   "strong": [
+    "8",
+    "110"
+   ],
+   "fitbod": [
+    "96"
+   ],
+   "motra": [
+    "111"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "133",
+    "133"
+   ]
+  }
+ },
+ {
+  "id": "training-trends",
+  "name": "Workout frequency and duration trends",
+  "definition": "Charts of how often and how long you train over time.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Session vs history card",
+   "Against your history",
+   "Time-of-day chart",
+   "Activity category filter",
+   "Stats overview numbers",
+   "Most-logged exercises"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-06",
+   "url": "https://splyt.fit (in-app What’s New, build 195)"
+  },
+  "members": {
+   "splyt": [
+    "171",
+    "172",
+    "177",
+    "i215",
+    "i212",
+    "i216",
+    "i217",
+    "i210"
+   ],
+   "hevy": [
+    "133",
+    "130"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "muscle-breakdown",
+  "name": "Sets or volume per muscle group",
+  "definition": "Stats breaking training down by muscle group.",
+  "category": "Stats & progress",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-05",
+   "url": "https://splyt.fit (in-app What’s New, build 325)"
+  },
+  "members": {
+   "splyt": [
+    "169",
+    "i220",
+    "i211"
+   ],
+   "hevy": [
+    "125",
+    "127",
+    "128",
+    "129"
+   ],
+   "gravl": [
+    "142"
+   ],
+   "fitbod": [
+    "24"
+   ],
+   "motra": [
+    "126"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i220",
+    "i211",
+    "i220",
+    "i211"
+   ],
+   "fitbod": [
+    "24",
+    "24"
+   ],
+   "motra": [
+    "126",
+    "126"
+   ]
+  }
+ },
+ {
+  "id": "muscle-heatmap",
+  "name": "Muscle heatmap",
+  "definition": "A body diagram shading the muscles trained in a workout or period.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Live muscle heatmap while logging",
+   "Female body model"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2025-12-05",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "180",
+    "i13",
+    "i211"
+   ],
+   "hevy": [
+    "126",
+    "46",
+    "71"
+   ],
+   "strong": [
+    "56"
+   ],
+   "fitbod": [
+    "29"
+   ],
+   "motra": [
+    "82"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "180",
+    "180"
+   ],
+   "motra": [
+    "82",
+    "82"
+   ]
+  }
+ },
+ {
+  "id": "strength-score",
+  "name": "Strength score or level",
+  "definition": "A score or level rating your strength against standards or other users.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Strength score levels",
+   "Strength score weekly summary",
+   "Strength score expiry alerts",
+   "Exclude muscles from strength score",
+   "Benchmark lift tracking"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "124"
+   ],
+   "gravl": [
+    "5",
+    "138",
+    "139",
+    "140",
+    "141"
+   ],
+   "fitbod": [
+    "91",
+    "92",
+    "93",
+    "97"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-recaps",
+  "name": "Weekly, monthly or yearly recaps",
+  "definition": "Periodic recap reports of your training.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Weekly score",
+   "Weekly summary push",
+   "Monthly review stories",
+   "Custom date-range reporting",
+   "Year-in-review recap"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-03-22",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "178",
+    "183",
+    "i222",
+    "i223",
+    "i270"
+   ],
+   "hevy": [
+    "131",
+    "132"
+   ],
+   "gravl": [
+    "143",
+    "144"
+   ],
+   "fitbod": [
+    "98",
+    "99",
+    "100"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "stats-dashboard",
+  "name": "Customisable dashboard",
+  "definition": "Choose which stats, charts or cards appear on a dashboard or home screen.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Daily overview stats"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-28",
+   "url": "https://splyt.fit (in-app What’s New, build 403)"
+  },
+  "members": {
+   "splyt": [
+    "235",
+    "i208",
+    "i207"
+   ],
+   "strong": [
+    "70",
+    "72"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "workout-summary",
+  "name": "Post-workout summary",
+  "definition": "A summary screen of the finished workout's stats.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Per-activity breakdown"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "180",
+    "i11",
+    "i15"
+   ],
+   "fitbod": [
+    "29"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "29",
+    "29"
+   ]
+  }
+ },
+ {
+  "id": "volume-comparison",
+  "name": "Real-world volume comparisons",
+  "definition": "Total weight lifted expressed as a real-world comparison.",
+  "category": "Stats & progress",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-10",
+   "url": "https://splyt.fit (in-app What’s New, build 276)"
+  },
+  "members": {
+   "splyt": [
+    "218"
+   ],
+   "hevy": [
+    "140"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "training-streak",
+  "name": "Training streaks",
+  "definition": "A streak of consecutive days or weeks of training (or of meeting a weekly goal).",
+  "category": "Stats & progress",
+  "aspects": [
+   "Streak recovery by backfilling",
+   "Rest days counter",
+   "Weekly workout goal",
+   "Streak freezes",
+   "External workouts count toward streak",
+   "Streak reminder notifications"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-01-14",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "i170"
+   ],
+   "hevy": [
+    "136",
+    "137",
+    "138"
+   ],
+   "strong": [
+    "45",
+    "71"
+   ],
+   "gravl": [
+    "157",
+    "158"
+   ],
+   "fitbod": [
+    "102"
+   ],
+   "motra": [
+    "118",
+    "119",
+    "122"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "achievements",
+  "name": "Achievements, badges and levels",
+  "definition": "Badges, milestones or levels earned for training.",
+  "category": "Stats & progress",
+  "aspects": [
+   "XP and levels"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-11",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "hevy": [
+    "139"
+   ],
+   "gravl": [
+    "159",
+    "160"
+   ],
+   "fitbod": [
+    "101"
+   ],
+   "motra": [
+    "116"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "calories-burned",
+  "name": "Calories burned",
+  "definition": "Active calories recorded or estimated for workouts.",
+  "category": "Stats & progress",
+  "aspects": [
+   "Manual calorie editing"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "126",
+    "i78"
+   ],
+   "hevy": [
+    "141",
+    "220"
+   ],
+   "strong": [
+    "75"
+   ],
+   "gravl": [
+    "122"
+   ],
+   "fitbod": [
+    "103"
+   ],
+   "motra": [
+    "31",
+    "32"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "126",
+    "i78",
+    "126",
+    "i78"
+   ],
+   "hevy": [
+    "141",
+    "220",
+    "141",
+    "220"
+   ],
+   "gravl": [
+    "122",
+    "122"
+   ]
+  }
+ },
+ {
+  "id": "apple-health-write",
+  "name": "Workouts written to Apple Health",
+  "definition": "Finished workouts are saved to Apple Health.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Active calories to Apple Health",
+   "Per-workout sync toggles",
+   "Per-workout health sync toggle"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "150",
+    "i160"
+   ],
+   "hevy": [
+    "219",
+    "220",
+    "222"
+   ],
+   "strong": [
+    "65"
+   ],
+   "gravl": [
+    "113"
+   ],
+   "fitbod": [
+    "107",
+    "110"
+   ],
+   "motra": [
+    "131"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "apple-health-import",
+  "name": "Import workouts from Apple Health",
+  "definition": "Workouts recorded by other apps are brought in from Apple Health.",
+  "category": "Health, body & recovery",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "151",
+    "i159"
+   ],
+   "strong": [
+    "64"
+   ],
+   "gravl": [
+    "114"
+   ],
+   "fitbod": [
+    "108"
+   ],
+   "motra": [
+    "132"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "health-body-data",
+  "name": "Body data synced with Apple Health",
+  "definition": "Body weight or composition is read from or written to Apple Health.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Smart scale data via health platforms"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2025-12-05",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "i165"
+   ],
+   "hevy": [
+    "144"
+   ],
+   "strong": [
+    "66"
+   ],
+   "gravl": [
+    "116"
+   ],
+   "fitbod": [
+    "109",
+    "106"
+   ],
+   "motra": [
+    "133"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "bodyweight-tracking",
+  "name": "Body weight log",
+  "definition": "Log body weight over time with a trend.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Weight trend",
+   "Body metrics trends"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "i238",
+    "174",
+    "i221"
+   ],
+   "hevy": [
+    "142"
+   ],
+   "strong": [
+    "22"
+   ],
+   "gravl": [
+    "146"
+   ],
+   "fitbod": [
+    "104",
+    "105"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "142",
+    "142"
+   ],
+   "gravl": [
+    "146",
+    "146"
+   ]
+  }
+ },
+ {
+  "id": "body-measurements",
+  "name": "Body measurements (circumferences, body fat)",
+  "definition": "Log body measurements beyond weight, such as circumferences or body-fat %.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Left/right limb measurements",
+   "Backdated measurements",
+   "Body metrics dashboard",
+   "Measurement trends"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-08-18",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "154"
+   ],
+   "hevy": [
+    "142",
+    "143",
+    "148"
+   ],
+   "strong": [
+    "21",
+    "23",
+    "24"
+   ],
+   "gravl": [
+    "145",
+    "146",
+    "147"
+   ],
+   "fitbod": [
+    "104"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "104",
+    "104"
+   ]
+  }
+ },
+ {
+  "id": "progress-photos",
+  "name": "Progress photos",
+  "definition": "Store private progress photos over time.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Photo alignment guides",
+   "Side-by-side photo compare",
+   "Edit progress photos",
+   "Progress photo reminders",
+   "Progress photo overlay",
+   "Progress photo comparison",
+   "Before/after photo comparison"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-24",
+   "url": "https://splyt.fit (in-app What’s New, build 310)"
+  },
+  "members": {
+   "splyt": [
+    "158",
+    "i239",
+    "i240",
+    "i241",
+    "i242",
+    "i243"
+   ],
+   "hevy": [
+    "145",
+    "146",
+    "147"
+   ],
+   "strong": [
+    "33"
+   ],
+   "gravl": [
+    "148",
+    "149"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "nutrition-logging",
+  "name": "Calorie and macro logging",
+  "definition": "Log food calories or macronutrients.",
+  "category": "Health, body & recovery",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "strong": [
+    "25",
+    "67",
+    "68",
+    "69"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "sleep-tracking",
+  "name": "Sleep tracking",
+  "definition": "View sleep (e.g. from Apple Health) or log it.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Manual sleep logging",
+   "Add sleep manually"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-22",
+   "url": "https://splyt.fit (in-app What’s New, build 306)"
+  },
+  "members": {
+   "splyt": [
+    "152",
+    "153",
+    "i162",
+    "i163"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "steps-tracking",
+  "name": "Steps tracking",
+  "definition": "Steps history in the app.",
+  "category": "Health, body & recovery",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-08",
+   "url": "https://splyt.fit (in-app What’s New, build 328)"
+  },
+  "members": {
+   "splyt": [
+    "155",
+    "i164"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "activity-rings",
+  "name": "Activity rings in the app",
+  "definition": "Move/Exercise/Stand rings shown inside the app.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Activity rings detail view",
+   "Activity goals"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-06",
+   "url": "https://splyt.fit (in-app What’s New, build 197)"
+  },
+  "members": {
+   "splyt": [
+    "156",
+    "157",
+    "i161",
+    "i169"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "habit-tracking",
+  "name": "Habit and daily-goal tracking",
+  "definition": "Track daily habits or a combined daily goal, with streaks and reminders.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Auto-completing habits",
+   "Weekly habit targets",
+   "Habit reminders and privacy",
+   "Habit streak calendar",
+   "Habits that tick themselves",
+   "Habit options",
+   "Habit calendar and streaks",
+   "Habit reminders",
+   "Daily combined ring",
+   "Customizable ring pillars",
+   "Ring closed notification",
+   "Perfect-day nudge",
+   "Splyt Ring",
+   "Customise the Splyt Ring",
+   "Rings page",
+   "Ring reminder"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-10",
+   "url": "https://splyt.fit (in-app What’s New, build 276)"
+  },
+  "members": {
+   "splyt": [
+    "160",
+    "161",
+    "162",
+    "163",
+    "164",
+    "i154",
+    "i155",
+    "i156",
+    "i157",
+    "i266",
+    "165",
+    "166",
+    "167",
+    "168",
+    "234",
+    "i166",
+    "i167",
+    "i84",
+    "i265"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "muscle-recovery",
+  "name": "Muscle recovery tracking",
+  "definition": "Per-muscle recovery or fatigue estimates.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Manual recovery adjustment",
+   "External cardio counts toward recovery",
+   "Recovery body heat map",
+   "Manual recovery override",
+   "Outside activity counts toward recovery",
+   "Recovery body map"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "109",
+    "110",
+    "112"
+   ],
+   "fitbod": [
+    "25",
+    "26",
+    "27",
+    "28"
+   ],
+   "motra": [
+    "109",
+    "110"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "heart-rate",
+  "name": "Heart rate during workouts",
+  "definition": "Heart rate recorded and shown during or after a workout.",
+  "category": "Health, body & recovery",
+  "aspects": [
+   "Live heart rate and calories",
+   "Watch heart rate and calories on workouts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-17",
+   "url": "https://splyt.fit (in-app What’s New, build 441)"
+  },
+  "members": {
+   "splyt": [
+    "38",
+    "i58",
+    "i78"
+   ],
+   "hevy": [
+    "194",
+    "141"
+   ],
+   "strong": [
+    "74"
+   ],
+   "gravl": [
+    "122"
+   ],
+   "fitbod": [
+    "124",
+    "116"
+   ],
+   "motra": [
+    "29"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "hr-zones",
+  "name": "Heart-rate zones",
+  "definition": "Time in heart-rate zones for a workout.",
+  "category": "Health, body & recovery",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-03",
+   "url": "https://splyt.fit (in-app What’s New, build 190)"
+  },
+  "members": {
+   "splyt": [
+    "159",
+    "i12"
+   ],
+   "motra": [
+    "30"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "cardio-logging",
+  "name": "Cardio exercise logging",
+  "definition": "Log cardio with distance and/or time.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-05-01",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "64"
+   ],
+   "hevy": [
+    "9"
+   ],
+   "strong": [
+    "1",
+    "109"
+   ],
+   "gravl": [
+    "75"
+   ],
+   "fitbod": [
+    "69"
+   ],
+   "motra": [
+    "51"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "64",
+    "64"
+   ],
+   "motra": [
+    "51",
+    "51"
+   ]
+  }
+ },
+ {
+  "id": "activity-types",
+  "name": "Non-lifting activity types",
+  "definition": "Track many activity types beyond lifting (sports, yoga, classes, recovery sessions such as sauna).",
+  "category": "Cardio, sports & other activities",
+  "aspects": [
+   "Core training workout type",
+   "Custom-named activity",
+   "Recovery activity logging",
+   "Recovery stats chart",
+   "Recovery activities"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-24",
+   "url": "https://splyt.fit (in-app What’s New, build 144)"
+  },
+  "members": {
+   "splyt": [
+    "52",
+    "54",
+    "57",
+    "i21",
+    "i52",
+    "i22",
+    "63",
+    "175",
+    "i53"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "multi-activity-session",
+  "name": "Multi-activity sessions",
+  "definition": "Chain several activities into one saved session.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [
+   "Add an activity to a session"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "53",
+    "i51",
+    "i77"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "gps-tracking",
+  "name": "GPS outdoor tracking",
+  "definition": "Track outdoor runs, walks or rides with GPS distance and pace.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [
+   "Elevation gain",
+   "GPS distance workouts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-15",
+   "url": "https://splyt.fit (in-app What’s New, build 291)"
+  },
+  "members": {
+   "splyt": [
+    "58",
+    "60",
+    "i54",
+    "i79"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "route-maps",
+  "name": "Route maps",
+  "definition": "Outdoor workouts show a route map.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-05-23",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "59",
+    "i14"
+   ],
+   "gravl": [
+    "115"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "swim-tracking",
+  "name": "Swim tracking",
+  "definition": "Pool laps or open-water swims tracked.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [
+   "Open water swim stroke count",
+   "Watch pool length setting",
+   "Pool length for swims"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-24",
+   "url": "https://splyt.fit (in-app What’s New, build 144)"
+  },
+  "members": {
+   "splyt": [
+    "61",
+    "62",
+    "146",
+    "i80",
+    "i57"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "interval-timers",
+  "name": "Interval and round timers",
+  "definition": "Timed intervals for HIIT, Tabata, circuits or boxing rounds.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [
+   "Hands-free interval auto-play"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-24",
+   "url": "https://splyt.fit (in-app What’s New, build 144)"
+  },
+  "members": {
+   "splyt": [
+    "7",
+    "55",
+    "56",
+    "i55",
+    "i56"
+   ],
+   "fitbod": [
+    "46",
+    "47"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "machine-photo-scan",
+  "name": "Read a cardio machine screen by photo",
+  "definition": "Photograph a cardio machine's display to import its numbers.",
+  "category": "Cardio, sports & other activities",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-15",
+   "url": "https://splyt.fit (in-app What’s New, build 374)"
+  },
+  "members": {
+   "splyt": [
+    "64",
+    "i17"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "watch-app",
+  "name": "Apple Watch app",
+  "definition": "An Apple Watch app for logging strength workouts.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Watch Digital Crown entry",
+   "Watch rest screen with heart rate",
+   "Watch next-set preview",
+   "Watch music controls",
+   "Watch rest timer button",
+   "Watch workout summary HR chart",
+   "Watch notifications",
+   "Watch-routed notifications",
+   "Start workouts from the watch",
+   "Rest timer on the watch",
+   "Workout controls",
+   "Music controls mid-workout",
+   "Rate your effort",
+   "Watch workout summary",
+   "Reply to friends from the watch",
+   "Rich watch notifications",
+   "Watch set logging",
+   "Watch duration timers",
+   "Watch button repeat setting",
+   "Watch exercise details",
+   "Digital Crown value entry",
+   "Adjust rest timer on watch",
+   "Exercise history and notes on watch",
+   "Warm-up sets and timers on watch",
+   "Watch haptic rest timer",
+   "Watch PR celebration",
+   "Log sets on Apple Watch",
+   "Watch rest timer with haptics",
+   "Customizable watch workout display"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2025-09-08",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "126",
+    "132",
+    "136",
+    "137",
+    "138",
+    "141",
+    "142",
+    "143",
+    "242",
+    "i67",
+    "i62",
+    "i75",
+    "i76",
+    "i81",
+    "i82",
+    "i83",
+    "i88",
+    "i89"
+   ],
+   "hevy": [
+    "187",
+    "190",
+    "195"
+   ],
+   "strong": [
+    "2",
+    "47",
+    "58",
+    "77",
+    "78",
+    "80",
+    "84"
+   ],
+   "gravl": [
+    "120",
+    "121",
+    "123"
+   ],
+   "fitbod": [
+    "120",
+    "121",
+    "123"
+   ],
+   "motra": [
+    "19",
+    "23"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "strong": [
+    "2",
+    "2"
+   ]
+  }
+ },
+ {
+  "id": "watch-standalone",
+  "name": "Watch logging without the phone",
+  "definition": "Log a whole workout on the watch without the iPhone nearby.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "149"
+   ],
+   "hevy": [
+    "187",
+    "196"
+   ],
+   "strong": [
+    "2"
+   ],
+   "gravl": [
+    "4"
+   ],
+   "motra": [
+    "27"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "187",
+    "196",
+    "187",
+    "196"
+   ],
+   "motra": [
+    "27",
+    "27"
+   ]
+  }
+ },
+ {
+  "id": "watch-templates",
+  "name": "Start templates or plans on the watch",
+  "definition": "Start a saved template, routine or today's planned workout from the watch.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Today's plan on the watch",
+   "Generated workout on watch",
+   "Start workouts on the watch"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-03-25",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "splyt": [
+    "i64",
+    "i65"
+   ],
+   "hevy": [
+    "189",
+    "197"
+   ],
+   "gravl": [
+    "126"
+   ],
+   "motra": [
+    "22",
+    "20"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "watch-phone-sync",
+  "name": "Live phone-watch sync",
+  "definition": "The same workout is mirrored live on phone and watch.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Handoff between watch and phone"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-25",
+   "url": "https://splyt.fit (in-app What’s New, build 314)"
+  },
+  "members": {
+   "splyt": [
+    "135",
+    "i85"
+   ],
+   "hevy": [
+    "188"
+   ],
+   "strong": [
+    "73",
+    "76"
+   ],
+   "gravl": [
+    "125"
+   ],
+   "fitbod": [
+    "121"
+   ],
+   "motra": [
+    "21"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "121",
+    "121"
+   ]
+  }
+ },
+ {
+  "id": "watch-workout-editing",
+  "name": "Edit workout structure on the watch",
+  "definition": "Add or delete sets, or add, swap or reorder exercises, from the watch.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Watch exercise swap",
+   "Watch supersets",
+   "Supersets on the watch",
+   "Switch exercise on the watch",
+   "Grip picker on the watch",
+   "Replace exercise on watch",
+   "Supersets on watch",
+   "Reorder exercises on watch",
+   "Exercise notes on watch"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2025-06-16",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "130",
+    "131",
+    "139",
+    "i70",
+    "i69",
+    "i71",
+    "i72"
+   ],
+   "strong": [
+    "83",
+    "60",
+    "81",
+    "82"
+   ],
+   "fitbod": [
+    "122"
+   ],
+   "motra": [
+    "21",
+    "24"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "21",
+    "21"
+   ]
+  }
+ },
+ {
+  "id": "watch-set-types",
+  "name": "Set types and effort on the watch",
+  "definition": "Tag set types or rate effort from the watch.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-31",
+   "url": "https://splyt.fit (in-app What’s New, build 254)"
+  },
+  "members": {
+   "splyt": [
+    "140",
+    "i68"
+   ],
+   "hevy": [
+    "191"
+   ],
+   "strong": [
+    "79"
+   ],
+   "gravl": [
+    "124"
+   ],
+   "fitbod": [
+    "125"
+   ],
+   "motra": [
+    "41"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "watch-complications",
+  "name": "Watch complications",
+  "definition": "App complications or widgets on the watch face.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Activity rings complication"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2026-03-02",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "144",
+    "i86",
+    "i87"
+   ],
+   "hevy": [
+    "192"
+   ],
+   "gravl": [
+    "128"
+   ],
+   "motra": [
+    "26"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "watch-faces",
+  "name": "Custom watch faces",
+  "definition": "App-provided Apple Watch faces.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2020-10-08",
+   "url": "https://www.hevyapp.com/hevy-apple-watch-custom-face/"
+  },
+  "members": {
+   "splyt": [
+    "145"
+   ],
+   "hevy": [
+    "193"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "auto-rep-counting",
+  "name": "Automatic rep counting",
+  "definition": "The watch counts reps automatically from motion.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Full-screen phone rep count",
+   "Adjustable minimum rep threshold",
+   "Unilateral rep counting"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-23",
+   "url": "https://splyt.fit (in-app What’s New, build 308)"
+  },
+  "members": {
+   "splyt": [
+    "127",
+    "128",
+    "129",
+    "i73"
+   ],
+   "motra": [
+    "1",
+    "11",
+    "18"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "auto-exercise-detection",
+  "name": "Automatic exercise detection",
+  "definition": "The watch identifies which exercise you are doing (and when sets start and end) from motion alone.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "470+ auto-detectable exercises",
+   "No camera or video required",
+   "Automatic set start/end detection",
+   "Grip and variation recognition",
+   "Detects free-weight, cable, machine and bodyweight exercises",
+   "Automatic superset detection",
+   "Personalized detection learning",
+   "Detection learning toggle",
+   "Reset detection learning",
+   "Pause auto-detection mid-workout",
+   "Manual-mode default for watch workouts",
+   "Higher-accuracy detection model tier",
+   "Auto-detection of custom exercises in templates"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-10-30",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "motra": [
+    "0",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "12",
+    "13",
+    "14",
+    "15"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "airpods-heart-rate",
+  "name": "Heart rate from AirPods",
+  "definition": "Read heart rate from AirPods Pro during workouts.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-01-22",
+   "url": "https://apps.apple.com/us/app/id1458862350"
+  },
+  "members": {
+   "hevy": [
+    "198"
+   ],
+   "gravl": [
+    "119"
+   ],
+   "fitbod": [
+    "117"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "bluetooth-hr",
+  "name": "Bluetooth heart-rate monitors",
+  "definition": "Connect Bluetooth chest straps or other BLE heart-rate monitors.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "fitbod": [
+    "118"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "garmin-watch-app",
+  "name": "Garmin watch app",
+  "definition": "An app that runs on Garmin watches to log workouts.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-11",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "gravl": [
+    "129"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "garmin-connect",
+  "name": "Garmin Connect sync",
+  "definition": "Workouts appear in Garmin Connect.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "130"
+   ],
+   "fitbod": [
+    "115"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "wear-os-app",
+  "name": "Wear OS app",
+  "definition": "An app for Wear OS watches.",
+  "category": "Apple Watch & wearables",
+  "aspects": [
+   "Wear OS tile",
+   "Wear OS tiles",
+   "Watch auto-advance to next exercise"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "199",
+    "200"
+   ],
+   "gravl": [
+    "131",
+    "132"
+   ],
+   "fitbod": [
+    "126",
+    "127"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "fitbit",
+  "name": "Fitbit integration",
+  "definition": "Workouts exchanged with Fitbit.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "fitbod": [
+    "114"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "friends",
+  "name": "Friends or followers",
+  "definition": "Add friends or follow other users.",
+  "category": "Social & competition",
+  "aspects": [
+   "Contact friend finder",
+   "Friends of friends",
+   "Find friends from contacts",
+   "Invite links",
+   "Friend's friends list",
+   "Suggested athletes",
+   "Search users",
+   "Contacts friend finder",
+   "Invite friends",
+   "Hide suggested users",
+   "Mutual followers shown",
+   "User search",
+   "Suggested people",
+   "Remove followers"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-10-21",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "184",
+    "190",
+    "191",
+    "i171",
+    "i172",
+    "i173",
+    "i178"
+   ],
+   "hevy": [
+    "149",
+    "151",
+    "152",
+    "153",
+    "154",
+    "160",
+    "165"
+   ],
+   "gravl": [
+    "151"
+   ],
+   "motra": [
+    "140",
+    "141",
+    "142",
+    "154"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "activity-feed",
+  "name": "Activity feed",
+  "definition": "A feed of the workouts of people you follow or are friends with.",
+  "category": "Social & competition",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "185",
+    "i174"
+   ],
+   "hevy": [
+    "149"
+   ],
+   "gravl": [
+    "152"
+   ],
+   "motra": [
+    "139"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "149",
+    "149"
+   ]
+  }
+ },
+ {
+  "id": "discover-feed",
+  "name": "Community or discover feed",
+  "definition": "A feed or community space beyond your own friends.",
+  "category": "Social & competition",
+  "aspects": [
+   "PR spotlight"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-02",
+   "url": "https://splyt.fit (in-app What’s New, build 187)"
+  },
+  "members": {
+   "splyt": [
+    "193",
+    "194",
+    "i187"
+   ],
+   "hevy": [
+    "150"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "likes-comments",
+  "name": "Likes and comments",
+  "definition": "React to and comment on others' workouts.",
+  "category": "Social & competition",
+  "aspects": [
+   "Quick replies to highlights",
+   "Tag users in workout description",
+   "Comment mentions",
+   "Delete comments on own posts"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "186",
+    "i180",
+    "i181"
+   ],
+   "hevy": [
+    "155",
+    "156",
+    "34",
+    "157",
+    "158"
+   ],
+   "gravl": [
+    "153"
+   ],
+   "motra": [
+    "143",
+    "144"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "user-profile",
+  "name": "Customisable profile",
+  "definition": "A user profile with name, photo or bio.",
+  "category": "Social & competition",
+  "aspects": [
+   "Profile avatars",
+   "Profile photo from contacts or library",
+   "Share profile"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-01-06",
+   "url": "https://apps.apple.com/us/app/id6755893717"
+  },
+  "members": {
+   "splyt": [
+    "237",
+    "238",
+    "239",
+    "i279"
+   ],
+   "hevy": [
+    "163",
+    "164",
+    "180"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "privacy-controls",
+  "name": "Privacy controls",
+  "definition": "Control who can see your activity (private account, per-workout or per-item visibility, hiding from public feeds).",
+  "category": "Social & competition",
+  "aspects": [
+   "Per-workout privacy",
+   "Default workout visibility",
+   "Workout location privacy"
+  ],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "splyt": [
+    "i188",
+    "i156"
+   ],
+   "hevy": [
+    "159",
+    "48",
+    "49"
+   ],
+   "motra": [
+    "149",
+    "150",
+    "151"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i156",
+    "i156"
+   ]
+  }
+ },
+ {
+  "id": "block-report",
+  "name": "Block and report",
+  "definition": "Block users and report users or content.",
+  "category": "Social & competition",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-07",
+   "url": "https://splyt.fit (in-app What’s New, build 366)"
+  },
+  "members": {
+   "splyt": [
+    "198",
+    "i189"
+   ],
+   "hevy": [
+    "161"
+   ],
+   "motra": [
+    "152",
+    "153"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "live-follow",
+  "name": "Follow a friend's workout live",
+  "definition": "See a friend's workout as it happens.",
+  "category": "Social & competition",
+  "aspects": [
+   "Live training on competition map"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-05",
+   "url": "https://splyt.fit (in-app What’s New, build 416)"
+  },
+  "members": {
+   "splyt": [
+    "187",
+    "210",
+    "i175"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "view-friend-history",
+  "name": "Browse a friend's training",
+  "definition": "Browse a friend's workout history or schedule.",
+  "category": "Social & competition",
+  "aspects": [
+   "View friend's training week",
+   "View a friend's calendar",
+   "Friend profiles",
+   "Friends' recaps"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-26",
+   "url": "https://splyt.fit (in-app What’s New, build 399)"
+  },
+  "members": {
+   "splyt": [
+    "192",
+    "93",
+    "i177",
+    "i134",
+    "i176",
+    "i225"
+   ],
+   "hevy": [
+    "163"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "163",
+    "163"
+   ]
+  }
+ },
+ {
+  "id": "friend-compare",
+  "name": "Compare with a friend",
+  "definition": "Compare your stats or lifts side by side with a specific friend.",
+  "category": "Social & competition",
+  "aspects": [
+   "You vs a friend",
+   "Compare lifts with friends"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-19",
+   "url": "https://splyt.fit (in-app What’s New, build 299)"
+  },
+  "members": {
+   "splyt": [
+    "176",
+    "i179",
+    "i226",
+    "i234"
+   ],
+   "hevy": [
+    "168",
+    "169"
+   ],
+   "gravl": [
+    "155"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "leaderboards",
+  "name": "Leaderboards",
+  "definition": "Rankings among friends or group members.",
+  "category": "Social & competition",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-03",
+   "url": "https://splyt.fit (in-app What’s New, build 188)"
+  },
+  "members": {
+   "splyt": [
+    "197",
+    "i186"
+   ],
+   "hevy": [
+    "170"
+   ],
+   "gravl": [
+    "154",
+    "156"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "groups",
+  "name": "Groups",
+  "definition": "Private groups of friends with shared activity.",
+  "category": "Social & competition",
+  "aspects": [
+   "Group chat",
+   "Group check-in challenges",
+   "Nudge friends",
+   "Group activity view",
+   "Group schedule"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-03",
+   "url": "https://splyt.fit (in-app What’s New, build 188)"
+  },
+  "members": {
+   "splyt": [
+    "188",
+    "189",
+    "195",
+    "196",
+    "i182",
+    "i184",
+    "i185"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "competitions",
+  "name": "Competitions and challenges",
+  "definition": "Head-to-head or group competitions over a period.",
+  "category": "Social & competition",
+  "aspects": [
+   "Twelve competition metrics",
+   "Distance-based competitions",
+   "3D race visualization",
+   "Custom race characters",
+   "Character library",
+   "Competition stakes",
+   "Competition invites",
+   "Competition history",
+   "End-of-race awards",
+   "Competition types",
+   "Stakes",
+   "Who-owes-whom ledger",
+   "Animated race worlds",
+   "Race map strip",
+   "Standings and daily winners",
+   "Head-to-head view",
+   "Competition chat",
+   "Check-ins and nudges",
+   "Pick your racer",
+   "Create a custom character",
+   "Manage a competition",
+   "Competitions list",
+   "Results and rematch",
+   "Past group competitions",
+   "Competition alerts",
+   "Answer invites from a notification"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-24",
+   "url": "https://splyt.fit (in-app What’s New, build 241)"
+  },
+  "members": {
+   "splyt": [
+    "200",
+    "201",
+    "202",
+    "203",
+    "204",
+    "205",
+    "206",
+    "207",
+    "208",
+    "209",
+    "i190",
+    "i191",
+    "i193",
+    "i194",
+    "i195",
+    "i196",
+    "i197",
+    "i198",
+    "i199",
+    "i200",
+    "i201",
+    "i202",
+    "i203",
+    "i204",
+    "i205",
+    "i206",
+    "i261",
+    "i262"
+   ],
+   "motra": [
+    "148"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "friend-notifications",
+  "name": "Friend activity notifications",
+  "definition": "Notifications when friends work out.",
+  "category": "Social & competition",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "143",
+    "i260"
+   ],
+   "hevy": [
+    "162"
+   ],
+   "motra": [
+    "147"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "143",
+    "143"
+   ]
+  }
+ },
+ {
+  "id": "gym-tagging",
+  "name": "Tag a workout's gym or location",
+  "definition": "Attach the gym or location to a workout.",
+  "category": "Social & competition",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "motra",
+   "date": "2025-12-17",
+   "url": "https://apps.apple.com/us/app/id1548577496"
+  },
+  "members": {
+   "hevy": [
+    "35"
+   ],
+   "motra": [
+    "151"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "motra": [
+    "151",
+    "151"
+   ]
+  }
+ },
+ {
+  "id": "trainer-platform",
+  "name": "Connect your personal trainer",
+  "definition": "Link to your own personal trainer, who assigns programs and sees your data.",
+  "category": "Social & competition",
+  "aspects": [
+   "Coach-assigned programs",
+   "Chat with coach",
+   "Auto-share data with coach",
+   "Coach logs for you"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "182",
+    "183",
+    "184",
+    "185",
+    "186"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "share-cards",
+  "name": "Shareable workout images",
+  "definition": "Generate shareable image cards of workouts or stats.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Route share card",
+   "Share day",
+   "Recap share images",
+   "Share exercise records",
+   "Share exercise summary",
+   "Share stats charts",
+   "Share calendar"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-06-12",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "splyt": [
+    "211",
+    "213",
+    "216",
+    "i146",
+    "i227",
+    "i235"
+   ],
+   "hevy": [
+    "172",
+    "174",
+    "175",
+    "176"
+   ],
+   "gravl": [
+    "162"
+   ],
+   "fitbod": [
+    "137"
+   ],
+   "motra": [
+    "145"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "instagram-stories",
+  "name": "Share to Instagram Stories",
+  "definition": "Post a workout card directly to Instagram Stories.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-14",
+   "url": "https://splyt.fit (in-app What’s New, build 290)"
+  },
+  "members": {
+   "splyt": [
+    "212",
+    "i146"
+   ],
+   "hevy": [
+    "173"
+   ],
+   "gravl": [
+    "163"
+   ],
+   "motra": [
+    "146"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i146",
+    "i146"
+   ]
+  }
+ },
+ {
+  "id": "web-workout-links",
+  "name": "Workout web links",
+  "definition": "Share a workout as a web link viewable without the app.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Shared workout page"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "214",
+    "i147",
+    "i284"
+   ],
+   "hevy": [
+    "177"
+   ],
+   "fitbod": [
+    "137"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "137",
+    "137"
+   ]
+  }
+ },
+ {
+  "id": "share-templates",
+  "name": "Share workouts or templates with others",
+  "definition": "Send a template, routine, split or workout to someone who can save and do it.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Share template folders",
+   "Share splits with friends",
+   "Share workout to a friend",
+   "Share a split with a friend",
+   "Share a template folder",
+   "Send a template to a friend",
+   "Save a shared workout",
+   "Request a workout",
+   "Shared-with-friends history",
+   "Shared template page",
+   "Save others' routines",
+   "Copy friends' workouts",
+   "Share routine folders",
+   "Import shared workout via link",
+   "Duplicate templates"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-04",
+   "url": "https://splyt.fit (in-app What’s New, build 267)"
+  },
+  "members": {
+   "splyt": [
+    "215",
+    "77",
+    "94",
+    "217",
+    "i142",
+    "i125",
+    "i140",
+    "i141",
+    "i143",
+    "i144",
+    "i145",
+    "i285"
+   ],
+   "hevy": [
+    "178",
+    "166",
+    "167",
+    "179"
+   ],
+   "strong": [
+    "36",
+    "37"
+   ],
+   "gravl": [
+    "161"
+   ],
+   "fitbod": [
+    "136"
+   ],
+   "motra": [
+    "78",
+    "79"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "import-history",
+  "name": "Import history from another app",
+  "definition": "Import your workout history from another tracker's export.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Undo an import",
+   "Share a file into Splyt",
+   "Revert data import"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-28",
+   "url": "https://gravl.ai/blog/gravl-vs-fitbod"
+  },
+  "members": {
+   "splyt": [
+    "219",
+    "220",
+    "i148",
+    "i149",
+    "i150"
+   ],
+   "hevy": [
+    "225",
+    "226"
+   ],
+   "gravl": [
+    "165"
+   ],
+   "motra": [
+    "136"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "import-plan-from-media",
+  "name": "Import a workout from photos, files or links",
+  "definition": "Turn screenshots, documents, spreadsheets or social-video links into trackable workouts with AI.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-06-07",
+   "url": "https://splyt.fit (in-app What’s New, build 271)"
+  },
+  "members": {
+   "splyt": [
+    "92",
+    "221",
+    "222",
+    "i151",
+    "i152"
+   ],
+   "gravl": [
+    "17"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "data-export",
+  "name": "Data export",
+  "definition": "Export your workout data to a file.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Trainer report export",
+   "Send recap to a trainer",
+   "Recap report page",
+   "Export measurements",
+   "Export options for timers and notes",
+   "Measurements CSV export",
+   "Export by date range"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2025-08-13",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "223",
+    "179",
+    "i153",
+    "i228",
+    "i286"
+   ],
+   "hevy": [
+    "227",
+    "228"
+   ],
+   "strong": [
+    "38",
+    "39",
+    "40"
+   ],
+   "gravl": [
+    "164"
+   ],
+   "motra": [
+    "137",
+    "138"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "cloud-sync",
+  "name": "Cloud account sync",
+  "definition": "Data is stored in an account and synced across devices.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Cross-platform sync (iOS and Android)",
+   "Manual force sync"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-07-08",
+   "url": "https://splyt.fit (in-app What’s New, build 328)"
+  },
+  "members": {
+   "splyt": [
+    "34"
+   ],
+   "hevy": [
+    "218"
+   ],
+   "strong": [
+    "20",
+    "114",
+    "115"
+   ],
+   "fitbod": [
+    "131"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "34",
+    "34"
+   ]
+  }
+ },
+ {
+  "id": "strava-export",
+  "name": "Strava export",
+  "definition": "Push finished workouts to Strava.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [
+   "Detailed Strava workout data"
+  ],
+  "firstDocumented": {
+   "app": "hevy",
+   "date": "2026-07-03",
+   "url": "https://www.hevyapp.com/community-updates/july-26/"
+  },
+  "members": {
+   "hevy": [
+    "223",
+    "224"
+   ],
+   "gravl": [
+    "118"
+   ],
+   "fitbod": [
+    "112"
+   ],
+   "motra": [
+    "135"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "strava-import",
+  "name": "Strava import",
+  "definition": "Import activities from Strava directly.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "fitbod": [
+    "113"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "health-connect",
+  "name": "Health Connect (Android)",
+  "definition": "Sync with Android Health Connect.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "221"
+   ],
+   "strong": [
+    "117"
+   ],
+   "gravl": [
+    "117"
+   ],
+   "fitbod": [
+    "111"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "developer-api",
+  "name": "Public developer API",
+  "definition": "A documented API for your own data.",
+  "category": "Sharing, import/export & integrations",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "167"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "android-app",
+  "name": "Android app",
+  "definition": "Available on Android via Google Play.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "216"
+   ],
+   "strong": [
+    "116"
+   ],
+   "gravl": [
+    "169"
+   ],
+   "fitbod": [
+    "130"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "ipad-app",
+  "name": "Native iPad app",
+  "definition": "A native iPad build (universal app listed for iPad on the App Store).",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "215"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "web-app",
+  "name": "Web app or dashboard",
+  "definition": "Use your account's training data in a web browser.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-28",
+   "url": "https://gravl.ai/blog/gravl-vs-fitbod"
+  },
+  "members": {
+   "hevy": [
+    "217"
+   ],
+   "gravl": [
+    "166"
+   ],
+   "fitbod": [
+    "133"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "vision-pro",
+  "name": "Apple Vision Pro compatibility",
+  "definition": "Listed as compatible with Apple Vision on the App Store.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2026-10-06",
+   "url": "https://apps.apple.com/us/app/id1041517543"
+  },
+  "members": {
+   "gravl": [
+    "170"
+   ],
+   "fitbod": [
+    "132"
+   ],
+   "motra": [
+    "158"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "mac",
+  "name": "Mac (Apple silicon) availability",
+  "definition": "Listed as available on Mac on the App Store.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "fitbod",
+   "date": "2026-10-06",
+   "url": "https://apps.apple.com/us/app/id1041517543"
+  },
+  "members": {
+   "fitbod": [
+    "132"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "fitbod": [
+    "132",
+    "132"
+   ]
+  }
+ },
+ {
+  "id": "languages",
+  "name": "Languages other than English",
+  "definition": "The app is localised into languages other than English.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "72"
+   ],
+   "strong": [
+    "119"
+   ],
+   "gravl": [
+    "171"
+   ],
+   "fitbod": [
+    "134"
+   ],
+   "motra": [
+    "157"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "home-widgets",
+  "name": "Home and Lock Screen widgets",
+  "definition": "iPhone Home Screen or Lock Screen widgets.",
+  "category": "Platforms, widgets & system",
+  "aspects": [
+   "Training calendar widget",
+   "Interactive habit widget",
+   "Competition widget",
+   "Widget color tint",
+   "Single habit widget",
+   "Habits widget",
+   "Splyt ring Lock Screen widget",
+   "Activity rings Lock Screen widget",
+   "Stats widget",
+   "Calendar widget",
+   "Weekly comparison widget",
+   "Routine of the day widget",
+   "Quick access widget",
+   "Routines widget",
+   "Streak widget",
+   "Rest days widget",
+   "Last week workouts widget",
+   "Quick-add measurement from widgets",
+   "Muscle set-distribution widget",
+   "Lock Screen widgets"
+  ],
+  "firstDocumented": {
+   "app": "strong",
+   "date": "2026-03-09",
+   "url": "https://apps.apple.com/us/app/id464254577"
+  },
+  "members": {
+   "splyt": [
+    "224",
+    "225",
+    "226",
+    "227",
+    "228",
+    "229",
+    "i247",
+    "i246",
+    "i248",
+    "i249",
+    "i250",
+    "i251",
+    "i252"
+   ],
+   "hevy": [
+    "205",
+    "206",
+    "207",
+    "208",
+    "209",
+    "210",
+    "211",
+    "212",
+    "213",
+    "214"
+   ],
+   "strong": [
+    "43",
+    "44",
+    "46",
+    "51"
+   ],
+   "gravl": [
+    "133"
+   ],
+   "fitbod": [
+    "128"
+   ],
+   "motra": [
+    "125",
+    "126",
+    "127"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "live-activity",
+  "name": "Live Activity and Dynamic Island",
+  "definition": "The live workout appears on the Lock Screen and in the Dynamic Island.",
+  "category": "Platforms, widgets & system",
+  "aspects": [
+   "Android ongoing workout notification"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-28",
+   "url": "https://gravl.ai/blog/gravl-vs-fitbod"
+  },
+  "members": {
+   "splyt": [
+    "230",
+    "i244"
+   ],
+   "hevy": [
+    "201",
+    "202"
+   ],
+   "strong": [
+    "41",
+    "42"
+   ],
+   "gravl": [
+    "134",
+    "135"
+   ],
+   "fitbod": [
+    "129"
+   ],
+   "motra": [
+    "129"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "lock-screen-logging",
+  "name": "Log sets from the Lock Screen",
+  "definition": "Complete sets from the Live Activity without unlocking.",
+  "category": "Platforms, widgets & system",
+  "aspects": [
+   "Rest timer controls on lock screen"
+  ],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-07-28",
+   "url": "https://gravl.ai/blog/gravl-vs-fitbod"
+  },
+  "members": {
+   "splyt": [
+    "231",
+    "i245"
+   ],
+   "hevy": [
+    "203",
+    "204"
+   ],
+   "gravl": [
+    "134"
+   ],
+   "motra": [
+    "130"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "134",
+    "134"
+   ]
+  }
+ },
+ {
+  "id": "siri",
+  "name": "Siri and Shortcuts",
+  "definition": "Control the app with Siri or the Shortcuts app.",
+  "category": "Platforms, widgets & system",
+  "aspects": [
+   "Siri on locked phone",
+   "Add an activity with Siri"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-09-18",
+   "url": "https://apps.apple.com/us/app/id6755893717"
+  },
+  "members": {
+   "splyt": [
+    "124",
+    "125",
+    "i253",
+    "i254",
+    "i255"
+   ],
+   "strong": [
+    "55"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "control-center",
+  "name": "Control Center control",
+  "definition": "A Control Center button for the app.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "motra": [
+    "128"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "imessage-stickers",
+  "name": "iMessage stickers",
+  "definition": "A sticker pack for Messages.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "181"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "app-blocking",
+  "name": "Distraction blocking during workouts",
+  "definition": "Block chosen apps while a workout runs.",
+  "category": "Platforms, widgets & system",
+  "aspects": [
+   "App unblock during rest"
+  ],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "86",
+    "87"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "no-ads",
+  "name": "No advertising",
+  "definition": "The app shows no ads.",
+  "category": "Platforms, widgets & system",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "hevy": [
+    "73"
+   ],
+   "strong": [
+    "118"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "dark-mode",
+  "name": "Dark mode",
+  "definition": "A dark appearance.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "232",
+    "i281"
+   ],
+   "hevy": [
+    "69",
+    "70"
+   ],
+   "strong": [
+    "54"
+   ],
+   "gravl": [
+    "105"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "hevy": [
+    "70",
+    "70"
+   ]
+  }
+ },
+ {
+  "id": "themes",
+  "name": "Colour themes and accent colours",
+  "definition": "Choose colour themes or an accent colour.",
+  "category": "Personalisation, account & support",
+  "aspects": [
+   "Apple Fitness look"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-29",
+   "url": "https://splyt.fit (in-app What’s New, build 164)"
+  },
+  "members": {
+   "splyt": [
+    "233",
+    "i281",
+    "i282"
+   ],
+   "strong": [
+    "52"
+   ],
+   "gravl": [
+    "106",
+    "107"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "splyt": [
+    "i281",
+    "i281"
+   ]
+  }
+ },
+ {
+  "id": "app-icons",
+  "name": "Alternate app icons",
+  "definition": "Choose an alternate app icon.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "strong": [
+    "53"
+   ],
+   "gravl": [
+    "108"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "week-start",
+  "name": "First day of week setting",
+  "definition": "Choose the day the week starts.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-07",
+   "url": "https://splyt.fit (in-app What’s New, build 203)"
+  },
+  "members": {
+   "splyt": [
+    "240",
+    "i283"
+   ],
+   "hevy": [
+    "68"
+   ],
+   "gravl": [
+    "104"
+   ],
+   "fitbod": [
+    "50"
+   ],
+   "motra": [
+    "121"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "notification-settings",
+  "name": "Notification controls and inbox",
+  "definition": "Per-type notification toggles, or an in-app notification inbox.",
+  "category": "Personalisation, account & support",
+  "aspects": [
+   "Watch or phone delivery",
+   "Mute from a notification",
+   "Record and streak alerts"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-05-11",
+   "url": "https://splyt.fit (in-app What’s New, build 215)"
+  },
+  "members": {
+   "splyt": [
+    "241",
+    "i257",
+    "i258",
+    "i259",
+    "i263",
+    "i264"
+   ],
+   "hevy": [
+    "231"
+   ],
+   "motra": [
+    "124"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "sign-in-options",
+  "name": "Sign in with Apple or Google",
+  "definition": "Sign in with Apple or Google accounts.",
+  "category": "Personalisation, account & support",
+  "aspects": [
+   "Facebook login"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-13",
+   "url": "https://splyt.fit (in-app What’s New, build 371)"
+  },
+  "members": {
+   "splyt": [
+    "243",
+    "i275"
+   ],
+   "hevy": [
+    "229"
+   ],
+   "strong": [
+    "111",
+    "112"
+   ],
+   "gravl": [
+    "173"
+   ],
+   "fitbod": [
+    "135"
+   ],
+   "motra": [
+    "155"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "account-deletion",
+  "name": "In-app account deletion",
+  "definition": "Delete your account and data from inside the app.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-08-07",
+   "url": "https://splyt.fit (in-app What’s New, build 366)"
+  },
+  "members": {
+   "splyt": [
+    "244",
+    "i280"
+   ],
+   "hevy": [
+    "230"
+   ],
+   "strong": [
+    "113"
+   ],
+   "fitbod": [
+    "140"
+   ],
+   "motra": [
+    "156"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "in-app-support",
+  "name": "In-app support and feedback",
+  "definition": "Contact the team, report bugs or request features from inside the app.",
+  "category": "Personalisation, account & support",
+  "aspects": [
+   "Founders direct chat",
+   "Feedback with screenshots"
+  ],
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-04-29",
+   "url": "https://splyt.fit (in-app What’s New, build 168)"
+  },
+  "members": {
+   "splyt": [
+    "115",
+    "199",
+    "245",
+    "i273",
+    "i274"
+   ],
+   "hevy": [
+    "232"
+   ],
+   "gravl": [
+    "172",
+    "57"
+   ]
+  },
+  "alsoEvidencedBy": {
+   "gravl": [
+    "57",
+    "57"
+   ]
+  }
+ },
+ {
+  "id": "ai-support-assistant",
+  "name": "AI support assistant",
+  "definition": "An AI assistant answers support questions.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": {
+   "app": "gravl",
+   "date": "2026-08-18",
+   "url": "https://apps.apple.com/us/app/id6450921637"
+  },
+  "members": {
+   "gravl": [
+    "57"
+   ],
+   "fitbod": [
+    "139"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "trainer-advice",
+  "name": "Advice from human coaches",
+  "definition": "Ask certified trainers or coaches employed by the app for workout advice.",
+  "category": "Personalisation, account & support",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "gravl": [
+    "56"
+   ],
+   "fitbod": [
+    "138"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ }
+]

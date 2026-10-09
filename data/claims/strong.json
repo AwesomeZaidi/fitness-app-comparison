@@ -1,0 +1,1519 @@
+{
+ "app": "strong",
+ "collectedAt": "2026-10-09",
+ "sourcesRead": [
+  {
+   "url": "https://itunes.apple.com/lookup?id=464254577&country=us",
+   "type": "app_store",
+   "what": "Current description (v6.5.1, 2026-10-08), languages, supported devices"
+  },
+  {
+   "url": "https://apps.apple.com/us/app/strong-workout-tracker-gym-log/id464254577",
+   "type": "app_store",
+   "what": "Product page: compatibility (iPhone/iPod touch iOS 15+, Apple Watch watchOS 10+; no iPad listed), languages, accessibility (none declared)"
+  },
+  {
+   "url": "fac-repo/data/releases/strong.json",
+   "type": "release_notes",
+   "what": "25 releases 6.1.0 (2025-06-16) to 6.5.1 (2026-10-08), all read"
+  },
+  {
+   "url": "https://strong.app/",
+   "type": "website",
+   "what": "Homepage incl. 'Strong has all the features' list (two variants in HTML)"
+  },
+  {
+   "url": "https://strong.app/features",
+   "type": "website",
+   "what": "Password-protected; no content"
+  },
+  {
+   "url": "https://strong.app/cloud",
+   "type": "website",
+   "what": "Title only, no body content in HTML"
+  },
+  {
+   "url": "https://strong.app/pro",
+   "type": "website",
+   "what": "404"
+  },
+  {
+   "url": "https://strong.app/sitemap.xml",
+   "type": "website",
+   "what": "Lists only /, /cloud, /style-tags, /love, /share-link-expired; /love is testimonials only (not used)"
+  },
+  {
+   "url": "https://help.strongapp.io/sitemap.xml",
+   "type": "help_centre",
+   "what": "HelpScout Docs; 68 articles, all fetched and read"
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=io.strongapp.strong",
+   "type": "google_play",
+   "what": "Android availability only"
+  },
+  {
+   "url": "https://help.strongapp.io/article/101-how-are-dumbbell-exercises-counted",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/105-about-templates",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/106-edit-template",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/107-organize-templates",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/109-share-workout-or-template",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/113-manage-your-subscription",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/115-cancel-my-subscription",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/116-refund",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/118-strong-pro-access",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/119-manage-strong-account",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/132-strong-pro",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/133-1rm",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/134-about-notes",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/143-strong-account",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/146-myfitnesspal",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/147-sync-with-apple-health",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/154-install-strong-for-apple-watch",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/158-why-is-my-apple-watch-tracking-calories-burned-incorrectly",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/162-reporting-bugs",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/166-set-tags",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/167-adjust-workout-date",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/169-plate-calculator",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/171-warm-up-calculator",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/177-update-template",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/179-strong-terms-of-service",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/209-how-do-i-merge-data-between-two-exercises",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/210-live-sync",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/211-apple-watch-live-sync-issues",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/212-apple-health-permissions",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/213-apple-watch-set-up",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/214-account-issues",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/215-sign-in-with-apple",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/216-exercise-records-screen",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/217-lost-data",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/218-session-expired",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/219-apple-watch-duplicate-workouts",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/220-heart-rate-not-visible-in-fitness-apple-health",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/223-strong-account-with-facebook",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/226-focus-metric",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/228-what-is-strong",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/229-my-first-workout",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/230-about-rpe",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/232-privacy-policy",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/235-export-workout-data",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/236-best-way-to-train",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/237-about-exercise-detail",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/238-add-measurements",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/240-track-nutrition-with-strong",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/241-force-sync",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/242-future-features",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/245-my-charts-are-not-updating-troubleshooting",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/246-disconnect-facebook-account",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/247-battery-life-issues",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/248-how-do-i-delete-my-account",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/249-how-do-i-edit-a-past-workout",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/250-can-i-reset-my-workout-history",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/251-how-do-i-gift-a-strong-pro-subscription-to-another-user",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/252-how-do-i-restore-purchase-for-strong",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/253-templates-disappearing",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/254-google-fit-health-connect-integration",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/255-share-links",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/97-create-custom-exercises",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/98-supersets-and-circuits",
+   "type": "help_centre",
+   "what": "article"
+  },
+  {
+   "url": "https://help.strongapp.io/article/99-how-do-i-delete-hide-existing-exercises",
+   "type": "help_centre",
+   "what": "article"
+  }
+ ],
+ "claims": [
+  {
+   "feature": "Custom exercise creation",
+   "detail": "Create your own exercises in addition to the built-in library, including mid-workout",
+   "quote": "A comprehensive range of cardio and strength exercises - and add your own too!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/97-create-custom-exercises"
+   ]
+  },
+  {
+   "feature": "Cardio exercise logging",
+   "detail": "Built-in library includes cardio as well as strength exercises",
+   "quote": "A comprehensive range of cardio and strength exercises - and add your own too!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Standalone Apple Watch logging",
+   "detail": "Apple Watch app logs workouts with or without the iPhone present",
+   "quote": "Fully-featured Apple Watch app to log workouts with or without your iPhone",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/222-strong-for-apple-watch"
+   ]
+  },
+  {
+   "feature": "Custom routines / templates",
+   "detail": "Save reusable workout templates and pick one to start a workout",
+   "quote": "Add your own routines and easily choose between them",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/105-about-templates"
+   ]
+  },
+  {
+   "feature": "Exercise instructions",
+   "detail": "Step-by-step written instructions for built-in exercises",
+   "quote": "Detailed exercise instructions with a growing library of animated videos",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/237-about-exercise-detail"
+   ]
+  },
+  {
+   "feature": "Exercise demonstration videos",
+   "detail": "Animated video demonstrations for exercises",
+   "quote": "Detailed exercise instructions with a growing library of animated videos",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/97-create-custom-exercises"
+   ]
+  },
+  {
+   "feature": "Personal records tracking",
+   "detail": "Automatically surfaces personal records per exercise",
+   "quote": "Advanced Statistics show your personal records and progression and even calculate your one rep max and total weight lifted!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Estimated one-rep max",
+   "detail": "Calculates estimated 1RM per exercise (Brzycki formula)",
+   "quote": "Advanced Statistics show your personal records and progression and even calculate your one rep max and total weight lifted!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/133-1rm"
+   ]
+  },
+  {
+   "feature": "Total weight lifted",
+   "detail": "Calculates total volume / weight lifted",
+   "quote": "Advanced Statistics show your personal records and progression and even calculate your one rep max and total weight lifted!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Automatic rest timer",
+   "detail": "Rest countdown starts automatically when a set is completed",
+   "quote": "Built in Auto Countdown Timer to help record rest breaks",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/231-rest-timer"
+   ]
+  },
+  {
+   "feature": "Assisted bodyweight exercises",
+   "detail": "Exercise type for assisted bodyweight movements (e.g. assisted pull-ups)",
+   "quote": "Support for multiple Exercise Types, including Assisted Bodyweight and Duration Exercises",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Duration-based exercises",
+   "detail": "Exercise type that records time instead of reps",
+   "quote": "Support for multiple Exercise Types, including Assisted Bodyweight and Duration Exercises",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Warm-up set tag",
+   "detail": "Mark a set as warm-up; warm-ups are excluded from charts and metrics",
+   "quote": "Tag sets as Warm Up, Failure or Drop Sets",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/166-set-tags"
+   ]
+  },
+  {
+   "feature": "Failure set tag",
+   "detail": "Mark a set as taken to failure (an extra rep attempted but failed)",
+   "quote": "Tag sets as Warm Up, Failure or Drop Sets",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/166-set-tags"
+   ]
+  },
+  {
+   "feature": "Drop set tag",
+   "detail": "Mark a set as a drop set",
+   "quote": "Tag sets as Warm Up, Failure or Drop Sets",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/166-set-tags"
+   ]
+  },
+  {
+   "feature": "Supersets",
+   "detail": "Group exercises so their sets are performed alternately",
+   "quote": "Supersets/Grouped Exercises",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/98-supersets-and-circuits",
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Circuits",
+   "detail": "Group three or more exercises together as a circuit",
+   "quote": "A Superset is a way to group exercises and perform them in parallel. You may see this referred to as a Circuit for 3 or more exercises.",
+   "url": "https://help.strongapp.io/article/98-supersets-and-circuits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Superset-aware next-set navigation",
+   "detail": "Next button jumps to the next set of the appropriate exercise within a superset/circuit",
+   "quote": "If exercises are grouped as a Superset or Circuit, if you hit the Next Button to move between sets, the next set from the appropriate exercise will be selected.",
+   "url": "https://help.strongapp.io/article/98-supersets-and-circuits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Volume progression chart",
+   "detail": "Graph of training volume over time per exercise",
+   "quote": "Track your progress with graphs for Volume and 1RM Progression",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "1RM progression chart",
+   "detail": "Graph of estimated one-rep max over time",
+   "quote": "Track your progress with graphs for Volume and 1RM Progression",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Cloud sync and backup",
+   "detail": "Workouts automatically backed up to the developer's cloud",
+   "quote": "Automatically back up your data with Cloud Sync!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/143-strong-account"
+   ]
+  },
+  {
+   "feature": "Body measurement tracker",
+   "detail": "Log weight and other body vitals over time",
+   "quote": "Built in body measurements tracker to record your weight and other vitals, with support for Apple Health",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/238-add-measurements"
+   ]
+  },
+  {
+   "feature": "Body weight tracking",
+   "detail": "Log body weight, synced with Apple Health",
+   "quote": "Weight - Your body weight. Values can be synced with Apple Health.",
+   "url": "https://help.strongapp.io/article/238-add-measurements",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Body fat percentage tracking",
+   "detail": "Log body fat %, synced with Apple Health",
+   "quote": "Body Fat Percentage % - Your body fat %. Values can be synced with Apple Health.",
+   "url": "https://help.strongapp.io/article/238-add-measurements",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Body part circumference measurements",
+   "detail": "Track 15 body-part measurements (neck, shoulders, chest, biceps, forearms, abs, waist, hips, thighs, calves)",
+   "quote": "Body Measurements are only available in Strong PRO. Neck Shoulders Chest Left Bicep Right Bicep Left Forearm Right Forearm Upper Abs Waist Lower Abs Hips Left Thigh Right Thigh Left Calf Right Calf",
+   "url": "https://help.strongapp.io/article/238-add-measurements",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://strong.app/",
+    "https://help.strongapp.io/article/132-strong-pro"
+   ]
+  },
+  {
+   "feature": "Calorie intake logging",
+   "detail": "Log daily dietary calories manually or via Apple Health",
+   "quote": "Caloric Intake - Your caloric intake as Dietary Calories (kCal). Values can be synced with Apple Health.",
+   "url": "https://help.strongapp.io/article/238-add-measurements",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/240-track-nutrition-with-strong"
+   ]
+  },
+  {
+   "feature": "Warm-up calculator",
+   "detail": "Automatically adds warm-up sets with suggested weights for barbell, dumbbell and machine exercises",
+   "quote": "Warm Up Calculator tells you which weights to warm up with",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/171-warm-up-calculator",
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Customizable warm-up formulas",
+   "detail": "Edit the formulas the warm-up calculator uses",
+   "quote": "You can customize the formulas used for the Warm-up Calculator via Settings on iPhone and during your workout on Android.",
+   "url": "https://help.strongapp.io/article/171-warm-up-calculator",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Plate calculator",
+   "detail": "Shows which plates to load per side for a target weight, from the weight keyboard",
+   "quote": "Plate Calculator for when the weights get high",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/169-plate-calculator"
+   ]
+  },
+  {
+   "feature": "Bar type selection",
+   "detail": "Set the bar weight/type per exercise (e.g. Olympic bar, EZ bar) used by the plate calculator",
+   "quote": "To change the Bar Type for a particular exercise, you can hit the ... More Menu and change the Bar Type directly.",
+   "url": "https://help.strongapp.io/article/169-plate-calculator",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.2.3 notes: EZ Bar in Bar Type menu)"
+   ]
+  },
+  {
+   "feature": "Pounds and kilograms",
+   "detail": "Supports imperial (lbs) and metric (kg) weights",
+   "quote": "Support for Imperial (lbs) and Metric (kg) weights, or a combination of both",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Mixed weight units",
+   "detail": "Use a combination of lbs and kg",
+   "quote": "Support for Imperial (lbs) and Metric (kg) weights, or a combination of both",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  },
+  {
+   "feature": "Workout notes",
+   "detail": "Free-text note attached to a whole workout",
+   "quote": "Add notes and progress pictures to your workouts",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/134-about-notes"
+   ]
+  },
+  {
+   "feature": "Progress photos",
+   "detail": "Attach progress pictures to workouts",
+   "quote": "Add notes and progress pictures to your workouts",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/236-best-way-to-train"
+   ]
+  },
+  {
+   "feature": "Exercise notes",
+   "detail": "Note attached to one exercise within a workout, shown in history",
+   "quote": "Exercise Notes are notes intended for a particular exercise during a workout",
+   "url": "https://help.strongapp.io/article/134-about-notes",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pinned exercise notes",
+   "detail": "Sticky note shown every time an exercise is performed",
+   "quote": "A pinned note will be displayed every time you perform an exercise and is there for your reference.",
+   "url": "https://help.strongapp.io/article/134-about-notes",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share workouts and routines",
+   "detail": "Share a workout or template via the system share sheet / link",
+   "quote": "Share sheet makes sharing routines and workouts with friends easier than ever!",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/109-share-workout-or-template",
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Import shared workout via link",
+   "detail": "Tapping a shared link imports a workout or template into the app",
+   "quote": "To receive a Workout or Template and import it into Strong, simply tap the link/URL on your device.",
+   "url": "https://help.strongapp.io/article/109-share-workout-or-template",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "CSV data export",
+   "detail": "Export all workout data as CSV",
+   "quote": "Export all of your data to Notes or Email in CSV format",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "app_store",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/235-export-workout-data",
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Export options for timers and notes",
+   "detail": "Choose whether exports include timers and workout notes",
+   "quote": "New: Export data from Strong with/without timers and workout notes",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-08-13"
+  },
+  {
+   "feature": "Measurements CSV export",
+   "detail": "Export body measurements to a CSV file",
+   "quote": "New: Export measurements from Strong to .csv file",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-09-08"
+  },
+  {
+   "feature": "Rest timer Live Activity",
+   "detail": "Rest timer shown as a Live Activity on the Lock Screen",
+   "quote": "New: Live Activity and Dynamic Island support for rest timers",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-08-12"
+  },
+  {
+   "feature": "Rest timer in Dynamic Island",
+   "detail": "Rest timer shown in the Dynamic Island",
+   "quote": "New: Live Activity and Dynamic Island support for rest timers",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-08-12"
+  },
+  {
+   "feature": "Workouts-per-week home screen widget",
+   "detail": "iPhone home screen widget showing workout consistency per week",
+   "quote": "On iPhone, you can also set the Workouts per Week Widget as a home screen widget!",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.4.2, 2026-06-25: Week of Year label option)"
+   ]
+  },
+  {
+   "feature": "Calendar home screen widget",
+   "detail": "Home screen widget showing monthly workouts on a calendar",
+   "quote": "New: Calendar home screen widget for tracking monthly workouts and weekly streaks",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-05-28"
+  },
+  {
+   "feature": "Weekly workout streaks",
+   "detail": "Tracks consecutive weeks of training",
+   "quote": "New: Calendar home screen widget for tracking monthly workouts and weekly streaks",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-05-28"
+  },
+  {
+   "feature": "Activity home screen widget",
+   "detail": "Widget showing workout activity over time",
+   "quote": "New: Activity widget for tracking workout activity over time",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-05-28"
+  },
+  {
+   "feature": "Watch button repeat setting",
+   "detail": "Apple Watch advanced setting to toggle button repeat",
+   "quote": "New - Apple Watch: Button Repeat toggle in Advanced settings",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-04-30"
+  },
+  {
+   "feature": "Exercise search",
+   "detail": "Search the exercise library by name, with ranked results and matched-character highlighting",
+   "quote": "You can search through the library using the search bar.",
+   "url": "https://help.strongapp.io/article/97-create-custom-exercises",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.3.2, 2026-04-16)"
+   ]
+  },
+  {
+   "feature": "Template search",
+   "detail": "Search saved workout templates",
+   "quote": "New: Template Search",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-03-19"
+  },
+  {
+   "feature": "Show Borders accessibility support",
+   "detail": "Supports the iOS Show Borders accessibility setting",
+   "quote": "Improved support for the Show Borders accessibility feature",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-03-19"
+  },
+  {
+   "feature": "Quick-add measurement from widgets",
+   "detail": "Shortcut to add a measurement directly from a profile widget",
+   "quote": "New: Shortcut for adding measurements from Profile widgets",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-03-09"
+  },
+  {
+   "feature": "Color themes",
+   "detail": "Selectable app themes",
+   "quote": "With Strong PRO, you'll get: Unlimited Workout Templates Record Body Part Measurements Access to all Charts Plate Calculator Warm Up Calculator Custom Icons (iPhone) and Themes",
+   "url": "https://help.strongapp.io/article/132-strong-pro",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.2.6, 2025-12-18: Theme Selection settings; 6.4.2: Liquid Glass theme)"
+   ]
+  },
+  {
+   "feature": "Custom app icons",
+   "detail": "Choose alternate app icons on iPhone",
+   "quote": "Custom Icons (iPhone) and Themes",
+   "url": "https://help.strongapp.io/article/132-strong-pro",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Dark mode",
+   "detail": "Dark appearance",
+   "quote": "Supersets, Custom Exercises, CSV Export, Apple Health, Warm-up Calculator, Siri Shortcuts, 3rd Party Integrations, Dark Mode, RPE, Advanced Charts, Body Part Measurements, Workout Sharing, Custom Timers and more.",
+   "url": "https://strong.app/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Siri Shortcuts",
+   "detail": "Siri / Shortcuts app integration",
+   "quote": "Supersets, Custom Exercises, CSV Export, Apple Health, Warm-up Calculator, Siri Shortcuts, 3rd Party Integrations, Dark Mode, RPE, Advanced Charts, Body Part Measurements, Workout Sharing, Custom Timers and more.",
+   "url": "https://strong.app/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Muscle heat map",
+   "detail": "Visual map of muscles trained",
+   "quote": "Advanced Charts, Body Part Measurements, Workout Scheduling, Muscle Heat Map, Workout Sharing, Custom Timers and more.",
+   "url": "https://strong.app/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Workout scheduling",
+   "detail": "Schedule workouts (see notes: help centre lists scheduling as in development)",
+   "quote": "Advanced Charts, Body Part Measurements, Workout Scheduling, Muscle Heat Map, Workout Sharing, Custom Timers and more.",
+   "url": "https://strong.app/",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Watch exercise details",
+   "detail": "View exercise details on Apple Watch by tapping the exercise name",
+   "quote": "New: Apple Watch - Exercise details on exercise name tap and in set group menu",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-09-08"
+  },
+  {
+   "feature": "Rename custom exercises",
+   "detail": "Rename exercises you created",
+   "quote": "New: Ability to rename custom exercise",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-06-16",
+   "alsoAt": [
+    "https://help.strongapp.io/article/237-about-exercise-detail"
+   ]
+  },
+  {
+   "feature": "Replace exercise on watch",
+   "detail": "Swap an exercise for another during a workout on Apple Watch",
+   "quote": "New: Apple Watch - Replace exercise option",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-06-16",
+   "alsoAt": [
+    "https://help.strongapp.io/article/224-workout-on-apple-watch"
+   ]
+  },
+  {
+   "feature": "Start history from date",
+   "detail": "Set a start date so history, records and charts ignore older workouts without deleting them",
+   "quote": "you can manually set the start date of your workout history from within the app",
+   "url": "https://help.strongapp.io/article/250-can-i-reset-my-workout-history",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.1.2, 2025-07-16)"
+   ]
+  },
+  {
+   "feature": "Records screen",
+   "detail": "Table of real best performances per rep count alongside predicted bests",
+   "quote": "The Records Table shows your real world best performances for a given lift, alongside the \"predicted\" or theoretical best lift for each rep value.",
+   "url": "https://help.strongapp.io/article/216-exercise-records-screen",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Projected rep-max table",
+   "detail": "Projected best lift at any rep range derived from best performance",
+   "quote": "This includes your all time best records, your best performances at each rep, and what your projected best lift would be at any rep range.",
+   "url": "https://help.strongapp.io/article/237-about-exercise-detail",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Import workouts from Apple Health",
+   "detail": "Brings workouts recorded in Apple Health into the app",
+   "quote": "Faster Apple Health workout imports for accounts with many workouts",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2026-08-12"
+  },
+  {
+   "feature": "Write workouts to Apple Health",
+   "detail": "Workouts appear in Apple Health / Fitness, closing Activity rings with Apple Watch",
+   "quote": "View Workouts outside of Strong (including Activity Rings if using Apple Watch)",
+   "url": "https://help.strongapp.io/article/147-sync-with-apple-health",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/212-apple-health-permissions",
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Read body metrics from Apple Health",
+   "detail": "Imports body weight and body fat % from Apple Health",
+   "quote": "Track your bodyweight and body fat % inside of Strong",
+   "url": "https://help.strongapp.io/article/147-sync-with-apple-health",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://apps.apple.com/us/app/id464254577 (6.5.0: measurement histories import)"
+   ]
+  },
+  {
+   "feature": "Nutrition sync via Apple Health",
+   "detail": "Reads nutrition (calories, macros) from Apple Health-compatible nutrition apps",
+   "quote": "Get Nutrition information into and out of Strong",
+   "url": "https://help.strongapp.io/article/147-sync-with-apple-health",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/240-track-nutrition-with-strong",
+    "https://help.strongapp.io/article/146-myfitnesspal"
+   ]
+  },
+  {
+   "feature": "Macronutrient tracking with goals",
+   "detail": "Track protein, fat and carbs with individual goals on a dashboard widget",
+   "quote": "You can track individual macro nutrients (Protein, Fat, Carbs) and set goals for each individually.",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Daily calorie goal",
+   "detail": "Track daily calories against a goal",
+   "quote": "You can track total calories achieved each day against a goal.",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Customizable profile dashboard",
+   "detail": "Build a dashboard of metric widgets on the profile screen; add, remove, reorder",
+   "quote": "Strong's profile screen allows you to build a dashboard of metrics and widgets that are relevant to you and your training.",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weekly workout goal",
+   "detail": "Set a target number of workouts per week",
+   "quote": "You can also adjust the target workouts that you want to achieve each week by hitting the Goal (🎯) button.",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pin exercise charts to dashboard",
+   "detail": "Add any exercise or measurement chart as a profile widget",
+   "quote": "You can also add any individual Exercise chart or Measurement as a widget directly on your profile screen",
+   "url": "https://help.strongapp.io/article/239-profile-widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Phone-watch live sync",
+   "detail": "Track the same workout on iPhone and Apple Watch simultaneously, synced in real time",
+   "quote": "Live Sync allows you to track the same workout on iPhone and Apple Watch at the same time.",
+   "url": "https://help.strongapp.io/article/210-live-sync",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/222-strong-for-apple-watch"
+   ]
+  },
+  {
+   "feature": "Heart rate tracking on watch",
+   "detail": "Records heart rate during workouts on Apple Watch",
+   "quote": "During a workout, you can also track your heart rate and calorie information.",
+   "url": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/210-live-sync"
+   ]
+  },
+  {
+   "feature": "Calories burned tracking on watch",
+   "detail": "Records active calorie estimate during workouts",
+   "quote": "During a workout, you can also track your heart rate and calorie information.",
+   "url": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/158-why-is-my-apple-watch-tracking-calories-burned-incorrectly"
+   ]
+  },
+  {
+   "feature": "Handoff between watch and phone",
+   "detail": "A workout started on one device prompts to continue on the other",
+   "quote": "Strong for Apple Watch also supports Continuity and Handoff - if you have already started running a workout, you will be prompted to start it on the other device.",
+   "url": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Digital Crown value entry",
+   "detail": "Edit weight/reps on the watch with the Digital Crown",
+   "quote": "Simply tap on a picker and use the Digital Crown to change the values.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Adjust rest timer on watch",
+   "detail": "Change a running rest timer's duration with the Digital Crown",
+   "quote": "Once a timer is active, you can edit the duration of a running timer with the Digital Crown.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Set type and RPE on watch",
+   "detail": "Change set type and RPE from the watch set screen",
+   "quote": "You can scroll down on the set screen to change the Type of a Set and its RPE.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise history and notes on watch",
+   "detail": "View exercise info and history and add notes on the watch",
+   "quote": "You can also access information about an exercise, view its history and add notes.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Supersets on watch",
+   "detail": "Create supersets from the Apple Watch workout overview",
+   "quote": "Making a Superset or Replacing an Exercise can be done by hitting the More (...) button on an individual exercise.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Reorder exercises on watch",
+   "detail": "Reorder exercises during a workout on Apple Watch",
+   "quote": "Reorder Exercises by hitting the ... button on the top right of this screen.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Add and delete sets on watch",
+   "detail": "Add or delete sets and add exercises from the watch",
+   "quote": "While viewing a set, Long Press to bring up a menu where you can Add a new set or Delete the current set.",
+   "url": "https://help.strongapp.io/article/224-workout-on-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Warm-up sets and timers on watch",
+   "detail": "Warm-up sets, rest timers and weight/rep editing available on Apple Watch",
+   "quote": "The majority of the features you use in Strong, such as Warm-up Sets, Timers and editing weight and rep information for an exercise are also available on Apple Watch.",
+   "url": "https://help.strongapp.io/article/222-strong-for-apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "RPE logging",
+   "detail": "Record Rate of Perceived Exertion (6-10 scale, half steps) per set, with RIR equivalence",
+   "quote": "Strong allows you to record RPE (Rate of Perceived Exertion) to accompany your rep recordings.",
+   "url": "https://help.strongapp.io/article/230-about-rpe",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Full-screen rest timer",
+   "detail": "Expand the rest timer to full screen; option to default to full screen",
+   "quote": "While a timer is running, tap the Rest Timer to expand the timer into Full Screen mode.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Adjust or skip rest timer",
+   "detail": "Change a running timer's duration or skip it",
+   "quote": "From here, you can modify the duration of the timer, or end the current timer immediately by hitting Skip.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual rest timer start",
+   "detail": "Start the timer manually from the timer button",
+   "quote": "You can also manually start the timer by hitting the timer button directly.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-exercise rest timer duration",
+   "detail": "Set a default rest duration per exercise",
+   "quote": "You can change the default timer duration for any exercise via the More (...) Menu.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Separate warm-up rest duration",
+   "detail": "Different rest durations for warm-up vs working sets",
+   "quote": "You can set a different duration for Warm-up Sets and Working (Regular) Sets.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest timer sound choice",
+   "detail": "Choose the timer's sound effect",
+   "quote": "In Strong Settings > Rest Timer, you can also change the Timer Sound Effect and other Timer behavior.",
+   "url": "https://help.strongapp.io/article/231-rest-timer",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest timer notifications",
+   "detail": "Notification when rest ends, including next-set details",
+   "quote": "Fix: Timer notifications may not include next set details (simple timer mode)",
+   "url": "https://apps.apple.com/us/app/id464254577",
+   "sourceType": "release_notes",
+   "date": "2025-06-16"
+  },
+  {
+   "feature": "Log past workouts",
+   "detail": "Record a workout performed earlier by setting its start/end time",
+   "quote": "Strong also allows you to record workouts performed in the past.",
+   "url": "https://help.strongapp.io/article/167-adjust-workout-date",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit past workouts",
+   "detail": "Edit any completed workout, including its date and times",
+   "quote": "You can edit a past workout in Strong at any time.",
+   "url": "https://help.strongapp.io/article/249-how-do-i-edit-a-past-workout",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/167-adjust-workout-date"
+   ]
+  },
+  {
+   "feature": "Save workout as template",
+   "detail": "Turn a completed workout into a reusable template",
+   "quote": "you can save workouts as templates so you can perform them again in the future.",
+   "url": "https://help.strongapp.io/article/177-update-template",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/105-about-templates"
+   ]
+  },
+  {
+   "feature": "Update template from workout",
+   "detail": "After a workout, choose to update the template's structure and/or values or keep it",
+   "quote": "If you performed a workout from a template, and you make changes to the original routine during a workout, you will be prompted to Update Template",
+   "url": "https://help.strongapp.io/article/177-update-template",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Template folders",
+   "detail": "Organise templates into collapsible folders via drag and drop (iPhone)",
+   "quote": "(iPhone only) You can create folders and organise your templates via Drag and Drop.",
+   "url": "https://help.strongapp.io/article/107-organize-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Archive templates",
+   "detail": "Move unused templates to an Archived folder",
+   "quote": "You can also archive unused Templates. This simply moves the Template to the Archived folder.",
+   "url": "https://help.strongapp.io/article/107-organize-templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Example templates",
+   "detail": "Bundled sample templates to start from (can be hidden)",
+   "quote": "Strong includes some default templates as examples to refer to.",
+   "url": "https://help.strongapp.io/article/105-about-templates",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/236-best-way-to-train"
+   ]
+  },
+  {
+   "feature": "Empty workout start",
+   "detail": "Start a blank workout and add exercises as you go",
+   "quote": "Start with an Empty Workout",
+   "url": "https://help.strongapp.io/article/229-my-first-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Drag-and-drop exercise reordering",
+   "detail": "Reorder exercises in a workout by dragging",
+   "quote": "You can Reorder Exercises by Drag and Drop on the exercise name.",
+   "url": "https://help.strongapp.io/article/229-my-first-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise history view",
+   "detail": "See every workout in which an exercise was performed",
+   "quote": "From here you can see every workout where you performed the exercise.",
+   "url": "https://help.strongapp.io/article/237-about-exercise-detail",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-exercise charts",
+   "detail": "Multiple charts per exercise, varying by exercise type",
+   "quote": "View a variety of charts for each exercise. The available charts differ based on the exercise type.",
+   "url": "https://help.strongapp.io/article/237-about-exercise-detail",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://strong.app/"
+   ]
+  },
+  {
+   "feature": "Merge exercise data",
+   "detail": "Transfer logged history from one exercise to another of the same category",
+   "quote": "you can transfer exercise data from one exercise to another as long as they are in the same category.",
+   "url": "https://help.strongapp.io/article/209-how-do-i-merge-data-between-two-exercises",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Hide exercises",
+   "detail": "Hide unwanted exercises from the library (iOS), restorable later",
+   "quote": "You can hide unwanted exercises from the list in order to streamline your library.",
+   "url": "https://help.strongapp.io/article/99-how-do-i-delete-hide-existing-exercises",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise library (200+)",
+   "detail": "Over 200 built-in exercises with instructions and videos",
+   "quote": "Strong includes over 200 built in exercises in the Exercise Library, including Instructions and Videos.",
+   "url": "https://help.strongapp.io/article/97-create-custom-exercises",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/236-best-way-to-train"
+   ]
+  },
+  {
+   "feature": "Focus metric per exercise",
+   "detail": "Pick a metric per exercise (volume, reps, time, distance) compared live against the last session",
+   "quote": "Depending on the category of the exercise, you can choose between different metrics and Strong will compare it to the last time you performed that exercise.",
+   "url": "https://help.strongapp.io/article/226-focus-metric",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Volume change vs last session",
+   "detail": "Shows percentage volume change versus the previous time the exercise was done",
+   "quote": "Volume Increase gives you a percentage that compares this workout's volume to the previous workout's volume.",
+   "url": "https://help.strongapp.io/article/226-focus-metric",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Distance-based exercises",
+   "detail": "Exercise categories that record distance",
+   "quote": "You can choose from Volume (Total Volume, Volume Increase or Weight/Rep) Reps (Total Reps or Reps/Set); Time (Total Time or Average Time) or Distance (Total Distance).",
+   "url": "https://help.strongapp.io/article/226-focus-metric",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Count dumbbells twice option",
+   "detail": "Setting to double dumbbell weight in volume calculations (iOS)",
+   "quote": "you will find a Count Dumbbells Twice option. If you enable it, it will calculate the total volume for a workout, as well as the volume charts for that exercise.",
+   "url": "https://help.strongapp.io/article/101-how-are-dumbbell-exercises-counted",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Sign in with Apple",
+   "detail": "Create an account with Sign in with Apple",
+   "quote": "Strong offers Sign in with Apple for a smoother sign up experience for new users.",
+   "url": "https://help.strongapp.io/article/215-sign-in-with-apple",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/143-strong-account"
+   ]
+  },
+  {
+   "feature": "Facebook login",
+   "detail": "Create or connect an account with Facebook",
+   "quote": "You can sign up for Strong via email or Third-Party login such as Facebook.",
+   "url": "https://help.strongapp.io/article/223-strong-account-with-facebook",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "In-app account deletion",
+   "detail": "Delete account and all data from inside the app",
+   "quote": "You can delete your Strong Account yourself.",
+   "url": "https://help.strongapp.io/article/248-how-do-i-delete-my-account",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/232-privacy-policy"
+   ]
+  },
+  {
+   "feature": "Cross-platform sync (iOS and Android)",
+   "detail": "Same account syncs workouts between iPhone and Android devices",
+   "quote": "Strong Cloud keeps your workouts automatically synced between devices (for example, between iPhone and Android phones).",
+   "url": "https://help.strongapp.io/article/143-strong-account",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual force sync",
+   "detail": "Pull-to-refresh to force a cloud sync",
+   "quote": "Your workouts will automatically sync to your Strong Account in the background or when you complete a workout. However, you can also force sync your workouts at any time.",
+   "url": "https://help.strongapp.io/article/241-force-sync",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Android app",
+   "detail": "Native Android app available on Google Play",
+   "quote": "Strong is available on iPhone, Android, and Apple Watch.",
+   "url": "https://strong.app/",
+   "sourceType": "website",
+   "date": null,
+   "alsoAt": [
+    "https://play.google.com/store/apps/details?id=io.strongapp.strong",
+    "https://help.strongapp.io/article/228-what-is-strong"
+   ]
+  },
+  {
+   "feature": "Health Connect integration (Android)",
+   "detail": "Android app reads/writes health data via Health Connect",
+   "quote": "If you enable Health Connect integration, you will be able to read and/or write health and fitness information from Health Connect according to the permissions you provide.",
+   "url": "https://help.strongapp.io/article/232-privacy-policy",
+   "sourceType": "help_centre",
+   "date": null,
+   "alsoAt": [
+    "https://help.strongapp.io/article/254-google-fit-health-connect-integration"
+   ]
+  },
+  {
+   "feature": "Ad-free",
+   "detail": "No advertising in the app",
+   "quote": "And no ads, ever.",
+   "url": "https://help.strongapp.io/article/228-what-is-strong",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Multiple languages",
+   "detail": "App localized into 11 languages",
+   "quote": "English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese",
+   "url": "https://apps.apple.com/us/app/strong-workout-tracker-gym-log/id464254577",
+   "sourceType": "app_store",
+   "date": null
+  }
+ ],
+ "removed": [
+  {
+   "feature": "Direct MyFitnessPal integration",
+   "quote": "Strong is no longer supporting direct MyFitnessPal integration. Please use our Apple Health for iPhone integration instead",
+   "url": "https://help.strongapp.io/article/146-myfitnesspal",
+   "date": null
+  },
+  {
+   "feature": "Google Fit integration (Android)",
+   "quote": "As a result of Google's deprecation of the Google Fit API, Strong 2.X is no longer able to support Google Fit Integration.",
+   "url": "https://help.strongapp.io/article/254-google-fit-health-connect-integration",
+   "date": null
+  }
+ ],
+ "notes": "Website /features is password-protected and /cloud, /pro have no content; homepage feature strip is the only website feature list. The homepage HTML carries two variants of that strip; only one adds 'Workout Scheduling, Muscle Heat Map'. Help article 242 (undated) lists Scheduling and a Web App as things being worked on, so 'Workout scheduling' is a weakly-supported claim — consider dropping it. Web app NOT claimed (roadmap). '3rd Party Integrations' on homepage is too vague to count; specific integrations captured instead (Apple Health; Health Connect on Android). No native iPad app: App Store compatibility lists only iPhone, iPod touch and Apple Watch. Several help articles describe Android-only/iPhone-only differences (template folders iPhone-only; hiding exercises iOS-only; dumbbell doubling setting iOS-only). 'Import workouts from Apple Health' and 'Rest timer notifications' are evidenced only by performance/fix release notes. Many help articles reference 'future improvements' (watch redesign, independent watch app, more export options, Android folders) — all excluded. App Store body copy says 'Strong PRO' gates templates>3, body-part measurements, charts, plate & warm-up calculators, custom icons/themes — pricing not recorded per brief. Help centre is HelpScout (no Zendesk API); all 68 sitemap articles fetched directly."
+}

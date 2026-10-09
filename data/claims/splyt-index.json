@@ -1,0 +1,2319 @@
+{
+ "app": "splyt",
+ "collectedAt": "2026-10-09",
+ "sourcesRead": [
+  {
+   "url": "https://splyt.fit/features",
+   "type": "help_centre",
+   "what": "Complete feature index (published 2026-10-09)"
+  }
+ ],
+ "claims": [
+  {
+   "feature": "Log an activity manually",
+   "detail": "Add past activities to any day with start time and duration. — iPhone",
+   "quote": "Log an activity manually. Add past activities to any day with start time and duration.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log a missed workout late",
+   "detail": "A missed planned workout offers to log what you actually did. — iPhone",
+   "quote": "Log a missed workout late. A missed planned workout offers to log what you actually did.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Finish workouts offline",
+   "detail": "A workout finished with no signal is saved on the phone and syncs later. — iPhone",
+   "quote": "Finish workouts offline. A workout finished with no signal is saved on the phone and syncs later.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout defaults",
+   "detail": "Set starting sets and reps, default rest, warm-up rest, drop-set percentage and more. — iPhone",
+   "quote": "Workout defaults. Set starting sets and reps, default rest, warm-up rest, drop-set percentage and more.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pounds or kilograms",
+   "detail": "Choose lb or kg once and every weight in the app follows, past workouts included. — iPhone + Watch",
+   "quote": "Pounds or kilograms. Choose lb or kg once and every weight in the app follows, past workouts included.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise picker",
+   "detail": "Search the exercise catalog, filter by muscle or equipment, and preview muscles worked. — iPhone",
+   "quote": "Exercise picker. Search the exercise catalog, filter by muscle or equipment, and preview muscles worked.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise library",
+   "detail": "Browse every exercise outside a workout, filtered by body part, custom or recent. — iPhone",
+   "quote": "Exercise library. Browse every exercise outside a workout, filtered by body part, custom or recent.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise how-to",
+   "detail": "An animated demo, instructions, coaching cues, variations and a video search link for each exercise. — iPhone",
+   "quote": "Exercise how-to. An animated demo, instructions, coaching cues, variations and a video search link for each exercise.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Use these sets",
+   "detail": "Copy sets from a past session onto the movement you're doing now. — iPhone",
+   "quote": "Use these sets. Copy sets from a past session onto the movement you're doing now.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Custom exercises",
+   "detail": "Create your own exercises with body part, equipment, description and steps; edit or delete later. — iPhone",
+   "quote": "Custom exercises. Create your own exercises with body part, equipment, description and steps; edit or delete later.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI fill for custom exercises",
+   "detail": "Fill in a custom exercise's description, steps, body part and equipment from its name. (Pro) — iPhone",
+   "quote": "AI fill for custom exercises. Fill in a custom exercise's description, steps, body part and equipment from its name.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout summary",
+   "detail": "Time, calories, average heart rate, movements, sets and volume after you finish. — iPhone",
+   "quote": "Workout summary. Time, calories, average heart rate, movements, sets and volume after you finish.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Heart-rate chart and zones",
+   "detail": "Heart rate across the workout, with estimated time in each of five zones. — iPhone + Watch",
+   "quote": "Heart-rate chart and zones. Heart rate across the workout, with estimated time in each of five zones.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Muscle heatmap per workout",
+   "detail": "A body map shading the muscles a session trained. — iPhone",
+   "quote": "Muscle heatmap per workout. A body map shading the muscles a session trained.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Route, elevation and weather",
+   "detail": "Outdoor workouts show the route, elevation gain, temperature, humidity and air quality. — iPhone",
+   "quote": "Route, elevation and weather. Outdoor workouts show the route, elevation gain, temperature, humidity and air quality.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-activity breakdown",
+   "detail": "Multi-activity sessions list each part with its own time, calories and heart rate. — iPhone",
+   "quote": "Per-activity breakdown. Multi-activity sessions list each part with its own time, calories and heart rate.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rate workout effort",
+   "detail": "Rate how hard the whole session felt. — iPhone",
+   "quote": "Rate workout effort. Rate how hard the whole session felt.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Scan a cardio machine screen",
+   "detail": "Photograph a treadmill, bike or rower display and its numbers are read into the workout. — iPhone",
+   "quote": "Scan a cardio machine screen. Photograph a treadmill, bike or rower display and its numbers are read into the workout.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit a past workout",
+   "detail": "Change name, date, time, activity, distance, heart rate, calories, movements and sets afterwards. — iPhone",
+   "quote": "Edit a past workout. Change name, date, time, activity, distance, heart rate, calories, movements and sets afterwards.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Delete a workout or one activity",
+   "detail": "Remove a whole workout, or one activity from a multi-activity session. — iPhone",
+   "quote": "Delete a workout or one activity. Remove a whole workout, or one activity from a multi-activity session.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout history",
+   "detail": "Every past workout in one searchable list, filterable by lifting, core, cardio, sports or recovery. — iPhone",
+   "quote": "Workout history. Every past workout in one searchable list, filterable by lifting, core, cardio, sports or recovery.",
+   "url": "https://splyt.fit/features#logging",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start any of 93 activities",
+   "detail": "Pick from 93 activity types with search, recents and strength first; one tap starts it. — iPhone",
+   "quote": "Start any of 93 activities. Pick from 93 activity types with search, recents and strength first; one tap starts it.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Custom-named activity",
+   "detail": "Start a one-off activity under a name you type when it isn't in the list. — iPhone",
+   "quote": "Custom-named activity. Start a one-off activity under a name you type when it isn't in the list.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Repeat a past workout",
+   "detail": "Start a new session with the same movements as a recent workout. — iPhone",
+   "quote": "Repeat a past workout. Start a new session with the same movements as a recent workout.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Lifting keypad",
+   "detail": "A built-in number pad for weight and reps that moves from weight to reps and completes the set. — iPhone",
+   "quote": "Lifting keypad. A built-in number pad for weight and reps that moves from weight to reps and completes the set.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Load the bar",
+   "detail": "On barbell lifts, tap the plates you've loaded and the weight fills in, or see what to load. — iPhone",
+   "quote": "Load the bar. On barbell lifts, tap the plates you've loaded and the weight fills in, or see what to load.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Plate calculator",
+   "detail": "Shows which plates go on each side for a target weight. — iPhone",
+   "quote": "Plate calculator. Shows which plates go on each side for a target weight.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "RIR / effort per set",
+   "detail": "Log how many reps you had left, from 0 to 4+. — iPhone",
+   "quote": "RIR / effort per set. Log how many reps you had left, from 0 to 4+.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Set types",
+   "detail": "Tag a set as warm-up, failure, top set or regular, colour-coded throughout. — iPhone",
+   "quote": "Set types. Tag a set as warm-up, failure, top set or regular, colour-coded throughout.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Drop sets",
+   "detail": "Turn a set into a drop set and log the lighter follow-on efforts under it. — iPhone",
+   "quote": "Drop sets. Turn a set into a drop set and log the lighter follow-on efforts under it.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Partials",
+   "detail": "Add partial reps after a set; they count toward volume at half a rep each. — iPhone",
+   "quote": "Partials. Add partial reps after a set; they count toward volume at half a rep each.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Duplicate or remove a set",
+   "detail": "Copy a set or delete it from its menu. — iPhone",
+   "quote": "Duplicate or remove a set. Copy a set or delete it from its menu.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Last-time values",
+   "detail": "Each set shows what you did on this movement last time. — iPhone",
+   "quote": "Last-time values. Each set shows what you did on this movement last time.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pre-fill last weight",
+   "detail": "Weight fields start at last time's weight, per movement or as a default. — iPhone",
+   "quote": "Pre-fill last weight. Weight fields start at last time's weight, per movement or as a default.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Grips and handles",
+   "detail": "Choose bar, rope, V-handle, width or one arm per movement or per set; history is kept per grip. — iPhone",
+   "quote": "Grips and handles. Choose bar, rope, V-handle, width or one arm per movement or per set; history is kept per grip.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Track by time, reps or weight",
+   "detail": "Switch a core or cardio movement between a timed hold, reps or weight. — iPhone",
+   "quote": "Track by time, reps or weight. Switch a core or cardio movement between a timed hold, reps or weight.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise notes",
+   "detail": "Add or edit a note on any movement during the workout. — iPhone",
+   "quote": "Exercise notes. Add or edit a note on any movement during the workout.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Switch exercise",
+   "detail": "Replace a movement with one that trains the same thing on different equipment. — iPhone",
+   "quote": "Switch exercise. Replace a movement with one that trains the same thing on different equipment.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Machine taken? alternatives",
+   "detail": "During a workout, see alternatives when the machine you need is busy. — iPhone",
+   "quote": "Machine taken? alternatives. During a workout, see alternatives when the machine you need is busy.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Supersets and giant sets",
+   "detail": "Group two or more movements to log back-to-back, and manage the group from one menu. — iPhone",
+   "quote": "Supersets and giant sets. Group two or more movements to log back-to-back, and manage the group from one menu.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Reorder movements",
+   "detail": "Drag movements into a new order during the workout. — iPhone",
+   "quote": "Reorder movements. Drag movements into a new order during the workout.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "One movement at a time",
+   "detail": "Only the current movement is expanded, with a Next movement button when its sets are done. — iPhone",
+   "quote": "One movement at a time. Only the current movement is expanded, with a Next movement button when its sets are done.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest timer",
+   "detail": "Rest starts when you complete a set; skip it, add 15 seconds, or drag to adjust. — iPhone",
+   "quote": "Rest timer. Rest starts when you complete a set; skip it, add 15 seconds, or drag to adjust.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-movement rest time",
+   "detail": "Set a movement's rest from presets or a custom value; it is remembered next time. — iPhone",
+   "quote": "Per-movement rest time. Set a movement's rest from presets or a custom value; it is remembered next time.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-set rest override",
+   "detail": "Change the rest for one gap between sets without touching the others. — iPhone",
+   "quote": "Per-set rest override. Change the rest for one gap between sets without touching the others.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manual rest for any activity",
+   "detail": "Start a rest countdown at any time, including during cardio or sports. — iPhone",
+   "quote": "Manual rest for any activity. Start a rest countdown at any time, including during cardio or sports.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest-end alert",
+   "detail": "The phone vibrates and chimes when rest ends, even locked; quiet while you wear the watch. — iPhone",
+   "quote": "Rest-end alert. The phone vibrates and chimes when rest ends, even locked; quiet while you wear the watch.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pause and resume",
+   "detail": "Pause the workout clock and resume later. — iPhone",
+   "quote": "Pause and resume. Pause the workout clock and resume later.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Minimise the workout",
+   "detail": "Collapse the workout to a mini bar and keep using the app. — iPhone",
+   "quote": "Minimise the workout. Collapse the workout to a mini bar and keep using the app.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Simple mode",
+   "detail": "Log a lift as a labelled session with only time, heart rate and calories, no sets. — iPhone",
+   "quote": "Simple mode. Log a lift as a labelled session with only time, heart rate and calories, no sets.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Follow along",
+   "detail": "Run a planned workout without ticking sets; it is saved as planned. — iPhone",
+   "quote": "Follow along. Run a planned workout without ticking sets; it is saved as planned.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Multi-activity sessions",
+   "detail": "Add another activity mid-session, such as a run after lifting; each part is tracked separately. — iPhone",
+   "quote": "Multi-activity sessions. Add another activity mid-session, such as a run after lifting; each part is tracked separately.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Timer view for sports and classes",
+   "detail": "Sports, yoga, dance and similar get a large timer with heart rate and calories instead of sets. — iPhone",
+   "quote": "Timer view for sports and classes. Sports, yoga, dance and similar get a large timer with heart rate and calories instead of sets.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Recovery activities",
+   "detail": "Time sauna, steam room, jacuzzi, cold plunge, ice bath and massage sessions. — iPhone",
+   "quote": "Recovery activities. Time sauna, steam room, jacuzzi, cold plunge, ice bath and massage sessions.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Phone GPS for outdoor workouts",
+   "detail": "Outdoor walks, runs, rides and hikes record distance, pace and route with just the phone. — iPhone",
+   "quote": "Phone GPS for outdoor workouts. Outdoor walks, runs, rides and hikes record distance, pace and route with just the phone.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Round timer for combat sports",
+   "detail": "Set work, rest and rounds for boxing or martial arts; it advances with haptics. — iPhone",
+   "quote": "Round timer for combat sports. Set work, rest and rounds for boxing or martial arts; it advances with haptics.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Timed circuit builder",
+   "detail": "Build a sequence of named, timed segments with rests that run one after another. — iPhone",
+   "quote": "Timed circuit builder. Build a sequence of named, timed segments with rests that run one after another.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pool length for swims",
+   "detail": "Set your pool length before a swim so laps and distance count correctly. — iPhone + Watch",
+   "quote": "Pool length for swims. Set your pool length before a swim so laps and distance count correctly.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live heart rate on iPhone",
+   "detail": "Live heart rate and calories on the phone while an Apple Watch supplies them. — iPhone + Watch",
+   "quote": "Live heart rate on iPhone. Live heart rate and calories on the phone while an Apple Watch supplies them.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live comparison with your history",
+   "detail": "Swipe to see this session against your last, typical and best, plus this week's sessions. — iPhone",
+   "quote": "Live comparison with your history. Swipe to see this session against your last, typical and best, plus this week's sessions.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Keep screen awake",
+   "detail": "Stop the phone locking while the workout screen is open. — iPhone",
+   "quote": "Keep screen awake. Stop the phone locking while the workout screen is open.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Forgotten-workout check",
+   "detail": "Return to a long-idle workout and it asks whether to continue or pause, showing real active time. — iPhone",
+   "quote": "Forgotten-workout check. Return to a long-idle workout and it asks whether to continue or pause, showing real active time.",
+   "url": "https://splyt.fit/features#live-workout",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start workouts from the watch",
+   "detail": "Pick from about 90 activity types on the watch and start recording without touching your phone. — Apple Watch",
+   "quote": "Start workouts from the watch. Pick from about 90 activity types on the watch and start recording without touching your phone.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Quick start",
+   "detail": "One tap starts any activity straight away; strength can take an optional label such as Push or Legs. — Apple Watch",
+   "quote": "Quick start. One tap starts any activity straight away; strength can take an optional label such as Push or Legs.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Saved templates on the watch",
+   "detail": "Start one of your saved templates on the wrist, with its sets, reps and supersets. — iPhone + Watch",
+   "quote": "Saved templates on the watch. Start one of your saved templates on the wrist, with its sets, reps and supersets.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Today's plan on the watch",
+   "detail": "Workouts planned on your iPhone show up on the watch, ready to start. — iPhone + Watch",
+   "quote": "Today's plan on the watch. Workouts planned on your iPhone show up on the watch, ready to start.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start a workout by voice",
+   "detail": "Tap the mic and say an activity, a template, 'start my plan' or 'rest day'. (Pro) — Apple Watch",
+   "quote": "Start a workout by voice. Tap the mic and say an activity, a template, 'start my plan' or 'rest day'.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log sets on the wrist",
+   "detail": "Edit weight and reps for each set, check sets off, and add or delete sets. — Apple Watch",
+   "quote": "Log sets on the wrist. Edit weight and reps for each set, check sets off, and add or delete sets.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Warm-up, drop and failure sets",
+   "detail": "Set types from your plan are marked on the watch, and drop sets can be logged there. — Apple Watch",
+   "quote": "Warm-up, drop and failure sets. Set types from your plan are marked on the watch, and drop sets can be logged there.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Supersets on the watch",
+   "detail": "Supersets run round by round, and rest waits until the round is done. — Apple Watch",
+   "quote": "Supersets on the watch. Supersets run round by round, and rest waits until the round is done.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Add an exercise mid-workout",
+   "detail": "Search, scribble or dictate to add a movement, or add your own custom one. — Apple Watch",
+   "quote": "Add an exercise mid-workout. Search, scribble or dictate to add a movement, or add your own custom one.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Switch exercise on the watch",
+   "detail": "Swap a movement for a similar one; sets already logged stay with the original movement. — Apple Watch",
+   "quote": "Switch exercise on the watch. Swap a movement for a similar one; sets already logged stay with the original movement.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Grip picker on the watch",
+   "detail": "Choose the grip, handle or width for a movement, such as rope or wide bar. — Apple Watch",
+   "quote": "Grip picker on the watch. Choose the grip, handle or width for a movement, such as rope or wide bar.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Auto Reps",
+   "detail": "The watch counts reps for supported lifts such as presses, curls, squats, raises and rows. (Pro) — Apple Watch",
+   "quote": "Auto Reps. The watch counts reps for supported lifts such as presses, curls, squats, raises and rows.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Voice logging on the watch",
+   "detail": "Speak a set or a change during a workout and it is logged. (Pro) — iPhone + Watch",
+   "quote": "Voice logging on the watch. Speak a set or a change during a workout and it is logged.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest timer on the watch",
+   "detail": "Countdown ring with heart rate, adjust and skip, a preview of the next set, and a haptic at the end. — Apple Watch",
+   "quote": "Rest timer on the watch. Countdown ring with heart rate, adjust and skip, a preview of the next set, and a haptic at the end.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout controls",
+   "detail": "Finish, pause or resume, add an activity, start a rest, or discard the workout. — Apple Watch",
+   "quote": "Workout controls. Finish, pause or resume, add an activity, start a rest, or discard the workout.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Add an activity to a session",
+   "detail": "Add another activity, such as a stair climb after a lift, to the session already running. — Apple Watch",
+   "quote": "Add an activity to a session. Add another activity, such as a stair climb after a lift, to the session already running.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live heart rate and calories",
+   "detail": "Heart rate, active calories and elapsed time during every workout. — Apple Watch",
+   "quote": "Live heart rate and calories. Heart rate, active calories and elapsed time during every workout.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "GPS distance workouts",
+   "detail": "Runs, walks, hikes and rides show distance and pace, and the route is recorded. — Apple Watch",
+   "quote": "GPS distance workouts. Runs, walks, hikes and rides show distance and pace, and the route is recorded.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pool and open-water swims",
+   "detail": "Set pool length in metres or yards; laps and distance are tracked, open water shows pace and strokes. — Apple Watch",
+   "quote": "Pool and open-water swims. Set pool length in metres or yards; laps and distance are tracked, open water shows pace and strokes.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Music controls mid-workout",
+   "detail": "Control music or audio output from a Now Playing page without leaving the workout. — Apple Watch",
+   "quote": "Music controls mid-workout. Control music or audio output from a Now Playing page without leaving the workout.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rate your effort",
+   "detail": "After finishing, rate the session 1–10 with the Digital Crown or by dragging. — Apple Watch",
+   "quote": "Rate your effort. After finishing, rate the session 1–10 with the Digital Crown or by dragging.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Watch workout summary",
+   "detail": "Time, calories, distance and a heart-rate chart, plus the movements you did. — Apple Watch",
+   "quote": "Watch workout summary. Time, calories, distance and a heart-rate chart, plus the movements you did.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rings page",
+   "detail": "Your Splyt daily ring full-screen, flippable to Apple Activity rings. — Apple Watch",
+   "quote": "Rings page. Your Splyt daily ring full-screen, flippable to Apple Activity rings.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Phone and watch in sync",
+   "detail": "A workout started on iPhone opens on the watch, and sets logged on either show on both. — iPhone + Watch",
+   "quote": "Phone and watch in sync. A workout started on iPhone opens on the watch, and sets logged on either show on both.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splyt ring complication",
+   "detail": "Today's Splyt ring on your watch face, in circular, corner, rectangular and inline styles. — Apple Watch",
+   "quote": "Splyt ring complication. Today's Splyt ring on your watch face, in circular, corner, rectangular and inline styles.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity rings complication",
+   "detail": "Today's Move, Exercise and Stand rings on your watch face. — Apple Watch",
+   "quote": "Activity rings complication. Today's Move, Exercise and Stand rings on your watch face.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Reply to friends from the watch",
+   "detail": "Tap Reply on a friend's workout notification and pick a suggested comment. — Apple Watch",
+   "quote": "Reply to friends from the watch. Tap Reply on a friend's workout notification and pick a suggested comment.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rich watch notifications",
+   "detail": "Expanded notification views for friend workouts, competitions, records, streaks and weekly summaries. — Apple Watch",
+   "quote": "Rich watch notifications. Expanded notification views for friend workouts, competitions, records, streaks and weekly summaries.",
+   "url": "https://splyt.fit/features#apple-watch",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Voice set logging",
+   "detail": "Say sets, weights, grips, supersets or corrections and they are logged on the current workout. (Pro) — iPhone",
+   "quote": "Voice set logging. Say sets, weights, grips, supersets or corrections and they are logged on the current workout.",
+   "url": "https://splyt.fit/features#voice",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log past workouts by voice",
+   "detail": "Describe your day and it becomes one or more logged workouts; free accounts get three tries. (Pro) — iPhone",
+   "quote": "Log past workouts by voice. Describe your day and it becomes one or more logged workouts; free accounts get three tries.",
+   "url": "https://splyt.fit/features#voice",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Build a template by talking",
+   "detail": "Say what you want and it writes the exercises, sets and techniques; your words show as you speak. (Pro) — iPhone",
+   "quote": "Build a template by talking. Say what you want and it writes the exercises, sets and techniques; your words show as you speak.",
+   "url": "https://splyt.fit/features#voice",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splyt AI chat",
+   "detail": "Chat with an AI coach that knows your logged workouts, sleep, habits, goals and plan. (Pro) — iPhone",
+   "quote": "Splyt AI chat. Chat with an AI coach that knows your logged workouts, sleep, habits, goals and plan.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workouts built in chat",
+   "detail": "Ask for a session and get a workout card you can open, save, schedule or discard. (Pro) — iPhone",
+   "quote": "Workouts built in chat. Ask for a session and get a workout card you can open, save, schedule or discard.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Plans and splits from chat",
+   "detail": "Ask the coach to schedule workouts or rest days, or create or edit a split; you confirm each. (Pro) — iPhone",
+   "quote": "Plans and splits from chat. Ask the coach to schedule workouts or rest days, or create or edit a split; you confirm each.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habits managed in chat",
+   "detail": "Tell the coach you did a habit to log it, or ask it to add, edit or remove habits. (Pro) — iPhone",
+   "quote": "Habits managed in chat. Tell the coach you did a habit to log it, or ask it to add, edit or remove habits.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Log sleep, weight and notes",
+   "detail": "Mention how you slept, your weight or a note like 'knee was tight' and it is recorded. (Pro) — iPhone",
+   "quote": "Log sleep, weight and notes. Mention how you slept, your weight or a note like 'knee was tight' and it is recorded.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Goal suggestions",
+   "detail": "The coach can propose a new activity goal or adjust one you keep missing or beating. (Pro) — iPhone",
+   "quote": "Goal suggestions. The coach can propose a new activity goal or adjust one you keep missing or beating.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Answers from your history",
+   "detail": "Ask about PRs, volume trends, recent or planned workouts; answers can include charts and exercise cards. (Pro) — iPhone",
+   "quote": "Answers from your history. Ask about PRs, volume trends, recent or planned workouts; answers can include charts and exercise cards.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Web answers with sources",
+   "detail": "For general questions the coach can search the web and shows its sources. (Pro) — iPhone",
+   "quote": "Web answers with sources. For general questions the coach can search the web and shows its sources.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Photos in AI chat",
+   "detail": "Attach up to 4 photos per message from camera, Photos or Files; kept 30 days. (Pro) — iPhone",
+   "quote": "Photos in AI chat. Attach up to 4 photos per message from camera, Photos or Files; kept 30 days.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Chat history and search",
+   "detail": "Keep multiple conversations, start new ones, and search past chats. (Pro) — iPhone",
+   "quote": "Chat history and search. Keep multiple conversations, start new ones, and search past chats.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Coach memory",
+   "detail": "The coach can remember details across chats; view, manage or turn off memory. (Pro) — iPhone",
+   "quote": "Coach memory. The coach can remember details across chats; view, manage or turn off memory.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Coach style",
+   "detail": "Pick a tone (Chill, Balanced, Hard) and add your own instructions for how it replies. (Pro) — iPhone",
+   "quote": "Coach style. Pick a tone (Chill, Balanced, Hard) and add your own instructions for how it replies.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weekly coach notes",
+   "detail": "AI observations and suggestions in your weekly recap, with a history of past weeks. (Pro) — iPhone",
+   "quote": "Weekly coach notes. AI observations and suggestions in your weekly recap, with a history of past weeks.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI workout generator",
+   "detail": "Pick focus, length, experience and equipment for a draft workout you can re-roll or refine. (Pro) — iPhone",
+   "quote": "AI workout generator. Pick focus, length, experience and equipment for a draft workout you can re-roll or refine.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI split generator",
+   "detail": "Answer a few questions and get a full weekly split drafted into the split editor. (Pro) — iPhone",
+   "quote": "AI split generator. Answer a few questions and get a full weekly split drafted into the split editor.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Progress photo analysis",
+   "detail": "Coach notes on your latest progress photos, shown as callouts over the original photo. (Pro) — iPhone",
+   "quote": "Progress photo analysis. Coach notes on your latest progress photos, shown as callouts over the original photo.",
+   "url": "https://splyt.fit/features#ai-coach",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splits hub",
+   "detail": "One sheet listing your saved splits and splits friends sent you, with ways to start a new one. — iPhone",
+   "quote": "Splits hub. One sheet listing your saved splits and splits friends sent you, with ways to start a new one.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Proven split library",
+   "detail": "Pick a proven split by how many days a week you can train; a recommended one is marked. — iPhone",
+   "quote": "Proven split library. Pick a proven split by how many days a week you can train; a recommended one is marked.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rotating split cycles",
+   "detail": "Run a split that rolls, like 3 days on, 1 off, instead of fixed weekdays. — iPhone",
+   "quote": "Rotating split cycles. Run a split that rolls, like 3 days on, 1 off, instead of fixed weekdays.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Build a split by hand",
+   "detail": "Name a split, fill each day with workouts, activities or rest, and set session times. — iPhone",
+   "quote": "Build a split by hand. Name a split, fill each day with workouts, activities or rest, and set session times.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start from a split shape",
+   "detail": "Begin from a common week shape, shown day by day with the muscles each day trains. — iPhone",
+   "quote": "Start from a split shape. Begin from a common week shape, shown day by day with the muscles each day trains.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Drag to reorder a split",
+   "detail": "Hold a session or a whole day in the split builder and drag it elsewhere. — iPhone",
+   "quote": "Drag to reorder a split. Hold a session or a whole day in the split builder and drag it elsewhere.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Vary weeks in a split",
+   "detail": "Give weeks 2, 3 and 4 their own layout instead of repeating one week. — iPhone",
+   "quote": "Vary weeks in a split. Give weeks 2, 3 and 4 their own layout instead of repeating one week.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Split length and start date",
+   "detail": "Choose when a split starts and how many weeks or rounds it runs. — iPhone",
+   "quote": "Split length and start date. Choose when a split starts and how many weeks or rounds it runs.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Preview before adding",
+   "detail": "See the first weeks as they will look on your calendar before anything is saved. — iPhone",
+   "quote": "Preview before adding. See the first weeks as they will look on your calendar before anything is saved.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Describe your split aloud",
+   "detail": "Say your training week and it fills in the days and times. (Pro) — iPhone",
+   "quote": "Describe your split aloud. Say your training week and it fills in the days and times.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Fill a split with exercises",
+   "detail": "One tap drafts starter exercises with sets and reps for every day of a proven split, shown for review. (Pro) — iPhone",
+   "quote": "Fill a split with exercises. One tap drafts starter exercises with sets and reps for every day of a proven split, shown for review.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Split progress page",
+   "detail": "Where you are in the run, weekly volume, completion and each training day as a card. — iPhone",
+   "quote": "Split progress page. Where you are in the run, weekly volume, completion and each training day as a card.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit a split",
+   "detail": "Change a saved split's days and workouts. — iPhone",
+   "quote": "Edit a split. Change a saved split's days and workouts.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pause a split",
+   "detail": "Clear a split's upcoming sessions but keep the split saved to run later. — iPhone",
+   "quote": "Pause a split. Clear a split's upcoming sessions but keep the split saved to run later.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Run a split again",
+   "detail": "Restart a finished or paused split; earlier runs keep their own records. — iPhone",
+   "quote": "Run a split again. Restart a finished or paused split; earlier runs keep their own records.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Delete a split",
+   "detail": "Delete a split; workouts you already finished stay. — iPhone",
+   "quote": "Delete a split. Delete a split; workouts you already finished stay.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share a split with a friend",
+   "detail": "Send a split to a friend; it arrives ready to save. — iPhone",
+   "quote": "Share a split with a friend. Send a split to a friend; it arrives ready to save.",
+   "url": "https://splyt.fit/features#plans",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Training calendar",
+   "detail": "Week-by-week calendar of past and planned workouts and rest days, with missed and moved sessions flagged. — iPhone",
+   "quote": "Training calendar. Week-by-week calendar of past and planned workouts and rest days, with missed and moved sessions flagged.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Month view",
+   "detail": "Open a month view and jump to any date. — iPhone",
+   "quote": "Month view. Open a month view and jump to any date.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Plan a future day",
+   "detail": "Add activities or saved templates to any day, each with an optional time. — iPhone",
+   "quote": "Plan a future day. Add activities or saved templates to any day, each with an optional time.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Repeat a planned day",
+   "detail": "Repeat a planned day on chosen weekdays for a set number of weeks. (Pro) — iPhone",
+   "quote": "Repeat a planned day. Repeat a planned day on chosen weekdays for a set number of weeks.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Drag to reschedule",
+   "detail": "Press and hold a planned workout and drag it to another day. — iPhone",
+   "quote": "Drag to reschedule. Press and hold a planned workout and drag it to another day.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Copy a training day",
+   "detail": "From an empty day, copy all or part of a day you planned or trained. — iPhone",
+   "quote": "Copy a training day. From an empty day, copy all or part of a day you planned or trained.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Rest days",
+   "detail": "Mark a day as rest, open it for recovery tips, or remove it. — iPhone",
+   "quote": "Rest days. Mark a day as rest, open it for recovery tips, or remove it.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Remove planned workouts",
+   "detail": "Swipe a planned workout away; for repeats, remove one or the whole series. — iPhone",
+   "quote": "Remove planned workouts. Swipe a planned workout away; for repeats, remove one or the whole series.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "View a friend's calendar",
+   "detail": "Switch the calendar to a friend's training week, read-only. — iPhone",
+   "quote": "View a friend's calendar. Switch the calendar to a friend's training week, read-only.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple Calendar sync",
+   "detail": "One-way sync of planned workouts to Apple Calendar, with a reminder before each. — iPhone",
+   "quote": "Apple Calendar sync. One-way sync of planned workouts to Apple Calendar, with a reminder before each.",
+   "url": "https://splyt.fit/features#calendar",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout templates",
+   "detail": "Build reusable workouts and start them in a tap; free accounts keep three. — iPhone",
+   "quote": "Workout templates. Build reusable workouts and start them in a tap; free accounts keep three.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Unlimited templates",
+   "detail": "Removes the three-template cap. (Pro) — iPhone",
+   "quote": "Unlimited templates. Removes the three-template cap.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Save a workout as template",
+   "detail": "Turn a recent workout into a saved template. — iPhone",
+   "quote": "Save a workout as template. Turn a recent workout into a saved template.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Template folders",
+   "detail": "Organise templates into folders; one folder free, more with Pro. — iPhone",
+   "quote": "Template folders. Organise templates into folders; one folder free, more with Pro.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share a template folder",
+   "detail": "Share a folder with friends, revoke access, or leave one shared with you. — iPhone",
+   "quote": "Share a template folder. Share a folder with friends, revoke access, or leave one shared with you.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Send a template to a friend",
+   "detail": "Send a saved workout to a friend, who is notified and can save it. — iPhone",
+   "quote": "Send a template to a friend. Send a saved workout to a friend, who is notified and can save it.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Template link",
+   "detail": "Share any saved workout as a link anyone can open. — iPhone",
+   "quote": "Template link. Share any saved workout as a link anyone can open.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Save a shared workout",
+   "detail": "Open a workout or split a friend sent, or a template link, and save it to your library. — iPhone",
+   "quote": "Save a shared workout. Open a workout or split a friend sent, or a template link, and save it to your library.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Request a workout",
+   "detail": "Ask a friend for a workout or split with a note; they reply by sharing one. — iPhone",
+   "quote": "Request a workout. Ask a friend for a workout or split with a note; they reply by sharing one.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Shared-with-friends history",
+   "detail": "See every workout and split you've shared, and re-send any. — iPhone",
+   "quote": "Shared-with-friends history. See every workout and split you've shared, and re-send any.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout share images",
+   "detail": "Share a finished workout as image cards or transparent overlays, including to Instagram Stories. — iPhone",
+   "quote": "Workout share images. Share a finished workout as image cards or transparent overlays, including to Instagram Stories.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout link",
+   "detail": "Copy a public link to a finished workout's full summary. — iPhone",
+   "quote": "Workout link. Copy a public link to a finished workout's full summary.",
+   "url": "https://splyt.fit/features#templates",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Import from Strong or Hevy",
+   "detail": "Bring in workout history from a Strong or Hevy export, review it, then import. — iPhone",
+   "quote": "Import from Strong or Hevy. Bring in workout history from a Strong or Hevy export, review it, then import.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share a file into Splyt",
+   "detail": "Send an export from another app straight to Splyt from the iOS share sheet. — iPhone",
+   "quote": "Share a file into Splyt. Send an export from another app straight to Splyt from the iOS share sheet.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Undo an import",
+   "detail": "See each import and the workouts it added, and undo any single import. — iPhone",
+   "quote": "Undo an import. See each import and the workouts it added, and undo any single import.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Import workouts from notes or files",
+   "detail": "Paste notes, upload a CSV or Excel file, link a Google Sheet, or pick photos; they become templates to review. — iPhone",
+   "quote": "Import workouts from notes or files. Paste notes, upload a CSV or Excel file, link a Google Sheet, or pick photos; they become templates to review.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Import from TikTok or YouTube",
+   "detail": "Share or paste a TikTok or YouTube workout link and it drafts the workout for you to review. (Pro) — iPhone",
+   "quote": "Import from TikTok or YouTube. Share or paste a TikTok or YouTube workout link and it drafts the workout for you to review.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Export your data",
+   "detail": "Export workout history, exercise library and daily logs as CSV files, or all three. — iPhone",
+   "quote": "Export your data. Export workout history, exercise library and daily logs as CSV files, or all three.",
+   "url": "https://splyt.fit/features#import-export",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Create habits",
+   "detail": "Pick a habit type, set the one number that matters, and the rest is filled in. — iPhone",
+   "quote": "Create habits. Pick a habit type, set the one number that matters, and the rest is filled in.",
+   "url": "https://splyt.fit/features#habits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habits that tick themselves",
+   "detail": "Steps, sleep, wake time, bedtime, closing rings or a specific workout complete from Health data. — iPhone",
+   "quote": "Habits that tick themselves. Steps, sleep, wake time, bedtime, closing rings or a specific workout complete from Health data.",
+   "url": "https://splyt.fit/features#habits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habit options",
+   "detail": "Icon, colour, repeat days, length in weeks, times per day, reminder, and private-from-friends. — iPhone",
+   "quote": "Habit options. Icon, colour, repeat days, length in weeks, times per day, reminder, and private-from-friends.",
+   "url": "https://splyt.fit/features#habits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habit calendar and streaks",
+   "detail": "Monthly done/missed calendar with current and best streak; pause, mark as formed, or delete. — iPhone",
+   "quote": "Habit calendar and streaks. Monthly done/missed calendar with current and best streak; pause, mark as formed, or delete.",
+   "url": "https://splyt.fit/features#habits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Unlimited habits",
+   "detail": "Free accounts keep one active habit; Pro removes the limit. (Pro) — iPhone",
+   "quote": "Unlimited habits. Free accounts keep one active habit; Pro removes the limit.",
+   "url": "https://splyt.fit/features#habits",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple Health workout import",
+   "detail": "Workouts recorded by other apps in Apple Health appear in your history automatically. — iPhone",
+   "quote": "Apple Health workout import. Workouts recorded by other apps in Apple Health appear in your history automatically.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workouts saved to Health",
+   "detail": "Workouts you finish are written to Apple Health. — iPhone + Watch",
+   "quote": "Workouts saved to Health. Workouts you finish are written to Apple Health.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity rings detail",
+   "detail": "Move, Exercise and Stand rings with hourly charts, steps, distance and flights, plus a 7-day strip. — iPhone",
+   "quote": "Activity rings detail. Move, Exercise and Stand rings with hourly charts, steps, distance and flights, plus a 7-day strip.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Sleep from Apple Health",
+   "detail": "Sleep stages timeline, and time in bed against time asleep. — iPhone",
+   "quote": "Sleep from Apple Health. Sleep stages timeline, and time in bed against time asleep.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Add sleep manually",
+   "detail": "Log a night's sleep by hand; it is also saved to Apple Health. — iPhone",
+   "quote": "Add sleep manually. Log a night's sleep by hand; it is also saved to Apple Health.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Step pace",
+   "detail": "Today's steps against where you usually are by this hour. — iPhone",
+   "quote": "Step pace. Today's steps against where you usually are by this hour.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weight sync with Health",
+   "detail": "Weight logged in Splyt is written to Apple Health. — iPhone",
+   "quote": "Weight sync with Health. Weight logged in Splyt is written to Apple Health.",
+   "url": "https://splyt.fit/features#health",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splyt Ring",
+   "detail": "A daily ring with equal parts for activity, habits and sleep or steps; missing data isn't penalised. — iPhone",
+   "quote": "Splyt Ring. A daily ring with equal parts for activity, habits and sleep or steps; missing data isn't penalised.",
+   "url": "https://splyt.fit/features#rings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Customise the Splyt Ring",
+   "detail": "Choose sleep, steps or nothing as the third part, include or drop habits, set what closes activity. — iPhone",
+   "quote": "Customise the Splyt Ring. Choose sleep, steps or nothing as the third part, include or drop habits, set what closes activity.",
+   "url": "https://splyt.fit/features#rings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Ring fill on finish",
+   "detail": "Finishing a workout animates your ring filling, with a celebration when it closes. — iPhone + Watch",
+   "quote": "Ring fill on finish. Finishing a workout animates your ring filling, with a celebration when it closes.",
+   "url": "https://splyt.fit/features#rings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity goals",
+   "detail": "Enter your Move, Exercise and Stand goals so the rings match Apple Fitness. — iPhone",
+   "quote": "Activity goals. Enter your Move, Exercise and Stand goals so the rings match Apple Fitness.",
+   "url": "https://splyt.fit/features#rings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout streak",
+   "detail": "Consecutive training days; rest days and planned rest keep it alive. — iPhone",
+   "quote": "Workout streak. Consecutive training days; rest days and planned rest keep it alive.",
+   "url": "https://splyt.fit/features#rings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend requests",
+   "detail": "Send, accept, decline or cancel friend requests; pending requests show as a badge. — iPhone",
+   "quote": "Friend requests. Send, accept, decline or cancel friend requests; pending requests show as a badge.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Find friends from contacts",
+   "detail": "Matches your contacts to people already on Splyt so you can add them in one tap. — iPhone",
+   "quote": "Find friends from contacts. Matches your contacts to people already on Splyt so you can add them in one tap.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Invite links",
+   "detail": "Share a personal invite link; opening it offers to add you as a friend. — iPhone",
+   "quote": "Invite links. Share a personal invite link; opening it offers to add you as a friend.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friends activity feed",
+   "detail": "Friends' recent workouts, closed rings and completed habits, plus each friend's day. — iPhone",
+   "quote": "Friends activity feed. Friends' recent workouts, closed rings and completed habits, plus each friend's day.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Training-now indicator",
+   "detail": "A live dot shows when a friend is working out right now. — iPhone",
+   "quote": "Training-now indicator. A live dot shows when a friend is working out right now.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend profiles",
+   "detail": "A friend's day in their own time zone: rings, workouts, habits, notes, workout count and streak. — iPhone",
+   "quote": "Friend profiles. A friend's day in their own time zone: rings, workouts, habits, notes, workout count and streak.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend workout history",
+   "detail": "Browse a friend's last ~90 days of workouts as a list or calendar. — iPhone",
+   "quote": "Friend workout history. Browse a friend's last ~90 days of workouts as a list or calendar.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend's friends list",
+   "detail": "See who a friend is friends with and open their profiles. — iPhone",
+   "quote": "Friend's friends list. See who a friend is friends with and open their profiles.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Compare with a friend",
+   "detail": "Week, month or year totals side by side: workouts, time, volume, steps, sleep and rings. — iPhone",
+   "quote": "Compare with a friend. Week, month or year totals side by side: workouts, time, volume, steps, sleep and rings.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Comments",
+   "detail": "Comment on a friend's day, on group activity and on individual workouts. — iPhone",
+   "quote": "Comments. Comment on a friend's day, on group activity and on individual workouts.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Quick replies to highlights",
+   "detail": "Reply to a friend's highlight with a suggested or custom message, sent as a card through Messages. — iPhone",
+   "quote": "Quick replies to highlights. Reply to a friend's highlight with a suggested or custom message, sent as a card through Messages.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Groups",
+   "detail": "Create private groups, invite by link, and edit, leave or delete them. — iPhone",
+   "quote": "Groups. Create private groups, invite by link, and edit, leave or delete them.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Bigger and more groups",
+   "detail": "Free: host 1 group of up to 3; Pro: host up to 7 groups of up to 20. (Pro) — iPhone",
+   "quote": "Bigger and more groups. Free: host 1 group of up to 3; Pro: host up to 7 groups of up to 20.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Group activity view",
+   "detail": "The group's combined ring by day, who did what, and a group streak. — iPhone",
+   "quote": "Group activity view. The group's combined ring by day, who did what, and a group streak.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Group schedule",
+   "detail": "When members usually train, and a group calendar of who did what. — iPhone",
+   "quote": "Group schedule. When members usually train, and a group calendar of who did what.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Group leaderboards",
+   "detail": "Weekly leaderboards and a member table of workouts, time and volume by week, month, year or all time. — iPhone",
+   "quote": "Group leaderboards. Weekly leaderboards and a member table of workouts, time and volume by week, month, year or all time.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splyt Community",
+   "detail": "An app-wide group with totals, a weekly challenge leaderboard, a member spotlight and reactions. — iPhone",
+   "quote": "Splyt Community. An app-wide group with totals, a weekly challenge leaderboard, a member spotlight and reactions.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Community incognito",
+   "detail": "Hide yourself from community feeds and leaderboards; your totals still count anonymously. — iPhone",
+   "quote": "Community incognito. Hide yourself from community feeds and leaderboards; your totals still count anonymously.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Block and report",
+   "detail": "Block someone, or report a user, comment or message. — iPhone",
+   "quote": "Block and report. Block someone, or report a user, comment or message.",
+   "url": "https://splyt.fit/features#friends",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Create a competition",
+   "detail": "Challenge a friend one-on-one or a whole group for 1 week, 2 weeks or 1 month. (Pro) — iPhone",
+   "quote": "Create a competition. Challenge a friend one-on-one or a whole group for 1 week, 2 weeks or 1 month.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Competition types",
+   "detail": "Steps, calories, active days, workouts, workout time, volume, one activity, sleep, bedtime, wake time or custom check-ins. (Pro) — iPhone",
+   "quote": "Competition types. Steps, calories, active days, workouts, workout time, volume, one activity, sleep, bedtime, wake time or custom check-ins.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Join competitions free",
+   "detail": "Accept an invite and take part in any competition without Pro. — iPhone",
+   "quote": "Join competitions free. Accept an invite and take part in any competition without Pro.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Stakes",
+   "detail": "Agree what it's for: a cash pot up to $50 each, loser buys, something custom, or bragging rights. — iPhone",
+   "quote": "Stakes. Agree what it's for: a cash pot up to $50 each, loser buys, something custom, or bragging rights.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Who-owes-whom ledger",
+   "detail": "After a cash competition, see who owes whom and who has paid, with Venmo, Cash App or PayPal links. — iPhone",
+   "quote": "Who-owes-whom ledger. After a cash competition, see who owes whom and who has paid, with Venmo, Cash App or PayPal links.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Animated race worlds",
+   "detail": "Races play out on a road, lifting in a gym, sleep in pods and swims in a pool. — iPhone",
+   "quote": "Animated race worlds. Races play out on a road, lifting in a gym, sleep in pods and swims in a pool.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Race map strip",
+   "detail": "A strip showing everyone's position; tap to jump to any racer. — iPhone",
+   "quote": "Race map strip. A strip showing everyone's position; tap to jump to any racer.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Standings and daily winners",
+   "detail": "Live standings plus who won each day. — iPhone",
+   "quote": "Standings and daily winners. Live standings plus who won each day.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Head-to-head view",
+   "detail": "You against one rival: the gap, days each of you won, and current runs. — iPhone",
+   "quote": "Head-to-head view. You against one rival: the gap, days each of you won, and current runs.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Competition chat",
+   "detail": "Chat inside each competition, with one-tap starter lines. — iPhone",
+   "quote": "Competition chat. Chat inside each competition, with one-tap starter lines.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Check-ins and nudges",
+   "detail": "In custom competitions members check in daily; nudge anyone who hasn't. — iPhone",
+   "quote": "Check-ins and nudges. In custom competitions members check in daily; nudge anyone who hasn't.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pick your racer",
+   "detail": "Choose a character and colours, or one from a library others made; more unlock as your steps grow. — iPhone",
+   "quote": "Pick your racer. Choose a character and colours, or one from a library others made; more unlock as your steps grow.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Create a custom character",
+   "detail": "Generate your own racer from a description or photo; builds are bought, and Pro includes one a month. — iPhone",
+   "quote": "Create a custom character. Generate your own racer from a description or photo; builds are bought, and Pro includes one a month.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manage a competition",
+   "detail": "Invite people, leave, or as host remove someone, end or delete it. — iPhone",
+   "quote": "Manage a competition. Invite people, leave, or as host remove someone, end or delete it.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Competitions list",
+   "detail": "All your live and past competitions in one list. — iPhone",
+   "quote": "Competitions list. All your live and past competitions in one list.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Results and rematch",
+   "detail": "A final result screen with a shareable image and a one-tap rematch. — iPhone",
+   "quote": "Results and rematch. A final result screen with a shareable image and a one-tap rematch.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Past group competitions",
+   "detail": "Every past competition in a group with winners. — iPhone",
+   "quote": "Past group competitions. Every past competition in a group with winners.",
+   "url": "https://splyt.fit/features#competitions",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Daily overview stats",
+   "detail": "Steps, distance, sleep and weight for the selected day on Home. — iPhone",
+   "quote": "Daily overview stats. Steps, distance, sleep and weight for the selected day on Home.",
+   "url": "https://splyt.fit/features#home",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Customize Home",
+   "detail": "Turn Home cards and stats on or off, and choose a grouped or single-list activity layout. — iPhone",
+   "quote": "Customize Home. Turn Home cards and stats on or off, and choose a grouped or single-list activity layout.",
+   "url": "https://splyt.fit/features#home",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Roast me mode",
+   "detail": "A playful jab instead of plain copy when you skip a day. — iPhone",
+   "quote": "Roast me mode. A playful jab instead of plain copy when you skip a day.",
+   "url": "https://splyt.fit/features#home",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Stats overview numbers",
+   "detail": "Current streak, workouts this week and total workouts at the top of Stats. (Pro) — iPhone",
+   "quote": "Stats overview numbers. Current streak, workouts this week and total workouts at the top of Stats.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Muscle load map",
+   "detail": "Full-body heatmap of trained muscles, or a ranked bar list, for day, week or month. (Pro) — iPhone",
+   "quote": "Muscle load map. Full-body heatmap of trained muscles, or a ranked bar list, for day, week or month.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Against your history",
+   "detail": "Your latest session of an activity next to your last, usual and best, plus a heart-rate graph against last time. (Pro) — iPhone",
+   "quote": "Against your history. Your latest session of an activity next to your last, usual and best, plus a heart-rate graph against last time.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Split progress card",
+   "detail": "Where you are in your active split and whether you're on track. (Pro) — iPhone",
+   "quote": "Split progress card. Where you are in your active split and whether you're on track.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout calendar heatmap",
+   "detail": "Grid of trained days over 3, 6 or 12 months; tap a day to open its workouts. (Pro) — iPhone",
+   "quote": "Workout calendar heatmap. Grid of trained days over 3, 6 or 12 months; tap a day to open its workouts.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity per week chart",
+   "detail": "Weekly bars of workouts or recovery, by time or session count, with optional sleep. (Pro) — iPhone",
+   "quote": "Activity per week chart. Weekly bars of workouts or recovery, by time or session count, with optional sleep.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Time-of-day chart",
+   "detail": "When in the day you train, over the past week, month, year or all time. (Pro) — iPhone",
+   "quote": "Time-of-day chart. When in the day you train, over the past week, month, year or all time.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity category filter",
+   "detail": "Scope the activity charts to all, workouts, core, cardio, sports or recovery. (Pro) — iPhone",
+   "quote": "Activity category filter. Scope the activity charts to all, workouts, core, cardio, sports or recovery.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout stats and weekly volume",
+   "detail": "Total workouts, this week, average duration, and weekly lifted volume against last week. (Pro) — iPhone",
+   "quote": "Workout stats and weekly volume. Total workouts, this week, average duration, and weekly lifted volume against last week.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Top personal records list",
+   "detail": "Ranked list of your best lifts; tap one to open that exercise's history. (Pro) — iPhone",
+   "quote": "Top personal records list. Ranked list of your best lifts; tap one to open that exercise's history.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Volume and cardio trends",
+   "detail": "About 12 weeks of lifted volume, total or by muscle group, or cardio minutes by type. (Pro) — iPhone",
+   "quote": "Volume and cardio trends. About 12 weeks of lifted volume, total or by muscle group, or cardio minutes by type.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Body metrics trends",
+   "detail": "Steps, sleep and weight trends behind one filter, each opening a detail view. (Pro) — iPhone",
+   "quote": "Body metrics trends. Steps, sleep and weight trends behind one filter, each opening a detail view.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weekly recap",
+   "detail": "Last week wrapped up: score, day rings, PRs, week against week, weight, steps, sleep, recovery, habits. — iPhone",
+   "quote": "Weekly recap. Last week wrapped up: score, day rings, PRs, week against week, weight, steps, sleep, recovery, habits.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Monthly recap",
+   "detail": "The month just ended, with the same sections as the weekly recap, set against last month. — iPhone",
+   "quote": "Monthly recap. The month just ended, with the same sections as the weekly recap, set against last month.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Coach's read in recaps",
+   "detail": "A written AI summary of your week or month inside the recap. (Pro) — iPhone",
+   "quote": "Coach's read in recaps. A written AI summary of your week or month inside the recap.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friends' recaps",
+   "detail": "Switch the recap to a friend's week or month, and nudge them if it's empty. — iPhone",
+   "quote": "Friends' recaps. Switch the recap to a friend's week or month, and nudge them if it's empty.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "You vs a friend",
+   "detail": "Your week against a friend's, metric by metric, with a tally. — iPhone",
+   "quote": "You vs a friend. Your week against a friend's, metric by metric, with a tally.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Recap share images",
+   "detail": "Share your recap as an image in one of several card styles. — iPhone",
+   "quote": "Recap share images. Share your recap as an image in one of several card styles.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Send recap to a trainer",
+   "detail": "PDF or private web link; choose sections and photos, and set the link to expire or not. — iPhone",
+   "quote": "Send recap to a trainer. PDF or private web link; choose sections and photos, and set the link to expire or not.",
+   "url": "https://splyt.fit/features#stats",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise progress chart",
+   "detail": "Chart a movement's estimated 1RM, top weight, volume or reps over time; hold time for timed moves. — iPhone",
+   "quote": "Exercise progress chart. Chart a movement's estimated 1RM, top weight, volume or reps over time; hold time for timed moves.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Estimated 1RM",
+   "detail": "Estimated one-rep max per set and best ever, worked out from your logged sets. — iPhone",
+   "quote": "Estimated 1RM. Estimated one-rep max per set and best ever, worked out from your logged sets.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise personal records",
+   "detail": "Heaviest weight, best 1RM, best set and session volume, or most reps and longest hold. — iPhone",
+   "quote": "Exercise personal records. Heaviest weight, best 1RM, best set and session volume, or most reps and longest hold.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Exercise history",
+   "detail": "Every past session with all sets, or recent and best sets in a sortable table. — iPhone",
+   "quote": "Exercise history. Every past session with all sets, or recent and best sets in a sortable table.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Filter history by grip",
+   "detail": "Narrow a movement's chart, records and history to one grip or attachment. — iPhone",
+   "quote": "Filter history by grip. Narrow a movement's chart, records and history to one grip or attachment.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Compare lifts with friends",
+   "detail": "Overlay friends' progress lines on an exercise chart. — iPhone",
+   "quote": "Compare lifts with friends. Overlay friends' progress lines on an exercise chart.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Share exercise records",
+   "detail": "Share a movement's records card, or send the exercise to a friend. — iPhone",
+   "quote": "Share exercise records. Share a movement's records card, or send the exercise to a friend.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live PR detection",
+   "detail": "New weight, 1RM, volume, rep or hold records are flagged as you complete a set. — iPhone",
+   "quote": "Live PR detection. New weight, 1RM, volume, rep or hold records are flagged as you complete a set.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "PRs on workout summary",
+   "detail": "Records set in a session are shown on its summary; tap to open the exercise. — iPhone",
+   "quote": "PRs on workout summary. Records set in a session are shown on its summary; tap to open the exercise.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Body weight log",
+   "detail": "Log weight for any day, see your trend chart, and edit or delete past entries. — iPhone",
+   "quote": "Body weight log. Log weight for any day, see your trend chart, and edit or delete past entries.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Progress photos",
+   "detail": "Private photo timeline tagged by pose, with optional weight and note. (Pro) — iPhone",
+   "quote": "Progress photos. Private photo timeline tagged by pose, with optional weight and note.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Photo alignment guides",
+   "detail": "Camera with a body outline, a faint ghost of your last shot, and a self-timer. (Pro) — iPhone",
+   "quote": "Photo alignment guides. Camera with a body outline, a faint ghost of your last shot, and a self-timer.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Side-by-side photo compare",
+   "detail": "Pick two photos of the same pose and save a side-by-side image. (Pro) — iPhone",
+   "quote": "Side-by-side photo compare. Pick two photos of the same pose and save a side-by-side image.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit progress photos",
+   "detail": "View a photo full-screen; change its pose, weight or note, or delete it. (Pro) — iPhone",
+   "quote": "Edit progress photos. View a photo full-screen; change its pose, weight or note, or delete it.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Progress photo reminders",
+   "detail": "Reminder every 1, 2 or 4 weeks at a time you pick, on watch, phone or both. (Pro) — iPhone + Watch",
+   "quote": "Progress photo reminders. Reminder every 1, 2 or 4 weeks at a time you pick, on watch, phone or both.",
+   "url": "https://splyt.fit/features#progress",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout Live Activity",
+   "detail": "Lock Screen and Dynamic Island show the current exercise, set, weight × reps, rest countdown and heart rate. — iPhone",
+   "quote": "Workout Live Activity. Lock Screen and Dynamic Island show the current exercise, set, weight × reps, rest countdown and heart rate.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Live Activity buttons",
+   "detail": "Complete a set, skip rest, or pause and resume from the Lock Screen or Dynamic Island. — iPhone",
+   "quote": "Live Activity buttons. Complete a set, skip rest, or pause and resume from the Lock Screen or Dynamic Island.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Training calendar widget",
+   "detail": "Your week's planned workouts; tap Rest to mark today a rest day, and pick its colour. (Pro) — Widget",
+   "quote": "Training calendar widget. Your week's planned workouts; tap Rest to mark today a rest day, and pick its colour.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Workout widget",
+   "detail": "Today's workout and your last session. (Pro) — Widget",
+   "quote": "Workout widget. Today's workout and your last session.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Single habit widget",
+   "detail": "Track one habit you choose; tap to tick off today. (Pro) — Widget",
+   "quote": "Single habit widget. Track one habit you choose; tap to tick off today.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habits widget",
+   "detail": "Up to three habits with their week; tap today's dot to tick it. — Widget",
+   "quote": "Habits widget. Up to three habits with their week; tap today's dot to tick it.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Competition widget",
+   "detail": "Your race on the Home or Lock Screen with the field, your number and your place. — Widget",
+   "quote": "Competition widget. Your race on the Home or Lock Screen with the field, your number and your place.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Splyt ring Lock Screen widget",
+   "detail": "Today's Splyt ring on the Lock Screen; tap to open the app. — Widget",
+   "quote": "Splyt ring Lock Screen widget. Today's Splyt ring on the Lock Screen; tap to open the app.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Activity rings Lock Screen widget",
+   "detail": "Today's Move, Exercise and Stand rings on the Lock Screen. — Widget",
+   "quote": "Activity rings Lock Screen widget. Today's Move, Exercise and Stand rings on the Lock Screen.",
+   "url": "https://splyt.fit/features#widgets",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start a workout with Siri",
+   "detail": "Ask Siri to start an activity in Splyt; leave out the activity and the picker opens. — iPhone",
+   "quote": "Start a workout with Siri. Ask Siri to start an activity in Splyt; leave out the activity and the picker opens.",
+   "url": "https://splyt.fit/features#siri",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "End, pause or resume with Siri",
+   "detail": "Ask Siri to end, pause or resume the workout that's running. — iPhone",
+   "quote": "End, pause or resume with Siri. Ask Siri to end, pause or resume the workout that's running.",
+   "url": "https://splyt.fit/features#siri",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Add an activity with Siri",
+   "detail": "Ask Siri to add an activity, such as a walk, to the session that's running. — iPhone",
+   "quote": "Add an activity with Siri. Ask Siri to add an activity, such as a walk, to the session that's running.",
+   "url": "https://splyt.fit/features#siri",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Links open in the app",
+   "detail": "Invite, workout and template links on splyt.fit open directly in Splyt. — iPhone",
+   "quote": "Links open in the app. Invite, workout and template links on splyt.fit open directly in Splyt.",
+   "url": "https://splyt.fit/features#siri",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Notification inbox",
+   "detail": "All your notifications in one list; accept or decline friend, group and competition invites inline. — iPhone",
+   "quote": "Notification inbox. All your notifications in one list; accept or decline friend, group and competition invites inline.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Per-type notification switches",
+   "detail": "Turn each kind on or off: requests, invites, competitions, reactions, friend workouts, rings, records, streaks. — iPhone",
+   "quote": "Per-type notification switches. Turn each kind on or off: requests, invites, competitions, reactions, friend workouts, rings, records, streaks.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Watch or phone delivery",
+   "detail": "Choose whether pushes go to the watch, the phone, both, or stay in-app. — iPhone + Watch",
+   "quote": "Watch or phone delivery. Choose whether pushes go to the watch, the phone, both, or stay in-app.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Friend activity alerts",
+   "detail": "Notified when friends finish workouts or close their ring, or react to or comment on your days. — iPhone + Watch",
+   "quote": "Friend activity alerts. Notified when friends finish workouts or close their ring, or react to or comment on your days.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Competition alerts",
+   "detail": "Invites, daily standings, overtakes, ending-soon notices, results and race chat messages. — iPhone + Watch",
+   "quote": "Competition alerts. Invites, daily standings, overtakes, ending-soon notices, results and race chat messages.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Answer invites from a notification",
+   "detail": "Accept or decline a competition invite from the notification itself, on phone or watch. — iPhone + Watch",
+   "quote": "Answer invites from a notification. Accept or decline a competition invite from the notification itself, on phone or watch.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Mute from a notification",
+   "detail": "Tap 'Mute these' on a friend notification to switch that type off. — iPhone + Watch",
+   "quote": "Mute from a notification. Tap 'Mute these' on a friend notification to switch that type off.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Record and streak alerts",
+   "detail": "A push for a new PR, and at 7, 14, 30, 60, 100 and 365-day streaks. — iPhone + Watch",
+   "quote": "Record and streak alerts. A push for a new PR, and at 7, 14, 30, 60, 100 and 365-day streaks.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Ring reminder",
+   "detail": "An evening reminder to close your Splyt ring, and a celebration when you do. — iPhone",
+   "quote": "Ring reminder. An evening reminder to close your Splyt ring, and a celebration when you do.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Habit reminders",
+   "detail": "A reminder per habit at its own time, with a Mark Done button on phone and watch. — iPhone + Watch",
+   "quote": "Habit reminders. A reminder per habit at its own time, with a Mark Done button on phone and watch.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Inactivity nudge",
+   "detail": "A reminder if you haven't logged anything for a week. — iPhone",
+   "quote": "Inactivity nudge. A reminder if you haven't logged anything for a week.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "'Still working out?' check",
+   "detail": "Asks about a long-running workout with End and Pause buttons; can warn if you leave the gym mid-workout. — iPhone + Watch",
+   "quote": "'Still working out?' check. Asks about a long-running workout with End and Pause buttons; can warn if you leave the gym mid-workout.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Next-activity reminder",
+   "detail": "After part of a planned day, set a reminder to start the next activity later. — iPhone",
+   "quote": "Next-activity reminder. After part of a planned day, set a reminder to start the next activity later.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weekly summary push",
+   "detail": "A Monday notification recapping last week's workout and habit days. — iPhone + Watch",
+   "quote": "Weekly summary push. A Monday notification recapping last week's workout and habit days.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Weekly AI insight",
+   "detail": "A weekly Splyt AI note on your training at the hour you choose. (Pro) — iPhone",
+   "quote": "Weekly AI insight. A weekly Splyt AI note on your training at the hour you choose.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "AI coach nudges",
+   "detail": "Optional nudges from Splyt AI based on your training. (Pro) — iPhone",
+   "quote": "AI coach nudges. Optional nudges from Splyt AI based on your training.",
+   "url": "https://splyt.fit/features#notifications",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Talk to the team",
+   "detail": "Message the people who build Splyt directly; replies come from people. — iPhone",
+   "quote": "Talk to the team. Message the people who build Splyt directly; replies come from people.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Send feedback",
+   "detail": "Send a bug report or feature idea with up to 3 screenshots. — iPhone",
+   "quote": "Send feedback. Send a bug report or feature idea with up to 3 screenshots.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Sign in options",
+   "detail": "Sign in with Apple, Google, or email and password, with password reset. — iPhone",
+   "quote": "Sign in options. Sign in with Apple, Google, or email and password, with password reset.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Guided setup",
+   "detail": "Setup walks through your split, Apple Health, the ring, widgets, habits, notifications, watch and look; replayable. — iPhone",
+   "quote": "Guided setup. Setup walks through your split, Apple Health, the ring, widgets, habits, notifications, watch and look; replayable.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Manage subscription",
+   "detail": "See your plan and renewal date, change or cancel it, or restore purchases. — iPhone",
+   "quote": "Manage subscription. See your plan and renewal date, change or cancel it, or restore purchases.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Pro plans with free trial",
+   "detail": "Monthly or annual Pro, with a free trial when your Apple ID is eligible. — iPhone",
+   "quote": "Pro plans with free trial. Monthly or annual Pro, with a free trial when your Apple ID is eligible.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Edit your name",
+   "detail": "Change your display name and full name. — iPhone",
+   "quote": "Edit your name. Change your display name and full name.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Delete account",
+   "detail": "Permanently delete your account and data from inside the app. — iPhone",
+   "quote": "Delete account. Permanently delete your account and data from inside the app.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Colour themes and dark mode",
+   "detail": "Pick a colour theme or your own accent, plus light, dark or automatic mode. — iPhone",
+   "quote": "Colour themes and dark mode. Pick a colour theme or your own accent, plus light, dark or automatic mode.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Apple Fitness look",
+   "detail": "Switch the app to an Apple Fitness look, and pick Apple or theme colours for the watch workout screen. — iPhone + Watch",
+   "quote": "Apple Fitness look. Switch the app to an Apple Fitness look, and pick Apple or theme colours for the watch workout screen.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Start of week",
+   "detail": "Choose which day your week starts on. — iPhone",
+   "quote": "Start of week. Choose which day your week starts on.",
+   "url": "https://splyt.fit/features#settings",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Shared workout page",
+   "detail": "A workout link opens its full summary in any browser, no app needed. — Web",
+   "quote": "Shared workout page. A workout link opens its full summary in any browser, no app needed.",
+   "url": "https://splyt.fit/features#web",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Shared template page",
+   "detail": "A template link shows every set, superset and note in the browser, with a button to open it in Splyt. — Web",
+   "quote": "Shared template page. A template link shows every set, superset and note in the browser, with a button to open it in Splyt.",
+   "url": "https://splyt.fit/features#web",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Recap report page",
+   "detail": "A recap sent to a trainer opens as a printable report in any browser until the link expires. — Web",
+   "quote": "Recap report page. A recap sent to a trainer opens as a printable report in any browser until the link expires.",
+   "url": "https://splyt.fit/features#web",
+   "sourceType": "help_centre",
+   "date": null
+  },
+  {
+   "feature": "Invite pages",
+   "detail": "Friend, group and competition invite links show who is inviting, and the invite survives an App Store install. — Web",
+   "quote": "Invite pages. Friend, group and competition invite links show who is inviting, and the invite survives an App Store install.",
+   "url": "https://splyt.fit/features#web",
+   "sourceType": "help_centre",
+   "date": null
+  }
+ ],
+ "removed": [],
+ "notes": "SPLYT has no help centre; /features is its equivalent public feature documentation. Published 2026-10-09 from a code audit."
+}
