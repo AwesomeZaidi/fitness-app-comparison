@@ -1,4 +1,4 @@
-name: Validate
+name: Check
 
 on:
   pull_request:
@@ -16,4 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/validate.mjs
+      - name: Validate the data
+        run: node scripts/validate.mjs
+      - name: Run the tests
+        run: node --test test/*.test.mjs

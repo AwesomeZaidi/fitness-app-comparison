@@ -1,5 +1,10 @@
 # Fitness app comparison
 
+[![Check](https://github.com/AwesomeZaidi/fitness-app-comparison/actions/workflows/validate.yml/badge.svg)](https://github.com/AwesomeZaidi/fitness-app-comparison/actions/workflows/validate.yml)
+[![Weekly refresh](https://github.com/AwesomeZaidi/fitness-app-comparison/actions/workflows/weekly.yml/badge.svg)](https://github.com/AwesomeZaidi/fitness-app-comparison/actions/workflows/weekly.yml)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](data/LICENSE.md)
+
 The data and code behind **[splyt.fit/compare](https://splyt.fit/compare)**. It compares six iOS workout trackers (SPLYT, Hevy, Strong, Gravl, Fitbod and Motra) on 52 features. It also has a scoreboard of how many new features each app has named in its release notes recently.
 
 Everything the page shows is in this repository: each value, where it came from, and the scripts that collect and check it. If something is wrong, you can show us and we will change it.
@@ -90,6 +95,26 @@ node scripts/fetch-releases.mjs --dry                  # re-reads every App Stor
 node scripts/fetch-listings.mjs --dry                  # re-reads every App Store listing now
 ```
 
+## Who maintains this, and how changes happen
+
+Maintained by **[Asim Zaidi](https://github.com/AwesomeZaidi)**, co-founder of SPLYT. Every change to `data/` goes through a pull request: the `Check` workflow validates it and runs the tests, and the maintainer reviews the evidence before it merges. Nothing changes on [splyt.fit/compare](https://splyt.fit/compare) without a merged pull request here.
+
+```mermaid
+flowchart LR
+  A[Someone spots an error<br/>issue form · site form · PR] --> B[Labelled within 3 days<br/>correction · new-feature]
+  B --> C{Evidence from the<br/>app's own source?}
+  C -- no --> D[needs-evidence<br/>stays open 14 days]
+  C -- yes --> E[Pull request<br/>Check must pass]
+  E --> F[Maintainer review]
+  F --> G[Merged → site updates<br/>credited in the PR]
+  H[Weekly job<br/>re-reads every app] --> E
+```
+
+- **Response time:** every issue gets a first reply within **3 days** and a decision within **14 days**.
+- **Corrections to SPLYT's own cells** are handled first, not last.
+- **Disagreements** are settled by sources, not by the maintainer's opinion. If two sources from the same app conflict, the more detailed and more recent one wins, and the conflict is noted in the cell.
+- **Want to help maintain it?** Open an issue titled "Maintainer" — reviewers from outside SPLYT are especially welcome.
+
 ## Corrections
 
 If a value is wrong, [open a correction](../../issues/new?template=correction.yml). Include a link to an allowed source and the sentence that supports the change. Corrections to SPLYT's column are handled the same way.
@@ -113,7 +138,8 @@ data/
   pace-crosscheck-2026-10-08.json sources checked outside the App Store
   snapshots/<app>/     App Store listing snapshots (description, version, notes)
 scripts/               fetch, compute, validate and report (Node 20, no dependencies)
-.github/               weekly refresh workflow, validation on every PR, issue forms
+test/                  tests for the scripts and the published data (npm test)
+.github/               weekly refresh, checks on every PR, issue and PR templates
 ```
 
 ## Scope
@@ -125,7 +151,19 @@ scripts/               fetch, compute, validate and report (Node 20, no dependen
 ## License
 
 - **Code** (`scripts/`, `.github/`) is MIT. See [LICENSE](LICENSE).
-- **Data** (`data/`) is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [data/LICENSE.md](data/LICENSE.md). Please credit "fitness-app-comparison by SPLYT" and link here.
+- **Data** (`data/`) is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [data/LICENSE.md](data/LICENSE.md). Please credit "fitness-app-comparison" and link here.
 - **Text quoted from App Store listings and release notes** in `data/releases/` and `data/snapshots/` belongs to the developers who wrote it. It is included so the data can be verified. The CC BY license covers our compilation and annotations, not their text.
 
 App names and trademarks belong to their owners. None of the other five apps reviewed or endorsed this comparison.
+
+## Run it yourself
+
+```sh
+git clone https://github.com/AwesomeZaidi/fitness-app-comparison
+cd fitness-app-comparison
+npm run check          # validate the data and run the tests (no install needed)
+npm run fetch          # re-read every app's App Store page and listing
+npm run pace           # recompute the release-pace scoreboard
+```
+
+Node 20 or newer. No dependencies.

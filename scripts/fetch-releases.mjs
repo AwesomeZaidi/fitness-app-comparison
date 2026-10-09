@@ -12,12 +12,13 @@
 // that is mechanical (notes identical to the previous release, or boilerplate
 // like "Bug fixes and improvements"); otherwise `features` is null and a
 // person fills it in during review. See CONTRIBUTING.md.
+import { pathToFileURL } from 'node:url';
 import { loadApps, readJsonIfExists, writeJson, get, pause, args, selectApps, today, isGeneric, normalizeNotes } from './lib.mjs';
 
 const opt = args();
 
 /** Pull every {version, date, notes} out of an apps.apple.com product page. */
-function parseVersionHistory(html) {
+export function parseVersionHistory(html) {
   const blobs = [];
   const tagged = html.match(/<script[^>]*id="?serialized-server-data"?[^>]*>([\s\S]*?)<\/script>/);
   if (tagged) blobs.push(tagged[1]);
@@ -120,4 +121,5 @@ async function main() {
   if (failed) process.exit(1);
 }
 
-await main();
+// Run only when invoked directly, so tests can import the parser.
+if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) await main();
