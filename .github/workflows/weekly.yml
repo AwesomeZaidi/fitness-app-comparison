@@ -57,7 +57,7 @@ jobs:
         run: echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: automation/weekly-refresh
           delete-branch: true
