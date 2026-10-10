@@ -15,7 +15,7 @@ if (!URL_ || !KEY) {
   process.exit(0);
 }
 
-const COLS = 'app_id,name,developer,kind,price,rating,rating_count,first_released,rank_free,rank_paid,rank_grossing,gained_7d,gained_30d,gained_365d';
+const COLS = 'app_id,name,developer,kind,price,rating,rating_count,first_released,last_updated,rank_free,rank_paid,rank_grossing,gained_7d,gained_30d,gained_365d';
 const GYM = 'kind=eq.strength_gym';
 const TRACKERS = 'kind=in.(strength_gym,general_workouts)';
 
@@ -29,6 +29,8 @@ const list = (filter, order, limit, extra = '') => get(`store_directory?select=$
 
 const [span] = await get('store_history_span?select=first_day,last_day,days');
 const day = span.last_day;
+// "Active" = an App Store update in the last 365 days (same rule as the page).
+const activeSince = new Date(Date.parse(day) - 365 * 864e5).toISOString().slice(0, 10);
 const weekAgo = new Date(Date.parse(day) - 7 * 864e5).toISOString().slice(0, 10);
 
 const out = {
@@ -43,7 +45,8 @@ for (const [scope, filter] of [['gym_strength', GYM], ['all_trackers', TRACKERS]
     today_free: await list(filter, 'rank_free.asc', 25, '&rank_free=not.is.null'),
     today_paid: await list(filter, 'rank_paid.asc', 25, '&rank_paid=not.is.null'),
     today_grossing: await list(filter, 'rank_grossing.asc', 25, '&rank_grossing=not.is.null'),
-    all_time: await list(filter, 'rating_count.desc.nullslast', 50),
+    all_time: await list(filter, 'rating_count.desc.nullslast', 50, `&last_updated=gte.${activeSince}`),
+    all_time_including_inactive: await list(filter, 'rating_count.desc.nullslast', 50),
     week: span.days >= 8 ? await list(filter, 'gained_7d.desc.nullslast', 25, '&gained_7d=not.is.null') : null,
     month: span.days >= 31 ? await list(filter, 'gained_30d.desc.nullslast', 25, '&gained_30d=not.is.null') : null,
     year: span.days >= 366 ? await list(filter, 'gained_365d.desc.nullslast', 25, '&gained_365d=not.is.null') : null,
