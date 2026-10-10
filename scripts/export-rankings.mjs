@@ -15,7 +15,7 @@ if (!URL_ || !KEY) {
   process.exit(0);
 }
 
-const COLS = 'app_id,name,developer,kind,price,rating,rating_count,first_released,last_updated,rank_free,rank_paid,rank_grossing,gained_7d,gained_30d,gained_365d';
+const COLS = 'app_id,name,developer,kind,price,rating,rating_count,first_released,last_updated,rank_free,rank_paid,rank_grossing,gained_7d,gained_30d,gained_365d,gained_7d_from,gained_30d_from,gained_365d_from,gained_7d_exact,gained_30d_exact,gained_365d_exact,up_total,up_7d,up_30d,notes';
 const GYM = 'kind=eq.strength_gym';
 const TRACKERS = 'kind=in.(strength_gym,general_workouts)';
 
@@ -47,9 +47,13 @@ for (const [scope, filter] of [['gym_strength', GYM], ['all_trackers', TRACKERS]
     today_grossing: await list(filter, 'rank_grossing.asc', 25, '&rank_grossing=not.is.null'),
     all_time: await list(filter, 'rating_count.desc.nullslast', 50, `&last_updated=gte.${activeSince}`),
     all_time_including_inactive: await list(filter, 'rating_count.desc.nullslast', 50),
-    week: span.days >= 8 ? await list(filter, 'gained_7d.desc.nullslast', 25, '&gained_7d=not.is.null') : null,
-    month: span.days >= 31 ? await list(filter, 'gained_30d.desc.nullslast', 25, '&gained_30d=not.is.null') : null,
-    year: span.days >= 366 ? await list(filter, 'gained_365d.desc.nullslast', 25, '&gained_365d=not.is.null') : null,
+    // *_exact = false: the start count came from an Internet Archive copy
+    // dated *_from, scaled to the window (RANKINGS.md, "History from before we started").
+    week: await list(filter, 'gained_7d.desc.nullslast', 25, '&gained_7d=not.is.null'),
+    month: await list(filter, 'gained_30d.desc.nullslast', 25, '&gained_30d=not.is.null'),
+    year: await list(filter, 'gained_365d.desc.nullslast', 25, '&gained_365d=not.is.null'),
+    community_week: await list(filter, 'up_7d.desc', 25, '&up_7d=gt.0'),
+    community_all_time: await list(filter, 'up_total.desc', 25, '&up_total=gt.0'),
   };
 }
 out.new_this_week = await list(TRACKERS, 'first_released.desc', 100, `&first_released=gte.${weekAgo}`);
