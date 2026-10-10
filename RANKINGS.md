@@ -51,15 +51,15 @@ Every list states its rule in one line on the page. These are those rules in ful
 |---|---|---|
 | **Today** | The app's position in Apple's US Health & Fitness chart (free, paid or grossing) on the latest collection day | Only apps in scope are shown, keeping Apple's own rank number, so gaps are normal: #13, #35, #36… |
 | **This week / This month / This year** | Ratings gained: today's total rating count minus the count 7, 30 or 365 days earlier | Each list stays locked until that much history exists. The week list unlocks on 2026-10-16. |
-| **All time** | Total App Store rating count, among **active** apps | Ratings, not downloads. Apple doesn't publish download numbers. "Include inactive" adds the rest back. |
+| **All time** | Total App Store rating count, among **active** apps | Ratings, not downloads. Apple doesn't publish download numbers. The page's Active · Inactive · All switch changes this. |
 | **New this week** | First App Store release in the last 7 days, newest first | Directory scope (gym & strength plus guided workouts) |
-| **Directory (every sort)** | Active apps only by default; "Include inactive" shows all | See "Active and inactive apps" below. |
+| **Directory (every sort)** | Active apps by default; Inactive and All are one tap away | See "Active and inactive apps" below. |
 | **Directory: Top rated** | Average star rating, among apps with **at least 100 ratings**; ties broken by rating count | The floor stops a single 5★ review from winning. |
 | **Directory: Most reviews / Newest / Today's chart** | Rating count / first release date / chart position | |
 
 ## Active and inactive apps
 
-An app is **inactive** if its last App Store update (the lookup API's `currentVersionReleaseDate`) is more than **365 days** old. Many once-popular apps still hold large rating counts years after their last release, so the all-time list and the directory hide inactive apps by default. One tap ("Include inactive") brings them back, and an inactive app's row says "No update since <date>". Lists based on today's chart or on recent rating gains aren't filtered: an app has to be in active use to show up there.
+An app is **inactive** if its last App Store update (the lookup API's `currentVersionReleaseDate`) is more than **365 days** old. Many once-popular apps still hold large rating counts years after their last release, so the all-time list and the directory hide inactive apps by default. The Active · Inactive · All switch shows just the inactive ones or everything, and an inactive app's row says "No update since <date>". Lists based on today's chart or on recent rating gains aren't filtered: an app has to be in active use to show up there.
 
 ## What is published, and what isn't
 
