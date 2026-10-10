@@ -50,12 +50,40 @@ Every list states its rule in one line on the page. These are those rules in ful
 | List | Order | Notes |
 |---|---|---|
 | **Today** | The app's position in Apple's US Health & Fitness chart (free, paid or grossing) on the latest collection day | Only apps in scope are shown, keeping Apple's own rank number, so gaps are normal: #13, #35, #36… |
-| **This week / This month / This year** | Ratings gained: today's total rating count minus the count 7, 30 or 365 days earlier | Each list stays locked until that much history exists. The week list unlocks on 2026-10-16. |
+| **This week / This month / This year** | Ratings gained: today's total rating count minus the count 7, 30 or 365 days earlier | Until our own record covers the window, the start count comes from an Internet Archive copy of the app's page (see "History from before we started"), and the page marks the gain ≈ with the copy's date. |
 | **All time** | Total App Store rating count, among **active** apps | Ratings, not downloads. Apple doesn't publish download numbers. The page's Active · Inactive · All switch changes this. |
 | **New this week** | First App Store release in the last 7 days, newest first | Directory scope (gym & strength plus guided workouts) |
 | **Directory (every sort)** | Active apps by default; Inactive and All are one tap away | See "Active and inactive apps" below. |
 | **Directory: Top rated** | Average star rating, among apps with **at least 100 ratings**; ties broken by rating count | The floor stops a single 5★ review from winning. |
 | **Directory: Most reviews / Newest / Today's chart** | Rating count / first release date / chart position | |
+
+## History from before we started
+
+Our own daily record began on 2026-10-09, so on their own the week, month and year lists would stay empty for 7, 30 and 365 days. To fill that gap, we read old copies of each app's US App Store page from the [Internet Archive](https://web.archive.org/). Each copy has Apple's **exact** rating count in its structured data (`aggregateRating.reviewCount`).
+
+For each window, the start count is taken as follows:
+
+1. **Our own row** for exactly 7, 30 or 365 days ago, when we have one. This is exact.
+2. Otherwise, **the archive copy closest to that day**, within 3 days for the week, 10 days for the month and 60 days for the year. The gain is scaled to the window's length: `(today − then) × window ÷ days between`. The page shows these gains as "≈ +N" with the date of the copy.
+3. Otherwise, **no entry**. Apps with no archive copy near the start are left out of that list instead of being guessed.
+
+Each archive point links to the copy it came from (`source_url`). Once our own record covers a window (week on 2026-10-16, month on 2026-11-08, year on 2027-10-09), it takes over automatically and the ≈ marks go away. Each app's page also charts its rating count over time, using archive copies (hollow dots) and our daily record (solid dots).
+
+## Community upvotes and notes
+
+The page also has a **community** chart, kept apart from Apple's numbers. These numbers never change any ranking based on Apple's data.
+
+- **Who can vote.** Anyone signed in, with Google or an emailed link. An account is a SPLYT account, and you don't need the app.
+- **Votes.** One upvote per person per app, removable. The chart counts upvotes cast in the last 24 hours, 7 days, 30 days or 365 days, plus all time.
+- **Notes.** One note per person per app, and you can edit it. A note records how you know the app (use it now / used to / tried it), for how long, what you pay, which app you switched from and why, and what the app is good and not great at. Writing a comment is optional. The structured answers are added up into each app's summary.
+- **What we hold ourselves to.**
+  - SPLYT's team **can't upvote SPLYT**. The database enforces this, not the page.
+  - Anything the team writes carries a "SPLYT team" badge.
+  - Notes can't contain links.
+  - Votes and posts are rate-limited.
+  - There is no paid placement and there are no sponsored rows.
+- **What's public.** Display names, votes and notes. Emails and account ids are never shown.
+- **Moderation.** People can report a note. Reported notes are reviewed by hand: hidden, deleted, or left up.
 
 ## Active and inactive apps
 
