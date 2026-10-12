@@ -8,7 +8,7 @@
     "to": "2026-10-02",
     "note": "Continuous coverage 2025-08-27..2026-10-02 (sources overlap, no conflicts). Hevy often re-ships the previous release's notes verbatim (repeatsPreviousNotes=true); those are classified by text but carry no new features."
   },
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-12",
   "releases": [
     {
       "version": "3.1.16",
