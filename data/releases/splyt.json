@@ -5,11 +5,22 @@
   "history": "Built by scripts/fetch-releases.mjs from the live App Store page.",
   "coverage": {
     "from": "2025-12-10",
-    "to": "2026-10-02",
+    "to": "2026-10-15",
     "note": ""
   },
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-19",
   "releases": [
+    {
+      "version": "1.0.27",
+      "date": "2026-10-15",
+      "notes": "Our biggest update yet.\n\nNEW\n• Proven splits come with real workouts — Push/Pull/Legs, Upper/Lower, and the new Arnold Split, ready to train.\n• Lift Together: pick a friend and Splyt finds a day you can both train — invite them with the gym, time, and plan.\n• Log in kilograms. Pick it once and your sets, watch, stats, and recaps follow.\n• Grips and handles on rows, curls, pulldowns, and pushdowns — with \"last time\" weights from the same grip.\n• Load the bar: tap the plates and Splyt does the math.\n• Partials, on your phone and your watch.\n• Heart rate by set: each set's peak, live, against last time.\n• Voice logging takes your whole day at once, and shows what it heard before saving.\n• Share cards on your own photo, plus a new set: scoreboard, polaroid, streak, heartbeat, PR, and more.\n• A redesigned workout summary, Trends tab, friend profiles, and group pages.\n• Temporary chats in Splyt AI, and all your chats in one panel.\n• See what you lifted the last time you ran a workout — editing a plan fills it in.\n• Forgot to stop a workout? Splyt spots when you finished and ends it there.\n• Try Pro free for a week.\n\nON YOUR WATCH\n• Switch an exercise to the one you'd actually reach for.\n• Set your grip, log partials, and reorder your workout from your wrist.\n\nIMPROVED\n• Swaps suggest the obvious replacement first.\n• The live heart-rate graph matches your watch and keeps going when your phone locks.\n• Sleep totals match Apple Health.\n• Finished splits keep their record; deleting a split never deletes finished workouts.\n• Sheets drag down to close, and light mode is cleaned up across the app.\n\nPlus dozens of fixes. Questions? Chat with the founders right in the app.",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-19"
+    },
     {
       "version": "1.0.26",
       "date": "2026-10-02",

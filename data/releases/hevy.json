@@ -5,11 +5,22 @@
   "history": "Live App Store page (apps.apple.com/us/app/id1458862350, fetched 2026-10-08; 25 most recent) + Wayback Machine captures of the same page dated 2026-04-12 and 2026-05-06 (each 25 most recent at capture time).",
   "coverage": {
     "from": "2025-11-01",
-    "to": "2026-10-02",
+    "to": "2026-10-13",
     "note": "Continuous coverage 2025-08-27..2026-10-02 (sources overlap, no conflicts). Hevy often re-ships the previous release's notes verbatim (repeatsPreviousNotes=true); those are classified by text but carry no new features."
   },
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-19",
   "releases": [
+    {
+      "version": "3.2.0",
+      "date": "2026-10-13",
+      "notes": "What's new in this update:\n\nNotes, rebuilt. Pin a note to a specific exercise so it's there every time you train it, pin one to a routine, or add a one-off note for today's workout.\nShare your workouts straight to Snapchat.\nBug fixes and performance improvements!",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-19"
+    },
     {
       "version": "3.1.16",
       "date": "2026-10-02",
