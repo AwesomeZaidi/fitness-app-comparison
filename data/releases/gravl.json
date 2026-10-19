@@ -5,11 +5,22 @@
   "history": "Live App Store page (apps.apple.com/us/app/id6450921637, fetched 2026-10-08; 25 most recent).",
   "coverage": {
     "from": "2026-03-01",
-    "to": "2026-10-05",
+    "to": "2026-10-14",
     "note": "Covers 2026-03-01..2026-10-05 only. No Wayback captures of the Gravl page exist before 2026-08 and no other public source was found, so 2025-11-01..2026-02-28 is NOT covered. Version history lists versions like 1.53.1/1.53.4 without the intermediate .2/.3, which were presumably never released to the store."
   },
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-19",
   "releases": [
+    {
+      "version": "1.53.6",
+      "date": "2026-10-14",
+      "notes": "Internal bug fix for subscriptions",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": null,
+      "notCounted": [],
+      "classifiedBy": null,
+      "firstSeen": "2026-10-19"
+    },
     {
       "version": "1.53.4",
       "date": "2026-10-05",
