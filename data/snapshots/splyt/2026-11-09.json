@@ -1,0 +1,24 @@
+{
+  "app": "splyt",
+  "source": "https://itunes.apple.com/lookup?id=6755893717&country=us",
+  "fetchedAt": "2026-11-09T09:09:14.808Z",
+  "listing": {
+    "trackId": 6755893717,
+    "trackName": "SPLYT Fitness: Workout Tracker",
+    "artistName": "Syed Hussain",
+    "sellerUrl": "https://www.splyt.fit",
+    "version": "1.0.33",
+    "currentVersionReleaseDate": "2026-11-06T16:51:14Z",
+    "releaseNotes": "Splyt checks in on your week\nSplyt AI asks about your week as it starts\nMissed workouts get their own card\nCatch up with just the key lifts\nChat with your trainer like Messages",
+    "description": "Staying consistent is hard when you're juggling five apps, guessing what to do next, or starting over every Monday. Splyt is one structured place for your training — with a coach that knows you, a watch that counts your reps, and friends who keep you honest.\n\nStart with a plan that's ready to train.\nPick a proven split — Push/Pull/Legs, Upper/Lower, or the Arnold Split — and it lands on your calendar with real workouts in it. Or build your own, or have Splyt AI draft one.\n\nTrack everything that matters.\nLog lifts, cardio, sleep, food, weight, and habits in seconds. Supersets, drop sets, partials, warm-up and failure sets, grips, and reps-in-reserve are all first-class, in a keyboard built for lifting — with a plate loader that does the bar math. Plans fill in what you lifted last time. Pounds or kilograms.\n\nJust say it.\nVoice logging speaks gym: \"three sets of bench at 185, then superset pushdowns with dips.\" Log one workout or your whole day, and check what it heard before it saves.\n\nYour AI coach, not just a chatbot.\nSplyt AI remembers your goals, injuries, and routines. It draws charts from your data, drafts templates, builds week-long splits, searches the web, and can fill your live session in real time. Temporary chats stay off the record. Prefer to talk? Hands-free voice mode, from Calm to Drill Sergeant.\n\nYour watch counts your reps.\nApple Watch counts reps on bench, shoulder press, curls, squats, triceps work, and flyes — live on your wrist. Log sets and partials by voice, set your grip, swap an exercise, or reorder your workout without touching your phone.\n\nHeart rate, set by set.\nYour real heart rate live, matching your watch, with each set's peak against last time — and every session next to your usual and your best.\n\nConnect to the machines at your gym.\nPair Splyt to a treadmill, bike, rower, elliptical, or stair climber over Bluetooth for real speed, distance, and power. No Bluetooth? Snap the console and Splyt reads it in.\n\nEvery kind of workout — and recovery too.\nStrength, outdoor runs with route maps, pool swimming, basketball, boxing, yoga, HIIT. Sauna, cold plunge, and massage count as training.\n\nOne ring for your whole day.\nYour Splyt ring blends workouts, sleep, and habits into one daily target — no Apple Watch required — on your lock screen, home screen, or watch face.\n\nTrain together.\nLift Together finds a day you and a friend can both train and sends the invite. Friends see each other's workouts in a private feed — react, watch a live workout, or go head-to-head. No public posts. No fake likes.\n\nShare it your way.\nPut your session on your own photo, or pick a card: a scoreboard of every set, a polaroid, your month as a streak, a PR when you hit one.\n\nKey Features\n\nWorkout Tracking — lifting, cardio, sports, swimming, boxing, yoga, recovery\nProven Splits — PPL, Upper/Lower, and Arnold, ready to train\nAuto Rep Counting — Apple Watch counts your reps on major lifts\nVoice Logging — one workout or your whole day\nHeart Rate by Set — live and against your history\nSplyt AI Coach (Pro) — memory, charts, voice mode, AI-built splits\nSmart Gym Machines — Bluetooth treadmills, bikes, rowers, ellipticals\nLift Together, Competitions & Groups — private accountability\nShare Cards — on your own photo, in dozens of styles\nProgress Photos (Pro) — private, with optional AI analysis\nLifestyle Tracking — sleep, weight, habits, food\nWidgets & Siri — rings and habits on your screens; start any workout by voice\nApple Health Sync — sleep stages, two-way workout sync\nImport / Export — Strong, Hevy, CSV, a note, or a workout video link\n\nQuestions? The chat in the app goes straight to the founders.\n\nTerms of Use: https://www.splyt.fit/terms",
+    "price": 0,
+    "formattedPrice": "Free",
+    "currency": "USD",
+    "genres": [
+      "Health & Fitness",
+      "Productivity"
+    ],
+    "minimumOsVersion": "16.4",
+    "contentAdvisoryRating": "12+"
+  }
+}

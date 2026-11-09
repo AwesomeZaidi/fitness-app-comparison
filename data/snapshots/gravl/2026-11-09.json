@@ -1,0 +1,23 @@
+{
+  "app": "gravl",
+  "source": "https://itunes.apple.com/lookup?id=6450921637&country=us",
+  "fetchedAt": "2026-11-09T09:09:17.929Z",
+  "listing": {
+    "trackId": 6450921637,
+    "trackName": "Gravl: AI Personal Trainer",
+    "artistName": "GAINS AI",
+    "sellerUrl": "https://gravl.ai",
+    "version": "1.54",
+    "currentVersionReleaseDate": "2026-11-08T20:43:14Z",
+    "releaseNotes": "New\n• Readiness: See a daily score from your sleep, HRV and resting heart rate. It also tells you if today is a day to train or a day to rest.\n• Friend Groups: Make groups with friends and run challenges with start and end dates. You can repeat a challenge, join monthly boards and see suggested groups for your gym.\n• New feed: Workout cards now show photos, records, highlights and your Strength Score. Comments post at once.\n• New Progress tab: It has sections for Workouts, Body and Achievements, a streak card with weekly rings, and muscle activity rings.\n• New Strength Score screen: A muscle \"flower\" shows your score. You can also see each score increase on the workout that caused it, and which lifts to repeat to keep your score.\n• Garmin Connect: Connect your Garmin account t o import your activities.\n• Import from Apple Health: Select and import more than one outside workout at the same time.\n• Apple Watch: Log distance + weight exercises, such as farmer's carries.\n• Live Activity: The workout timer now shows in the Dynamic Island.\n• New look: Liquid Glass buttons and a softer dark theme.\n\nImprovements and fixes\n• Warm-up sets stay lighter than your working sets. Pyramid sets keep their weights in order.\n• Machine and plate weights round correctly. The plate calculator now goes up to 1000 lb.\n• Better rest timer sync between your iPhone and Apple Watch.\n• More accurate calories in Apple Health for cardio and phone-started workouts.\n• Cardio-only workouts no longer count toward your streak by mistake.\n• When you change your split on one device, your other devices now get the change.\n• Smaller download size and faster app start.\n• Many small fixes, including dark mode.",
+    "description": "Gravl is an AI personal trainer for strength training. It builds your plan, coaches you through every set, and tells you exactly how much weight to lift next time.\n\nAUTOMATIC PROGRESSIVE OVERLOAD\nGravl estimates your one-rep max from your logged history and prescribes the next session from it. Reps climb set by set; when the ladder fills, the weight steps up, snapped to the plates or stack you actually have. Rate a set Easy or Hard and the next prescription adjusts.\n\nTRAIN ON YOUR WRIST, WITHOUT YOUR PHONE\nA standalone Apple Watch app. Log sets and reps, run rest timers, and finish a whole session from the watch. Syncs with Apple Health, Garmin and Strava.\n\nSTRENGTH SCORE\nSee how your lifts compare against standards for your body weight and sex, tracked over time across every muscle group.\n\nBUILT AROUND YOUR GYM, NOT A GENERIC TEMPLATE\nGravl accounts for the equipment you own, which muscles are still recovering, what you trained last session, and which lifts you've neglected. 300+ trainer-led exercise videos, downloadable for offline use.\n\nFree to start. Full training plans, the Apple Watch app and analytics on Gravl Premium.\n\nPrivacy: https://gravl.ai/privacy\nTerms: https://gravl.ai/terms\nTerms (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "price": 0,
+    "formattedPrice": "Free",
+    "currency": "USD",
+    "genres": [
+      "Health & Fitness"
+    ],
+    "minimumOsVersion": "16.4",
+    "contentAdvisoryRating": "4+"
+  }
+}
