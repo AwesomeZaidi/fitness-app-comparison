@@ -5,7 +5,7 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](data/LICENSE.md)
 
-The data and code behind **[splyt.fit/compare](https://splyt.fit/compare)**. It compares six iOS workout trackers (SPLYT, Hevy, Strong, Gravl, Fitbod and Motra) on **188 features**, built bottom-up from what each app says about itself. It also has a scoreboard of how many new features each app has named in its release notes recently.
+The data and code behind **[splyt.fit/compare](https://splyt.fit/compare)**. It compares six iOS workout trackers (SPLYT, Hevy, Strong, Gravl, Fitbod and Motra) on **190 features**, built bottom-up from what each app says about itself. It also has a scoreboard of how many new features each app has named in its release notes recently.
 
 Everything the page shows is in this repository: every claim each app makes about itself, how each claim was judged, how claims were merged into features, the scripts that build and check the result, and a human-readable record of every decision in **[MERGE-LOG.md](MERGE-LOG.md)**. If something is wrong, you can show us and we will change it.
 
@@ -26,16 +26,22 @@ The full rules are in [METHODOLOGY.md](METHODOLOGY.md).
 
 ## Results
 
-### Features (188 compared, built 2026-10-09)
+### Features (190 compared, built 2026-10-09, refreshed 2026-11-20)
 
-| App | Yes | % of 188 | Partial | No | Unknown |
+| App | Yes | % of 190 | Partial | No | Unknown |
 |---|---:|---:|---:|---:|---:|
-| SPLYT ¹ | 133 | 70.7% | 1 | 4 | 50 |
-| Hevy | 120 | 63.8% | 0 | 4 | 64 |
-| Gravl | 109 | 58.0% | 2 | 3 | 74 |
-| Motra | 104 | 55.3% | 1 | 3 | 80 |
-| Fitbod | 91 | 48.4% | 6 | 4 | 87 |
-| Strong ² | 72 | 38.3% | 1 | 5 | 110 |
+| SPLYT ¹ | 136 | 71.6% | 4 | 6 | 44 |
+| Hevy | 120 | 63.2% | 0 | 4 | 66 |
+| Gravl | 111 | 58.4% | 2 | 3 | 74 |
+| Motra | 104 | 54.7% | 1 | 3 | 82 |
+| Fitbod | 91 | 47.9% | 6 | 4 | 89 |
+| Strong ² | 72 | 37.9% | 1 | 5 | 112 |
+
+**Refreshed 2026-11-20.** Every app's App Store release notes since 2026-10-09 were read (31 releases) and classified for the scoreboard. Eight cells changed and two features were added, each with its source in `data/matrix.json` and its reason in [MERGE-LOG.md](MERGE-LOG.md):
+- **Gravl:** Groups and Competitions became yes (Friend Groups with challenges, release 1.54).
+- **SPLYT:** Body measurements, Control Center control and ChatGPT / Claude integration became yes. Two new features were added, WHOOP integration and Garmin health data; SPLYT is partial on both, and on Connect your personal trainer, because its own pages call them beta. Garmin watch app and Garmin Connect sync became no for SPLYT, from its own Garmin page.
+
+**This refresh is lopsided, and favours SPLYT.** For the competitors only release notes were read; their websites and help centres were not re-read. SPLYT's own website pages were. A competitor feature announced on its website or help centre since 2026-10-09, but not in its release notes, is still missing. The two new features were added from SPLYT's pages only, so the other apps are unknown on them until someone checks.
 
 ¹ SPLYT published its feature index, [splyt.fit/features](https://splyt.fit/features), on **2026-10-09, the day of this comparison**. It was treated as a help centre, like every other app's. **Without it, SPLYT scores 125 (66%)**, still first; 8 SPLYT cells depend on it alone. The index was also used *against* SPLYT: SPLYT describes it as complete, so SPLYT marketing claims it does not back (a daily strain score, using the watch without the phone, body circumference measurements, watching a friend's sets live) were marked unsubstantiated and not counted. No other app's help centre claims to be complete, so no other app could be held to that test.
 
@@ -45,8 +51,8 @@ The full rules are in [METHODOLOGY.md](METHODOLOGY.md).
 
 Some details that help read the table:
 
-- **32 of the 188 features are "yes" for all six apps.**
-- **SPLYT is not "yes" on 55 features.** It is "no" on 4: Android, Mac, languages other than English, and nutrition logging (removed). It is "partial" on following a friend's workout live. The other 50 are unknown, and they include whole areas where other apps lead: SPLYT is "yes" on only 3 of 13 automatic-programming features (Gravl and Fitbod: 13).
+- **32 of the 190 features are "yes" for all six apps.**
+- **SPLYT is not "yes" on 54 features.** It is "no" on 6: Android, Mac, languages other than English, nutrition logging (removed), a Garmin watch app and writing to Garmin Connect. It is "partial" on 4: following a friend's workout live, and three features its own pages call beta (connecting your personal trainer, WHOOP, Garmin health data). The other 44 are unknown, and they include whole areas where other apps lead: SPLYT is "yes" on only 3 of 13 automatic-programming features (Gravl and Fitbod: 13).
 
 #### Category leaders (most "yes" cells in the category)
 
@@ -56,12 +62,12 @@ Some details that help read the table:
 | Sets, supersets & loading | 12 | SPLYT, Hevy (11) |
 | Templates, plans & calendar | 13 | SPLYT (10) |
 | Automatic programming | 13 | Gravl, Fitbod (13) |
-| AI & voice | 8 | SPLYT (5) |
+| AI & voice | 8 | SPLYT (6) |
 | Exercise library & content | 10 | SPLYT, Gravl, Fitbod, Motra (7) |
 | Stats & progress | 17 | Hevy (15) |
-| Health, body & recovery | 14 | SPLYT (11) |
+| Health, body & recovery | 14 | SPLYT (12) |
 | Cardio, sports & other activities | 8 | SPLYT (8) |
-| Apple Watch & wearables | 16 | Hevy, Gravl, Motra (9) |
+| Apple Watch & wearables | 18 | Hevy, Gravl, Motra (9) |
 | Social & competition | 16 | SPLYT, Hevy (13) |
 | Sharing, import/export & integrations | 12 | Hevy (9) |
 | Platforms, widgets & system | 14 | Hevy (10) |
@@ -71,11 +77,11 @@ The full per-app breakdown by category is in [`data/scores.md`](data/scores.md).
 
 #### Features documented by only one app ("yes" for it, "no" or "unknown" for all five others)
 
-- **SPLYT (15):** Search workout history, Planning calendar, Apple Calendar sync, AI progress-photo analysis, Sleep tracking, Steps tracking, Activity rings in the app, Habit and daily-goal tracking, Non-lifting activity types, Multi-activity sessions, GPS outdoor tracking, Swim tracking, Read a cardio machine screen by photo, Groups, Competitions and challenges
+- **SPLYT (13):** Search workout history, Planning calendar, Apple Calendar sync, AI progress-photo analysis, Sleep tracking, Steps tracking, Activity rings in the app, Habit and daily-goal tracking, Non-lifting activity types, Multi-activity sessions, GPS outdoor tracking, Swim tracking, Read a cardio machine screen by photo
 - **Gravl (7):** Programs from named coaches, Form analysis from video, Offline exercise videos, Garmin watch app, Garmin Connect sync, Public developer API, Distraction blocking during workouts
 - **Fitbod (3):** Head-gesture logging, Strava import, Mac (Apple silicon) availability
-- **Motra (3):** Lifting tempo tracking, Automatic exercise detection, Control Center control
-- **Hevy (2):** Connect your personal trainer, iMessage stickers
+- **Motra (2):** Lifting tempo tracking, Automatic exercise detection
+- **Hevy (1):** iMessage stickers
 - **Strong (2):** Hide, merge or reset exercise data, Calorie and macro logging
 
 Most of these are "unknown", not "no", for the other apps. The reverse list (features all five other apps document and one does not) is in [`data/scores.md`](data/scores.md); for SPLYT it is per-exercise weight units and languages other than English.

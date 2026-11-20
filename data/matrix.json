@@ -3809,13 +3809,13 @@
  },
  "external-ai": {
   "splyt": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
+   "value": "yes",
+   "quote": "Splyt is a workout tracker for iPhone and Apple Watch with its own connector for ChatGPT and Claude.",
+   "url": "https://splyt.fit/ai",
+   "sourceType": "website",
    "date": null,
    "note": null,
-   "claim": null
+   "claim": "splyt:250"
   },
   "hevy": {
    "value": "yes",
@@ -5713,13 +5713,13 @@
  },
  "body-measurements": {
   "splyt": {
-   "value": "unknown",
-   "quote": "Log body weight and measurements, kept in sync with Apple Health both ways.",
-   "url": "https://splyt.fit/roadmap",
-   "sourceType": "website",
-   "date": null,
-   "note": "Website says 'body weight and measurements', but the feature index describes a body weight log only.",
-   "claim": "splyt:154"
+   "value": "yes",
+   "quote": "Measurements and progress photos: track your waist, arms and more, and compare photos week to week.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-27",
+   "note": null,
+   "claim": "splyt:247"
   },
   "hevy": {
    "value": "yes",
@@ -7393,12 +7393,12 @@
  },
  "garmin-watch-app": {
   "splyt": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
-   "note": null,
+   "value": "no",
+   "quote": "You log on iPhone or Apple Watch; there’s no Garmin watch app, and nothing is written back to Garmin Connect.",
+   "url": "https://splyt.fit/best/workout-tracker-for-garmin",
+   "sourceType": "website",
+   "date": "2026-11-20",
+   "note": "SPLYT's own Garmin comparison page says it has no Garmin watch app.",
    "claim": null
   },
   "hevy": {
@@ -7449,12 +7449,12 @@
  },
  "garmin-connect": {
   "splyt": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
-   "note": null,
+   "value": "no",
+   "quote": "You log on iPhone or Apple Watch; there’s no Garmin watch app, and nothing is written back to Garmin Connect.",
+   "url": "https://splyt.fit/best/workout-tracker-for-garmin",
+   "sourceType": "website",
+   "date": "2026-11-20",
+   "note": "SPLYT's own Garmin comparison page says nothing is written back to Garmin Connect.",
    "claim": null
   },
   "hevy": {
@@ -7492,6 +7492,118 @@
    "date": null,
    "note": "Only the website FAQ quick-stats list Garmin under 'Wearable Sync'; the help centre documents Garmin only as a Bluetooth heart-rate broadcaster on Android. Treated as unsubstantiated.",
    "claim": "fitbod:115"
+  },
+  "motra": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  }
+ },
+ "whoop": {
+  "splyt": {
+   "value": "partial",
+   "quote": "WHOOP knows your recovery. SPLYT knows your lifts. Connect them and your coach plans today’s session around this morning’s recovery.",
+   "url": "https://splyt.fit/whoop",
+   "sourceType": "website",
+   "date": null,
+   "note": "Not fully shipped: splyt.fit/whoop labels it 'WHOOP beta · 10 spots'.",
+   "claim": "splyt:251"
+  },
+  "hevy": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "strong": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "gravl": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "fitbod": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "motra": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  }
+ },
+ "garmin-health": {
+  "splyt": {
+   "value": "partial",
+   "quote": "SPLYT reads your Garmin’s Body Battery, sleep and HRV every morning and tells you whether to push, train as planned or ease off.",
+   "url": "https://splyt.fit/garmin",
+   "sourceType": "website",
+   "date": null,
+   "note": "Not fully shipped: splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'.",
+   "claim": "splyt:252"
+  },
+  "hevy": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "strong": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "gravl": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
+  },
+  "fitbod": {
+   "value": "unknown",
+   "quote": null,
+   "url": null,
+   "sourceType": null,
+   "date": null,
+   "note": null,
+   "claim": null
   },
   "motra": {
    "value": "unknown",
@@ -8260,13 +8372,13 @@
    "claim": null
   },
   "gravl": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
+   "value": "yes",
+   "quote": "Friend Groups: Make groups with friends and run challenges with start and end dates.",
+   "url": "https://apps.apple.com/us/app/id6450921637",
+   "sourceType": "release_notes",
+   "date": "2026-11-08",
    "note": null,
-   "claim": null
+   "claim": "gravl:174"
   },
   "fitbod": {
    "value": "unknown",
@@ -8316,13 +8428,13 @@
    "claim": null
   },
   "gravl": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
-   "note": null,
-   "claim": null
+   "value": "yes",
+   "quote": "Friend Groups: Make groups with friends and run challenges with start and end dates.",
+   "url": "https://apps.apple.com/us/app/id6450921637",
+   "sourceType": "release_notes",
+   "date": "2026-11-08",
+   "note": "Evidenced by a claim mapped primarily to 'groups'.",
+   "claim": "gravl:174"
   },
   "fitbod": {
    "value": "unknown",
@@ -8457,13 +8569,13 @@
  },
  "trainer-platform": {
   "splyt": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
-   "note": null,
-   "claim": null
+   "value": "partial",
+   "quote": "Splyt for trainers: coach clients, share your own page, and take bookings, check-ins and meal plans.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-27",
+   "note": "Not fully shipped: splyt.fit/trainers labels Splyt for trainers 'Beta'.",
+   "claim": "splyt:248"
   },
   "hevy": {
    "value": "yes",
@@ -9745,13 +9857,13 @@
  },
  "control-center": {
   "splyt": {
-   "value": "unknown",
-   "quote": null,
-   "url": null,
-   "sourceType": null,
-   "date": null,
+   "value": "yes",
+   "quote": "A Splyt control for Control Center, the Lock Screen and the Action button: start a workout in one press.",
+   "url": "https://splyt.fit (in-app What’s New, build 494)",
+   "sourceType": "release_notes",
+   "date": "2026-10-25",
    "note": null,
-   "claim": null
+   "claim": "splyt:249"
   },
   "hevy": {
    "value": "unknown",

@@ -2408,6 +2408,9 @@
    "url": "https://apps.apple.com/us/app/id1458862350"
   },
   "members": {
+   "splyt": [
+    "250"
+   ],
    "hevy": [
     "114",
     "115",
@@ -3601,7 +3604,8 @@
   },
   "members": {
    "splyt": [
-    "154"
+    "154",
+    "247"
    ],
    "hevy": [
     "142",
@@ -4606,6 +4610,34 @@
   "alsoEvidencedBy": {}
  },
  {
+  "id": "whoop",
+  "name": "WHOOP integration",
+  "definition": "Read recovery, sleep or strain from a WHOOP account into the app.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "251"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
+  "id": "garmin-health",
+  "name": "Garmin health data",
+  "definition": "Read Garmin health data such as Body Battery, sleep or HRV into the app.",
+  "category": "Apple Watch & wearables",
+  "aspects": [],
+  "firstDocumented": null,
+  "members": {
+   "splyt": [
+    "252"
+   ]
+  },
+  "alsoEvidencedBy": {}
+ },
+ {
   "id": "wear-os-app",
   "name": "Wear OS app",
   "definition": "An app for Wear OS watches.",
@@ -5024,6 +5056,9 @@
     "i182",
     "i184",
     "i185"
+   ],
+   "gravl": [
+    "174"
    ]
   },
   "alsoEvidencedBy": {}
@@ -5097,11 +5132,18 @@
     "i261",
     "i262"
    ],
+   "gravl": [
+    "174"
+   ],
    "motra": [
     "148"
    ]
   },
-  "alsoEvidencedBy": {}
+  "alsoEvidencedBy": {
+   "gravl": [
+    "174"
+   ]
+  }
  },
  {
   "id": "friend-notifications",
@@ -5166,6 +5208,9 @@
   ],
   "firstDocumented": null,
   "members": {
+   "splyt": [
+    "248"
+   ],
    "hevy": [
     "182",
     "183",
@@ -5892,8 +5937,15 @@
   "definition": "A Control Center button for the app.",
   "category": "Platforms, widgets & system",
   "aspects": [],
-  "firstDocumented": null,
+  "firstDocumented": {
+   "app": "splyt",
+   "date": "2026-10-25",
+   "url": "https://splyt.fit (in-app What’s New, build 494)"
+  },
   "members": {
+   "splyt": [
+    "249"
+   ],
    "motra": [
     "128"
    ]

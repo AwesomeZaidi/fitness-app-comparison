@@ -794,8 +794,9 @@ _Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl yes · Fitbod unk
 #### ChatGPT / Claude / MCP integration (`external-ai`)
 Connect external AI assistants (ChatGPT, Claude, MCP clients) to your training data.
 
-_Result:_ SPLYT unknown · Hevy yes · Strong unknown · Gravl yes · Fitbod unknown · Motra yes
+_Result:_ SPLYT yes · Hevy yes · Strong unknown · Gravl yes · Fitbod unknown · Motra yes
 
+- **SPLYT**: `250` ChatGPT and Claude connector (core)
 - **Hevy**: `114` ChatGPT app integration (core); `115` AI-generated plan import (aspect); `116` Send workout to AI assistants (aspect)
 - **Gravl**: `168` MCP server for AI assistants (core)
 - **Motra**: `107` Connect to external AI assistants (core); `108` Create templates via AI assistant (aspect)
@@ -1148,14 +1149,13 @@ _Result:_ SPLYT yes · Hevy yes · Strong yes · Gravl yes · Fitbod yes · Motr
 #### Body measurements (circumferences, body fat) (`body-measurements`)
 Log body measurements beyond weight, such as circumferences or body-fat %.
 
-_Result:_ SPLYT unknown · Hevy yes · Strong yes · Gravl yes · Fitbod yes · Motra unknown
+_Result:_ SPLYT yes · Hevy yes · Strong yes · Gravl yes · Fitbod yes · Motra unknown
 
-- **SPLYT**: `154` Body weight and measurements (core) ✗ [unsubstantiated]
+- **SPLYT**: `154` Body weight and measurements (core) ✗ [unsubstantiated]; `247` Body measurements (core)
 - **Hevy**: `142` Body measurements (core); `143` Left/right limb measurements (aspect); `148` Backdated measurements (aspect)
 - **Strong**: `21` Body measurement tracker (core); `23` Body fat percentage tracking (core); `24` Body part circumference measurements (core)
 - **Gravl**: `145` Body measurements logging (core); `146` Body metrics dashboard (aspect); `147` Measurement trends (aspect)
 - **Fitbod**: `104` Body composition tracking (also); `104` Body composition tracking (also)
-- _Decision — SPLYT = unknown:_ Website says 'body weight and measurements', but the feature index describes a body weight log only. Source: https://splyt.fit/roadmap
 
 #### Progress photos (`progress-photos`)
 Store private progress photos over time.
@@ -1427,20 +1427,38 @@ _Result:_ SPLYT unknown · Hevy unknown · Strong unknown · Gravl unknown · Fi
 #### Garmin watch app (`garmin-watch-app`)
 An app that runs on Garmin watches to log workouts.
 
-_Result:_ SPLYT unknown · Hevy no · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
+_Result:_ SPLYT no · Hevy no · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
 
 - **Gravl**: `129` Garmin watch app (core)
+- _Decision — SPLYT = no:_ SPLYT's own Garmin comparison page says it has no Garmin watch app. Source: https://splyt.fit/best/workout-tracker-for-garmin
 - _Decision — Hevy = no:_ Hevy's help centre says Garmin integration is not possible. Source: https://help.hevyapp.com/hc/en-us/articles/35361029194647-Hevy-and-Garmin-Integration-Update-Why-It-s-Not-Possible-Yet
 
 #### Garmin Connect sync (`garmin-connect`)
 Workouts appear in Garmin Connect.
 
-_Result:_ SPLYT unknown · Hevy no · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
+_Result:_ SPLYT no · Hevy no · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
 
 - **Gravl**: `130` Garmin Connect activity recording (core)
 - **Fitbod**: `115` Garmin sync (core) ✗ [unsubstantiated]
+- _Decision — SPLYT = no:_ SPLYT's own Garmin comparison page says nothing is written back to Garmin Connect. Source: https://splyt.fit/best/workout-tracker-for-garmin
 - _Decision — Hevy = no:_ Hevy's help centre says Garmin integration is not possible. Source: https://help.hevyapp.com/hc/en-us/articles/35361029194647-Hevy-and-Garmin-Integration-Update-Why-It-s-Not-Possible-Yet
 - _Decision — Fitbod = unknown:_ Only the website FAQ quick-stats list Garmin under 'Wearable Sync'; the help centre documents Garmin only as a Bluetooth heart-rate broadcaster on Android. Treated as unsubstantiated. Source: https://fitbod.me/faqs/
+
+#### WHOOP integration (`whoop`)
+Read recovery, sleep or strain from a WHOOP account into the app.
+
+_Result:_ SPLYT partial · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
+
+- **SPLYT**: `251` WHOOP integration (core) ✗ [not_shipped]
+- _Decision — SPLYT = partial:_ Not fully shipped: splyt.fit/whoop labels it 'WHOOP beta · 10 spots'. Source: https://splyt.fit/whoop
+
+#### Garmin health data (`garmin-health`)
+Read Garmin health data such as Body Battery, sleep or HRV into the app.
+
+_Result:_ SPLYT partial · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
+
+- **SPLYT**: `252` Garmin health data (core) ✗ [not_shipped]
+- _Decision — SPLYT = partial:_ Not fully shipped: splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'. Source: https://splyt.fit/garmin
 
 #### Wear OS app (`wear-os-app`)
 An app for Wear OS watches.
@@ -1564,16 +1582,18 @@ _Result:_ SPLYT yes · Hevy yes · Strong unknown · Gravl yes · Fitbod unknown
 #### Groups (`groups`)
 Private groups of friends with shared activity.
 
-_Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
+_Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
 
 - **SPLYT**: `188` Groups (core); `189` Group chat (aspect); `195` Group check-in challenges (aspect); `196` Nudge friends (aspect); `i182` Groups (core); `i184` Group activity view (aspect); `i185` Group schedule (aspect)
+- **Gravl**: `174` Friend Groups and challenges (core)
 
 #### Competitions and challenges (`competitions`)
 Head-to-head or group competitions over a period.
 
-_Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
+_Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl yes · Fitbod unknown · Motra unknown
 
 - **SPLYT**: `200` Friend competitions (core); `201` Twelve competition metrics (aspect); `202` Distance-based competitions (aspect); `203` 3D race visualization (aspect); `204` Custom race characters (aspect); `205` Character library (aspect); `206` Competition stakes (aspect); `207` Competition invites (aspect); `208` Competition history (aspect); `209` End-of-race awards (aspect); `i190` Create a competition (core); `i191` Competition types (aspect); `i193` Stakes (aspect); `i194` Who-owes-whom ledger (aspect); `i195` Animated race worlds (aspect); `i196` Race map strip (aspect); `i197` Standings and daily winners (aspect); `i198` Head-to-head view (aspect); `i199` Competition chat (aspect); `i200` Check-ins and nudges (aspect); `i201` Pick your racer (aspect); `i202` Create a custom character (aspect); `i203` Manage a competition (aspect); `i204` Competitions list (aspect); `i205` Results and rematch (aspect); `i206` Past group competitions (aspect); `i261` Competition alerts (aspect); `i262` Answer invites from a notification (aspect)
+- **Gravl**: `174` Friend Groups and challenges (also); `174` Friend Groups and challenges (also)
 - **Motra**: `148` Challenges (core) ✗ [vague]
 - _Decision — Motra = unknown:_ 'Challenges' appear only as a notification-settings category; no Motra source describes the feature. Source: https://help.motra.com/en/articles/14076034-managing-notifications
 
@@ -1597,9 +1617,11 @@ _Result:_ SPLYT unknown · Hevy yes · Strong unknown · Gravl unknown · Fitbod
 #### Connect your personal trainer (`trainer-platform`)
 Link to your own personal trainer, who assigns programs and sees your data.
 
-_Result:_ SPLYT unknown · Hevy yes · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
+_Result:_ SPLYT partial · Hevy yes · Strong unknown · Gravl unknown · Fitbod unknown · Motra unknown
 
+- **SPLYT**: `248` Splyt for trainers (core) ✗ [not_shipped]
 - **Hevy**: `182` Coach connection (core); `183` Coach-assigned programs (aspect); `184` Chat with coach (aspect); `185` Auto-share data with coach (aspect); `186` Coach logs for you (aspect)
+- _Decision — SPLYT = partial:_ Not fully shipped: splyt.fit/trainers labels Splyt for trainers 'Beta'. Source: https://apps.apple.com/us/app/id6755893717
 
 
 ### Sharing, import/export & integrations
@@ -1846,8 +1868,9 @@ _Result:_ SPLYT yes · Hevy unknown · Strong yes · Gravl unknown · Fitbod unk
 #### Control Center control (`control-center`)
 A Control Center button for the app.
 
-_Result:_ SPLYT unknown · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra yes
+_Result:_ SPLYT yes · Hevy unknown · Strong unknown · Gravl unknown · Fitbod unknown · Motra yes
 
+- **SPLYT**: `249` Control Center control (core)
 - **Motra**: `128` Control Center control (core)
 
 #### iMessage stickers (`imessage-stickers`)
@@ -1976,7 +1999,7 @@ _Result:_ SPLYT unknown · Hevy unknown · Strong unknown · Gravl yes · Fitbod
 Every claim was classified (full list in `data/vetting.json`). Only `capability` and `aspect` claims can make a cell 'yes'. `not_shipped` can make it 'partial'. `unsubstantiated` never scores above 'unknown' unless other evidence exists, and `fix`, `ui_tweak`, `vague` and `out_of_scope` (pricing/tier limits) never count.
 
 ### SPLYT
-535 claims; kept 504; not counted 31 — unsubstantiated: 9, ui_tweak: 16, out_of_scope: 6
+541 claims; kept 507; not counted 34 — unsubstantiated: 9, not_shipped: 3, ui_tweak: 16, out_of_scope: 6
 
 - `0` Strength set logging — **unsubstantiated**: App Store line still advertises food logging, which SPLYT's own What's New (build 374) and feature index say was removed; set logging is evidenced by other claims instead.
 - `1` Large-number set entry — **ui_tweak**: Describes the size of the numbers on screen, not a capability.
@@ -2009,6 +2032,9 @@ Every claim was classified (full list in `data/vetting.json`). Only `capability`
 - `i277` Manage subscription — **out_of_scope**: Subscription management (pricing).
 - `i278` Pro plans with free trial — **out_of_scope**: Pro plans and trial (pricing).
 - `i287` Invite pages — **ui_tweak**: Invite landing pages are plumbing for friend invites.
+- `248` Splyt for trainers — **not_shipped**: splyt.fit/trainers labels Splyt for trainers 'Beta'.
+- `251` WHOOP integration — **not_shipped**: splyt.fit/whoop labels it 'WHOOP beta · 10 spots'.
+- `252` Garmin health data — **not_shipped**: splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'.
 
 ### Hevy
 233 claims; kept 231; not counted 2 — ui_tweak: 2
@@ -2026,7 +2052,7 @@ Every claim was classified (full list in `data/vetting.json`). Only `capability`
 - `92` Rest timer notifications — **fix**: 'Fix: Timer notifications may not include next set details' is a fix.
 
 ### Gravl
-174 claims; kept 170; not counted 4 — unsubstantiated: 1, fix: 3
+175 claims; kept 171; not counted 4 — unsubstantiated: 1, fix: 3
 
 - `4` Standalone Apple Watch app — **unsubstantiated**: App Store calls the watch app standalone; Gravl's help article says 'Keep the iPhone within reach: the app on the phone is still what owns and saves the session.'
 - `61` Rest timer sound — **fix**: 'Fixed Apple Music pausing on rest timer sound' is a fix.
@@ -2067,7 +2093,6 @@ A naive mapping marks an app 'yes' whenever any claim of its maps to the feature
 - Muscle heatmap — Strong: naive yes → **unknown**. Named only in one variant of the homepage feature strip; not described anywhere else.
 - Import workouts from Apple Health — Strong: naive yes → **unknown**. Only claim was rejected as fix: 'Faster Apple Health workout imports' is a performance fix; no Strong source describes the import itself.
 - Body data synced with Apple Health — Gravl: naive yes → **unknown**. Only claim was rejected as fix: 'Improvements on bodyweight sync from Apple Health' is an improvement; no Gravl source describes the sync itself.
-- Body measurements (circumferences, body fat) — SPLYT: naive yes → **unknown**. Website says 'body weight and measurements', but the feature index describes a body weight log only.
 - Calorie and macro logging — SPLYT: naive unknown → **no**. Removed in build 374.
 - Watch logging without the phone — SPLYT: naive yes → **unknown**. The website says no phone is needed; SPLYT's detailed feature index says only that the watch starts recording 'without touching your phone'. Not enough to confirm logging with the phone away.
 - Watch logging without the phone — Gravl: naive yes → **no**. App Store copy calls the watch app standalone, but Gravl's help says the phone must be within reach.
@@ -2076,12 +2101,17 @@ A naive mapping marks an app 'yes' whenever any claim of its maps to the feature
 - Edit workout structure on the watch — Fitbod: naive yes → **partial**. Sets can be added or removed on the watch, but swapping or adding exercises requires the iPhone.
 - Heart rate from AirPods — Fitbod: naive yes → **partial**. Live heart rate (including AirPods Pro 3) is 'gradually rolling out' per Fitbod's own help article.
 - Bluetooth heart-rate monitors — Fitbod: naive yes → **partial**. Android only, and part of live heart rate, which is still 'gradually rolling out'. Not available on iPhone.
+- Garmin watch app — SPLYT: naive unknown → **no**. SPLYT's own Garmin comparison page says it has no Garmin watch app.
 - Garmin watch app — Hevy: naive unknown → **no**. Hevy's help centre says Garmin integration is not possible.
+- Garmin Connect sync — SPLYT: naive unknown → **no**. SPLYT's own Garmin comparison page says nothing is written back to Garmin Connect.
 - Garmin Connect sync — Hevy: naive unknown → **no**. Hevy's help centre says Garmin integration is not possible.
 - Garmin Connect sync — Fitbod: naive yes → **unknown**. Only the website FAQ quick-stats list Garmin under 'Wearable Sync'; the help centre documents Garmin only as a Bluetooth heart-rate broadcaster on Android. Treated as unsubstantiated.
+- WHOOP integration — SPLYT: naive yes → **partial**. Not fully shipped: splyt.fit/whoop labels it 'WHOOP beta · 10 spots'.
+- Garmin health data — SPLYT: naive yes → **partial**. Not fully shipped: splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'.
 - Fitbit integration — Fitbod: naive yes → **partial**. Fitbod can still post workouts to Fitbit and import Fitbit cardio (iOS only), but Fitbit no longer auto-syncs Fitbod workouts into Fitbit activities.
 - Follow a friend's workout live — SPLYT: naive yes → **partial**. SPLYT's feature index describes a live 'training now' dot only; the website's claim that you can watch a friend's sets land live is not in the index.
 - Competitions and challenges — Motra: naive yes → **unknown**. 'Challenges' appear only as a notification-settings category; no Motra source describes the feature.
+- Connect your personal trainer — SPLYT: naive yes → **partial**. Not fully shipped: splyt.fit/trainers labels Splyt for trainers 'Beta'.
 - Import history from another app — Gravl: naive yes → **partial**. Only by emailing Gravl support, who import it for you; there is no self-serve importer.
 - Import a workout from photos, files or links — Fitbod: naive unknown → **partial**. Fitbod can import a workout from a photo or screenshot on Android only; not on iPhone.
 - Android app — SPLYT: naive unknown → **no**. No Google Play listing: a Google Play search for 'splyt' and 'splyt fitness' (2026-10-09) returns no SPLYT app.
