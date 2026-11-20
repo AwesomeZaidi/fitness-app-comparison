@@ -256,7 +256,7 @@ F("ai-custom-exercise", "AI-filled custom exercises", "AI",
   s="71 i10", g="92 a91")
 F("external-ai", "ChatGPT / Claude / MCP integration", "AI",
   "Connect external AI assistants (ChatGPT, Claude, MCP clients) to your training data.",
-  h="114 a115 a116", g="168", m="107 a108")
+  s="250", h="114 a115 a116", g="168", m="107 a108")
 F("voice-logging", "Voice logging", "AI",
   "Log sets, workouts or plans by speaking.",
   s="116 a117 a118 a119 a120 a121 a122 a123 a66 a133 a134 i90 ai91 ai92 ai118 ai66 ai74")
@@ -364,7 +364,7 @@ F("bodyweight-tracking", "Body weight log", "HEALTH",
   s="i238 a174 ai221", h="x142", t="22", g="x146", f="104 105")
 F("body-measurements", "Body measurements (circumferences, body fat)", "HEALTH",
   "Log body measurements beyond weight, such as circumferences or body-fat %.",
-  s="154", h="142 a143 a148", t="21 23 24", g="145 a146 a147", f="x104")
+  s="154 247", h="142 a143 a148", t="21 23 24", g="145 a146 a147", f="x104")
 F("progress-photos", "Progress photos", "HEALTH",
   "Store private progress photos over time.",
   s="158 i239 ai240 ai241 ai242 ai243", h="145 a146 a147", t="33", g="148 a149")
@@ -464,6 +464,13 @@ F("garmin-watch-app", "Garmin watch app", "WATCH",
 F("garmin-connect", "Garmin Connect sync", "WATCH",
   "Workouts appear in Garmin Connect.",
   g="130", f="115")
+# Added 2026-11-20, from SPLYT's own pages (no other app's sources were read for these).
+F("whoop", "WHOOP integration", "WATCH",
+  "Read recovery, sleep or strain from a WHOOP account into the app.",
+  s="251")
+F("garmin-health", "Garmin health data", "WATCH",
+  "Read Garmin health data such as Body Battery, sleep or HRV into the app.",
+  s="252")
 F("wear-os-app", "Wear OS app", "WATCH",
   "An app for Wear OS watches.",
   h="199 a200", g="131 a132", f="126 a127")
@@ -508,11 +515,11 @@ F("leaderboards", "Leaderboards", "SOC",
   s="197 i186", h="170", g="154 156")
 F("groups", "Groups", "SOC",
   "Private groups of friends with shared activity.",
-  s="188 a189 a195 a196 i182 ai184 ai185")
+  s="188 a189 a195 a196 i182 ai184 ai185", g="174")
 F("competitions", "Competitions and challenges", "SOC",
   "Head-to-head or group competitions over a period.",
   s="200 a201 a202 a203 a204 a205 a206 a207 a208 a209 i190 ai191 ai193 ai194 ai195 ai196 ai197 ai198 ai199 ai200 ai201 ai202 ai203 ai204 ai205 ai206 ai261 ai262",
-  m="148")
+  g="x174", m="148")
 F("friend-notifications", "Friend activity notifications", "SOC",
   "Notifications when friends work out.",
   s="x143 i260", h="162", m="147")
@@ -521,7 +528,7 @@ F("gym-tagging", "Tag a workout's gym or location", "SOC",
   h="35", m="x151")
 F("trainer-platform", "Connect your personal trainer", "SOC",
   "Link to your own personal trainer, who assigns programs and sees your data.",
-  h="182 a183 a184 a185 a186")
+  s="248", h="182 a183 a184 a185 a186")
 
 # ---------------------------------------------------------------- DATA
 F("share-cards", "Shareable workout images", "DATA",
@@ -596,7 +603,7 @@ F("siri", "Siri and Shortcuts", "PLAT",
   s="124 a125 i253 i254 ai255", t="55")
 F("control-center", "Control Center control", "PLAT",
   "A Control Center button for the app.",
-  m="128")
+  s="249", m="128")
 F("imessage-stickers", "iMessage stickers", "PLAT",
   "A sticker pack for Messages.",
   h="181")
@@ -640,6 +647,10 @@ F("trainer-advice", "Advice from human coaches", "PERS",
 # (app, index-token, class, reason). Index-token uses the same "i" prefix for the SPLYT index.
 # Claims not listed here default to `capability` (core or also) or `aspect` (a-token).
 VET = [
+    # --- Added 2026-11-20 (refresh after the first build)
+    ("splyt", "248", "not_shipped", "splyt.fit/trainers labels Splyt for trainers 'Beta'."),
+    ("splyt", "251", "not_shipped", "splyt.fit/whoop labels it 'WHOOP beta · 10 spots'."),
+    ("splyt", "252", "not_shipped", "splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'."),
     # --- SPLYT (data/claims/splyt.json)
     ("splyt", "0", "unsubstantiated", "App Store line still advertises food logging, which SPLYT's own What's New (build 374) and feature index say was removed; set logging is evidenced by other claims instead."),
     ("splyt", "1", "ui_tweak", "Describes the size of the numbers on screen, not a capability."),
@@ -758,6 +769,13 @@ for a in IDS:
         "App Store compatibility " + ("lists Mac (Apple silicon)." if has_mac else "does not list Mac."))
 OVERRIDES[("languages", "splyt")] = compat("splyt", "no", "App Store lists English as the only language.")
 
+# 2026-11-20: SPLYT reads Garmin data (see garmin-health) but says it has no Garmin
+# watch app and writes nothing to Garmin Connect.
+_SPLYT_GARMIN = dict(quote="You log on iPhone or Apple Watch; there’s no Garmin watch app, and nothing is written back to Garmin Connect.",
+                     url="https://splyt.fit/best/workout-tracker-for-garmin", sourceType="website", date="2026-11-20")
+OVERRIDES[("garmin-watch-app", "splyt")] = ("no", "SPLYT's own Garmin comparison page says it has no Garmin watch app.", _SPLYT_GARMIN)
+OVERRIDES[("garmin-connect", "splyt")] = ("no", "SPLYT's own Garmin comparison page says nothing is written back to Garmin Connect.", _SPLYT_GARMIN)
+
 OVERRIDES.update({
     ("android-app", "splyt"): ("no", "No Google Play listing: a Google Play search for 'splyt' and 'splyt fitness' (2026-10-09) returns no SPLYT app.",
         dict(quote="(no SPLYT listing in Google Play search results)", url="https://play.google.com/store/search?q=splyt&c=apps&hl=en_US&gl=US", sourceType="google_play", date="2026-10-09")),
@@ -800,7 +818,6 @@ OVERRIDES.update({
     ("competitions", "motra"): ("unknown", "'Challenges' appear only as a notification-settings category; no Motra source describes the feature.", None),
     ("muscle-heatmap", "strong"): ("unknown", "Named only in one variant of the homepage feature strip; not described anywhere else.", None),
     ("leaderboards", "fitbod"): ("unknown", "Fitbod 'Clubs' (gym leaderboards) is 'currently in beta at select gym locations' and was excluded at extraction.", None),
-    ("body-measurements", "splyt"): ("unknown", "Website says 'body weight and measurements', but the feature index describes a body weight log only.", None),
     ("tempo-tracking", "motra"): ("yes", "Named in a help-centre sentence listing what can be tracked from the watch; no further detail.", None),
 })
 

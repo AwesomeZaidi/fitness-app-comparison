@@ -21,7 +21,8 @@ CLAIMS = os.path.join(ROOT, "data", "claims")
 OUT = os.path.join(ROOT, "data")
 APPS = ["splyt", "hevy", "strong", "gravl", "fitbod", "motra"]
 NAMES = dict(splyt="SPLYT", hevy="Hevy", strong="Strong", gravl="Gravl", fitbod="Fitbod", motra="Motra")
-SPLYT_OFFSET = 247
+SPLYT_OFFSET = 247   # data/claims/splyt.json claims 0..246, collected 2026-10-09
+INDEX_LEN = 0        # set below: the feature index's claims follow claim 246
 COUNTED = {"capability", "aspect"}
 SRC_RANK = {"help_centre": 0, "release_notes": 1, "website": 2, "app_store": 3, "google_play": 4}
 
@@ -31,21 +32,34 @@ for a in APPS:
     d = json.load(open(os.path.join(CLAIMS, f"{a}.json"), encoding="utf-8"))
     cl = d["claims"]
     if a == "splyt":
-        assert len(cl) == SPLYT_OFFSET, len(cl)
+        # Combined SPLYT list: splyt.json 0..246, then the feature index
+        # (i0, i1, ...), then splyt.json claims added after the first build
+        # (247, 248, ... in the file and in mapping.py).
+        assert len(cl) >= SPLYT_OFFSET, len(cl)
         idx = json.load(open(os.path.join(CLAIMS, "splyt-index.json"), encoding="utf-8"))["claims"]
-        cl = cl + idx
+        INDEX_LEN = len(idx)
+        cl = cl[:SPLYT_OFFSET] + idx + cl[SPLYT_OFFSET:]
     claims[a] = cl
     removed[a] = d.get("removed", [])
 
 
-def key(tok):
-    """'i12' -> 259 for SPLYT index; '12' -> 12."""
-    return SPLYT_OFFSET + int(tok[1:]) if tok.startswith("i") else int(tok)
+def key(tok, a=None):
+    """'i12' -> 259 for SPLYT index; '12' -> 12; SPLYT '250' (added later) -> after the index."""
+    if tok.startswith("i"):
+        return SPLYT_OFFSET + int(tok[1:])
+    n = int(tok)
+    return n + INDEX_LEN if (a == "splyt" and n >= SPLYT_OFFSET) else n
+
+
+def is_index(a, i):
+    return a == "splyt" and SPLYT_OFFSET <= i < SPLYT_OFFSET + INDEX_LEN
 
 
 def label(a, i):
-    if a == "splyt" and i >= SPLYT_OFFSET:
+    if is_index(a, i):
         return f"i{i - SPLYT_OFFSET}"
+    if a == "splyt" and i >= SPLYT_OFFSET + INDEX_LEN:
+        return str(i - INDEX_LEN)
     return str(i)
 
 
@@ -64,7 +78,7 @@ for f in M.FEATURES:
                 role, tok = "aspect", tok[1:]
             elif tok[0] == "x":
                 role, tok = "also", tok[1:]
-            i = key(tok)
+            i = key(tok, a)
             if i >= len(claims[a]):
                 errors.append(f"{a}:{tok} out of range in {f['id']}")
                 continue
@@ -80,8 +94,8 @@ for f in M.FEATURES:
 
 vet_over = {}
 for a, tok, cls, why in M.VET:
-    vet_over[(a, key(tok))] = (cls, why)
-unattached = {a: {key(t) for t in M.UNATTACHED.get(a, [])} for a in APPS}
+    vet_over[(a, key(tok, a))] = (cls, why)
+unattached = {a: {key(t, a) for t in M.UNATTACHED.get(a, [])} for a in APPS}
 
 # ------------------------------------------------------------------ vetting
 vetting, unmapped = [], []
@@ -103,7 +117,7 @@ for a in APPS:
             unmapped.append(dict(app=a, claimIndex=label(a, i), feature=c["feature"], why="not placed"))
         if cls is None:
             cls, why = "unplaced", "not placed"
-        src = "data/claims/splyt-index.json" if (a == "splyt" and i >= SPLYT_OFFSET) else f"data/claims/{a}.json"
+        src = "data/claims/splyt-index.json" if is_index(a, i) else f"data/claims/{a}.json"
         vetting.append(dict(app=a, claimIndex=label(a, i), sourceFile=src, feature=c["feature"],
                             mappedTo=fid, alsoEvidences=also[a].get(i, []), role=role, **{"class": cls}, reason=why))
 cls_of = {(v["app"], v["claimIndex"]): v["class"] for v in vetting}

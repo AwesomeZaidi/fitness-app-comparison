@@ -2256,6 +2256,54 @@
    "url": "https://splyt.fit (in-app What’s New, build 453)",
    "sourceType": "release_notes",
    "date": "2026-09-27"
+  },
+  {
+   "feature": "Body measurements",
+   "detail": "Log body measurements such as waist and arms, alongside progress photos.",
+   "quote": "Measurements and progress photos: track your waist, arms and more, and compare photos week to week.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-27"
+  },
+  {
+   "feature": "Splyt for trainers",
+   "detail": "Personal trainers coach their clients in Splyt and see their training.",
+   "quote": "Splyt for trainers: coach clients, share your own page, and take bookings, check-ins and meal plans.",
+   "url": "https://apps.apple.com/us/app/id6755893717",
+   "sourceType": "release_notes",
+   "date": "2026-10-27"
+  },
+  {
+   "feature": "Control Center control",
+   "detail": "A control for Control Center, the Lock Screen and the Action button that starts a workout.",
+   "quote": "A Splyt control for Control Center, the Lock Screen and the Action button: start a workout in one press.",
+   "url": "https://splyt.fit (in-app What’s New, build 494)",
+   "sourceType": "release_notes",
+   "date": "2026-10-25"
+  },
+  {
+   "feature": "ChatGPT and Claude connector",
+   "detail": "An MCP connector lets ChatGPT and Claude read your Splyt training data.",
+   "quote": "Splyt is a workout tracker for iPhone and Apple Watch with its own connector for ChatGPT and Claude.",
+   "url": "https://splyt.fit/ai",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "WHOOP integration",
+   "detail": "Reads WHOOP recovery so the day's session is planned around it. Beta (limited spots).",
+   "quote": "WHOOP knows your recovery. SPLYT knows your lifts. Connect them and your coach plans today’s session around this morning’s recovery.",
+   "url": "https://splyt.fit/whoop",
+   "sourceType": "website",
+   "date": null
+  },
+  {
+   "feature": "Garmin health data",
+   "detail": "Reads Garmin Body Battery, sleep and HRV each morning. Beta (limited spots).",
+   "quote": "SPLYT reads your Garmin’s Body Battery, sleep and HRV every morning and tells you whether to push, train as planned or ease off.",
+   "url": "https://splyt.fit/garmin",
+   "sourceType": "website",
+   "date": null
   }
  ],
  "removed": [

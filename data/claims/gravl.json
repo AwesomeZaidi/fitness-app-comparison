@@ -1661,6 +1661,14 @@
       "url": "https://gravl.ai/developers/mcp",
       "sourceType": "website",
       "date": null
+    },
+    {
+      "feature": "Friend Groups and challenges",
+      "detail": "Groups of friends that run challenges with start and end dates.",
+      "quote": "Friend Groups: Make groups with friends and run challenges with start and end dates.",
+      "url": "https://apps.apple.com/us/app/id6450921637",
+      "sourceType": "release_notes",
+      "date": "2026-11-08"
     }
   ],
   "removed": [

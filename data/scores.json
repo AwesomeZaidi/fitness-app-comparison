@@ -1,12 +1,12 @@
 {
- "totalFeatures": 188,
+ "totalFeatures": 190,
  "apps": {
   "splyt": {
-   "yes": 133,
-   "yesPct": 70.7,
-   "partial": 1,
-   "no": 4,
-   "unknown": 50,
+   "yes": 136,
+   "yesPct": 71.6,
+   "partial": 4,
+   "no": 6,
+   "unknown": 44,
    "onlyThisApp": [
     "history-search",
     "training-calendar",
@@ -20,9 +20,7 @@
     "multi-activity-session",
     "gps-tracking",
     "swim-tracking",
-    "machine-photo-scan",
-    "groups",
-    "competitions"
+    "machine-photo-scan"
    ],
    "onlyThisAppLacks": [
     "per-exercise-units",
@@ -31,22 +29,21 @@
   },
   "hevy": {
    "yes": 120,
-   "yesPct": 63.8,
+   "yesPct": 63.2,
    "partial": 0,
    "no": 4,
-   "unknown": 64,
+   "unknown": 66,
    "onlyThisApp": [
-    "trainer-platform",
     "imessage-stickers"
    ],
    "onlyThisAppLacks": []
   },
   "strong": {
    "yes": 72,
-   "yesPct": 38.3,
+   "yesPct": 37.9,
    "partial": 1,
    "no": 5,
-   "unknown": 110,
+   "unknown": 112,
    "onlyThisApp": [
     "library-management",
     "nutrition-logging"
@@ -62,8 +59,8 @@
    ]
   },
   "gravl": {
-   "yes": 109,
-   "yesPct": 58.0,
+   "yes": 111,
+   "yesPct": 58.4,
    "partial": 2,
    "no": 3,
    "unknown": 74,
@@ -86,10 +83,10 @@
   },
   "fitbod": {
    "yes": 91,
-   "yesPct": 48.4,
+   "yesPct": 47.9,
    "partial": 6,
    "no": 4,
-   "unknown": 87,
+   "unknown": 89,
    "onlyThisApp": [
     "head-gesture-logging",
     "strava-import",
@@ -104,21 +101,21 @@
   },
   "motra": {
    "yes": 104,
-   "yesPct": 55.3,
+   "yesPct": 54.7,
    "partial": 1,
    "no": 3,
-   "unknown": 80,
+   "unknown": 82,
    "onlyThisApp": [
     "tempo-tracking",
-    "auto-exercise-detection",
-    "control-center"
+    "auto-exercise-detection"
    ],
    "onlyThisAppLacks": [
     "edit-live-workout",
     "log-past-workout",
     "plate-calculator",
     "exercise-demos",
-    "bodyweight-tracking"
+    "bodyweight-tracking",
+    "body-measurements"
    ]
   }
  },
@@ -202,7 +199,7 @@
   "AI & voice": {
    "features": 8,
    "yes": {
-    "splyt": 5,
+    "splyt": 6,
     "hevy": 1,
     "strong": 0,
     "gravl": 4,
@@ -259,7 +256,7 @@
   "Health, body & recovery": {
    "features": 14,
    "yes": {
-    "splyt": 11,
+    "splyt": 12,
     "hevy": 6,
     "strong": 7,
     "gravl": 7,
@@ -295,7 +292,7 @@
    }
   },
   "Apple Watch & wearables": {
-   "features": 16,
+   "features": 18,
    "yes": {
     "splyt": 8,
     "hevy": 9,
@@ -305,7 +302,7 @@
     "motra": 9
    },
    "partial": {
-    "splyt": 0,
+    "splyt": 2,
     "hevy": 0,
     "strong": 0,
     "gravl": 0,
@@ -319,12 +316,12 @@
     "splyt": 13,
     "hevy": 13,
     "strong": 0,
-    "gravl": 5,
+    "gravl": 7,
     "fitbod": 0,
     "motra": 7
    },
    "partial": {
-    "splyt": 1,
+    "splyt": 2,
     "hevy": 0,
     "strong": 0,
     "gravl": 0,
@@ -354,7 +351,7 @@
   "Platforms, widgets & system": {
    "features": 14,
    "yes": {
-    "splyt": 6,
+    "splyt": 7,
     "hevy": 10,
     "strong": 5,
     "gravl": 8,
@@ -392,13 +389,14 @@
  },
  "vetting": {
   "splyt": {
-   "total": 535,
-   "kept": 504,
+   "total": 541,
+   "kept": 507,
    "unsubstantiated": 9,
    "ui_tweak": 16,
    "aspect": 260,
-   "capability": 244,
-   "out_of_scope": 6
+   "capability": 247,
+   "out_of_scope": 6,
+   "not_shipped": 3
   },
   "hevy": {
    "total": 233,
@@ -416,9 +414,9 @@
    "unsubstantiated": 2
   },
   "gravl": {
-   "total": 174,
-   "kept": 170,
-   "capability": 111,
+   "total": 175,
+   "kept": 171,
+   "capability": 112,
    "aspect": 59,
    "unsubstantiated": 1,
    "fix": 3
@@ -501,13 +499,6 @@
    "note": "Only claim was rejected as fix: 'Improvements on bodyweight sync from Apple Health' is an improvement; no Gravl source describes the sync itself."
   },
   {
-   "feature": "body-measurements",
-   "app": "splyt",
-   "naive": "yes",
-   "vetted": "unknown",
-   "note": "Website says 'body weight and measurements', but the feature index describes a body weight log only."
-  },
-  {
    "feature": "nutrition-logging",
    "app": "splyt",
    "naive": "unknown",
@@ -565,10 +556,24 @@
   },
   {
    "feature": "garmin-watch-app",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "SPLYT's own Garmin comparison page says it has no Garmin watch app."
+  },
+  {
+   "feature": "garmin-watch-app",
    "app": "hevy",
    "naive": "unknown",
    "vetted": "no",
    "note": "Hevy's help centre says Garmin integration is not possible."
+  },
+  {
+   "feature": "garmin-connect",
+   "app": "splyt",
+   "naive": "unknown",
+   "vetted": "no",
+   "note": "SPLYT's own Garmin comparison page says nothing is written back to Garmin Connect."
   },
   {
    "feature": "garmin-connect",
@@ -583,6 +588,20 @@
    "naive": "yes",
    "vetted": "unknown",
    "note": "Only the website FAQ quick-stats list Garmin under 'Wearable Sync'; the help centre documents Garmin only as a Bluetooth heart-rate broadcaster on Android. Treated as unsubstantiated."
+  },
+  {
+   "feature": "whoop",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Not fully shipped: splyt.fit/whoop labels it 'WHOOP beta · 10 spots'."
+  },
+  {
+   "feature": "garmin-health",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Not fully shipped: splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'."
   },
   {
    "feature": "fitbit",
@@ -604,6 +623,13 @@
    "naive": "yes",
    "vetted": "unknown",
    "note": "'Challenges' appear only as a notification-settings category; no Motra source describes the feature."
+  },
+  {
+   "feature": "trainer-platform",
+   "app": "splyt",
+   "naive": "yes",
+   "vetted": "partial",
+   "note": "Not fully shipped: splyt.fit/trainers labels Splyt for trainers 'Beta'."
   },
   {
    "feature": "import-history",

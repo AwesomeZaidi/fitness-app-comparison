@@ -6,7 +6,7 @@ SPLYT runs the site and is one of the apps it can recommend. It's told to treat 
 
 ## What it may use, and nothing else
 
-1. **The feature map in this repo:** 188 features across six apps (`data/matrix.json`), each one sourced from the app's own material. A feature an app doesn't list counts as *undocumented*, and the recommender has to say "doesn't document", never "doesn't have".
+1. **The feature map in this repo:** 190 features across six apps (`data/matrix.json`), each one sourced from the app's own material. A feature an app doesn't list counts as *undocumented*, and the recommender has to say "doesn't document", never "doesn't have".
 2. **Apple's store facts** for up to about 40 candidate apps chosen for the question: rating, number of ratings, price, release and update dates, today's chart position, and the App Store description. Apps outside the six only have store facts, so the recommender must say their feature depth is unverified.
 
 It may not use outside knowledge about any app, even if that knowledge happens to be right.

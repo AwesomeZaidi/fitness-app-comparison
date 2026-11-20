@@ -5925,6 +5925,72 @@
   "reason": "Invite landing pages are plumbing for friend invites."
  },
  {
+  "app": "splyt",
+  "claimIndex": "247",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "Body measurements",
+  "mappedTo": "body-measurements",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "capability",
+  "reason": "Quote describes the capability."
+ },
+ {
+  "app": "splyt",
+  "claimIndex": "248",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "Splyt for trainers",
+  "mappedTo": "trainer-platform",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "not_shipped",
+  "reason": "splyt.fit/trainers labels Splyt for trainers 'Beta'."
+ },
+ {
+  "app": "splyt",
+  "claimIndex": "249",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "Control Center control",
+  "mappedTo": "control-center",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "capability",
+  "reason": "Quote describes the capability."
+ },
+ {
+  "app": "splyt",
+  "claimIndex": "250",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "ChatGPT and Claude connector",
+  "mappedTo": "external-ai",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "capability",
+  "reason": "Quote describes the capability."
+ },
+ {
+  "app": "splyt",
+  "claimIndex": "251",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "WHOOP integration",
+  "mappedTo": "whoop",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "not_shipped",
+  "reason": "splyt.fit/whoop labels it 'WHOOP beta · 10 spots'."
+ },
+ {
+  "app": "splyt",
+  "claimIndex": "252",
+  "sourceFile": "data/claims/splyt.json",
+  "feature": "Garmin health data",
+  "mappedTo": "garmin-health",
+  "alsoEvidences": [],
+  "role": "core",
+  "class": "not_shipped",
+  "reason": "splyt.fit/garmin says 'Garmin is in beta: claim a spot in the app'."
+ },
+ {
   "app": "hevy",
   "claimIndex": "0",
   "sourceFile": "data/claims/hevy.json",
@@ -11771,6 +11837,19 @@
   "feature": "Apple and Google sign-in",
   "mappedTo": "sign-in-options",
   "alsoEvidences": [],
+  "role": "core",
+  "class": "capability",
+  "reason": "Quote describes the capability."
+ },
+ {
+  "app": "gravl",
+  "claimIndex": "174",
+  "sourceFile": "data/claims/gravl.json",
+  "feature": "Friend Groups and challenges",
+  "mappedTo": "groups",
+  "alsoEvidences": [
+   "competitions"
+  ],
   "role": "core",
   "class": "capability",
   "reason": "Quote describes the capability."

@@ -116,19 +116,19 @@ Each cell in [`data/matrix.json`](data/matrix.json) has:
 
 ### 2.5 Counting
 
-The headline number for each app is its count of **`yes` cells out of 188**.
+The headline number for each app is its count of **`yes` cells out of 190** (188 at the first build; two added on 2026-11-20, see the README).
 - `partial`, `no` and `unknown` add nothing.
 - Partial values aren't weighted, and features aren't weighted against each other.
 - A `yes` means the feature exists in at least one tier, free or paid.
 
 | App | Yes | % | Partial | No | Unknown |
 |---|---:|---:|---:|---:|---:|
-| SPLYT | 133 | 70.7% | 1 | 4 | 50 |
-| Hevy | 120 | 63.8% | 0 | 4 | 64 |
-| Gravl | 109 | 58.0% | 2 | 3 | 74 |
-| Motra | 104 | 55.3% | 1 | 3 | 80 |
-| Fitbod | 91 | 48.4% | 6 | 4 | 87 |
-| Strong | 72 | 38.3% | 1 | 5 | 110 |
+| SPLYT | 136 | 71.6% | 4 | 6 | 44 |
+| Hevy | 120 | 63.2% | 0 | 4 | 66 |
+| Gravl | 111 | 58.4% | 2 | 3 | 74 |
+| Motra | 104 | 54.7% | 1 | 3 | 82 |
+| Fitbod | 91 | 47.9% | 6 | 4 | 89 |
+| Strong | 72 | 37.9% | 1 | 5 | 112 |
 
 ### 2.6 What is scripted
 

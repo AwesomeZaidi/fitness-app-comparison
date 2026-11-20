@@ -5,11 +5,36 @@
   "history": "Live App Store page (apps.apple.com/us/app/id464254577, fetched 2026-10-08; 25 most recent).",
   "coverage": {
     "from": "2025-06-16",
-    "to": "2026-10-08",
+    "to": "2026-11-19",
     "note": "Complete for the window: the 25 listed versions reach back to 2025-06-16. Strong ships roughly monthly."
   },
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-11-20",
   "releases": [
+    {
+      "version": "6.6.0",
+      "date": "2026-11-19",
+      "notes": "• Improved Live Sync – Faster, more reliable syncing between iPhone and Apple Watch\n• New: Finishing a Live Sync workout on your watch now shows the summary on your phone\n• New: Formatted Notes – Bold, italic, strikethrough, code and tappable links in Workout, Template and Exercise Notes\n• New: Workouts now record the timezone they were logged in\n• Fix: App may unexpectedly ask you to sign in again, including after changing your password\n• Fix: App could crash after signing up from a guest account\n• Fix: Templates moved to another folder could not be started or edited\n• Fix: Rare instances of Live Activity not ending on workout completion\n• Fix: Last exercise in supersets could lose superset status after app restart\n• Fix: Moved exercise may snap back to its original position when dropped\n• Fix: Set rows may collapse into thin lines during exercise reorder\n• Fix: Previous set values from other Templates may appear when editing Templates\n• Fix: History Workouts may show 0 PRs after finishing workouts with PRs\n• Fix: RPE picker staying open after moving to another set\n• Fix: Apple Watch - App might crash on launch for some users\n• Sign out now reminds you of unsynced changes\n• Additional fixes to improve stability",
+      "generic": false,
+      "repeatsPreviousNotes": false,
+      "features": [
+        "Phone shows the summary of a workout finished on the watch",
+        "Formatted notes",
+        "Workouts record their timezone",
+        "Sign out reminds you of unsynced changes"
+      ],
+      "notCounted": [
+        {
+          "item": "Improved Live Sync",
+          "reason": "speed or reliability"
+        },
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
+      "firstSeen": "2026-11-20"
+    },
     {
       "version": "6.5.1",
       "date": "2026-10-08",
@@ -263,9 +288,14 @@
       "notes": "• Fix: Exercise Charts not showing all datapoints\n• Fix: EZ Bar incorrectly shows '8 kg' instead of '7.5 kg' in Bar Type menu\n• Fix: Some users are unable to upload pending changes\n• Fix: Verify email banner showing when there is no email set",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -274,9 +304,14 @@
       "notes": "• Fix: Updated CSV Export format",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Updated CSV export format",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -285,9 +320,14 @@
       "notes": "• Fix: Missing ‘Data Management > Sync’ in Settings",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Missing Data Management > Sync",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -296,9 +336,17 @@
       "notes": "• New: Export measurements from Strong to .csv file\n• New: Apple Watch - Exercise details on exercise name tap and in set group menu\n• Fix: Workout notes not showing in history cards\n• Fix: Order of reordered Templates may reset after app restart\n• Fix: Apple Watch - Workout navbar is empty when heart rate or calories data is unavailable\n• Additional fixes to improve stability",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [
+        "Export measurements to CSV",
+        "Apple Watch exercise details"
+      ],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -307,9 +355,16 @@
       "notes": "• New: Export data from Strong with/without timers and workout notes\n• Fix: Exported data might have values with more than two decimal places\n• Fix: Reordered Template does not always stay in position\n• Additional fixes to improve stability",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [
+        "Export with or without timers and workout notes"
+      ],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -318,9 +373,14 @@
       "notes": "• Fix: Issues with uploading data for some users\n• Fix: Reauthentication screen not showing for users with app transfered from new phone\n• Additional fixes to improve stability",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -329,9 +389,14 @@
       "notes": "• Fix: Slow personal records calculation for users with large workout history\n• Fix: App slowdowns when processing large number of workouts for personal records\n• Fix: Processing large number of workouts for personal records can cause app termination in background\n• Fix: Personal records might not be calculated correctly when \"Start History From\" date is set\n• Fix: Records screen not respecting \"Start History From\" date\n• Fix: Strong PRO unlocked alert repeatedly showing on launch when using iOS 26\n• Fix: Apple Watch - Back button too narrow on watchOS 26",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -340,9 +405,14 @@
       "notes": "• Fix: Slow app launch for users with large history of performed workouts\n• Fix: Slow initial presentation of History screen if user has hundreds of workouts\n• Fix: App can crash if History screen is scrolled quickly\n• Fix: Slow History browsing on older devices\n• Additional fixes to improve stability",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "speed or reliability"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     },
     {
@@ -351,9 +421,17 @@
       "notes": "• New: Ability to rename custom exercise\n• New: Apple Watch - Replace exercise option\n• Fix: Keyboard in Log Workout screen can't be dismissed by swiping down the keyboard or tapping outside the keyboard\n• Fix: Unable to request notification permissions in certain cases\n• Fix: Exercises with long names may appear cut off in Template previews\n• Fix: Timer notifications may show outdated details\n• Fix: Timer notifications may not include next set details (simple timer mode)\n• Fix: Timer notifications may still appear if set was deleted (simple timer mode)\n• Fix: Timer doesn't stop when set was marked incomplete or deleted (simple timer mode)\n• Fix: Timer still runs even if exercise was deleted or replaced\n• Fix: iOS may suggest adding inline timers even when using simple timer mode\n• Fix: Timer navigation bar button squished on iPhone 16e\n• Fix: Apple Watch - Navigation bar buttons disappear for a second on finished timer in update set view\n• Additional fixes to improve stability",
       "generic": false,
       "repeatsPreviousNotes": false,
-      "features": null,
-      "notCounted": [],
-      "classifiedBy": null,
+      "features": [
+        "Rename a custom exercise",
+        "Apple Watch replace exercise"
+      ],
+      "notCounted": [
+        {
+          "item": "Fixes listed in the notes",
+          "reason": "fix"
+        }
+      ],
+      "classifiedBy": "human",
       "firstSeen": "2026-10-09"
     }
   ]
